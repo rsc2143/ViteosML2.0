@@ -1,0 +1,71 @@
+{
+    "MongoDB_parameters_dict": {
+        "MongoDB_parameters_for_reading_data_from": {
+            "MONGO_HOST": "vitmumdbrec02",
+            "MONGO_PASSWORD": "V!teo$",
+            "MONGO_PORT": 27017,
+            "MONGO_USERNAME": "appuser",
+            "SSH_HOST": null,
+            "SSH_PASSWORD": null,
+            "SSH_PORT": null,
+            "SSH_USERNAME": null,
+            "db": "PreProd",
+            "without_RabbitMQ_pipeline": true,
+            "without_ssh": true
+        },
+        "MongoDB_parameters_for_writing_data_to": {
+            "MONGO_HOST": "vitmumdbrec02",
+            "MONGO_PASSWORD": "V!teo$",
+            "MONGO_PORT": 27017,
+            "MONGO_USERNAME": "appuser",
+            "SSH_HOST": null,
+            "SSH_PASSWORD": null,
+            "SSH_PORT": null,
+            "SSH_USERNAME": null,
+            "db": "ReconDB_ML",
+            "without_RabbitMQ_pipeline": true,
+            "without_ssh": true
+        }
+    },
+    "RabbitMQ_parameters_dict": {
+        "RabbitMQ_parameters_for_ML2_to_publish_to": {
+            "RABBITMQ_EXCHANGE": "ReconPreProdExchange_MLAck",
+            "RABBITMQ_HOST_IP": "vu-uat",
+            "RABBITMQ_PASSWORD": "recon2",
+            "RABBITMQ_PORT": "5671",
+            "RABBITMQ_QUEUE": "VNFRecon_ReadFromML_Ack_PreProd",
+            "RABBITMQ_QUEUEING_PROTOCOL": "amqps",
+            "RABBITMQ_ROUTING_KEY": "Recon2_ReadFromMLAck_PreProd",
+            "RABBITMQ_USERNAME": "recon2",
+            "RABBITMQ_VIRTUAL_HOST": "viteos",
+            "test_message_publishing": true,
+            "timeout": 10
+        },
+        "RabbitMQ_parameters_for_ML2_to_publish_to_for_acknowledgement": {
+            "RABBITMQ_EXCHANGE": "ReconPreProdExchange_MLAck",
+            "RABBITMQ_HOST_IP": "vu-uat",
+            "RABBITMQ_PASSWORD": "recon2",
+            "RABBITMQ_PORT": "5671",
+            "RABBITMQ_QUEUE": "VNFRecon_WriteToML_Ack_PreProd",
+            "RABBITMQ_QUEUEING_PROTOCOL": "amqps",
+            "RABBITMQ_ROUTING_KEY": "Recon2_WriteToMLAck_PreProd",
+            "RABBITMQ_USERNAME": "recon2",
+            "RABBITMQ_VIRTUAL_HOST": "viteos",
+            "test_message_publishing": true,
+            "timeout": 10
+        },
+        "RabbitMQ_parameters_for_ML2_to_read_from": {
+            "RABBITMQ_EXCHANGE": "ReconPreProdExchange_ML",
+            "RABBITMQ_HOST_IP": "vu-uat",
+            "RABBITMQ_PASSWORD": "recon2",
+            "RABBITMQ_PORT": "5671",
+            "RABBITMQ_QUEUE": "VNFRecon_WriteToML_PreProd",
+            "RABBITMQ_QUEUEING_PROTOCOL": "amqps",
+            "RABBITMQ_ROUTING_KEY": "Recon2_WriteToML_PreProd",
+            "RABBITMQ_USERNAME": "recon2",
+            "RABBITMQ_VIRTUAL_HOST": "viteos",
+            "test_message_publishing": true,
+            "timeout": 10
+        }
+    }
+}

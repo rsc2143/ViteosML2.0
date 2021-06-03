@@ -1,0 +1,93 @@
+{
+    "MongoDB_parameters_dict": {
+        "MongoDB_parameters_for_reading_data_from": {
+            "MONGO_HOST": "10.1.79.212",
+            "MONGO_PASSWORD": "",
+            "MONGO_PORT": 27017,
+            "MONGO_USERNAME": "",
+            "SSH_HOST": null,
+            "SSH_PASSWORD": null,
+            "SSH_PORT": null,
+            "SSH_USERNAME": null,
+            "db": "ReconDB",
+            "without_RabbitMQ_pipeline": true,
+            "without_ssh": true
+        },
+        "MongoDB_parameters_for_writing_data_to": {
+            "MONGO_HOST": "10.1.79.212",
+            "MONGO_PASSWORD": "",
+            "MONGO_PORT": 27017,
+            "MONGO_USERNAME": "",
+            "SSH_HOST": null,
+            "SSH_PASSWORD": null,
+            "SSH_PORT": null,
+            "SSH_USERNAME": null,
+            "db": "ReconDB_ML",
+            "without_RabbitMQ_pipeline": true,
+            "without_ssh": true
+        }
+    },
+    "RabbitMQ_parameters_dict": {
+        "RabbitMQ_parameters_for_ML2_to_publish_to": {
+            "RABBITMQ_EXCHANGE": "ReconPROD_PARALLELExchange_MLAck",
+            "RABBITMQ_HOST_IP": "vu-uat",
+            "RABBITMQ_PASSWORD": "recon2",
+            "RABBITMQ_PORT": "5671",
+            "RABBITMQ_QUEUE": "VNFRecon_ReadFromML_Ack_PROD_PARALLEL",
+            "RABBITMQ_QUEUEING_PROTOCOL": "amqps",
+            "RABBITMQ_ROUTING_KEY": "Recon2_ReadFromMLAck_PROD_PARALLEL",
+            "RABBITMQ_USERNAME": "recon2",
+            "RABBITMQ_VIRTUAL_HOST": "viteos",
+            "test_message_publishing": true,
+            "timeout": 10
+        },
+        "RabbitMQ_parameters_for_ML2_to_publish_to_for_acknowledgement": {
+            "RABBITMQ_EXCHANGE": "ReconPROD_PARALLELExchange_MLAck",
+            "RABBITMQ_HOST_IP": "vu-uat",
+            "RABBITMQ_PASSWORD": "recon2",
+            "RABBITMQ_PORT": "5671",
+            "RABBITMQ_QUEUE": "VNFRecon_WriteToML_Ack_PROD_PARALLEL",
+            "RABBITMQ_QUEUEING_PROTOCOL": "amqps",
+            "RABBITMQ_ROUTING_KEY": "Recon2_WriteToMLAck_PROD_PARALLEL",
+            "RABBITMQ_USERNAME": "recon2",
+            "RABBITMQ_VIRTUAL_HOST": "viteos",
+            "test_message_publishing": true,
+            "timeout": 10
+        },
+        "RabbitMQ_parameters_for_ML2_to_read_from": {
+            "RABBITMQ_EXCHANGE": "ReconPROD_PARALLELExchange_ML",
+            "RABBITMQ_HOST_IP": "vu-uat",
+            "RABBITMQ_PASSWORD": "recon2",
+            "RABBITMQ_PORT": "5671",
+            "RABBITMQ_QUEUE": "VNFRecon_WriteToML_PROD_PARALLEL",
+            "RABBITMQ_QUEUEING_PROTOCOL": "amqps",
+            "RABBITMQ_ROUTING_KEY": "Recon2_WriteToML_PROD_PARALLEL",
+            "RABBITMQ_USERNAME": "recon2",
+            "RABBITMQ_VIRTUAL_HOST": "viteos",
+            "test_message_publishing": true,
+            "timeout": 10
+        }
+    }
+    ,
+    "Lombard_parameters_dict": {
+        "Lombard_455_output_folder_path": "\\data\\Lombard\\output_files"
+    },
+    "Oaktree_parameters_dict": {
+        "Oaktree_379_output_folder_path": "\\data\\Oaktree\\output_files",
+        "Oaktree_379_model_files_folder_path": "\\data\\model_files\\379"
+    },
+    "Schonfeld_parameters_dict": {
+        "Schonfeld_897_output_folder_path": "\\data\\Schonfeld\\output_files",
+        "Schonfeld_position_file_path": "\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\Files and Rules for Lookup\\Rules delivery from Ronson\\Schonfeld\\Schonfeld ML final\\57 Position Recon\\",
+        "Schonfeld_position_file_first_sheet_name": "FIFTY_SEVEN",
+        "Schonfeld_position_file_second_sheet_name": "FIFTY_SEVENCAY",
+        "Schonfeld_position_file_first_sheet_origin_row_number": 3,
+        "Schonfeld_position_file_first_sheet_origin_col_number": 1,
+        "Schonfeld_position_file_second_sheet_origin_row_number": 3,
+        "Schonfeld_position_file_second_sheet_origin_col_number": 1,
+        "Schonfeld_position_file_password": "SSA2020"
+                
+        
+    }
+    
+}
