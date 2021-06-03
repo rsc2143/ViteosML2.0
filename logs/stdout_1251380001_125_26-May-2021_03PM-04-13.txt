@@ -1,0 +1,72 @@
+stdout started
+meo size
+29
+It took 0.05859375 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  0.07005879999999998
+It took 0.40234375 Mb to execute this method
+The Date value count is:
+2021-05-25    25
+Name: Date, dtype: int64
+Choosing the date : 2021-05-25
+It took 0.0703125 Mb to execute this method
+It took 0.0859375 Mb to execute this method
+It took 0.015625 Mb to execute this method
+It took 0.0 Mb to execute this method
+cc7 shape is :
+(26, 68)
+It took 0.04296875 Mb to execute this method
+(4, 24)
+(4, 24)
+Time for first apply =  0.002140900000000112
+Time for first apply =  0.0016313000000001132
+Time for second apply =  0.001566200000000073
+It took 0.5 Mb to execute this method
+It took 0.140625 Mb to execute this method
+It took 0.078125 Mb to execute this method
+test_file shape is :
+(58, 79)
+It took 0.640625 Mb to execute this method
+It took 10.6015625 Mb to execute this method
+test_file3 shape is :
+(58, 115)
+It took 0.0 Mb to execute this method
+It took 21.24609375 Mb to execute this method
+two_step_initiated
+It took 8.49609375 Mb to execute this method
+It took 0.0859375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.05859375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.00390625 Mb to execute this method
+It took 0.00390625 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+No Many to One found
+No Many to One found
+It took 0.0 Mb to execute this method
+['4_1251341001_Barclays' '3_1251341001_Barclays']
+['2_1251341001_Barclays' '1_1251341001_Barclays']
+['4_1251341001_Barclays', '3_1251341001_Barclays']
+['2_1251341001_Barclays', '1_1251341001_Barclays']
+Time:  5.7659529
+v11_initiated
+1821322916
+125
+2021-05-25
+Following Task ID done
+1251380001
+1251380001|Weiss Advisors|Cash|RecData_125|132231|SUCCESS|125|60ae15ed1e9c9c1c2473811a

@@ -1,0 +1,40 @@
+2021-05-31 15:28:03.221454 : Log started for datettime = 21-05-31_15-28-03
+2021-05-31 15:28:03.223457 : All function definitions end
+2021-05-31 15:28:03.278454 : Mongo DB objects created
+2021-05-31 15:28:03.283482 : RabbitMQ Publish object created
+2021-05-31 15:28:03.288482 : RabbitMQ ACK object created
+2021-05-31 15:28:34.169018 : RabbitMQ Receive file executed
+2021-05-31 15:29:04.997906 : RabbitMQ Receive file executed
+2021-05-31 15:29:05.000427 : RabbitMQ Receive file executed and got a message
+2021-05-31 15:29:05.001390 : split happened
+2021-05-31 15:29:05.002389 : ReconDF created
+2021-05-31 15:29:05.005419 : ReconDF all columns created
+2021-05-31 15:29:05.016388 : Starting for loop
+2021-05-31 15:29:05.017388 : Started for loop
+2021-05-31 15:29:05.017388 : Prediction Message Received for : 3791380127 and setup : 379
+2021-05-31 15:29:36.263452 : RabbitMQ Receive file executed
+2021-05-31 15:30:09.051270 : RabbitMQ Receive file executed
+2021-05-31 15:30:09.053242 : RabbitMQ Receive file executed and got a message
+2021-05-31 15:30:09.054242 : split happened
+2021-05-31 15:30:09.055271 : ReconDF created
+2021-05-31 15:30:09.057273 : ReconDF all columns created
+2021-05-31 15:30:09.067240 : Starting for loop
+2021-05-31 15:30:09.067240 : Started for loop
+2021-05-31 15:30:09.068241 : Prediction Message Received for : 3791380128 and setup : 379
+2021-05-31 15:30:41.159464 : RabbitMQ Receive file executed
+2021-05-31 15:31:11.994531 : RabbitMQ Receive file executed
+2021-05-31 15:31:11.996531 : RabbitMQ Receive file executed and got a message
+2021-05-31 15:31:11.997531 : split happened
+2021-05-31 15:31:11.998531 : ReconDF created
+2021-05-31 15:31:12.001533 : ReconDF all columns created
+2021-05-31 15:31:12.011532 : Starting for loop
+2021-05-31 15:31:12.011532 : Started for loop
+2021-05-31 15:31:12.012531 : Prediction Message Received for : 3791380129 and setup : 379
+2021-05-31 15:31:44.995639 : RabbitMQ Receive file executed
+2021-05-31 15:31:44.997609 : RabbitMQ Receive file executed and got a message
+2021-05-31 15:31:44.998609 : split happened
+2021-05-31 15:31:45.000609 : ReconDF created
+2021-05-31 15:31:45.002610 : ReconDF all columns created
+2021-05-31 15:31:45.012643 : Starting for loop
+2021-05-31 15:31:45.013646 : Started for loop
+2021-05-31 15:31:45.013646 : Prediction Message Received for : 3791380130 and setup : 379

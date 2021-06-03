@@ -1,0 +1,5 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\455_Production_Model.py", line 993, in <module>
+    print(meo.shape[0])
+NameError: name 'meo' is not defined

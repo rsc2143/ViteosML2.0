@@ -1,0 +1,5 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\125_Weiss_Production_loop_1_argument_3.py", line 1002, in <module>
+    os.rename(error_filepath, 'error' + '_' + str(TaskID_z) + '_' + str(Setup_Code_z) + '_' + current_date_and_time + '.txt')
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'D:\\ViteosModel2.0\\logs\\error_datetime_20-May-2021_07PM-44-53.txt' -> 'error_1251294415_125_20-May-2021_07PM-44-53.txt'

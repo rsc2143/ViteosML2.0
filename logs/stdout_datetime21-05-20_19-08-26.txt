@@ -1,0 +1,144 @@
+stdout started
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : __init__
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : __init__
+Time Taken : 0.01 sec
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : __init__
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : __init__
+Time Taken : 0.01 sec
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_with_or_without_ssh
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_without_ssh
+Connecting to 10.1.79.212
+
+
+Mongo Client without ssh created
+
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_without_ssh
+Time Taken : 0.01 sec
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_with_or_without_ssh
+Time Taken : 0.01 sec
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_with_or_without_ssh
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_without_ssh
+Connecting to 10.1.79.212
+
+
+Mongo Client without ssh created
+
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_without_ssh
+Time Taken : 0.00 sec
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_with_or_without_ssh
+Time Taken : 0.00 sec
+['1251294409', 'Weiss Advisors', 'Cash', 'RecData_125', '132196', 'Recon Run Completed', '125', '60a665fe1e9c9c1c246dc926']
+Receiving method worked
+ReconDF
+       TaskID             csc ReconPurpose  ...     Completed_Status Setup_Code            MongoDB_TaskID
+0  1251294409  Weiss Advisors         Cash  ...  Recon Run Completed        125  60a665fe1e9c9c1c246dc926
+
+[1 rows x 8 columns]
+Starting predictions for Weiss, setup_code = 125 and Task ID =  1251294409
+125
+meo size
+366
+It took 0.03125 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  0.6588818999999999
+It took 0.55078125 Mb to execute this method
+The Date value count is:
+2021-05-17    366
+Name: Date, dtype: int64
+Choosing the date : 2021-05-17
+It took 0.703125 Mb to execute this method
+It took 0.70703125 Mb to execute this method
+It took 0.18359375 Mb to execute this method
+It took 0.0 Mb to execute this method
+cc7 shape is :
+(280, 68)
+It took 0.11328125 Mb to execute this method
+(104, 24)
+(52, 24)
+Time for first apply =  0.006042500000000395
+Time for first apply =  0.0041669000000004175
+Time for second apply =  0.004051099999999863
+It took 8.4921875 Mb to execute this method
+It took 0.70703125 Mb to execute this method
+It took 3.1015625 Mb to execute this method
+test_file shape is :
+(4297, 79)
+It took 24.6328125 Mb to execute this method
+It took 15.8359375 Mb to execute this method
+test_file3 shape is :
+(4297, 115)
+It took 1.55859375 Mb to execute this method
+It took 18.83984375 Mb to execute this method
+two_step_initiated
+It took 6.390625 Mb to execute this method
+It took 0.0859375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.05859375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.0 Mb to execute this method
+No One to Many found
+It took 0.00390625 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+It took 0.0 Mb to execute this method
+['1691_1251294409_Advent Geneva' '1685_1251294409_Advent Geneva'
+ '1689_1251294409_Advent Geneva' '1688_1251294409_Advent Geneva'
+ '1693_1251294409_Advent Geneva' '1697_1251294409_Advent Geneva']
+Time:  9.7839925
+v11_initiated
+125
+2021-05-17
+Following Task ID done
+1251294409
+1251294409|Weiss Advisors|Cash|RecData_125|132196|SUCCESS|125|60a665fe1e9c9c1c246dc926

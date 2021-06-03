@@ -1,0 +1,7 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\379_Production_Model.py", line 2002, in <module>
+    os.makedirs(base_dir)
+  File "C:\ProgramData\Anaconda3\lib\os.py", line 221, in makedirs
+    mkdir(name, mode)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\Oaktree\\output_files\\Setup_379\\BD_of_2021-05-24'

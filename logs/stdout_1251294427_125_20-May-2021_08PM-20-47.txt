@@ -1,0 +1,175 @@
+stdout started
+meo size
+2772
+It took 2.45703125 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  318.99434379999997
+It took 24.05078125 Mb to execute this method
+The Date value count is:
+2021-05-17    2772
+Name: Date, dtype: int64
+Choosing the date : 2021-05-17
+It took 12.796875 Mb to execute this method
+It took 2.27734375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.33984375 Mb to execute this method
+cc7 shape is :
+(2040, 68)
+It took 2.95703125 Mb to execute this method
+(54, 24)
+(54, 24)
+Time for first apply =  0.0037601000000222484
+Time for first apply =  0.004773000000000138
+Time for second apply =  0.004648599999995895
+It took 2.6328125 Mb to execute this method
+It took 1.1328125 Mb to execute this method
+It took 1.8125 Mb to execute this method
+test_file shape is :
+(4004, 79)
+It took 23.90625 Mb to execute this method
+It took 16.51953125 Mb to execute this method
+test_file3 shape is :
+(4004, 115)
+It took 4.3828125 Mb to execute this method
+It took 21.26171875 Mb to execute this method
+two_step_initiated
+It took 13.70703125 Mb to execute this method
+It took 0.140625 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.05859375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.70703125 Mb to execute this method
+No One to Many found
+It took 0.0234375 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+No Many to One found
+No Many to One found
+It took 0.0 Mb to execute this method
+['2719_1251294407_Goldman Sachs', '2673_1251294407_Goldman Sachs', '2900_1251294407_Goldman Sachs', '2719_1251294427_Goldman Sachs', '2673_1251294427_Goldman Sachs', '2900_1251294427_Goldman Sachs']
+['2433_1251294407_Goldman Sachs', '2433_1251294427_Goldman Sachs']
+['2646_1251294407_Goldman Sachs', '2646_1251294427_Goldman Sachs']
+['1068_1251294407_Advent Geneva', '1069_1251294407_Advent Geneva', '1070_1251294407_Advent Geneva', '1069_1251294427_Advent Geneva', '1070_1251294427_Advent Geneva', '1068_1251294427_Advent Geneva']
+['203_1251294407_Advent Geneva', '203_1251294427_Advent Geneva']
+['210_1251294407_Advent Geneva', '211_1251294407_Advent Geneva', '210_1251294427_Advent Geneva', '211_1251294427_Advent Geneva']
+Time:  332.5207289
+v11_initiated
+125
+2021-05-17
+Following Task ID done
+1251294427
+1251294427|Weiss Advisors|Cash|RecData_125|132211|SUCCESS|125|60a676f41e9c9c1c24702cfb

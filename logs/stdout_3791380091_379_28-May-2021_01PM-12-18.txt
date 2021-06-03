@@ -1,0 +1,8 @@
+stdout started
+meo size
+115
+The Date value count is:
+2021-05-24    9
+Name: Date, dtype: int64
+3791380091|OakTree|Cash|RecData_379|132305|FAILURE|379|60b09e681e9c9c1c247aa61c
+meo has size = 115 therefore it failed

@@ -1,0 +1,53 @@
+2021-05-31 18:52:42.710690 : Log started for datettime = 21-05-31_18-52-42
+2021-05-31 18:52:42.711691 : All function definitions end
+2021-05-31 18:52:42.764689 : Mongo DB objects created
+2021-05-31 18:52:42.769689 : RabbitMQ Publish object created
+2021-05-31 18:52:42.774689 : RabbitMQ ACK object created
+2021-05-31 18:53:13.636390 : RabbitMQ Receive file executed
+2021-05-31 18:53:44.473951 : RabbitMQ Receive file executed
+2021-05-31 18:54:15.285942 : RabbitMQ Receive file executed
+2021-05-31 18:54:46.099438 : RabbitMQ Receive file executed
+2021-05-31 18:55:16.910205 : RabbitMQ Receive file executed
+2021-05-31 18:55:47.738700 : RabbitMQ Receive file executed
+2021-05-31 18:55:47.739629 : RabbitMQ Receive file executed and got a message
+2021-05-31 18:55:47.741643 : split happened
+2021-05-31 18:55:47.742629 : ReconDF created
+2021-05-31 18:55:47.745629 : ReconDF all columns created
+2021-05-31 18:55:47.755631 : Starting for loop
+2021-05-31 18:55:47.755631 : Started for loop
+2021-05-31 18:55:47.756660 : Prediction Message Received for : 3791380139 and setup : 379
+2021-05-31 18:56:19.126587 : RabbitMQ Receive file executed
+2021-05-31 18:56:49.977390 : RabbitMQ Receive file executed
+2021-05-31 18:57:20.798529 : RabbitMQ Receive file executed
+2021-05-31 18:57:20.800499 : RabbitMQ Receive file executed and got a message
+2021-05-31 18:57:20.801499 : split happened
+2021-05-31 18:57:20.802497 : ReconDF created
+2021-05-31 18:57:20.805497 : ReconDF all columns created
+2021-05-31 18:57:20.814527 : Starting for loop
+2021-05-31 18:57:20.815499 : Started for loop
+2021-05-31 18:57:20.815499 : Prediction Message Received for : 3791380140 and setup : 379
+2021-05-31 18:57:52.106215 : RabbitMQ Receive file executed
+2021-05-31 18:58:22.925180 : RabbitMQ Receive file executed
+2021-05-31 18:58:22.926180 : RabbitMQ Receive file executed and got a message
+2021-05-31 18:58:22.927181 : split happened
+2021-05-31 18:58:22.928180 : ReconDF created
+2021-05-31 18:58:22.931180 : ReconDF all columns created
+2021-05-31 18:58:22.940180 : Starting for loop
+2021-05-31 18:58:22.940180 : Started for loop
+2021-05-31 18:58:22.941180 : Prediction Message Received for : 3791380141 and setup : 379
+2021-05-31 18:58:55.955806 : RabbitMQ Receive file executed
+2021-05-31 18:59:26.795098 : RabbitMQ Receive file executed
+2021-05-31 18:59:57.632437 : RabbitMQ Receive file executed
+2021-05-31 19:00:28.490198 : RabbitMQ Receive file executed
+2021-05-31 19:00:59.306722 : RabbitMQ Receive file executed
+2021-05-31 19:01:30.137882 : RabbitMQ Receive file executed
+2021-05-31 19:02:00.962772 : RabbitMQ Receive file executed
+2021-05-31 19:02:31.802560 : RabbitMQ Receive file executed
+2021-05-31 19:03:02.659261 : RabbitMQ Receive file executed
+2021-05-31 19:03:33.512072 : RabbitMQ Receive file executed
+2021-05-31 19:04:04.361563 : RabbitMQ Receive file executed
+2021-05-31 19:04:35.230739 : RabbitMQ Receive file executed
+2021-05-31 19:05:14.048878 : RabbitMQ Receive file executed
+2021-05-31 19:05:44.918013 : RabbitMQ Receive file executed
+2021-05-31 19:06:15.754466 : RabbitMQ Receive file executed
+2021-05-31 19:06:46.620929 : RabbitMQ Receive file executed

@@ -1,0 +1,12 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\379_Production_Model.py", line 2168, in <module>
+    umb_subsum_df.columns = ['ViewData.Side0_UniqueIds']
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 5192, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 67, in pandas._libs.properties.AxisProperty.__set__
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 690, in _set_axis
+    self._data.set_axis(axis, labels)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 183, in set_axis
+    "values have {new} elements".format(old=old_len, new=new_len)
+ValueError: Length mismatch: Expected axis has 10 elements, new values have 1 elements

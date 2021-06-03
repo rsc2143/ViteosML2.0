@@ -1,0 +1,5 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\379_Production_Model.py", line 1998, in <module>
+    print(str(os.getcwd()) + Oaktree_parameters_dict.get(str(client) + '_' + str(setup_code) + '_output_folder_path'))
+AttributeError: 'NoneType' object has no attribute 'get'

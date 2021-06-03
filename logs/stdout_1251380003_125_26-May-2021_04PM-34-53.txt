@@ -1,0 +1,360 @@
+stdout started
+meo size
+4975
+It took 2.734375 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  3.107914299999999
+It took 8.53515625 Mb to execute this method
+The Date value count is:
+2021-05-25    4972
+Name: Date, dtype: int64
+Choosing the date : 2021-05-25
+It took 11.27734375 Mb to execute this method
+It took 3.1953125 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.00390625 Mb to execute this method
+cc7 shape is :
+(2012, 68)
+It took 9.98046875 Mb to execute this method
+(57, 24)
+(63, 24)
+Time for first apply =  0.004775600000000324
+Time for first apply =  0.002780199999998345
+Time for second apply =  0.0027135000000004794
+It took 6.4140625 Mb to execute this method
+It took 24.00390625 Mb to execute this method
+It took 35.640625 Mb to execute this method
+test_file shape is :
+(49769, 79)
+It took 360.2421875 Mb to execute this method
+It took 46.5390625 Mb to execute this method
+test_file3 shape is :
+(49769, 115)
+It took 80.375 Mb to execute this method
+It took 50.82421875 Mb to execute this method
+two_step_initiated
+It took 11.98828125 Mb to execute this method
+It took 10.1796875 Mb to execute this method
+It took 0.00390625 Mb to execute this method
+It took 3.796875 Mb to execute this method
+It took 1.83984375 Mb to execute this method
+It took 0.4296875 Mb to execute this method
+It took 1.2421875 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+It took 0.0625 Mb to execute this method
+['1480_1251380003_Morgan Stanley', '1481_1251380003_Morgan Stanley', '1479_1251380003_Morgan Stanley']
+['1519_1251380003_Morgan Stanley', '1520_1251380003_Morgan Stanley']
+['1695_1251380003_Advent Geneva', '1696_1251380003_Advent Geneva', '1697_1251380003_Advent Geneva']
+['1726_1251380003_Advent Geneva', '1727_1251380003_Advent Geneva']
+['964_1251344333_Advent Geneva' '444_1251363459_Advent Geneva'
+ '448_1251363459_Advent Geneva']
+['2279_1251380003_Morgan Stanley' '559_1251380003_Morgan Stanley']
+['2189_1251336617_Morgan Stanley' '1935_1251340582_Morgan Stanley'
+ '2188_1251336617_Morgan Stanley' '1934_1251340582_Morgan Stanley']
+['2049_1251380003_Morgan Stanley' '2033_1251363459_Morgan Stanley']
+['20_1251329129_Morgan Stanley', '21_1251329129_Morgan Stanley', '22_1251329129_Morgan Stanley']
+['748_1251329129_Morgan Stanley', '740_1251329129_Morgan Stanley', '747_1251329129_Morgan Stanley', '743_1251329129_Morgan Stanley', '746_1251329129_Morgan Stanley', '745_1251329129_Morgan Stanley', '744_1251329129_Morgan Stanley']
+['1798_1251329129_Morgan Stanley', '1797_1251329129_Morgan Stanley']
+['1938_1251329129_Morgan Stanley', '1932_1251329129_Morgan Stanley', '1939_1251329129_Morgan Stanley', '1933_1251329129_Morgan Stanley', '1934_1251329129_Morgan Stanley', '1935_1251329129_Morgan Stanley', '1936_1251329129_Morgan Stanley']
+['2541_1251329129_Morgan Stanley', '2535_1251329129_Morgan Stanley', '2540_1251329129_Morgan Stanley', '2543_1251329129_Morgan Stanley', '2544_1251329129_Morgan Stanley', '2536_1251329129_Morgan Stanley', '2542_1251329129_Morgan Stanley', '2539_1251329129_Morgan Stanley']
+['2553_1251329129_Morgan Stanley', '2550_1251329129_Morgan Stanley', '2551_1251329129_Morgan Stanley']
+['1807_1251348146_Morgan Stanley', '1806_1251348146_Morgan Stanley']
+['4697_1251332784_Advent Geneva', '1039_1251336617_Advent Geneva', '1040_1251336617_Advent Geneva']
+['2975_1251332784_Advent Geneva', '5168_1251336617_Advent Geneva', '5204_1251336617_Advent Geneva', '4417_1251336617_Advent Geneva', '4416_1251336617_Advent Geneva', '4415_1251336617_Advent Geneva', '4414_1251336617_Advent Geneva']
+['3857_1251336617_Advent Geneva', '4058_1251336617_Advent Geneva']
+['5049_1251336617_Advent Geneva', '5047_1251336617_Advent Geneva', '5048_1251336617_Advent Geneva', '5046_1251336617_Advent Geneva', '5876_1251336617_Advent Geneva', '4680_1251336617_Advent Geneva', '4786_1251336617_Advent Geneva']
+['2404_1251336617_Advent Geneva', '2487_1251336617_Advent Geneva', '2507_1251336617_Advent Geneva', '2517_1251336617_Advent Geneva', '2722_1251336617_Advent Geneva', '2720_1251336617_Advent Geneva', '2719_1251336617_Advent Geneva', '2723_1251336617_Advent Geneva']
+['5352_1251332784_Advent Geneva', '2828_1251336617_Advent Geneva', '2829_1251336617_Advent Geneva']
+['453_1251357645_Advent Geneva', '451_1251357645_Advent Geneva', '2320_1251359558_Advent Geneva', '2321_1251359558_Advent Geneva']
+Time:  47.6278947
+v11_initiated
+1938852767
+1949291412
+1887448591
+1924715412
+1941571187
+1887449403
+1941571260
+1887448184
+1895341276
+1909297584
+1909306166
+1955546503
+1941571192
+1922270872
+1930177667
+1930177672
+1941571333
+1930177675
+1941571245
+1909301467
+1909306095
+1938844378
+1941571182
+1878065326
+1904397917
+125
+2021-05-25
+Following Task ID done
+1251380003
+1251380003|Weiss Advisors|Cash|RecData_125|132235|SUCCESS|125|60ae2ac91e9c9c1c2473b623

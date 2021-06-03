@@ -1,0 +1,13 @@
+2021-05-30 17:38:29.407142 : Log started for datettime = 21-05-30_17-38-29
+2021-05-30 17:38:29.408536 : All function definitions end
+2021-05-30 17:38:29.476046 : Mongo DB objects created
+2021-05-30 17:38:29.481046 : RabbitMQ Publish object created
+2021-05-30 17:38:29.486046 : RabbitMQ ACK object created
+2021-05-30 17:39:00.319707 : RabbitMQ Receive file executed
+2021-05-30 17:39:00.320648 : RabbitMQ Receive file executed and got a message
+2021-05-30 17:39:00.322649 : split happened
+2021-05-30 17:39:00.323648 : ReconDF created
+2021-05-30 17:39:00.326648 : ReconDF all columns created
+2021-05-30 17:39:00.335648 : Starting for loop
+2021-05-30 17:39:00.336649 : Started for loop
+2021-05-30 17:39:00.336649 : Prediction Message Received for : 3791380115 and setup : 379
