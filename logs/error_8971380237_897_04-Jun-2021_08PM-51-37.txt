@@ -1,0 +1,5 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\897_Production_Model.py", line 402, in <module>
+    date_gt_50 = list(days[days['ViewData.Task Business Date']>50]['index'])[0]
+IndexError: list index out of range

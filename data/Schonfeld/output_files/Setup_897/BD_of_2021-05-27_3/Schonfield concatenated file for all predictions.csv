@@ -1,0 +1,3 @@
+,Unnamed: 0,Side0_UniqueIds,Side1_UniqueIds,BreakID,ViewData.Mapped Custodian Account,ViewData.Currency,ViewData.Ticker,ViewData.Net Amount Difference,ViewData.Description,ViewData.Settle Date,ViewData.Trade Date,ViewData.Age,Predicted_action,PredictedCategory,Predicted_Status,PredictedComment,BusinessDate,TaskID,SourceCombinationCode
+0,0,1_8971380208_Advent Geneva,,1859555710,USBK_FIFTY_SEVEN_182381144852,USD,usd,122840.38,United States Dollar,2021-05-25,2021-05-25,8,No-pair,OB,OB,Up/Down at Investment ID,2021-05-27T00:00:00,8971380237,1589787860
+1,1,,1_8971380208_US BANK,1859555709,USBK_FIFTY_SEVEN_182381144852,USD,,-122840.38,Outgoing Fedwire(s),2021-05-25,2021-05-25,10,No-pair,OB,OB,Up/Down at Investment ID,2021-05-27T00:00:00,8971380237,1589787860

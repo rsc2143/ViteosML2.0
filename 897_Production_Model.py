@@ -232,8 +232,8 @@ try:
         #      s2_out = subprocess.check_output([sys.executable, os.getcwd() + '\\ML2_RMQ_Receive_Production.py'])
         #    except Exception:
         #        data = None
-        s2_out = sys.argv[1]
-#        s2_out = '8971380232|Schonfeld Cash - 57|Cash|RecData_897|132120|Recon Run Completed|897|609a34b91e9c9c19c0cbc1e3'
+#        s2_out = sys.argv[1]
+        s2_out = '8971380237|Schonfeld Cash - 57|Cash|RecData_897|132120|Recon Run Completed|897|609a34b91e9c9c19c0cbc1e3'
         stout_list = s2_out.split("|")
         print(stout_list)
         if len(stout_list) > 1:
@@ -399,10 +399,10 @@ try:
 
 
                     days = meo_df['ViewData.Task Business Date'].value_counts().reset_index()
-                    date_gt_50 = list(days[days['ViewData.Task Business Date']>50]['index'])[0]
-                    
-                    date_from_to_extract_dmy = pd.to_datetime(date_gt_50)
-                    
+#                    date_gt_50 = list(days[days['ViewData.Task Business Date']>50]['index'])[0]
+                    date_with_highest_frq = days.sort_values(by="ViewData.Task Business Date", ascending = False)['index'].iloc[0]
+#                    date_from_to_extract_dmy = pd.to_datetime(date_gt_50)
+                    date_from_to_extract_dmy = pd.to_datetime(date_with_highest_frq)
                     day = date_from_to_extract_dmy.day
                     mon = date_from_to_extract_dmy.month
                     yr = date_from_to_extract_dmy.year
@@ -1096,17 +1096,7 @@ try:
                     
                     df6 = df5[df5['ViewData.InternalComment2'].isna()]
                     df7 = df5[~df5['ViewData.InternalComment2'].isna()]
-                    
-                    if df7.shape[0]!=0:
-                        df7['predicted action'] = 'No-pair'
-                        df7['predicted category'] = 'OB'
-                        df7['predicted comment'] = df7['ViewData.InternalComment2']
-                        df7['predicted status'] = df7['ViewData.Status']
-                    else:
-                        df6 = df6.copy()
-                    
-                    df6['Local Price Diff'] = df6['Local Price Diff'].fillna(0)
-                    
+
                     def commentschon(pos,amt,accamt, pbamt,cash_diff):
                         if ((pos==0) & (amt==0)):
                             if((cash_diff<6.0) & (cash_diff>-6.0)):
@@ -1123,21 +1113,35 @@ try:
                             com = 'MV Swing'
                             
                         return com
-                    df6.rename(columns = {'ViewData.B-P Net Amount':'ViewData.Cust Net Amount'}, inplace = True)            
-            
-                    df6['predicted comment'] = df6.apply(lambda x : commentschon(x['pos_qnt_diff'],x['Local Price Diff'],x['ViewData.Accounting Net Amount'],x['ViewData.Cust Net Amount'],x['cash difference']),axis = 1)
                     
-                    df6['predicted status'] = df6['ViewData.Status']
-                    df6['predicted action'] = 'No-pair'
-                    df6['predicted category'] = 'OB'
+                    if df7.shape[0]!=0:
+                        df7['predicted action'] = 'No-pair'
+                        df7['predicted category'] = 'OB'
+                        df7['predicted comment'] = df7['ViewData.InternalComment2']
+                        df7['predicted status'] = df7['ViewData.Status']
+                        df7 = df7[output_col]
+                        df7.to_csv('Schonfield ' + setup_code +' Meo Prediction P4.csv')
+
+                    else:
+                        df6 = df6.copy()
                     
-                    df6 = df6[output_col]
-                    df7 = df7[output_col]
+                    if(df6.shape[0]!=0):
+                        df6['Local Price Diff'] = df6['Local Price Diff'].fillna(0)
                     
+                        df6.rename(columns = {'ViewData.B-P Net Amount':'ViewData.Cust Net Amount'}, inplace = True)            
+                
+                        df6['predicted comment'] = df6.apply(lambda x : commentschon(x['pos_qnt_diff'],x['Local Price Diff'],x['ViewData.Accounting Net Amount'],x['ViewData.Cust Net Amount'],x['cash difference']),axis = 1)
+                        
+                        df6['predicted status'] = df6['ViewData.Status']
+                        df6['predicted action'] = 'No-pair'
+                        df6['predicted category'] = 'OB'
+                        
+                        df6 = df6[output_col]
+                        df6.to_csv('Schonfield ' + setup_code +' Meo Prediction P5.csv')
+                    else:
+                        df6 = pd.DataFrame()
                     #df7.to_csv('Schonfield/tweak_test_897/14 dec file schonfield prediction p5.csv')
                     #df6.to_csv('Schonfield/tweak_test_897/14 dec file schonfield prediction p6.csv')
-                    df7.to_csv('Schonfield ' + setup_code +' Meo Prediction P4.csv')
-                    df6.to_csv('Schonfield ' + setup_code +' Meo Prediction P5.csv')
                     
                     # #### Combining all the files
                     
