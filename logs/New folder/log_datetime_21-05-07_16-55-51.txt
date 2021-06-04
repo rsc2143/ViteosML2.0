@@ -1,0 +1,103 @@
+2021-05-07 16:55:51.663035 : Log started for datettime = 21-05-07_16-55-51
+2021-05-07 16:55:51.664037 : All function definitions end
+2021-05-07 16:55:51.715033 : Mongo DB objects created
+2021-05-07 16:55:51.720035 : RabbitMQ Publish object created
+2021-05-07 16:55:51.725034 : RabbitMQ ACK object created
+2021-05-07 16:56:22.672902 : RabbitMQ Receive file executed
+2021-05-07 16:56:53.498572 : RabbitMQ Receive file executed
+2021-05-07 16:57:24.320755 : RabbitMQ Receive file executed
+2021-05-07 16:57:55.156173 : RabbitMQ Receive file executed
+2021-05-07 16:58:26.001017 : RabbitMQ Receive file executed
+2021-05-07 16:58:56.838828 : RabbitMQ Receive file executed
+2021-05-07 16:59:27.674878 : RabbitMQ Receive file executed
+2021-05-07 16:59:58.528579 : RabbitMQ Receive file executed
+2021-05-07 17:00:31.627400 : RabbitMQ Receive file executed
+2021-05-07 17:00:31.628429 : RabbitMQ Receive file executed and got a message
+2021-05-07 17:00:31.629443 : split happened
+2021-05-07 17:00:31.631413 : ReconDF created
+2021-05-07 17:00:31.634439 : ReconDF all columns created
+2021-05-07 17:00:31.644439 : Starting for loop
+2021-05-07 17:00:31.645410 : Started for loop
+2021-05-07 17:00:31.646439 : Prediction Message Received for : 3791294222 and setup : 379
+2021-05-07 17:01:05.439166 : RabbitMQ Receive file executed
+2021-05-07 17:01:05.440305 : RabbitMQ Receive file executed and got a message
+2021-05-07 17:01:05.441343 : split happened
+2021-05-07 17:01:05.442343 : ReconDF created
+2021-05-07 17:01:05.445343 : ReconDF all columns created
+2021-05-07 17:01:05.455314 : Starting for loop
+2021-05-07 17:01:05.455314 : Started for loop
+2021-05-07 17:01:05.456313 : Prediction Message Received for : 3791294220 and setup : 379
+2021-05-07 17:01:29.607008 : Started for loop
+2021-05-07 17:01:29.607008 : Prediction Message Received for : 3791294223 and setup : 379
+2021-05-07 17:01:44.754627 : Started for loop
+2021-05-07 17:01:44.755627 : Prediction Message Received for : 3791294225 and setup : 379
+2021-05-07 17:01:48.235961 : Started for loop
+2021-05-07 17:01:48.236990 : Prediction Message Received for : 3791294226 and setup : 379
+2021-05-07 17:02:20.468267 : RabbitMQ Receive file executed
+2021-05-07 17:02:20.470237 : RabbitMQ Receive file executed and got a message
+2021-05-07 17:02:20.471239 : split happened
+2021-05-07 17:02:20.472239 : ReconDF created
+2021-05-07 17:02:20.475267 : ReconDF all columns created
+2021-05-07 17:02:20.485238 : Starting for loop
+2021-05-07 17:02:20.485238 : Started for loop
+2021-05-07 17:02:20.486238 : Prediction Message Received for : 3791294224 and setup : 379
+2021-05-07 17:02:28.798061 : Started for loop
+2021-05-07 17:02:28.799062 : Prediction Message Received for : 3791294228 and setup : 379
+2021-05-07 17:02:34.125059 : Started for loop
+2021-05-07 17:02:34.127049 : Prediction Message Received for : 3791294221 and setup : 379
+2021-05-07 17:07:10.629898 : Started for loop
+2021-05-07 17:07:10.630929 : Prediction Message Received for : 3791294231 and setup : 379
+2021-05-07 17:07:11.995981 : Started for loop
+2021-05-07 17:07:11.997981 : Prediction Message Received for : 3791294232 and setup : 379
+2021-05-07 17:07:14.473546 : Started for loop
+2021-05-07 17:07:14.474547 : Prediction Message Received for : 3791294230 and setup : 379
+2021-05-07 17:07:48.191200 : RabbitMQ Receive file executed
+2021-05-07 17:08:19.038559 : RabbitMQ Receive file executed
+2021-05-07 17:08:49.906929 : RabbitMQ Receive file executed
+2021-05-07 17:09:20.762403 : RabbitMQ Receive file executed
+2021-05-07 17:09:20.763390 : RabbitMQ Receive file executed and got a message
+2021-05-07 17:09:20.765361 : split happened
+2021-05-07 17:09:20.766390 : ReconDF created
+2021-05-07 17:09:20.769390 : ReconDF all columns created
+2021-05-07 17:09:20.779391 : Starting for loop
+2021-05-07 17:09:20.779391 : Started for loop
+2021-05-07 17:09:20.780362 : Prediction Message Received for : 1251294233 and setup : 125
+2021-05-07 17:09:22.720910 : 1251294233|Weiss Advisors|Cash|RecData_125|132043|SUCCESS|125|609526b81e9c9c19c0c4936d
+2021-05-07 17:09:53.564936 : RabbitMQ Receive file executed
+2021-05-07 17:10:24.623742 : RabbitMQ Receive file executed
+2021-05-07 17:10:24.625712 : RabbitMQ Receive file executed and got a message
+2021-05-07 17:10:24.626712 : split happened
+2021-05-07 17:10:24.627746 : ReconDF created
+2021-05-07 17:10:24.630743 : ReconDF all columns created
+2021-05-07 17:10:24.641214 : Starting for loop
+2021-05-07 17:10:24.641214 : Started for loop
+2021-05-07 17:10:24.642213 : Prediction Message Received for : 1251294235 and setup : 125
+2021-05-07 17:10:26.696184 : 1251294235|Weiss Advisors|Cash|RecData_125|132044|SUCCESS|125|6095270e1e9c9c19c0c4b088
+2021-05-07 17:10:57.531595 : RabbitMQ Receive file executed
+2021-05-07 17:11:36.377812 : RabbitMQ Receive file executed
+2021-05-07 17:11:36.379784 : RabbitMQ Receive file executed and got a message
+2021-05-07 17:11:36.380783 : split happened
+2021-05-07 17:11:36.381817 : ReconDF created
+2021-05-07 17:11:36.384814 : ReconDF all columns created
+2021-05-07 17:11:36.394781 : Starting for loop
+2021-05-07 17:11:36.395783 : Started for loop
+2021-05-07 17:11:36.395783 : Prediction Message Received for : 1251294238 and setup : 125
+2021-05-07 17:11:42.589638 : 1251294238|Weiss Advisors|Cash|RecData_125|132045|SUCCESS|125|609527311e9c9c19c0c4b29b
+2021-05-07 17:12:13.433071 : RabbitMQ Receive file executed
+2021-05-07 17:12:52.258138 : RabbitMQ Receive file executed
+2021-05-07 17:12:52.260138 : RabbitMQ Receive file executed and got a message
+2021-05-07 17:12:52.261140 : split happened
+2021-05-07 17:12:52.262138 : ReconDF created
+2021-05-07 17:12:52.265139 : ReconDF all columns created
+2021-05-07 17:12:52.274157 : Starting for loop
+2021-05-07 17:12:52.274157 : Started for loop
+2021-05-07 17:12:52.275110 : Prediction Message Received for : 1251294239 and setup : 125
+2021-05-07 17:12:54.448557 : 1251294239|Weiss Advisors|Cash|RecData_125|132046|SUCCESS|125|6095276f1e9c9c19c0c4c111
+2021-05-07 17:12:54.449558 : Started for loop
+2021-05-07 17:12:54.449558 : Prediction Message Received for : 1251294237 and setup : 125
+2021-05-10 10:34:55.286341 : Started for loop
+2021-05-10 10:34:55.287341 : Prediction Message Received for : 1251294237 and setup : 125
+2021-05-10 10:35:04.194176 : 1251294237|Weiss Advisors|Cash|RecData_125|132047|SUCCESS|125|6095272e1e9c9c19c0c4b272
+2021-05-10 10:35:04.194176 : Started for loop
+2021-05-10 10:35:04.195185 : Prediction Message Received for : 1251294242 and setup : 125
+2021-05-10 10:35:04.269267 : 1251294242|Weiss Advisors|Cash|RecData_125|132048|FAILURE|125|609527861e9c9c19c0c4f119

@@ -1,0 +1,66 @@
+2021-05-18 21:33:22.661985 : Log started for datettime = 21-05-18_21-33-22
+2021-05-18 21:33:22.662984 : All function definitions end
+2021-05-18 21:33:22.687984 : Mongo DB objects created
+2021-05-18 21:33:22.692983 : RabbitMQ Publish object created
+2021-05-18 21:33:22.697983 : RabbitMQ ACK object created
+2021-05-18 21:33:22.697983 : RabbitMQ Receive file executed
+2021-05-18 21:33:22.697983 : s2_out created
+2021-05-18 21:33:22.698983 : 1251294347|Weiss Advisors|Cash|RecData_125|132134|Recon Run Completed|125|60a3e4de1e9c9c1c2463c848
+2021-05-18 21:33:22.698983 : s2_stout created
+2021-05-18 21:33:22.698983 : ['1251294347', 'Weiss Advisors', 'Cash', 'RecData_125', '132134', 'Recon Run Completed', '125', '60a3e4de1e9c9c1c2463c848']
+2021-05-18 21:33:22.699983 : RabbitMQ Receive file executed and got a message
+2021-05-18 21:33:22.699983 : split happened
+2021-05-18 21:33:22.700984 : ReconDF created
+2021-05-18 21:33:22.703984 : ReconDF all columns created
+2021-05-18 21:33:22.711983 : Starting for loop
+2021-05-18 21:33:22.711983 : Started for loop
+2021-05-18 21:33:22.712983 : Prediction Message Received for : 1251294347
+2021-05-18 21:33:26.872727 : meo created
+2021-05-18 21:33:26.884697 : meo df is not empty, initiating calculations
+2021-05-18 21:33:26.919764 : umb carry forward empty, not making umb carry forward file
+2021-05-18 21:33:26.920762 : ob carry forward not empty, not making umb carry forward file
+2021-05-18 21:33:27.088800 : Before carrying out SMB-OB operation
+2021-05-18 21:33:27.098800 : After carrying out SMB-OB operation
+2021-05-18 21:33:27.198893 : Before carrying out UMB-OB operation
+2021-05-18 21:33:27.300103 : After carrying out UMB-OB operation
+2021-05-18 21:33:27.301073 : Before carrying out closed
+2021-05-18 21:34:26.093812 : After carrying out closed
+2021-05-18 21:34:26.659973 : Before catching mtm for revenue, expense and stock loan
+2021-05-18 21:34:27.357115 : After catching mtm for revenue, expense and stock loan
+2021-05-18 21:34:27.442113 : Before catching mtm for equity swap
+2021-05-18 21:34:27.510126 : After catching mtm for equity swap
+2021-05-18 21:34:27.644200 : Before catching updownERROR:root:Exception occured in updown
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\125_Weiss_Production_loop_1_argument.py", line 2490, in <module>
+    elim1['SideB.predicted category'] = 'Updown'
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 190, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 196, in write_plain_text
+    self.wrapped.flush()
+OSError: [Errno 22] Invalid argument
+
+2021-05-19 12:52:53.967827 : Before mXnERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\125_Weiss_Production_loop_1_argument.py", line 2640, in <module>
+    pool = []
+  File "C:\ProgramData\Anaconda3\lib\site-packages\tqdm\std.py", line 1003, in __init__
+    self.display()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\tqdm\std.py", line 1397, in display
+    self.sp(self.__repr__() if msg is None else msg)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\tqdm\std.py", line 304, in print_status
+    fp_write('\r' + s + (' ' * max(last_len[0] - len_s, 0)))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\tqdm\std.py", line 297, in fp_write
+    fp.write(_unicode(s))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 190, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 196, in write_plain_text
+    self.wrapped.flush()
+OSError: [Errno 22] Invalid argument

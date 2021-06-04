@@ -1,0 +1,66 @@
+stdout started
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : __init__
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : __init__
+Time Taken : 0.06 sec
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : __init__
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : __init__
+Time Taken : 0.01 sec
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_with_or_without_ssh
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_without_ssh
+Connecting to 10.1.79.212
+
+
+Mongo Client without ssh created
+
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_without_ssh
+Time Taken : 0.04 sec
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_with_or_without_ssh
+Time Taken : 0.04 sec
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_with_or_without_ssh
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_without_ssh
+Connecting to 10.1.79.212
+
+
+Mongo Client without ssh created
+
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_without_ssh
+Time Taken : 0.00 sec
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_with_or_without_ssh
+Time Taken : 0.00 sec
+before sys.arguments

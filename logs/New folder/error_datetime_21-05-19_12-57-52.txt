@@ -1,0 +1,15 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:/ViteosModel2.0/125_Weiss_Production_loop_1_argument_2.py", line 932, in <module>
+    stout_list = s2_out.split("|")
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:/ViteosModel2.0/125_Weiss_Production_loop_1_argument_2.py", line 932, in <module>
+    stout_list = s2_out.split("|")
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:/ViteosModel2.0/125_Weiss_Production_loop_1_argument_2.py", line 932, in <module>
+    stout_list = s2_out.split("|")
+TypeError: a bytes-like object is required, not 'str'

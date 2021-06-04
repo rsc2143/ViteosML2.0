@@ -1,0 +1,40 @@
+,Category,template
+0,equity swap settlement,booked the equity swap settlement transaction on SD
+1,allocleg,booked the allocleg transaction on SD
+2,expenses,booked the expenses transaction on SD
+3,breaks to investigate,booked the breaks to investigate transaction on SD
+4,wire transfer,booked the wire transfer transaction on SD
+5,future collateral,booked the future collateral transaction on SD
+6,buy trade,booked the buy trade transaction on SD
+7,sell trade,booked the sell trade transaction on SD
+8,to be paired,booked the to be paired transaction on SD
+9,forward fx,booked the forward fx transaction on SD
+10,purchase,booked the purchase transaction on SD
+11,interest,booked the interest transaction on SD
+12,cancelled,booked the cancelled transaction on SD
+13,dividend,booked the dividend transaction on SD
+14,stock loan,booked the stock loan transaction on SD
+15,"settlement amount , no pos break","booked the settlement amount , no pos break transaction on SD"
+16,wht,booked the wht transaction on SD
+17,margin,booked the margin transaction on SD
+18,ticket fees,booked the ticket fees transaction on SD
+19,revenue,booked the revenue transaction on SD
+20,spec journal,booked the spec journal transaction on SD
+21,sell short,booked the sell short transaction on SD
+22,proceeds sell,booked the proceeds sell transaction on SD
+23,fees,booked the fees transaction on SD
+24,cpn,booked the cpn transaction on SD
+25,net off,booked the net off transaction on SD
+26,corporate action,booked the corporate action transaction on SD
+27,collateral transfer,booked the collateral transfer transaction on SD
+28,redemption,booked the redemption transaction on SD
+29,money market fund,booked the money market fund transaction on SD
+30,journal,booked the journal transaction on SD
+31,deposit,booked the deposit transaction on SD
+32,income from securities,booked the income from securities transaction on SD
+33,cover short,booked the cover short transaction on SD
+34,cash movement,booked the cash movement transaction on SD
+35,collateral transfer_wire transfer,booked the collateral transfer_wire transfer transaction on SD
+36,equity swap wht,booked the equity swap wht transaction on SD
+37,future collateral_collateral transfer,booked the future collateral_collateral transfer transaction on SD
+38,swap settlement,booked the swap settlement transaction on SD

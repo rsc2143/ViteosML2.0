@@ -1,0 +1,27 @@
+2021-04-28 11:50:13.893510 : Log started for datettime = 21-04-28_11-50-13
+2021-04-28 11:50:13.894510 : All function definitions end
+2021-04-28 11:50:14.061442 : Mongo DB objects created
+2021-04-28 11:50:14.065440 : RabbitMQ Publish object created
+2021-04-28 11:50:14.070439 : RabbitMQ ACK object created
+2021-04-28 11:50:44.897268 : RabbitMQ Receive file executed
+2021-04-28 11:50:44.898269 : RabbitMQ Receive file executed and got a message
+2021-04-28 11:50:44.900269 : split happened
+2021-04-28 11:50:44.901297 : ReconDF created
+2021-04-28 11:50:44.904298 : ReconDF all columns created
+2021-04-28 11:50:44.916268 : Starting for loop
+2021-04-28 11:50:44.916268 : Started for loop
+2021-04-28 11:50:44.917268 : Prediction Message Received for : 3791294136 and setup : 379
+2021-04-28 11:55:02.091016 : Started for loop
+2021-04-28 11:55:02.092017 : Prediction Message Received for : 3791294137 and setup : 379
+2021-04-28 11:55:04.619541 : Started for loop
+2021-04-28 11:55:04.620512 : Prediction Message Received for : 3791294138 and setup : 379
+2021-04-28 12:01:15.104475 : Started for loop
+2021-04-28 12:01:15.105475 : Prediction Message Received for : 3791294139 and setup : 379
+2021-04-28 12:19:12.547794 : Started for loop
+2021-04-28 12:19:12.548795 : Prediction Message Received for : 3791294142 and setup : 379
+2021-04-28 13:11:39.064279 : Started for loop
+2021-04-28 13:11:39.065279 : Prediction Message Received for : 3791294142 and setup : 379
+2021-04-28 13:25:02.072161 : Started for loop
+2021-04-28 13:25:02.073164 : Prediction Message Received for : 3791294144 and setup : 379
+2021-04-28 13:28:14.885571 : Started for loop
+2021-04-28 13:28:14.886571 : Prediction Message Received for : 3791294145 and setup : 379

@@ -1,0 +1,31 @@
+Category,template
+monthend interest,to book monthend interest on SD
+interest,to book interest on SD
+sell trade,to book sell trade on SD
+capital activity,to book capital activity on SD
+internal transfer,to book internal transfer on SD
+corporate action,to book corporate action on SD
+bank debt bank debt team interest receipt entry,to book bank debt bank debt team interest receipt entry on SD
+full call,to book full call on SD
+buy trade,to book buy trade on SD
+fees,to book fees on SD
+bank loan interest,to book bank loan interest on SD
+expenses,to book expenses on SD
+bank debt team sell trade,to book bank debt team sell trade on SD
+spot fx,to book spot fx on SD
+fx usd leg,to book fx usd leg on SD
+reverse buy trade,to book reverse buy trade on SD
+failed trade buy trade,to book failed trade buy trade on SD
+unadvised cash,to book unadvised cash on SD
+redemption,to book redemption on SD
+fund terminated,to book fund terminated on SD
+dividend,to book dividend on SD
+full call interest,to book full call interest on SD
+interest corporate action team,to book interest corporate action team on SD
+deposit,to book deposit on SD
+partial call corporate action,to book partial call corporate action on SD
+interest corporate action,to book interest corporate action on SD
+corporate action redemption,to book corporate action redemption on SD
+future dated buy,to book future dated buy on SD
+future dated sell,to book future dated sell on SD
+drawdown,to book drawdown on SD

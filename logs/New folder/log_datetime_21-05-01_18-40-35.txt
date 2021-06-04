@@ -1,0 +1,53 @@
+2021-05-01 18:40:35.673980 : Log started for datettime = 21-05-01_18-40-35
+2021-05-01 18:40:35.674950 : All function definitions end
+2021-05-01 18:40:35.845008 : Mongo DB objects created
+2021-05-01 18:40:35.850009 : RabbitMQ Publish object created
+2021-05-01 18:40:35.855009 : RabbitMQ ACK object created
+2021-05-01 18:41:06.640255 : RabbitMQ Receive file executed
+2021-05-01 18:41:37.433274 : RabbitMQ Receive file executed
+2021-05-01 18:42:08.243965 : RabbitMQ Receive file executed
+2021-05-01 18:42:39.050238 : RabbitMQ Receive file executed
+2021-05-01 18:43:09.846320 : RabbitMQ Receive file executed
+2021-05-01 18:43:40.647115 : RabbitMQ Receive file executed
+2021-05-01 18:44:11.443699 : RabbitMQ Receive file executed
+2021-05-01 18:44:11.446233 : RabbitMQ Receive file executed and got a message
+2021-05-01 18:44:11.447203 : split happened
+2021-05-01 18:44:11.448203 : ReconDF created
+2021-05-01 18:44:11.451233 : ReconDF all columns created
+2021-05-01 18:44:11.461233 : Starting for loop
+2021-05-01 18:44:11.462205 : Started for loop
+2021-05-01 18:44:11.465203 : Prediction Message Received for : 1251332691
+2021-05-01 18:44:19.078467 : 1251332691|Weiss Advisors|Cash|RecData_125|131359|SUCCESS|125|608d53fa1ef687168c470f72
+2021-05-01 18:44:49.871165 : RabbitMQ Receive file executed
+2021-05-01 18:45:20.669852 : RabbitMQ Receive file executed
+2021-05-01 18:45:51.472880 : RabbitMQ Receive file executed
+2021-05-01 18:46:22.290929 : RabbitMQ Receive file executed
+2021-05-01 18:46:53.101131 : RabbitMQ Receive file executed
+2021-05-01 18:47:23.903044 : RabbitMQ Receive file executed
+2021-05-01 18:47:54.704396 : RabbitMQ Receive file executed
+2021-05-01 18:48:25.503339 : RabbitMQ Receive file executed
+2021-05-01 18:48:56.306009 : RabbitMQ Receive file executed
+2021-05-01 18:49:27.101718 : RabbitMQ Receive file executed
+2021-05-01 18:49:57.912358 : RabbitMQ Receive file executed
+2021-05-01 18:50:28.705307 : RabbitMQ Receive file executed
+2021-05-01 18:50:59.504865 : RabbitMQ Receive file executed
+2021-05-01 18:51:30.313202 : RabbitMQ Receive file executed
+2021-05-01 18:52:01.123111 : RabbitMQ Receive file executed
+2021-05-01 18:52:31.928829 : RabbitMQ Receive file executed
+2021-05-01 18:53:02.733394 : RabbitMQ Receive file executed
+2021-05-01 18:53:33.529710 : RabbitMQ Receive file executed
+2021-05-01 18:54:04.322366 : RabbitMQ Receive file executed
+2021-05-01 18:54:35.126358 : RabbitMQ Receive file executed
+2021-05-01 18:54:35.127327 : RabbitMQ Receive file executed and got a message
+2021-05-01 18:54:35.128357 : split happened
+2021-05-01 18:54:35.130327 : ReconDF created
+2021-05-01 18:54:35.133326 : ReconDF all columns created
+2021-05-01 18:54:35.142326 : Starting for loop
+2021-05-01 18:54:35.143327 : Started for loop
+2021-05-01 18:54:35.146325 : Prediction Message Received for : 1251332692
+2021-05-01 19:03:47.018451 : 1251332692|Weiss Advisors|Cash|RecData_125|131360|SUCCESS|125|608d54f91ef687168c471bbc
+2021-05-01 19:04:17.871890 : RabbitMQ Receive file executed
+2021-05-01 19:04:48.674104 : RabbitMQ Receive file executed
+2021-05-01 19:05:19.488222 : RabbitMQ Receive file executed
+2021-05-01 19:05:50.300927 : RabbitMQ Receive file executed
+2021-05-01 19:06:21.110070 : RabbitMQ Receive file executed

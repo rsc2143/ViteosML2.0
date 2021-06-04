@@ -1,0 +1,39 @@
+2021-05-18 20:42:00.636043 : Log started for datettime = 21-05-18_20-42-00
+2021-05-18 20:42:00.637037 : All function definitions end
+2021-05-18 20:42:00.663013 : Mongo DB objects created
+2021-05-18 20:42:00.668042 : RabbitMQ Publish object created
+2021-05-18 20:42:00.673041 : RabbitMQ ACK object created
+2021-05-18 20:42:00.673041 : RabbitMQ Receive file executed
+2021-05-18 20:42:00.674014 : s2_out created
+2021-05-18 20:42:00.674014 : 1251294344|Weiss Advisors|Cash|RecData_125|132132|Recon Run Completed|125|60a3d8ea1e9c9c1c24633362
+2021-05-18 20:42:00.674014 : s2_stout created
+2021-05-18 20:42:00.675013 : ['1251294344', 'Weiss Advisors', 'Cash', 'RecData_125', '132132', 'Recon Run Completed', '125', '60a3d8ea1e9c9c1c24633362']
+2021-05-18 20:42:00.676013 : RabbitMQ Receive file executed and got a message
+2021-05-18 20:42:00.676013 : split happened
+2021-05-18 20:42:00.677042 : ReconDF created
+2021-05-18 20:42:00.680041 : ReconDF all columns created
+2021-05-18 20:42:00.687042 : Starting for loop
+2021-05-18 20:42:00.687042 : Started for loop
+2021-05-18 20:42:00.688045 : Prediction Message Received for : 1251294344
+2021-05-18 20:42:01.621060 : meo created
+2021-05-18 20:42:01.623053 : meo df is not empty, initiating calculations
+2021-05-18 20:42:01.631080 : umb carry forward empty, not making umb carry forward file
+2021-05-18 20:42:01.631080 : ob carry forward not empty, not making umb carry forward file
+2021-05-18 20:42:01.751162 : Before carrying out SMB-OB operation
+2021-05-18 20:42:01.758162 : After carrying out SMB-OB operation
+2021-05-18 20:42:01.858164 : Before carrying out UMB-OB operation
+2021-05-18 20:42:01.960570 : After carrying out UMB-OB operation
+2021-05-18 20:42:01.961575 : Before carrying out closed
+2021-05-18 20:42:03.208861 : After carrying out closedERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\125_Weiss_Production_loop_1_argument.py", line 2484, in <module>
+    #    df_213_1['key_match_sum'] = df_213_1['map_match'] + df_213_1['fund_match'] + df_213_1['curr_match']
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 190, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 196, in write_plain_text
+    self.wrapped.flush()
+OSError: [Errno 22] Invalid argument

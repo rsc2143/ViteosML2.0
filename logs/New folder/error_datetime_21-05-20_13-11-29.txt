@@ -1,0 +1,21 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\125_Weiss_Production_loop_1_argument_3.py", line 2655, in <module>
+    for d in tqdm(aa_new['Date'].unique()):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\tqdm\std.py", line 1003, in __init__
+    self.display()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\tqdm\std.py", line 1397, in display
+    self.sp(self.__repr__() if msg is None else msg)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\tqdm\std.py", line 304, in print_status
+    fp_write('\r' + s + (' ' * max(last_len[0] - len_s, 0)))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\tqdm\std.py", line 297, in fp_write
+    fp.write(_unicode(s))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 190, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 196, in write_plain_text
+    self.wrapped.flush()
+OSError: [Errno 22] Invalid argument

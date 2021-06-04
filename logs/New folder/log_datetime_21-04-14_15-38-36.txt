@@ -1,0 +1,33 @@
+2021-04-14 15:38:36.808092 : Log started for datettime = 21-04-14_15-38-36
+2021-04-14 15:38:36.809093 : All function definitions end
+2021-04-14 15:38:36.980690 : Mongo DB objects created
+2021-04-14 15:38:36.985663 : RabbitMQ Publish object created
+2021-04-14 15:38:36.989693 : RabbitMQ ACK object created
+2021-04-14 15:39:07.770859 : RabbitMQ Receive file executed
+2021-04-14 15:39:44.965834 : RabbitMQ Receive file executed
+2021-04-14 15:40:18.939712 : RabbitMQ Receive file executed
+2021-04-14 15:40:49.786157 : RabbitMQ Receive file executed
+2021-04-14 15:41:20.634830 : RabbitMQ Receive file executed
+2021-04-14 15:41:51.512282 : RabbitMQ Receive file executed
+2021-04-14 15:42:22.366656 : RabbitMQ Receive file executed
+2021-04-14 15:42:53.188663 : RabbitMQ Receive file executed
+2021-04-14 15:43:24.025371 : RabbitMQ Receive file executed
+2021-04-14 15:43:54.897961 : RabbitMQ Receive file executed
+2021-04-14 15:44:25.724464 : RabbitMQ Receive file executed
+2021-04-14 15:44:56.551091 : RabbitMQ Receive file executed
+2021-04-14 15:45:27.378702 : RabbitMQ Receive file executed
+2021-04-14 15:46:01.966328 : RabbitMQ Receive file executed
+2021-04-14 15:46:32.756043 : RabbitMQ Receive file executed
+2021-04-14 15:47:09.939129 : RabbitMQ Receive file executed
+2021-04-14 15:47:48.688000 : RabbitMQ Receive file executed
+2021-04-14 15:48:19.499360 : RabbitMQ Receive file executed
+2021-04-14 15:48:50.274199 : RabbitMQ Receive file executed
+2021-04-14 15:48:50.275171 : RabbitMQ Receive file executed and got a message
+2021-04-14 15:48:50.276201 : split happened
+2021-04-14 15:48:50.278171 : ReconDF created
+2021-04-14 15:48:50.281171 : ReconDF all columns created
+2021-04-14 15:48:50.292169 : Starting for loop
+2021-04-14 15:48:50.293170 : Started for loop
+2021-04-14 15:48:50.296170 : Prediction Message Received for : 1251294096
+2021-04-14 15:48:58.613224 : 1251294096|Weiss Advisors|Cash|RecData_125|131938|SUCCESS|125|6076c1681e9c9c22bc521adf
+2021-04-14 15:49:29.412344 : RabbitMQ Receive file executed

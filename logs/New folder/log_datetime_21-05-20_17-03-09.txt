@@ -1,0 +1,65 @@
+2021-05-20 17:03:09.879917 : Log started for datettime = 21-05-20_17-03-09
+2021-05-20 17:03:09.881917 : All function definitions end
+2021-05-20 17:03:09.906935 : Mongo DB objects created
+2021-05-20 17:03:09.911935 : RabbitMQ Publish object created
+2021-05-20 17:03:09.916936 : RabbitMQ ACK object created
+2021-05-20 17:03:09.916936 : RabbitMQ Receive file executed
+2021-05-20 17:03:09.916936 : s2_out created
+2021-05-20 17:03:09.917935 : 1251294394|Weiss Advisors|Cash|RecData_125|132179|Recon Run Completed|125|60a648d81e9c9c1c246c5d10
+2021-05-20 17:03:09.917935 : s2_stout created
+2021-05-20 17:03:09.918936 : ['1251294394', 'Weiss Advisors', 'Cash', 'RecData_125', '132179', 'Recon Run Completed', '125', '60a648d81e9c9c1c246c5d10']
+2021-05-20 17:03:09.918936 : outer_while_loop_iterator1
+2021-05-20 17:03:09.919935 : RabbitMQ Receive file executed and got a message
+2021-05-20 17:03:09.919935 : split happened
+2021-05-20 17:03:09.920935 : ReconDF created
+2021-05-20 17:03:09.923935 : ReconDF all columns created
+2021-05-20 17:03:09.930936 : Starting for loop
+2021-05-20 17:03:09.931935 : Started for loop
+2021-05-20 17:03:09.931935 : Prediction Message Received for : 1251294394
+2021-05-20 17:03:09.998969 : meo created
+2021-05-20 17:03:09.999965 : meo df is not empty, initiating calculations
+2021-05-20 17:03:10.004938 : umb carry forward empty, not making umb carry forward file
+2021-05-20 17:03:10.004938 : ob carry forward not empty, not making umb carry forward file
+2021-05-20 17:03:10.133936 : Before carrying out SMB-OB operation
+2021-05-20 17:03:10.134945 : After carrying out SMB-OB operation
+2021-05-20 17:03:10.237161 : Before carrying out UMB-OB operation
+2021-05-20 17:03:10.341551 : After carrying out UMB-OB operation
+2021-05-20 17:03:10.342543 : Before carrying out closed
+2021-05-20 17:03:10.499542 : After carrying out closed
+2021-05-20 17:03:10.658541 : Before catching mtm for revenue, expense and stock loan
+2021-05-20 17:03:10.974241 : After catching mtm for revenue, expense and stock loan
+2021-05-20 17:03:10.975241 : Before catching mtm for equity swap
+2021-05-20 17:03:10.980241 : After catching mtm for equity swap
+2021-05-20 17:03:11.088504 : Before catching updown
+2021-05-20 17:03:11.099541 : dffacc and dffpb created
+2021-05-20 17:03:11.105541 : updlist created
+2021-05-20 17:03:11.219863 : After catching updown
+2021-05-20 17:03:11.221863 : Before mXn
+2021-05-20 17:03:11.356257 : After mXn
+2021-05-20 17:03:11.357224 : After final_table_to_write creation
+2021-05-20 17:03:11.375223 : Before commenting
+2021-05-20 17:03:11.477222 : Before commenting
+2021-05-20 17:03:11.485222 : Com file read
+2021-05-20 17:03:11.491223 : new pb mapping declared
+2021-05-20 17:03:11.496223 : Cancel functions delared
+2021-05-20 17:03:11.501222 : Before making df_mod_1
+2021-05-20 17:03:11.524222 : After making df_mod_1
+2021-05-20 17:03:11.527222 : Before reading comment sav file
+2021-05-20 17:03:11.656221 : After reading and loading comment sav file
+2021-05-20 17:03:11.667220 : After making result non trade
+2021-05-20 17:03:11.675220 : Before merging comment df final with final_df
+2021-05-20 17:03:11.677221 : After merging comment df final with final_df
+2021-05-20 17:03:11.728258 : Before removing Side01 id of OB record
+2021-05-20 17:03:11.729554 : After removing Side01 id of OB record
+2021-05-20 17:03:11.739395 : After getting first term before separator and making amends
+2021-05-20 17:03:11.765365 : After SMB commenting
+2021-05-20 17:03:11.772365 : After UMB commenting
+2021-05-20 17:03:11.801396 : After UMB_SMB duplication issue
+2021-05-20 17:03:11.803395 : Before getting NetAmountDifference
+2021-05-20 17:03:11.812396 : After getting NetAmountDifference
+2021-05-20 17:03:11.813397 : After dropping columns
+2021-05-20 17:03:11.814398 : After renaming columns
+2021-05-20 17:03:11.815395 : After renaming columns again
+2021-05-20 17:03:11.815395 : After making copy of final_df2
+2021-05-20 17:03:11.816395 : After replacing BreakID spaces
+2021-05-20 17:03:11.816395 : After replacing Final Predicted BreakID spaces

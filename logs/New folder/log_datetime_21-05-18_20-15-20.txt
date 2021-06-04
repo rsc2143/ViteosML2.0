@@ -1,0 +1,5 @@
+2021-05-18 20:15:20.685139 : Log started for datettime = 21-05-18_20-15-20ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\125_Weiss_Production_loop_1_argument.py", line 103, in <module>
+    print('Introducing error' + str(asdas))
+NameError: name 'asdas' is not defined

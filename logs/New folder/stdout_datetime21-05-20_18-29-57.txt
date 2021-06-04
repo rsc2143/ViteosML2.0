@@ -1,0 +1,143 @@
+stdout started
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : __init__
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : __init__
+Time Taken : 0.01 sec
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : __init__
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : __init__
+Time Taken : 0.01 sec
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_with_or_without_ssh
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_without_ssh
+Connecting to 10.1.79.212
+
+
+Mongo Client without ssh created
+
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_without_ssh
+Time Taken : 0.01 sec
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_with_or_without_ssh
+Time Taken : 0.01 sec
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_with_or_without_ssh
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_without_ssh
+Connecting to 10.1.79.212
+
+
+Mongo Client without ssh created
+
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_without_ssh
+Time Taken : 0.00 sec
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_with_or_without_ssh
+Time Taken : 0.00 sec
+['1251294402', 'Weiss Advisors', 'Cash', 'RecData_125', '132185', 'Recon Run Completed', '125', '60a65d2b1e9c9c1c246ca4c2']
+Receiving method worked
+ReconDF
+       TaskID             csc ReconPurpose  ...     Completed_Status Setup_Code            MongoDB_TaskID
+0  1251294402  Weiss Advisors         Cash  ...  Recon Run Completed        125  60a65d2b1e9c9c1c246ca4c2
+
+[1 rows x 8 columns]
+Starting predictions for Weiss, setup_code = 125 and Task ID =  1251294402
+125
+meo size
+492
+It took 0.03125 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  0.2579045
+It took 1.359375 Mb to execute this method
+The Date value count is:
+2021-05-17    492
+Name: Date, dtype: int64
+Choosing the date : 2021-05-17
+It took 0.01171875 Mb to execute this method
+It took 0.30078125 Mb to execute this method
+It took 0.0078125 Mb to execute this method
+It took 0.18359375 Mb to execute this method
+cc7 shape is :
+(319, 68)
+It took 0.51171875 Mb to execute this method
+It took 0.125 Mb to execute this method
+It took 0.140625 Mb to execute this method
+It took 0.0078125 Mb to execute this method
+test_file shape is :
+(96, 79)
+It took 0.19921875 Mb to execute this method
+It took 7.375 Mb to execute this method
+test_file3 shape is :
+(96, 115)
+It took 0.0 Mb to execute this method
+It took 19.32421875 Mb to execute this method
+two_step_initiated
+It took 7.2421875 Mb to execute this method
+It took 0.08203125 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.0234375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.01953125 Mb to execute this method
+No One to Many found
+It took 0.00390625 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+It took 0.0 Mb to execute this method
+['42_1251294326_Advent Geneva' '41_1251294326_Advent Geneva']
+['2_1251294326_Advent Geneva' '1_1251294326_Advent Geneva']
+['16_1251294334_Advent Geneva' '15_1251294334_Advent Geneva']
+['6_1251294326_Advent Geneva' '5_1251294326_Advent Geneva']
+['7_1251294334_Advent Geneva' '6_1251294334_Advent Geneva']
+['25_1251294334_Advent Geneva' '24_1251294334_Advent Geneva']
+['67_1251294383_UBS', '67_1251294402_UBS']
+['74_1251294383_UBS', '74_1251294402_UBS']
+['72_1251294383_UBS', '72_1251294402_UBS']
+['1_1251294383_Advent Geneva', '2_1251294383_Advent Geneva', '1_1251294402_Advent Geneva', '2_1251294402_Advent Geneva']
+['9_1251294383_Advent Geneva', '10_1251294383_Advent Geneva', '9_1251294402_Advent Geneva', '10_1251294402_Advent Geneva']
+['6_1251294383_Advent Geneva', '5_1251294383_Advent Geneva', '5_1251294402_Advent Geneva', '6_1251294402_Advent Geneva']
+Time:  7.3663036
+v11_initiated
+125
+2021-05-17
+Following Task ID done
+1251294402
+1251294402|Weiss Advisors|Cash|RecData_125|132185|SUCCESS|125|60a65d2b1e9c9c1c246ca4c2

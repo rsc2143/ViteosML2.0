@@ -1,0 +1,23 @@
+2021-04-14 19:30:39.667177 : Log started for datettime = 21-04-14_19-30-39
+2021-04-14 19:30:39.668180 : All function definitions end
+2021-04-14 19:30:39.714147 : Mongo DB objects created
+2021-04-14 19:30:39.720177 : RabbitMQ Publish object created
+2021-04-14 19:30:39.724177 : RabbitMQ ACK object created
+2021-04-14 19:31:18.490415 : RabbitMQ Receive file executed
+2021-04-14 19:31:49.268005 : RabbitMQ Receive file executed
+2021-04-14 19:32:21.043725 : RabbitMQ Receive file executed
+2021-04-14 19:32:21.045725 : RabbitMQ Receive file executed and got a message
+2021-04-14 19:32:21.046725 : split happened
+2021-04-14 19:32:21.047755 : ReconDF created
+2021-04-14 19:32:21.050755 : ReconDF all columns created
+2021-04-14 19:32:21.060727 : Starting for loop
+2021-04-14 19:32:21.060727 : Started for loop
+2021-04-14 19:32:21.063725 : Prediction Message Received for : 1251300022
+2021-04-14 19:32:28.036124 : 1251300022|Weiss Advisors|Cash|RecData_125|131366|SUCCESS|125|6076f5bf18ead229146eafdd
+2021-04-14 19:32:58.846649 : RabbitMQ Receive file executed
+2021-04-14 19:33:29.633551 : RabbitMQ Receive file executed
+2021-04-14 19:34:00.409119 : RabbitMQ Receive file executed
+2021-04-14 19:34:31.187013 : RabbitMQ Receive file executed
+2021-04-14 19:34:31.879573 : RabbitMQ Receive file executed
+2021-04-14 19:34:32.570791 : RabbitMQ Receive file executed
+2021-04-14 19:34:33.261788 : RabbitMQ Receive file executed

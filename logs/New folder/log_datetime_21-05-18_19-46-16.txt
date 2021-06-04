@@ -1,0 +1,36 @@
+2021-05-18 19:46:16.655232 : Log started for datettime = 21-05-18_19-46-16
+2021-05-18 19:46:16.656232 : All function definitions end
+2021-05-18 19:46:16.681232 : Mongo DB objects created
+2021-05-18 19:46:16.686231 : RabbitMQ Publish object created
+2021-05-18 19:46:16.691231 : RabbitMQ ACK object created
+2021-05-18 19:46:16.691231 : RabbitMQ Receive file executed
+2021-05-18 19:46:16.691231 : s2_out created
+2021-05-18 19:46:16.692231 : 1251294341|Weiss Advisors|Cash|RecData_125|132131|Recon Run Completed|125|60a3cbcb1e9c9c1c2462d3b9
+2021-05-18 19:46:16.692231 : s2_stout created
+2021-05-18 19:46:16.692231 : ['1251294341', 'Weiss Advisors', 'Cash', 'RecData_125', '132131', 'Recon Run Completed', '125', '60a3cbcb1e9c9c1c2462d3b9']
+2021-05-18 19:46:16.693231 : RabbitMQ Receive file executed and got a message
+2021-05-18 19:46:16.693231 : split happened
+2021-05-18 19:46:16.694232 : ReconDF created
+2021-05-18 19:46:16.697232 : ReconDF all columns created
+2021-05-18 19:46:16.704232 : Starting for loop
+2021-05-18 19:46:16.704232 : Started for loop
+2021-05-18 19:46:16.705231 : Prediction Message Received for : 1251294341ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\125_Weiss_Production_loop_1_argument.py", line 6261, in <module>
+    final_smb_ob_table_copy['ViewData.Task Business Date'] = final_smb_ob_table_copy[
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\series.py", line 4042, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas\_libs\lib.pyx", line 2228, in pandas._libs.lib.map_infer
+  File "D:\ViteosModel2.0\125_Weiss_Production_loop_1_argument.py", line 6263, in <lambda>
+    lambda x: dt.datetime.strftime(x, '%Y-%m-%dT%H:%M:%SZ'))
+  File "D:\ViteosModel2.0\125_Weiss_Production_loop_1_argument.py", line 213, in get_BreakID_from_list_of_Side_01_UniqueIds
+    def get_BreakID_from_list_of_Side_01_UniqueIds(fun_str_list_Side_01_UniqueIds, fun_meo_df, fun_side_0_or_1):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 190, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 196, in write_plain_text
+    self.wrapped.flush()
+OSError: [Errno 22] Invalid argument

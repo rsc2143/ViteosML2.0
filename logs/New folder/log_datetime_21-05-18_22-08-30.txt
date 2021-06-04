@@ -1,0 +1,50 @@
+2021-05-18 22:08:30.262237 : Log started for datettime = 21-05-18_22-08-30
+2021-05-18 22:08:30.263237 : All function definitions end
+2021-05-18 22:08:30.290204 : Mongo DB objects created
+2021-05-18 22:08:30.295204 : RabbitMQ Publish object created
+2021-05-18 22:08:30.300204 : RabbitMQ ACK object created
+2021-05-18 22:08:30.300204 : RabbitMQ Receive file executed
+2021-05-18 22:08:30.300204 : s2_out created
+2021-05-18 22:08:30.301203 : 1251294356|Weiss Advisors|Cash|RecData_125|132141|Recon Run Completed|125|60a3ed581e9c9c1c24651073
+2021-05-18 22:08:30.301203 : s2_stout created
+2021-05-18 22:08:30.302204 : ['1251294356', 'Weiss Advisors', 'Cash', 'RecData_125', '132141', 'Recon Run Completed', '125', '60a3ed581e9c9c1c24651073']
+2021-05-18 22:08:30.302204 : RabbitMQ Receive file executed and got a message
+2021-05-18 22:08:30.303204 : split happened
+2021-05-18 22:08:30.304204 : ReconDF created
+2021-05-18 22:08:30.306205 : ReconDF all columns created
+2021-05-18 22:08:30.314204 : Starting for loop
+2021-05-18 22:08:30.314204 : Started for loop
+2021-05-18 22:08:30.315204 : Prediction Message Received for : 1251294356
+2021-05-18 22:08:31.457168 : meo created
+2021-05-18 22:08:31.460173 : meo df is not empty, initiating calculations
+2021-05-18 22:08:31.471174 : umb carry forward empty, not making umb carry forward file
+2021-05-18 22:08:31.471174 : ob carry forward not empty, not making umb carry forward file
+2021-05-18 22:08:31.612944 : Before carrying out SMB-OB operation
+2021-05-18 22:08:31.624927 : After carrying out SMB-OB operation
+2021-05-18 22:08:31.726281 : Before carrying out UMB-OB operation
+2021-05-18 22:08:31.829901 : After carrying out UMB-OB operation
+2021-05-18 22:08:31.829901 : Before carrying out closed
+2021-05-18 22:09:53.160334 : After carrying out closed
+2021-05-18 22:09:53.410069 : Before catching mtm for revenue, expense and stock loan
+2021-05-18 22:09:53.848080 : After catching mtm for revenue, expense and stock loan
+2021-05-18 22:09:53.878104 : Before catching mtm for equity swap
+2021-05-18 22:09:53.895102 : After catching mtm for equity swap
+2021-05-18 22:09:54.008212 : Before catching updown
+2021-05-18 22:09:54.024240 : dffacc and dffpb created
+2021-05-18 22:09:54.038243 : updlist created
+2021-05-18 22:09:54.168578 : After catching updown
+2021-05-18 22:09:54.168578 : Before mXn
+2021-05-18 22:09:54.322588 : After mXn
+2021-05-18 22:09:54.322588 : Before mXn training df
+2021-05-18 22:09:54.342588 : After mXn training df
+2021-05-18 22:09:56.722113 : After test file cleaning
+2021-05-18 22:09:57.055935 : After test file 3
+2021-05-18 22:09:57.212486 : Before Xtest creation
+2021-05-18 22:09:57.975958 : After Xtest first prediction
+2021-05-18 22:09:58.387126 : After Xtest second prediction
+2021-05-18 22:09:58.615469 : After Xtest UMT segregation
+2021-05-18 22:09:58.756124 : Before Xtest no pair segregation
+2021-05-18 22:09:58.980218 : Before Xtest left
+2021-05-18 22:09:59.118523 : Before ccnew
+2021-05-18 22:09:59.245341 : After ccnew
+2021-05-18 22:09:59.736914 : After umr otm table loop

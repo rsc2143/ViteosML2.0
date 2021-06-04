@@ -1,0 +1,20 @@
+2021-05-20 18:07:33.789579 : Log started for datettime = 21-05-20_18-07-33
+2021-05-20 18:07:33.790565 : All function definitions end
+2021-05-20 18:07:33.815576 : Mongo DB objects created
+2021-05-20 18:07:33.821550 : RabbitMQ Publish object created
+2021-05-20 18:07:33.826550 : RabbitMQ ACK object created
+2021-05-20 18:07:33.826550 : RabbitMQ Receive file executed
+2021-05-20 18:07:33.826550 : s2_out created
+2021-05-20 18:07:33.827551 : 1251294394|Weiss Advisors|Cash|RecData_125|132179|Recon Run Completed|125|60a648d81e9c9c1c246c5d10
+2021-05-20 18:07:33.827551 : s2_stout created
+2021-05-20 18:07:33.828549 : ['1251294394', 'Weiss Advisors', 'Cash', 'RecData_125', '132179', 'Recon Run Completed', '125', '60a648d81e9c9c1c246c5d10']
+2021-05-20 18:07:33.828549 : outer_while_loop_iterator1
+2021-05-20 18:07:33.829551 : RabbitMQ Receive file executed and got a message
+2021-05-20 18:07:33.829551 : split happened
+2021-05-20 18:07:33.830575 : ReconDF created
+2021-05-20 18:07:33.833578 : ReconDF all columns created
+2021-05-20 18:07:33.840584 : Starting for loop
+2021-05-20 18:07:33.840584 : Started for loop
+2021-05-20 18:07:33.841581 : Prediction Message Received for : 1251294394
+2021-05-20 18:07:33.855579 : meo created
+2021-05-20 18:07:33.911551 : 1251294394|Weiss Advisors|Cash|RecData_125|132179|FAILURE|125|60a648d81e9c9c1c246c5d10

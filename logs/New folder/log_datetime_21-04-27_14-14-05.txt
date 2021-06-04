@@ -1,0 +1,68 @@
+2021-04-27 14:14:05.143825 : Log started for datettime = 21-04-27_14-14-05
+2021-04-27 14:14:05.144824 : All function definitions end
+2021-04-27 14:14:05.194823 : Mongo DB objects created
+2021-04-27 14:14:05.199824 : RabbitMQ Publish object created
+2021-04-27 14:14:05.204826 : RabbitMQ ACK object created
+2021-04-27 14:14:36.594125 : RabbitMQ Receive file executed
+2021-04-27 14:14:36.595115 : RabbitMQ Receive file executed and got a message
+2021-04-27 14:14:36.597088 : split happened
+2021-04-27 14:14:36.598117 : ReconDF created
+2021-04-27 14:14:36.601115 : ReconDF all columns created
+2021-04-27 14:14:36.611115 : Starting for loop
+2021-04-27 14:14:36.612085 : Started for loop
+2021-04-27 14:14:36.615115 : Prediction Message Received for : 3791300098 and setup : 379
+2021-04-27 14:14:37.530700 : 3791300098|OakTree|Cash|RecData_379|131413|FAILURE|379|6087cec218ead2049404dbf5
+2021-04-27 14:15:08.346883 : RabbitMQ Receive file executed
+2021-04-27 14:15:47.126329 : RabbitMQ Receive file executed
+2021-04-27 14:15:47.127298 : RabbitMQ Receive file executed and got a message
+2021-04-27 14:15:47.128298 : split happened
+2021-04-27 14:15:47.130297 : ReconDF created
+2021-04-27 14:15:47.132318 : ReconDF all columns created
+2021-04-27 14:15:47.141298 : Starting for loop
+2021-04-27 14:15:47.141298 : Started for loop
+2021-04-27 14:15:47.144285 : Prediction Message Received for : 3791300099 and setup : 379
+2021-04-27 14:15:47.231602 : 3791300099|OakTree|Cash|RecData_379|131414|FAILURE|379|6087cf0b18ead2049404e74b
+2021-04-27 14:16:18.037747 : RabbitMQ Receive file executed
+2021-04-27 14:16:48.845007 : RabbitMQ Receive file executed
+2021-04-27 14:16:48.846036 : RabbitMQ Receive file executed and got a message
+2021-04-27 14:16:48.848035 : split happened
+2021-04-27 14:16:48.849032 : ReconDF created
+2021-04-27 14:16:48.851040 : ReconDF all columns created
+2021-04-27 14:16:48.861038 : Starting for loop
+2021-04-27 14:16:48.861038 : Started for loop
+2021-04-27 14:16:48.865042 : Prediction Message Received for : 3791300100 and setup : 379
+2021-04-27 14:16:48.949036 : 3791300100|OakTree|Cash|RecData_379|131415|FAILURE|379|6087cf5718ead2049404eff5
+2021-04-27 14:17:19.747010 : RabbitMQ Receive file executed
+2021-04-27 14:17:19.747979 : RabbitMQ Receive file executed and got a message
+2021-04-27 14:17:19.748981 : split happened
+2021-04-27 14:17:19.749981 : ReconDF created
+2021-04-27 14:17:19.753009 : ReconDF all columns created
+2021-04-27 14:17:19.761979 : Starting for loop
+2021-04-27 14:17:19.761979 : Started for loop
+2021-04-27 14:17:19.764979 : Prediction Message Received for : 3791300101 and setup : 379
+2021-04-27 14:17:22.513586 : 3791300101|OakTree|Cash|RecData_379|131416|FAILURE|379|6087cf6018ead2049404f06a
+2021-04-27 14:17:53.315071 : RabbitMQ Receive file executed
+2021-04-27 14:17:53.316099 : RabbitMQ Receive file executed and got a message
+2021-04-27 14:17:53.317069 : split happened
+2021-04-27 14:17:53.318102 : ReconDF created
+2021-04-27 14:17:53.321100 : ReconDF all columns created
+2021-04-27 14:17:53.330086 : Starting for loop
+2021-04-27 14:17:53.330086 : Started for loop
+2021-04-27 14:17:53.333102 : Prediction Message Received for : 3791300102 and setup : 379
+2021-04-27 14:17:53.425101 : 3791300102|OakTree|Cash|RecData_379|131417|FAILURE|379|6087cf7618ead2049404f3e5
+2021-04-27 14:17:53.426104 : Started for loop
+2021-04-27 14:17:53.429100 : Prediction Message Received for : 3791300103 and setup : 379
+2021-04-27 14:17:57.512616 : 3791300103|OakTree|Cash|RecData_379|131418|FAILURE|379|6087cf9018ead2049404fb36
+2021-04-27 14:18:28.330240 : RabbitMQ Receive file executed
+2021-04-27 14:18:59.135654 : RabbitMQ Receive file executed
+2021-04-27 14:19:33.643450 : RabbitMQ Receive file executed
+2021-04-27 14:20:04.450628 : RabbitMQ Receive file executed
+2021-04-27 14:20:43.231205 : RabbitMQ Receive file executed
+2021-04-27 14:21:20.562938 : RabbitMQ Receive file executed
+2021-04-27 14:21:51.370371 : RabbitMQ Receive file executed
+2021-04-27 14:22:22.174640 : RabbitMQ Receive file executed
+2021-04-27 14:22:54.550727 : RabbitMQ Receive file executed
+2021-04-27 14:23:25.365802 : RabbitMQ Receive file executed
+2021-04-27 14:23:56.194210 : RabbitMQ Receive file executed
+2021-04-27 14:24:27.028857 : RabbitMQ Receive file executed
+2021-04-27 14:25:03.626575 : RabbitMQ Receive file executed

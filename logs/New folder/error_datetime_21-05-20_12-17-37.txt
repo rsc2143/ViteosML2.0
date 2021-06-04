@@ -1,0 +1,5 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:/ViteosModel2.0/125_Weiss_Production_loop_1_argument.py", line 927, in <module>
+    s2_out = sys.argv[1]
+IndexError: list index out of range

@@ -1,0 +1,32 @@
+2021-05-20 12:26:24.422538 : Log started for datettime = 21-05-20_12-26-24
+2021-05-20 12:26:24.423562 : All function definitions end
+2021-05-20 12:26:24.475564 : Mongo DB objects created
+2021-05-20 12:26:24.480537 : RabbitMQ Publish object created
+2021-05-20 12:26:24.485537 : RabbitMQ ACK object created
+2021-05-20 12:26:55.347958 : RabbitMQ Receive file executed
+2021-05-20 12:27:26.181660 : RabbitMQ Receive file executed
+2021-05-20 12:27:26.183571 : RabbitMQ Receive file executed and got a message
+2021-05-20 12:27:26.184578 : split happened
+2021-05-20 12:27:26.186608 : ReconDF created
+2021-05-20 12:27:26.189606 : ReconDF all columns created
+2021-05-20 12:27:26.199578 : Starting for loop
+2021-05-20 12:27:26.200576 : Started for loop
+2021-05-20 12:27:26.200576 : Prediction Message Received for : 1251294389 and setup : 125
+2021-05-20 12:27:28.123440 : 1251294389|Weiss Advisors|Cash|RecData_125|132174|SUCCESS|125|60a608331e9c9c1c246b3041
+2021-05-20 12:27:58.958537 : RabbitMQ Receive file executed
+2021-05-20 12:28:29.818265 : RabbitMQ Receive file executed
+2021-05-20 12:28:29.819267 : RabbitMQ Receive file executed and got a message
+2021-05-20 12:28:29.820233 : split happened
+2021-05-20 12:28:29.822266 : ReconDF created
+2021-05-20 12:28:29.824261 : ReconDF all columns created
+2021-05-20 12:28:29.834259 : Starting for loop
+2021-05-20 12:28:29.834259 : Started for loop
+2021-05-20 12:28:29.835261 : Prediction Message Received for : 1251294390 and setup : 125
+2021-05-20 12:28:31.767592 : 1251294390|Weiss Advisors|Cash|RecData_125|132175|SUCCESS|125|60a608671e9c9c1c246b3a4b
+2021-05-20 12:29:02.623311 : RabbitMQ Receive file executed
+2021-05-20 12:29:33.467712 : RabbitMQ Receive file executed
+2021-05-20 12:30:09.329445 : RabbitMQ Receive file executed
+2021-05-20 12:30:40.178798 : RabbitMQ Receive file executed
+2021-05-20 12:31:12.325480 : RabbitMQ Receive file executed
+2021-05-20 12:31:43.154967 : RabbitMQ Receive file executed
+2021-05-20 12:32:14.313708 : RabbitMQ Receive file executed

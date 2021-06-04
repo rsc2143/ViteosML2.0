@@ -1,0 +1,8 @@
+2021-05-20 12:22:30.204298 : Log started for datettime = 21-05-20_12-22-30
+2021-05-20 12:22:30.205288 : All function definitions end
+2021-05-20 12:22:30.254256 : Mongo DB objects created
+2021-05-20 12:22:30.259282 : RabbitMQ Publish object created
+2021-05-20 12:22:30.264286 : RabbitMQ ACK object created
+2021-05-20 12:23:01.321702 : s2_out created
+2021-05-20 12:23:01.321702 : b"b'1251294388|Weiss Advisors|Cash|RecData_125|132173|Recon Run Completed|125|60a607081e9c9c1c246b2649'\r\n"
+2021-05-20 12:23:01.322699 : s2_stout created

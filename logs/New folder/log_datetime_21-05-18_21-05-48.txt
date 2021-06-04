@@ -1,0 +1,44 @@
+2021-05-18 21:05:48.297268 : Log started for datettime = 21-05-18_21-05-48
+2021-05-18 21:05:48.298269 : All function definitions end
+2021-05-18 21:05:48.325269 : Mongo DB objects created
+2021-05-18 21:05:48.330269 : RabbitMQ Publish object created
+2021-05-18 21:05:48.335268 : RabbitMQ ACK object created
+2021-05-18 21:05:48.335268 : RabbitMQ Receive file executed
+2021-05-18 21:05:48.336268 : s2_out created
+2021-05-18 21:05:48.336268 : 1251294346|Weiss Advisors|Cash|RecData_125|132133|Recon Run Completed|125|60a3de861e9c9c1c24637657
+2021-05-18 21:05:48.336268 : s2_stout created
+2021-05-18 21:05:48.336268 : ['1251294346', 'Weiss Advisors', 'Cash', 'RecData_125', '132133', 'Recon Run Completed', '125', '60a3de861e9c9c1c24637657']
+2021-05-18 21:05:48.337268 : RabbitMQ Receive file executed and got a message
+2021-05-18 21:05:48.337268 : split happened
+2021-05-18 21:05:48.338269 : ReconDF created
+2021-05-18 21:05:48.341269 : ReconDF all columns created
+2021-05-18 21:05:48.348269 : Starting for loop
+2021-05-18 21:05:48.349268 : Started for loop
+2021-05-18 21:05:48.349268 : Prediction Message Received for : 1251294346
+2021-05-18 21:05:50.757292 : meo created
+2021-05-18 21:05:50.765293 : meo df is not empty, initiating calculations
+2021-05-18 21:05:50.789348 : umb carry forward empty, not making umb carry forward file
+2021-05-18 21:05:50.790350 : ob carry forward not empty, not making umb carry forward file
+2021-05-18 21:05:50.941918 : Before carrying out SMB-OB operation
+2021-05-18 21:05:50.949889 : After carrying out SMB-OB operation
+2021-05-18 21:05:51.050820 : Before carrying out UMB-OB operation
+2021-05-18 21:05:51.152982 : After carrying out UMB-OB operation
+2021-05-18 21:05:51.154981 : Before carrying out closed
+2021-05-18 21:06:18.994557 : After carrying out closed
+2021-05-18 21:06:19.370591 : Before catching mtm for revenue, expense and stock loan
+2021-05-18 21:06:19.984860 : After catching mtm for revenue, expense and stock loan
+2021-05-18 21:06:20.042818 : Before catching mtm for equity swap
+2021-05-18 21:06:20.082849 : After catching mtm for equity swap
+2021-05-18 21:06:20.207229 : Before catching updownERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\125_Weiss_Production_loop_1_argument.py", line 2490, in <module>
+    elim1['SideB.predicted category'] = 'Updown'
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 190, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 196, in write_plain_text
+    self.wrapped.flush()
+OSError: [Errno 22] Invalid argument

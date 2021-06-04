@@ -1,0 +1,37 @@
+2021-05-20 17:04:04.216099 : Log started for datettime = 21-05-20_17-04-04
+2021-05-20 17:04:04.218104 : All function definitions end
+2021-05-20 17:04:04.244069 : Mongo DB objects created
+2021-05-20 17:04:04.249099 : RabbitMQ Publish object created
+2021-05-20 17:04:04.254102 : RabbitMQ ACK object created
+2021-05-20 17:04:04.254102 : RabbitMQ Receive file executed
+2021-05-20 17:04:04.254102 : s2_out created
+2021-05-20 17:04:04.255102 : 1251294395|Weiss Advisors|Cash|RecData_125|132180|Recon Run Completed|125|60a648f81e9c9c1c246c6707
+2021-05-20 17:04:04.255102 : s2_stout created
+2021-05-20 17:04:04.255102 : ['1251294395', 'Weiss Advisors', 'Cash', 'RecData_125', '132180', 'Recon Run Completed', '125', '60a648f81e9c9c1c246c6707']
+2021-05-20 17:04:04.256100 : outer_while_loop_iterator1
+2021-05-20 17:04:04.256100 : RabbitMQ Receive file executed and got a message
+2021-05-20 17:04:04.257071 : split happened
+2021-05-20 17:04:04.258115 : ReconDF created
+2021-05-20 17:04:04.260099 : ReconDF all columns created
+2021-05-20 17:04:04.268101 : Starting for loop
+2021-05-20 17:04:04.268101 : Started for loop
+2021-05-20 17:04:04.268101 : Prediction Message Received for : 1251294395
+2021-05-20 17:04:04.411098 : meo created
+2021-05-20 17:04:04.412070 : meo df is not empty, initiating calculations
+2021-05-20 17:04:04.418099 : umb carry forward empty, not making umb carry forward file
+2021-05-20 17:04:04.419070 : ob carry forward not empty, not making umb carry forward file
+2021-05-20 17:04:04.535097 : Before carrying out SMB-OB operation
+2021-05-20 17:04:04.541097 : After carrying out SMB-OB operation
+2021-05-20 17:04:04.642096 : Before carrying out UMB-OB operation
+2021-05-20 17:04:04.743098 : After carrying out UMB-OB operation
+2021-05-20 17:04:04.743098 : Before carrying out closed
+2021-05-20 17:04:05.110521 : After carrying out closed
+2021-05-20 17:04:05.280338 : Before catching mtm for revenue, expense and stock loan
+2021-05-20 17:04:05.646111 : After catching mtm for revenue, expense and stock loan
+2021-05-20 17:04:05.649110 : Before catching mtm for equity swap
+2021-05-20 17:04:05.653109 : After catching mtm for equity swap
+2021-05-20 17:04:05.763206 : Before catching updown
+2021-05-20 17:04:05.772206 : dffacc and dffpb created
+2021-05-20 17:04:05.783233 : updlist created
+2021-05-20 17:04:05.789236 : if statement started when dff4 and dff5 are non empty
+2021-05-20 17:04:05.797234 : appended data created

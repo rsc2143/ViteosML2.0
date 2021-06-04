@@ -1,0 +1,109 @@
+2021-05-07 16:15:58.109542 : Log started for datettime = 21-05-07_16-15-58
+2021-05-07 16:15:58.111543 : All function definitions end
+2021-05-07 16:15:58.163086 : Mongo DB objects created
+2021-05-07 16:15:58.168118 : RabbitMQ Publish object created
+2021-05-07 16:15:58.173116 : RabbitMQ ACK object created
+2021-05-07 16:16:28.990112 : RabbitMQ Receive file executed
+2021-05-07 16:16:59.825928 : RabbitMQ Receive file executed
+2021-05-07 16:17:30.696798 : RabbitMQ Receive file executed
+2021-05-07 16:17:30.697730 : RabbitMQ Receive file executed and got a message
+2021-05-07 16:17:30.699731 : split happened
+2021-05-07 16:17:30.700731 : ReconDF created
+2021-05-07 16:17:30.703731 : ReconDF all columns created
+2021-05-07 16:17:30.714732 : Starting for loop
+2021-05-07 16:17:30.714732 : Started for loop
+2021-05-07 16:17:30.715731 : Prediction Message Received for : 3791294216 and setup : 379
+2021-05-07 16:17:33.428251 : Started for loop
+2021-05-07 16:17:33.429251 : Prediction Message Received for : 3791294214 and setup : 379
+2021-05-07 16:18:27.477688 : RabbitMQ Receive file executed
+2021-05-07 16:18:27.478695 : RabbitMQ Receive file executed and got a message
+2021-05-07 16:18:27.479684 : split happened
+2021-05-07 16:18:27.481684 : ReconDF created
+2021-05-07 16:18:27.483684 : ReconDF all columns created
+2021-05-07 16:18:27.494678 : Starting for loop
+2021-05-07 16:18:27.494678 : Started for loop
+2021-05-07 16:18:27.495683 : Prediction Message Received for : 3791294215 and setup : 379
+2021-05-07 16:22:01.027481 : RabbitMQ Receive file executed
+2021-05-07 16:22:31.887979 : RabbitMQ Receive file executed
+2021-05-07 16:23:02.754058 : RabbitMQ Receive file executed
+2021-05-07 16:23:33.600293 : RabbitMQ Receive file executed
+2021-05-07 16:24:04.469393 : RabbitMQ Receive file executed
+2021-05-07 16:24:35.634234 : RabbitMQ Receive file executed
+2021-05-07 16:25:06.673010 : RabbitMQ Receive file executed
+2021-05-07 16:25:45.490989 : RabbitMQ Receive file executed
+2021-05-07 16:26:16.340109 : RabbitMQ Receive file executed
+2021-05-07 16:26:47.200847 : RabbitMQ Receive file executed
+2021-05-07 16:27:18.055426 : RabbitMQ Receive file executed
+2021-05-07 16:27:18.057397 : RabbitMQ Receive file executed and got a message
+2021-05-07 16:27:18.058397 : split happened
+2021-05-07 16:27:18.059425 : ReconDF created
+2021-05-07 16:27:18.062426 : ReconDF all columns created
+2021-05-07 16:27:18.072424 : Starting for loop
+2021-05-07 16:27:18.073424 : Started for loop
+2021-05-07 16:27:18.073424 : Prediction Message Received for : 3791294217 and setup : 379
+2021-05-07 16:28:03.650250 : RabbitMQ Receive file executed
+2021-05-07 16:28:34.494423 : RabbitMQ Receive file executed
+2021-05-07 16:28:34.495424 : RabbitMQ Receive file executed and got a message
+2021-05-07 16:28:34.497392 : split happened
+2021-05-07 16:28:34.498421 : ReconDF created
+2021-05-07 16:28:34.501419 : ReconDF all columns created
+2021-05-07 16:28:34.511392 : Starting for loop
+2021-05-07 16:28:34.511392 : Started for loop
+2021-05-07 16:28:34.512392 : Prediction Message Received for : 3791294218 and setup : 379
+2021-05-07 16:29:08.302556 : RabbitMQ Receive file executed
+2021-05-07 16:29:47.122883 : RabbitMQ Receive file executed
+2021-05-07 16:29:47.124915 : RabbitMQ Receive file executed and got a message
+2021-05-07 16:29:47.125915 : split happened
+2021-05-07 16:29:47.126915 : ReconDF created
+2021-05-07 16:29:47.129914 : ReconDF all columns created
+2021-05-07 16:29:47.139885 : Starting for loop
+2021-05-07 16:29:47.139885 : Started for loop
+2021-05-07 16:29:47.140885 : Prediction Message Received for : 3791294219 and setup : 379
+2021-05-07 16:30:19.225296 : RabbitMQ Receive file executed
+2021-05-07 16:30:50.074837 : RabbitMQ Receive file executed
+2021-05-07 16:31:20.922743 : RabbitMQ Receive file executed
+2021-05-07 16:31:51.767812 : RabbitMQ Receive file executed
+2021-05-07 16:32:30.621926 : RabbitMQ Receive file executed
+2021-05-07 16:33:01.494864 : RabbitMQ Receive file executed
+2021-05-07 16:33:32.352384 : RabbitMQ Receive file executed
+2021-05-07 16:34:03.241431 : RabbitMQ Receive file executed
+2021-05-07 16:34:34.083261 : RabbitMQ Receive file executed
+2021-05-07 16:35:10.606902 : RabbitMQ Receive file executed
+2021-05-07 16:35:41.432410 : RabbitMQ Receive file executed
+2021-05-07 16:36:12.266858 : RabbitMQ Receive file executed
+2021-05-07 16:36:48.627306 : RabbitMQ Receive file executed
+2021-05-07 16:37:19.497435 : RabbitMQ Receive file executed
+2021-05-07 16:37:50.348792 : RabbitMQ Receive file executed
+2021-05-07 16:38:21.209884 : RabbitMQ Receive file executed
+2021-05-07 16:38:52.074558 : RabbitMQ Receive file executed
+2021-05-07 16:39:22.908841 : RabbitMQ Receive file executed
+2021-05-07 16:39:53.749869 : RabbitMQ Receive file executed
+2021-05-07 16:40:24.573789 : RabbitMQ Receive file executed
+2021-05-07 16:40:55.412060 : RabbitMQ Receive file executed
+2021-05-07 16:41:26.240589 : RabbitMQ Receive file executed
+2021-05-07 16:41:57.083861 : RabbitMQ Receive file executed
+2021-05-07 16:42:27.949511 : RabbitMQ Receive file executed
+2021-05-07 16:42:58.793546 : RabbitMQ Receive file executed
+2021-05-07 16:43:37.613705 : RabbitMQ Receive file executed
+2021-05-07 16:44:08.452891 : RabbitMQ Receive file executed
+2021-05-07 16:44:39.294589 : RabbitMQ Receive file executed
+2021-05-07 16:45:10.128721 : RabbitMQ Receive file executed
+2021-05-07 16:45:40.965125 : RabbitMQ Receive file executed
+2021-05-07 16:46:11.796926 : RabbitMQ Receive file executed
+2021-05-07 16:46:50.606373 : RabbitMQ Receive file executed
+2021-05-07 16:47:21.444044 : RabbitMQ Receive file executed
+2021-05-07 16:47:53.614329 : RabbitMQ Receive file executed
+2021-05-07 16:48:24.446594 : RabbitMQ Receive file executed
+2021-05-07 16:48:55.286453 : RabbitMQ Receive file executed
+2021-05-07 16:49:26.109530 : RabbitMQ Receive file executed
+2021-05-07 16:49:56.941351 : RabbitMQ Receive file executed
+2021-05-07 16:50:27.774274 : RabbitMQ Receive file executed
+2021-05-07 16:51:06.576672 : RabbitMQ Receive file executed
+2021-05-07 16:51:37.427996 : RabbitMQ Receive file executed
+2021-05-07 16:52:08.255600 : RabbitMQ Receive file executed
+2021-05-07 16:52:39.114387 : RabbitMQ Receive file executed
+2021-05-07 16:53:09.953930 : RabbitMQ Receive file executed
+2021-05-07 16:53:40.786037 : RabbitMQ Receive file executed
+2021-05-07 16:54:11.663721 : RabbitMQ Receive file executed
+2021-05-07 16:54:42.593942 : RabbitMQ Receive file executed
+2021-05-07 16:55:13.440828 : RabbitMQ Receive file executed

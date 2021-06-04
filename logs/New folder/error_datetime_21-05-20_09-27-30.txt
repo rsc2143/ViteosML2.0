@@ -1,0 +1,6 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\125_Weiss_Production_loop_1_argument_3.py", line 970, in <module>
+  File "D:\ViteosModel2.0\src\ViteosLogger_Production.py", line 39, in log_to_file
+    with open(param_filename, 'a+') as f:
+PermissionError: [Errno 13] Permission denied: 'D:\\ViteosModel2.0\\logs\\log_datetime_21-04-14_13-07-19.txt'

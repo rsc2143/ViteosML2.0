@@ -1,0 +1,74 @@
+2021-05-18 20:03:39.484989 : Log started for datettime = 21-05-18_20-03-39
+2021-05-18 20:03:39.485995 : All function definitions end
+2021-05-18 20:03:39.512989 : Mongo DB objects created
+2021-05-18 20:03:39.517996 : RabbitMQ Publish object created
+2021-05-18 20:03:39.521988 : RabbitMQ ACK object created
+2021-05-18 20:03:39.522969 : RabbitMQ Receive file executed
+2021-05-18 20:03:39.522969 : s2_out created
+2021-05-18 20:03:39.522969 : 1251294327|Weiss Advisors|Cash|RecData_125|132120|Recon Run Completed|125|609a34b91e9c9c19c0cbc1e3
+2021-05-18 20:03:39.523959 : s2_stout created
+2021-05-18 20:03:39.523959 : ['1251294327', 'Weiss Advisors', 'Cash', 'RecData_125', '132120', 'Recon Run Completed', '125', '609a34b91e9c9c19c0cbc1e3']
+2021-05-18 20:03:39.524964 : RabbitMQ Receive file executed and got a message
+2021-05-18 20:03:39.524964 : split happened
+2021-05-18 20:03:39.525958 : ReconDF created
+2021-05-18 20:03:39.528988 : ReconDF all columns created
+2021-05-18 20:03:39.535987 : Starting for loop
+2021-05-18 20:03:39.536960 : Started for loop
+2021-05-18 20:03:39.536960 : Prediction Message Received for : 1251294327
+2021-05-18 20:03:40.282312 : 1251294327|Weiss Advisors|Cash|RecData_125|132120|FAILURE|125|609a34b91e9c9c19c0cbc1e3
+2021-05-18 20:03:40.282312 : RabbitMQ Receive file executed
+2021-05-18 20:03:40.283312 : s2_out created
+2021-05-18 20:03:40.283312 : 1251294327|Weiss Advisors|Cash|RecData_125|132120|Recon Run Completed|125|609a34b91e9c9c19c0cbc1e3
+2021-05-18 20:03:40.283312 : s2_stout created
+2021-05-18 20:03:40.284312 : ['1251294327', 'Weiss Advisors', 'Cash', 'RecData_125', '132120', 'Recon Run Completed', '125', '609a34b91e9c9c19c0cbc1e3']
+2021-05-18 20:03:40.284312 : RabbitMQ Receive file executed and got a message
+2021-05-18 20:03:40.284312 : split happened
+2021-05-18 20:03:40.286311 : ReconDF created
+2021-05-18 20:03:40.289313 : ReconDF all columns created
+2021-05-18 20:03:40.297312 : Starting for loop
+2021-05-18 20:03:40.297312 : Started for loop
+2021-05-18 20:03:40.298312 : Prediction Message Received for : 1251294327
+2021-05-18 20:03:40.348781 : 1251294327|Weiss Advisors|Cash|RecData_125|132120|FAILURE|125|609a34b91e9c9c19c0cbc1e3
+2021-05-18 20:03:40.348781 : RabbitMQ Receive file executed
+2021-05-18 20:03:40.348781 : s2_out created
+2021-05-18 20:03:40.349809 : 1251294327|Weiss Advisors|Cash|RecData_125|132120|Recon Run Completed|125|609a34b91e9c9c19c0cbc1e3
+2021-05-18 20:03:40.349809 : s2_stout created
+2021-05-18 20:03:40.349809 : ['1251294327', 'Weiss Advisors', 'Cash', 'RecData_125', '132120', 'Recon Run Completed', '125', '609a34b91e9c9c19c0cbc1e3']
+2021-05-18 20:03:40.350809 : RabbitMQ Receive file executed and got a message
+2021-05-18 20:03:40.350809 : split happened
+2021-05-18 20:03:40.351809 : ReconDF created
+2021-05-18 20:03:40.354811 : ReconDF all columns created
+2021-05-18 20:03:40.361808 : Starting for loop
+2021-05-18 20:03:40.361808 : Started for loop
+2021-05-18 20:03:40.361808 : Prediction Message Received for : 1251294327
+2021-05-18 20:03:40.425736 : 1251294327|Weiss Advisors|Cash|RecData_125|132120|FAILURE|125|609a34b91e9c9c19c0cbc1e3
+2021-05-18 20:03:40.425736 : RabbitMQ Receive file executed
+2021-05-18 20:03:40.426731 : s2_out created
+2021-05-18 20:03:40.426731 : 1251294327|Weiss Advisors|Cash|RecData_125|132120|Recon Run Completed|125|609a34b91e9c9c19c0cbc1e3
+2021-05-18 20:03:40.427741 : s2_stout created
+2021-05-18 20:03:40.427741 : ['1251294327', 'Weiss Advisors', 'Cash', 'RecData_125', '132120', 'Recon Run Completed', '125', '609a34b91e9c9c19c0cbc1e3']
+2021-05-18 20:03:40.428734 : RabbitMQ Receive file executed and got a message
+2021-05-18 20:03:40.428734 : split happened
+2021-05-18 20:03:40.430761 : ReconDF created
+2021-05-18 20:03:40.433764 : ReconDF all columns created
+2021-05-18 20:03:40.443762 : Starting for loop
+2021-05-18 20:03:40.443762 : Started for loop
+2021-05-18 20:03:40.444774 : Prediction Message Received for : 1251294327
+2021-05-18 20:03:40.476341 : 1251294327|Weiss Advisors|Cash|RecData_125|132120|FAILURE|125|609a34b91e9c9c19c0cbc1e3
+2021-05-18 20:03:40.477340 : RabbitMQ Receive file executed
+2021-05-18 20:03:40.477340 : s2_out created
+2021-05-18 20:03:40.477340 : 1251294327|Weiss Advisors|Cash|RecData_125|132120|Recon Run Completed|125|609a34b91e9c9c19c0cbc1e3
+2021-05-18 20:03:40.478340 : s2_stout created
+2021-05-18 20:03:40.478340 : ['1251294327', 'Weiss Advisors', 'Cash', 'RecData_125', '132120', 'Recon Run Completed', '125', '609a34b91e9c9c19c0cbc1e3']ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\125_Weiss_Production_loop_1_argument.py", line 942, in <module>
+    #        Logger_obj.log_to_file(param_filename = log_filepath, param_log_str = 'Message was not in list')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 190, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\colorama\ansitowin32.py", line 196, in write_plain_text
+    self.wrapped.flush()
+OSError: [Errno 22] Invalid argument

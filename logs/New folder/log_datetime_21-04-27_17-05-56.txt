@@ -1,0 +1,19 @@
+2021-04-27 17:05:56.387103 : Log started for datettime = 21-04-27_17-05-56
+2021-04-27 17:05:56.388097 : All function definitions end
+2021-04-27 17:05:56.435133 : Mongo DB objects created
+2021-04-27 17:05:56.441096 : RabbitMQ Publish object created
+2021-04-27 17:05:56.446096 : RabbitMQ ACK object created
+2021-04-27 17:06:27.325223 : RabbitMQ Receive file executed
+2021-04-27 17:06:27.326226 : RabbitMQ Receive file executed and got a message
+2021-04-27 17:06:27.328224 : split happened
+2021-04-27 17:06:27.329225 : ReconDF created
+2021-04-27 17:06:27.332224 : ReconDF all columns created
+2021-04-27 17:06:27.342223 : Starting for loop
+2021-04-27 17:06:27.342223 : Started for loop
+2021-04-27 17:06:27.346224 : Prediction Message Received for : 3791294101 and setup : 379
+2021-04-27 17:06:35.411287 : 3791294101|OakTree|Cash|RecData_379|131941|FAILURE|379|6087edac1e9c9c19c0b992ad
+2021-04-27 17:06:35.411287 : Started for loop
+2021-04-27 17:06:35.414259 : Prediction Message Received for : 1251294102 and setup : 125
+2021-04-27 17:06:43.901433 : 1251294102|Weiss Advisors|Cash|RecData_125|131942|SUCCESS|125|6087f3331e9c9c19c0b99ce4
+2021-04-27 17:06:43.901433 : Started for loop
+2021-04-27 17:06:43.905549 : Prediction Message Received for : 3791294104 and setup : 379

@@ -1,0 +1,6 @@
+2021-05-14 20:21:19.576151 : Log started for datettime = 21-05-14_20-21-19
+2021-05-14 20:21:19.577146 : All function definitions end
+2021-05-14 20:21:19.667179 : Mongo DB objects created
+2021-05-14 20:21:19.672178 : RabbitMQ Publish object created
+2021-05-14 20:21:19.677176 : RabbitMQ ACK object created
+2021-05-14 20:21:19.677176 : RabbitMQ Receive file executed

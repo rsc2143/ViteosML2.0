@@ -1,0 +1,100 @@
+stdout started
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : __init__
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : __init__
+Time Taken : 0.01 sec
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : __init__
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : __init__
+Time Taken : 0.01 sec
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_with_or_without_ssh
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_without_ssh
+Connecting to 10.1.79.212
+
+
+Mongo Client without ssh created
+
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_without_ssh
+Time Taken : 0.00 sec
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_with_or_without_ssh
+Time Taken : 0.00 sec
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_with_or_without_ssh
+START 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_without_ssh
+Connecting to 10.1.79.212
+
+
+Mongo Client without ssh created
+
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_without_ssh
+Time Taken : 0.00 sec
+STOP 
+	Module : src.ViteosMongoDB_Production 
+	Function Class : ViteosMongoDB_Class 
+	Function Name : connect_with_or_without_ssh
+Time Taken : 0.00 sec
+['1251294396', 'Weiss Advisors', 'Cash', 'RecData_125', '132181', 'Recon Run Completed', '125', '60a653f41e9c9c1c246c7a40']
+Receiving method worked
+ReconDF
+       TaskID             csc ReconPurpose  ...     Completed_Status Setup_Code            MongoDB_TaskID
+0  1251294396  Weiss Advisors         Cash  ...  Recon Run Completed        125  60a653f41e9c9c1c246c7a40
+
+[1 rows x 8 columns]
+Starting predictions for Weiss, setup_code = 125 and Task ID =  1251294396
+125
+meo size
+4
+It took 0.03125 Mb to execute this method
+It took 0.0078125 Mb to execute this method
+Time for closed :  0.04263030000000034
+It took 0.13671875 Mb to execute this method
+The Date value count is:
+2021-05-17    4
+Name: Date, dtype: int64
+Choosing the date : 2021-05-17
+It took 0.19140625 Mb to execute this method
+It took 0.03515625 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.0 Mb to execute this method
+cc7 shape is :
+(4, 68)
+It took 0.03125 Mb to execute this method
+It took 0.19921875 Mb to execute this method
+It took 0.08203125 Mb to execute this method
+Time:  3.6507852
+v11_initiated
+125
+2021-05-17
+Following Task ID done
+1251294396
+1251294396|Weiss Advisors|Cash|RecData_125|132181|SUCCESS|125|60a653f41e9c9c1c246c7a40

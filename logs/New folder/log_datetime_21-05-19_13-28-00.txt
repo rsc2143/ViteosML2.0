@@ -1,0 +1,42 @@
+2021-05-19 13:28:00.641408 : Log started for datettime = 21-05-19_13-28-00
+2021-05-19 13:28:00.643408 : All function definitions end
+2021-05-19 13:28:00.667880 : Mongo DB objects created
+2021-05-19 13:28:00.672880 : RabbitMQ Publish object created
+2021-05-19 13:28:00.676880 : RabbitMQ ACK object created
+2021-05-19 13:28:00.677880 : RabbitMQ Receive file executed
+2021-05-19 13:28:00.677880 : s2_out created
+2021-05-19 13:28:00.678880 : 1251294360|Weiss Advisors|Cash|RecData_125|132145|Recon Run Completed|125|60a4c4ed1e9c9c1c2465b70c
+2021-05-19 13:28:00.678880 : s2_stout created
+2021-05-19 13:28:00.679910 : ['1251294360', 'Weiss Advisors', 'Cash', 'RecData_125', '132145', 'Recon Run Completed', '125', '60a4c4ed1e9c9c1c2465b70c']
+2021-05-19 13:28:00.679910 : RabbitMQ Receive file executed and got a message
+2021-05-19 13:28:00.680912 : split happened
+2021-05-19 13:28:00.681910 : ReconDF created
+2021-05-19 13:28:00.683911 : ReconDF all columns created
+2021-05-19 13:28:00.691912 : Starting for loop
+2021-05-19 13:28:00.691912 : Started for loop
+2021-05-19 13:28:00.692911 : Prediction Message Received for : 1251294360
+2021-05-19 13:28:00.759910 : meo created
+2021-05-19 13:28:00.760911 : meo df is not empty, initiating calculations
+2021-05-19 13:28:00.765910 : umb carry forward empty, not making umb carry forward file
+2021-05-19 13:28:00.766915 : ob carry forward not empty, not making umb carry forward file
+2021-05-19 13:28:00.896265 : Before carrying out SMB-OB operation
+2021-05-19 13:28:00.898262 : After carrying out SMB-OB operation
+2021-05-19 13:28:00.998759 : Before carrying out UMB-OB operation
+2021-05-19 13:28:01.100759 : After carrying out UMB-OB operation
+2021-05-19 13:28:01.100759 : Before carrying out closed
+2021-05-19 13:28:01.254794 : After carrying out closed
+2021-05-19 13:28:01.411838 : Before catching mtm for revenue, expense and stock loan
+2021-05-19 13:28:01.734653 : After catching mtm for revenue, expense and stock loan
+2021-05-19 13:28:01.736653 : Before catching mtm for equity swap
+2021-05-19 13:28:01.741653 : After catching mtm for equity swap
+2021-05-19 13:28:01.852674 : Before catching updown
+2021-05-19 13:28:01.875664 : dffacc and dffpb created
+2021-05-19 13:28:01.881662 : updlist created
+2021-05-19 13:28:01.993983 : After catching updown
+2021-05-19 13:28:01.993983 : Before mXn
+2021-05-19 13:28:02.108982 : After mXn
+2021-05-19 13:28:02.109982 : After final_table_to_write creation
+2021-05-19 13:28:02.125982 : Before commenting
+2021-05-19 13:39:49.204613 : Before deleting objects
+2021-05-19 13:39:49.224634 : After inserting in db
+2021-05-19 13:39:49.717318 : 1251294360|Weiss Advisors|Cash|RecData_125|132145|SUCCESS|125|60a4c4ed1e9c9c1c2465b70c
