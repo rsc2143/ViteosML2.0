@@ -1,0 +1,79 @@
+stdout started
+meo size
+307
+It took 0.03125 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  0.27882549999999995
+It took 1.5625 Mb to execute this method
+The Date value count is:
+2021-05-27    306
+Name: Date, dtype: int64
+Choosing the date : 2021-05-27
+It took 0.01171875 Mb to execute this method
+It took 0.0625 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.00390625 Mb to execute this method
+cc7 shape is :
+(305, 68)
+It took 0.10546875 Mb to execute this method
+(2, 24)
+(2, 24)
+Time for first apply =  0.002137600000000184
+Time for first apply =  0.0016144000000002379
+Time for second apply =  0.001497099999999918
+It took 0.4375 Mb to execute this method
+It took 0.37109375 Mb to execute this method
+It took 0.5390625 Mb to execute this method
+test_file shape is :
+(636, 79)
+It took 2.18359375 Mb to execute this method
+It took 9.890625 Mb to execute this method
+test_file3 shape is :
+(636, 115)
+It took 0.30078125 Mb to execute this method
+It took 22.75 Mb to execute this method
+two_step_initiated
+It took 7.0390625 Mb to execute this method
+It took 0.0859375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.05859375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.00390625 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+No Many to One found
+No Many to One found
+It took 0.0 Mb to execute this method
+['3_1251380042_US BANK']
+['1_1251380236_US BANK']
+['267_1251380042_Advent Geneva', '269_1251380042_Advent Geneva']
+['304_1251380236_Advent Geneva', '314_1251380236_Advent Geneva']
+['118_1251380236_US BANK' '119_1251380236_US BANK']
+['210_1251380236_US BANK' '212_1251380236_US BANK']
+Time:  8.028838700000001
+v11_initiated
+1859570361, 1859571027
+125
+2021-05-27
+Following Task ID done
+1251380236
+1251380236|Weiss Advisors|Cash|RecData_125|132429|SUCCESS|125|60b9e7ed1e9c9c17acdc1741

@@ -87,13 +87,14 @@ try:
         else:
             return('keep')
 
-    def read_passowrd_protected_pos_file_and_concat_to_single_pos_df(param_filepath, param_passwrod, param_sheet_names_list, param_start_row_num, param_start_col_num):
+    def read_passowrd_protected_pos_file_and_concat_to_single_pos_df(param_filepath, param_passwrod, param_sheet_names_list, param_start_row_num, param_start_col_num, param_pos_cols_list):
         xl_app = win32com.client.Dispatch('Excel.Application')
         #pwd = getpass.getpass('Enter file password: ')
         xl_wb = xl_app.Workbooks.Open(param_filepath, False, True, None, param_passwrod)
         xl_app.Visible = False
         df_sheet_list = []
         for sheet_name in param_sheet_names_list:
+            print(sheet_name)
             xl_sh = xl_wb.Worksheets(sheet_name)
     
         # Get last row    
@@ -114,6 +115,7 @@ try:
         
             content = xl_sh.Range(xl_sh.Cells(param_start_row_num, param_start_col_num), xl_sh.Cells(last_row, last_col)).Value
             df_sheet = pd.DataFrame(list(content[1:]), columns=content[0])
+            df_sheet = df_sheet[param_pos_cols_list]
             df_sheet_list.append(df_sheet)
         pos_df = pd.concat(df_sheet_list)
         return(pos_df)
@@ -209,7 +211,7 @@ try:
         param_timeout=RabbitMQ_parameters_for_ML2_to_publish_to_for_acknowledgement_dict.get('timeout'))
 
     Schonfeld_parameters_dict = parameters_dict.get("Schonfeld_parameters_dict")
-	
+
     Schonfeld_897_number_of_days_to_go_behind = Schonfeld_parameters_dict.get("Schonfeld_897_number_of_days_to_go_behind")
     Schonfeld_897_output_files_path_from_dict = str(os.getcwd()) + Schonfeld_parameters_dict.get(str(client) + '_' + str(setup_code) + '_output_folder_path')
     Schonfeld_897_position_file_path = Schonfeld_parameters_dict.get("Schonfeld_897_position_file_path")
@@ -220,6 +222,7 @@ try:
     Schonfeld_897_position_file_second_sheet_origin_row_number = Schonfeld_parameters_dict.get("Schonfeld_897_position_file_second_sheet_origin_row_number")
     Schonfeld_897_position_file_second_sheet_origin_col_number = Schonfeld_parameters_dict.get("Schonfeld_897_position_file_second_sheet_origin_col_number")
     Schonfeld_897_position_file_password = Schonfeld_parameters_dict.get("Schonfeld_897_position_file_password")
+    Schonfeld_897_position_file_columns_list = Schonfeld_parameters_dict.get("Schonfeld_897_position_file_columns_list")
 
     while_loop_iterator = 0
     outer_while_loop_iterator = 0
@@ -229,8 +232,8 @@ try:
         #      s2_out = subprocess.check_output([sys.executable, os.getcwd() + '\\ML2_RMQ_Receive_Production.py'])
         #    except Exception:
         #        data = None
-#        s2_out = sys.argv[1]
-        s2_out = '8971380232|Schonfeld Cash - 57|Cash|RecData_897|132120|Recon Run Completed|897|609a34b91e9c9c19c0cbc1e3'
+        s2_out = sys.argv[1]
+#        s2_out = '8971380232|Schonfeld Cash - 57|Cash|RecData_897|132120|Recon Run Completed|897|609a34b91e9c9c19c0cbc1e3'
         stout_list = s2_out.split("|")
         print(stout_list)
         if len(stout_list) > 1:
@@ -285,7 +288,7 @@ try:
                 Logger_obj.log_to_file(param_filename=log_filepath,
                        param_log_str='Log started for datettime = ' + str(current_date_and_time))
                 logging.basicConfig(filename=error_filepath, filemode='a')
-                sys.stdout = open(stdout_filepath, 'w')
+#                sys.stdout = open(stdout_filepath, 'w')
                 print('stdout started')
 
 
@@ -295,7 +298,23 @@ try:
 
                 ViteosQuery_obj = ViteosMongoDB_Query_Class(param_setup_code = setup_code, param_TaskID_server = db_for_reading_MEO_data, param_Meo_data_server = db_for_reading_MEO_data) 
 
-                query_1_for_MEO_data = db_for_reading_MEO_data['RecData_' + setup_code].find({ "LastPerformedAction": 31},data_projection_meo_columns)
+#                query_1_for_MEO_data = db_for_reading_MEO_data['RecData_' + setup_code].find({ "LastPerformedAction": 31},data_projection_meo_columns)
+                query_1_for_MEO_data = db_for_reading_MEO_data['RecData_' + setup_code].find({
+                    "LastPerformedAction": 31,
+                    "TaskInstanceID": int(TaskID_z),
+                    "MatchStatus": {"$nin": [1, 2, 18, 19, 20, 21]},
+                    "ViewData": {"$ne": None}
+                },
+                    {
+                        "DataSides": 1,
+                        "BreakID": 1,
+                        "LastPerformedAction": 1,
+                        "TaskInstanceID": 1,
+                        "SourceCombinationCode": 1,
+                        "MetaData": 1,
+                        "ViewData": 1
+                    })
+
                 list_of_dicts_query_result_1 = list(query_1_for_MEO_data)
     
                 if (len(list_of_dicts_query_result_1) != 0):
@@ -344,14 +363,45 @@ try:
                     
                     date_i = pd.to_datetime(pd.to_datetime(meo_df['ViewData.Task Business Date'])).dt.date.astype(str).mode()[0]
                     print(str(date_i))
-                    meo_appended_data = ViteosQuery_obj.get_past_n_days_meo_df(param_collection_to_get_taskid_from='Tasks',
-                                                                               param_number_of_days_to_go_behind = Schonfeld_897_number_of_days_to_go_behind,
-                                                                               param_str_date_in_ddmmyyyy_format=parser.parse(date_i).strftime("%d-%m-%Y"))
+#                    meo_appended_data = ViteosQuery_obj.get_past_n_days_meo_df(param_collection_to_get_taskid_from='Tasks',
+#                                                                               param_number_of_days_to_go_behind = Schonfeld_897_number_of_days_to_go_behind,
+#                                                                               param_str_date_in_ddmmyyyy_format=parser.parse(date_i).strftime("%d-%m-%Y"))
                     
+                    query_for_MEO_appended_data = db_for_reading_MEO_data['RecData_' + setup_code + '_Historic'].find({
+                        "ViewData": {"$ne": None},
+                         "ViewData.Business Date": { "$gte": (parser.parse(date_i) - timedelta(days=Schonfeld_897_number_of_days_to_go_behind)).strftime("%m-%d-%Y"), 
+                                                     "$lte": parser.parse(date_i).strftime("%m-%d-%Y")} 
+                        },
+                        {
+                            "DataSides": 1,
+                            "BreakID": 1,
+                            "LastPerformedAction": 1,
+                            "TaskInstanceID": 1,
+                            "SourceCombinationCode": 1,
+                            "MetaData": 1,
+                            "ViewData": 1
+                        })
+    
+                    list_of_dicts_query_result_MEO_appended_data = list(query_for_MEO_appended_data)
+
+                    if (len(list_of_dicts_query_result_MEO_appended_data) != 0):
+                        meo_appended_data = json_normalize(list_of_dicts_query_result_MEO_appended_data)
+                        meo_appended_data = meo_appended_data.loc[:, meo_appended_data.columns.str.startswith(('ViewData', '_createdAt'))]
+                        meo_appended_data['ViewData.Task Business Date'] = meo_appended_data['ViewData.Task Business Date'].apply(dt.datetime.isoformat)
+                        meo_appended_data.drop_duplicates(keep=False, inplace=True)
+                        meo_appended_data = normalize_bp_acct_col_names(fun_df=meo_appended_data)
+    
+                        # Change added on 14-12-2020 to remove records with multiple values of Side0 and Side1 UniqueIds for statuses like OB,UOB,SDB,CNF and CMF. Typically, these statuses should have single values in Side0 and Side1 UniqueIds. So records not following expected behviour are removed
+                        meo_appended_data['remove_or_keep_for_multiple_uniqueids_in_ob_issue'] = meo_appended_data.apply(lambda row: contains_multiple_values_in_either_Side_0_or_1_UniqueIds_for_expected_single_sided_status(row), axis=1, result_type="expand")
+                        meo_appended_data = meo_appended_data[~(meo_appended_data['remove_or_keep_for_multiple_uniqueids_in_ob_issue'] == 'remove')]
+                    else:
+                        meo_appended_data = pd.DataFrame()
+
+
                     days = meo_df['ViewData.Task Business Date'].value_counts().reset_index()
-                    date = list(days[days['ViewData.Task Business Date']>50]['index'])[0]
+                    date_gt_50 = list(days[days['ViewData.Task Business Date']>50]['index'])[0]
                     
-                    date_from_to_extract_dmy = pd.to_datetime(date)
+                    date_from_to_extract_dmy = pd.to_datetime(date_gt_50)
                     
                     day = date_from_to_extract_dmy.day
                     mon = date_from_to_extract_dmy.month
@@ -364,7 +414,8 @@ try:
                                                                                        param_passwrod = Schonfeld_897_position_file_password, 
                                                                                        param_sheet_names_list = [Schonfeld_897_position_file_first_sheet_name, Schonfeld_897_position_file_second_sheet_name], 
                                                                                        param_start_row_num = Schonfeld_897_position_file_first_sheet_origin_row_number, 
-                                                                                       param_start_col_num = Schonfeld_897_position_file_first_sheet_origin_col_number)
+                                                                                       param_start_col_num = Schonfeld_897_position_file_first_sheet_origin_col_number,
+																					   param_pos_cols_list = Schonfeld_897_position_file_columns_list)
 
                     os.chdir(Schonfeld_897_output_files_path_from_dict)
 
@@ -380,20 +431,20 @@ try:
                     recon_done_for_dates_folder_names = [name for name in os.listdir(".") if os.path.isdir(name)]
                     
                     def get_date_subfolder_suffix(param_date, param_subfolder_list):
-                    	greatest_element_number_suffix = 0
-                    	for element in param_subfolder_list:
-                    		if(param_date in element):
-                    			if(element.split('_')[-1].isnumeric() == True):
-                    				if(int(element.split('_')[-1]) > greatest_element_number_suffix):
-                    					greatest_element_number_suffix = int(element.split('_')[-1])
-                    				else:
-                    					greatest_element_number_suffix = greatest_element_number_suffix
-                    			else:
-                    				greatest_element_number_suffix = greatest_element_number_suffix
-                    		else:
-                    			greatest_element_number_suffix = greatest_element_number_suffix
-                    	
-                    	return(greatest_element_number_suffix + 1)
+                        greatest_element_number_suffix = 0
+                        for element in param_subfolder_list:
+                            if(param_date in element):
+                                if(element.split('_')[-1].isnumeric() == True):
+                                    if(int(element.split('_')[-1]) > greatest_element_number_suffix):
+                                        greatest_element_number_suffix = int(element.split('_')[-1])
+                                    else:
+                                        greatest_element_number_suffix = greatest_element_number_suffix
+                                else:
+                                    greatest_element_number_suffix = greatest_element_number_suffix
+                            else:
+                                greatest_element_number_suffix = greatest_element_number_suffix
+
+                        return(greatest_element_number_suffix + 1)
                     
                     suffix_for_BD_folder = get_date_subfolder_suffix(param_date = date_i, param_subfolder_list = recon_done_for_dates_folder_names)
                     base_dir = os.path.join(base_dir + '\\BD_of_' + str(date_i) + '_' + str(suffix_for_BD_folder))
@@ -450,62 +501,53 @@ try:
                     # Change made by Rohit as per Abhijeet on 07-04-2021. Position file was changed, and following columns were not found with this error : "['Local Price Diff', 'Price dif %', 'Custodian Account', 'Quantity Diff', 'Local MV Diff', 'Strategy'] not in index"
                     #Below table was given by Ronson after talking to User about column mappings
                     '''
-                    Column	           Status	        Changed Header	                 Moved to 
-                    Fund	           No Change	      NA	                         Column A
-                    Custodian Account  Header Changed	Geneva Account	                 Column B
-                    Investment ID	   No Change	      NA	                         Column I
-                    Strategy	       Header Changed	Geneva Strategy	                 Column H
-                    Security Type	   No Change	      NA	                         Column D
-                    Currency	       No Change	      NA	                         Column F
-                    Description	       No Change	      NA	                         Column J
-                    Quantity Diff	   Header Changed	SSA vs PB Qty Difference	     Column O
-                    Local Price Diff   Header Changed	SSA vs PB Price Difference	     Column Y
-                    Price dif %	       Column Removed	Column Removed	                 NA
-                    Local MV Diff	   Header Changed	SSA vs PB Local MV Difference	 Column AG
+                    Column             Status           Changed Header                   Moved to 
+                    Fund               No Change          NA                             Column A
+                    Custodian Account  Header Changed   Geneva Account                   Column B
+                    Investment ID      No Change          NA                             Column I
+                    Strategy           Header Changed   Geneva Strategy                  Column H
+                    Security Type      No Change          NA                             Column D
+                    Currency           No Change          NA                             Column F
+                    Description        No Change          NA                             Column J
+                    Quantity Diff      Header Changed   SSA vs PB Qty Difference         Column O
+                    Local Price Diff   Header Changed   SSA vs PB Price Difference       Column Y
+                    Price dif %        Column Removed   Column Removed                   NA
+                    Local MV Diff      Header Changed   SSA vs PB Local MV Difference    Column AG
                     '''
                     
-                    #Removed Strategy column as it was not used in code		
-                    #Removed Price dif % column as it was not used in code		
+                    #Removed Strategy column as it was not used in code     
+                    #Removed Price dif % column as it was not used in code      
                     
-                    pos = pos[['Fund',
-                    		    
-                    #		   'Custodian Account', -> changed to 'Geneva Account'
-                               'Geneva Account',
-                    		   
-                    		   'Investment ID',
-                    
-                    #           'Strategy', 
-                    
-                    		   'Security Type', 
-                    		   'Currency', 
-                    		   'Description', 
-                    
-                    #		   'Quantity Diff', -> changed to 'SSA vs PB Qty Difference'
-                    		   'SSA vs PB Qty Difference',
-                    		   
-                    #		   'Local Price Diff', -> changed to 'SSA vs PB Price Difference'
-                    		   'SSA vs PB Price Difference',
-                    		   
-                    #		   'Price dif %',
-                    
-                    #		   'Local MV Diff'-> changed to 'SSA vs PB Local MV Difference'
-                    		   'SSA vs PB Local MV Difference'
-                    		   
-                    		   ]]
-                    
+#                    pos = pos[['Fund',
+#                    #          'Custodian Account', -> changed to 'Geneva Account'
+#                               'Geneva Account',
+#                               'Investment ID',
+#                    #           'Strategy', 
+#                               'Security Type',
+#                               'Currency',
+#                               'Description',
+#                    #          'Quantity Diff', -> changed to 'SSA vs PB Qty Difference'
+#                               'SSA vs PB Qty Difference',
+#                    #          'Local Price Diff', -> changed to 'SSA vs PB Price Difference'
+#                               'SSA vs PB Price Difference',
+#                    #          'Price dif %',
+#                    #          'Local MV Diff'-> changed to 'SSA vs PB Local MV Difference'
+#                               'SSA vs PB Local MV Difference'
+#                               ]]
+                    pos = pos[Schonfeld_897_position_file_columns_list]                    
                     pos = pos.rename(columns = {'Geneva Account' : 'Custodian Account',
-                    							'SSA vs PB Qty Difference' : 'Quantity Diff',
-                    							'SSA vs PB Price Difference' : 'Local Price Diff', 
-                    							'SSA vs PB Local MV Difference' : 'Local MV Diff'
-                    							})
+                                                'SSA vs PB Qty Difference' : 'Quantity Diff',
+                                                'SSA vs PB Price Difference' : 'Local Price Diff',
+                                                'SSA vs PB Local MV Difference' : 'Local MV Diff'
+                                                })
                     
                     pos = pos.rename(columns = {'Description':'Pos_Desc',
-                    							'Security Type':'Pos_security',
-                    							
-                    #		   'Quantity Diff', -> changed to 'SSA vs PB Qty Difference'
-                    							'Quantity Diff':'pos_qnt_diff',
-                    							
-                    							'Investment ID':'Ticker'})
+                                                'Security Type':'Pos_security',
+
+                    #          'Quantity Diff', -> changed to 'SSA vs PB Qty Difference'
+                                                'Quantity Diff':'pos_qnt_diff',
+
+                                                'Investment ID':'Ticker'})
                     
                     pos = pos[~pos['Ticker'].isna()]
                     pos = pos[~pos['Ticker'].isnull()]
@@ -1081,7 +1123,8 @@ try:
                             com = 'MV Swing'
                             
                         return com
-                                
+                    df6.rename(columns = {'ViewData.B-P Net Amount':'ViewData.Cust Net Amount'}, inplace = True)            
+            
                     df6['predicted comment'] = df6.apply(lambda x : commentschon(x['pos_qnt_diff'],x['Local Price Diff'],x['ViewData.Accounting Net Amount'],x['ViewData.Cust Net Amount'],x['cash difference']),axis = 1)
                     
                     df6['predicted status'] = df6['ViewData.Status']
@@ -1419,8 +1462,31 @@ try:
                     print(setup_code)
                     print(date_i)
 
+                    Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='After inserting in db')
 
+                    print(setup_code)
+                    print(date_i)
+                    print('Following Task ID done')
+                    print(TaskID_z)
+                    Message_z = str(TaskID_z) + '|' + str(csc_z) + '|' + str(ReconPurpose_z) + '|' + str(
+                        collection_meo_z) + '|' + str(ProcessID_z) + '|' + 'SUCCESS' + '|' + str(
+                        Setup_Code_z) + '|' + str(MongoDB_TaskID_z)
+                    rb_mq_obj_new_for_publish.fun_publish_single_message(param_message_body=Message_z)
+                    print(Message_z)
+                    Logger_obj.log_to_file(param_filename=log_filepath, param_log_str=Message_z)
 
+                    outer_while_loop_iterator = outer_while_loop_iterator + 1
 except Exception as e:
     logging.error('Exception occured', exc_info=True)
+sys.stdout.close()
+
+
+
+
+
+
+
+
+
+
 

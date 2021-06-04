@@ -75,16 +75,17 @@
         "Oaktree_379_output_folder_path": "\\data\\Oaktree\\output_files"
     },
     "Schonfeld_parameters_dict": {
-		"Schonfeld_897_number_of_days_to_go_behind": 25
+		"Schonfeld_897_number_of_days_to_go_behind": 25,
         "Schonfeld_897_output_folder_path": "\\data\\Schonfeld\\output_files",
         "Schonfeld_897_position_file_path": "\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\Files and Rules for Lookup\\Rules delivery from Ronson\\Schonfeld\\Schonfeld ML final\\57 Position Recon\\",
         "Schonfeld_897_position_file_first_sheet_name": "FIFTY_SEVEN",
         "Schonfeld_897_position_file_second_sheet_name": "FIFTY_SEVENCAY",
-        "Schonfeld_897_position_file_first_sheet_origin_row_number": 3,
+        "Schonfeld_897_position_file_first_sheet_origin_row_number": 4,
         "Schonfeld_897_position_file_first_sheet_origin_col_number": 1,
-        "Schonfeld_897_position_file_second_sheet_origin_row_number": 3,
+        "Schonfeld_897_position_file_second_sheet_origin_row_number": 4,
         "Schonfeld_897_position_file_second_sheet_origin_col_number": 1,
-        "Schonfeld_897_position_file_password": "SSA2020"
+        "Schonfeld_897_position_file_password": "SSA2020",
+        "Schonfeld_897_position_file_columns_list": ["Fund","Geneva Account","Investment ID","Security Type","Currency","Description","SSA vs PB Qty Difference","SSA vs PB Price Difference","SSA vs PB Local MV Difference"]
                 
         
     }
