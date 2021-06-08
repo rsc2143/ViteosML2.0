@@ -288,7 +288,7 @@ try:
                 Logger_obj.log_to_file(param_filename=log_filepath,
                        param_log_str='Log started for datettime = ' + str(current_date_and_time))
                 logging.basicConfig(filename=error_filepath, filemode='a')
-#                sys.stdout = open(stdout_filepath, 'w')
+                sys.stdout = open(stdout_filepath, 'w')
                 print('stdout started')
 
 
@@ -333,6 +333,7 @@ try:
                 print('meo size')
                 print(meo_df.shape[0])
                 Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='meo created')
+                Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='meo rows = ' + str(meo_df.shape[0]))
 
                 if (meo_df.shape[0] == 0):
 
@@ -342,6 +343,7 @@ try:
                     print(Message_z)
                     print('meo has size = ' + str(meo_df.shape[0]) + ' therefore it failed')
                     Logger_obj.log_to_file(param_filename=log_filepath, param_log_str=Message_z)
+                    Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='meo has size = ' + str(meo_df.shape[0]) + ' therefore it failed')
 
                 #            meo_df_for_sending_message = meo_df[~meo_df['ViewData.Status'].isin(['SMT','HST', 'OC', 'CT', 'Archive','SMR'])]
                 elif (meo_df[~meo_df['ViewData.Status'].isin(['SMT', 'HST', 'OC', 'CT', 'Archive', 'SMR'])].shape[0] == 0):
@@ -349,8 +351,9 @@ try:
                     Message_z = str(TaskID_z) + '|' + csc_z + '|' + ReconPurpose_z + '|' + collection_meo_z + '|' + ProcessID_z + '|' + 'FAILURE' + '|' + Setup_Code_z + '|' + MongoDB_TaskID_z
                     rb_mq_obj_new_for_publish.fun_publish_single_message(param_message_body=Message_z)
                     print(Message_z)
-                    print('meo has size = ' + str(meo_df.shape[0]) + ' therefore it failed')
+                    print('meo has size = ' + str(meo_df.shape[0]) + ' but none of the statuses are for prediction.')
                     Logger_obj.log_to_file(param_filename=log_filepath, param_log_str=Message_z)
+                    Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='meo has size = ' + str(meo_df.shape[0]) + ' therefore it failed')
 
                 else:
                     Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='meo df is not empty, initiating calculations')
