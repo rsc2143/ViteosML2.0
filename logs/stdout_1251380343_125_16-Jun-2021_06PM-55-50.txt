@@ -1,0 +1,77 @@
+stdout started
+meo size
+688
+It took 0.03125 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  0.37558899999999973
+It took 2.39453125 Mb to execute this method
+The Date value count is:
+2021-06-09    687
+Name: Date, dtype: int64
+Choosing the date : 2021-06-09
+It took 0.01953125 Mb to execute this method
+It took 1.05078125 Mb to execute this method
+It took 0.3125 Mb to execute this method
+It took 0.00390625 Mb to execute this method
+cc7 shape is :
+(384, 68)
+It took 0.046875 Mb to execute this method
+(11, 24)
+(9, 24)
+Time for first apply =  0.002316300000000382
+Time for first apply =  0.0018618999999997499
+Time for second apply =  0.0017978000000002936
+It took 0.375 Mb to execute this method
+It took 0.14453125 Mb to execute this method
+It took -0.00390625 Mb to execute this method
+test_file shape is :
+(53, 79)
+It took 0.0625 Mb to execute this method
+It took 7.8828125 Mb to execute this method
+test_file3 shape is :
+(53, 115)
+It took 0.01171875 Mb to execute this method
+It took 18.05078125 Mb to execute this method
+two_step_initiated
+It took 7.1875 Mb to execute this method
+It took 0.08203125 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.0234375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.0 Mb to execute this method
+No One to Many found
+It took 0.00390625 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+It took 0.0 Mb to execute this method
+['6_1251380343_Advent Geneva' '5_1251380343_Advent Geneva']
+['2_1251380343_Advent Geneva' '1_1251380343_Advent Geneva']
+['10_1251380343_Advent Geneva' '9_1251380343_Advent Geneva']
+['33_1251380330_UBS', '34_1251380330_UBS']
+['35_1251380330_UBS', '36_1251380330_UBS']
+['27_1251380330_UBS', '28_1251380330_UBS']
+['9_1251380330_Advent Geneva', '10_1251380330_Advent Geneva']
+['1_1251380330_Advent Geneva', '2_1251380330_Advent Geneva']
+['5_1251380330_Advent Geneva', '6_1251380330_Advent Geneva']
+Time:  7.887512699999999
+v11_initiated
+125
+2021-06-09
+Following Task ID done
+1251380343
+1251380343|Weiss Advisors|Cash|RecData_125|132511|SUCCESS|125|60c9fbba1e9c9c1a608c39d7

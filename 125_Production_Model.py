@@ -914,6 +914,7 @@ try:
 
         # Decoding the output of rabbit MQ message
         s2_out = sys.argv[1]
+#        s2_out = '1251380325|Weiss Advisors|Cash|RecData_125|132120|Recon Run Completed|125|609a34b91e9c9c19c0cbc1e3'
 #        Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='s2_out created')
 #        Logger_obj.log_to_file(param_filename=log_filepath, param_log_str=str(s2_out))
         #    s2_stout=str(s2_out, 'utf-8')
@@ -2141,7 +2142,7 @@ try:
                         return(param_str_date[5:7] + '-' + param_str_date[8:10] + '-'+ param_str_date[0:4])
                         
                     def eq_swap_comment(filter_key,difference):
-                        comment = "Difference of " + str(np.round(difference,2)) + " in swap settlement of " + make_dd_mm_yyyy_from_string_date_format_yyyy_mm_dd(param_str_date = filter_key[-10:])
+                        comment = "Difference of " + str(np.round(difference,2)) + " in swap settlement of " + filter_key[-10:]
                         return comment
 
 
@@ -9075,17 +9076,20 @@ try:
 
                     def smb_comment(sd, pb, tt):
                         # sd = pd.datetime(sd)
+                        sd = str(sd)
+                        sd = sd[6:10] + '-' + sd[0:2] + '-' + sd[3:5]
+
                         tt = str(tt)
                         if tt.lower() == 'dividend':
-                            comment = 'Difference in DVD booked between' + ' ' + str(pb) + ' & Geneva on ' + str(sd)
+                            comment = 'Difference in DVD booked between' + ' ' + str(pb) + ' & Geneva on SD ' + str(sd)
                         elif tt.lower() == 'buy':
                             comment = 'Difference in fee and commision booked between' + ' ' + str(
-                                pb) + ' & Geneva on ' + str(sd)
+                                pb) + ' & Geneva on SD ' + str(sd)
                         elif tt.lower() == 'sell':
-                            comment = 'Difference in sell trade booked between' + ' ' + str(pb) + ' & Geneva on ' + str(
+                            comment = 'Difference in sell trade booked between' + ' ' + str(pb) + ' & Geneva on SD ' + str(
                                 sd)
                         else:
-                            comment = 'Difference in amount booked between' + ' ' + str(pb) + ' & Geneva on ' + str(sd)
+                            comment = 'Difference in amount booked between' + ' ' + str(pb) + ' & Geneva on SD ' + str(sd)
                         return comment
 
 
@@ -9178,18 +9182,20 @@ try:
                         tt = str(dummy0['ViewData.Transaction Type'].values[0])
                         pb = dummy1['ViewData.Prime Broker'].values[0]
                         sd = dummy1['ViewData.Settle Date'].values[0]
+                        sd = str(sd)
+                        sd = sd[6:10] + '-' + sd[0:2] + '-' + sd[3:5]
 
                         if tt.lower() == 'dividend':
-                            comment = 'Difference in DVD booked between' + ' ' + str(pb) + ' & Geneva on ' + str(sd)
+                            comment = 'Difference in DVD booked between' + ' ' + str(pb) + ' & Geneva on SD ' + str(sd)
                         elif tt.lower() == 'buy':
                             comment = 'Difference in fee and commision booked between' + ' ' + str(
-                                pb) + ' & Geneva on ' + str(sd)
+                                pb) + ' & Geneva on SD ' + str(sd)
                         elif tt.lower() == 'sell':
-                            comment = 'Difference in sell trade booked between' + ' ' + str(pb) + ' & Geneva on ' + str(sd)
+                            comment = 'Difference in sell trade booked between' + ' ' + str(pb) + ' & Geneva on SD ' + str(sd)
                         elif tt.lower() in ['transfer', 'eq swap', 'equity swap']:
-                            comment = 'Difference equity swap booked between' + ' ' + str(pb) + ' & Geneva on ' + str(sd)
+                            comment = 'Difference equity swap booked between' + ' ' + str(pb) + ' & Geneva on SD ' + str(sd)
                         else:
-                            comment = 'Difference in amount booked between' + ' ' + str(pb) + ' & Geneva on ' + str(sd)
+                            comment = 'Difference in amount booked between' + ' ' + str(pb) + ' & Geneva on SD ' + str(sd)
                         return comment
 
 

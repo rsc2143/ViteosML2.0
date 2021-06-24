@@ -1,0 +1,182 @@
+Pairing,var,Catogery,replace
+internal transfer,NANA,NANA,internal transfer
+Acquisition,NANA,Acquisition,Acquisition
+allocleg,NANA,allocleg,allocleg
+allocation,NANA,allocleg,allocleg
+Breaks cleared,NANA,Breaks cleared,Breaks cleared
+cancelled,NANA,Cancel Correct,cancelled
+dvd, cancel,Cancel Correct,dividend
+closed,NANA,closed,closed
+collateral transfer,NANA,Collateral,collateral transfer
+future collateral,NANA,Collateral,future collateral
+comm adj,NANA,Commission,commission
+fees, commission,Commission,fees
+option commission adjustment,NANA,Commission,commission
+CPN,NANA,CPN,interest
+CRI,NANA,CRI,credit
+CRM,NANA,CRM,CRM
+currency, local,Currency,currency
+cusip,NANA,cusip,cusip
+custodian,NANA,Custodian,Mapped Custodian Account
+Mapped Custodian Account,NANA,Custodian,Mapped Custodian Account
+Mapped Custodian Account,sd,Custodian,Mapped Custodian Account
+capital gain,NANA,Deposit,capital gain
+deposit,NANA,Deposit,deposit
+dividend journal,NANA,Dividend,dividend
+dvd,NANA,Dividend,dividend
+dvd journal,NANA,Dividend,dividend
+expenses,dvd,Dividend,expenses
+tax withheld,NANA,Dividend,tax withholding
+wht,NANA,Dividend,tax withholding
+borrow charges,,,borrow charge
+borrow chrg expenses,,,borrow charge
+borrow charge expenses,NANA,Expense,borrow charge
+ADR,NANA,Expense,ADR
+operating expenses,,,operating expenses
+Bilfee,NANA,Fees,fees
+clearing fee,NANA,Fees,clearing fee
+security lending fees,NANA,Fees,security lending fees
+stock loan,NANA,Fees,stock loan
+ticketfees,,,ticket fees
+ticket fees,NANA,Fees,ticket fees
+difference forward fx spot fx sst sd,NANA,FX,difference forward fx spot fx sst sd
+forward,NANA,FX,forward
+forward fx,NANA,FX,forward fx
+forwardfx,,,forward fx
+spotfx,,,spotfx
+spot fx,NANA,FX,spot fx
+holding adjustments,NANA,holding adjustments,holding adjustments
+credit interest,NANA,Interest,interest
+debit interest,NANA,Interest,interest
+interest,NANA,Interest,interest
+collateral transfer interest, collateral transfer,Interest,collateral transfer interest
+month end interest, month end,Interest,month end interest
+interest,otc,Interest,interest
+otc collateral interest,otc collateral,Interest,otc collateral interest
+non sec usd,NANA,non sec usd,non sec usd
+global payment,NANA,Payment,global payment
+redemption,NANA,redemption,redemption
+revenue,NANA,Revenue,revenue
+security income,NANA,Revenue,security income
+security,NANA,security,security
+stock,NANA,stock,stock
+Eq swap unwind,NANA,stock,Eq swap unwind
+swap performance,NANA,stock,swap performance
+swap reset,NANA,stock,swap reset
+swap fianancing,NANA,Swap Settlement,swap fianancing
+equity swap wht,NANA,Swap Settlement,equity swap wht
+swap settlement,NANA,Swap Settlement,equity swap settlement 
+buy trade,NANA,Trade,buy trade
+buy trade treasury amt,NANA,Trade,buy trade
+buy trade, no position break,Trade,buy trade
+buy trade,no position break,Trade,buy trade
+buy trade,price,Trade,buy trade
+Cover short,NANA,Trade,Cover short
+Covershort ,NANA,Trade,Cover short 
+Cover short, no position break,Trade,Cover short
+proceeds sell,NANA,Trade,proceeds sell
+purchase,NANA,Trade,purchase
+sell short,NANA,Trade,sell short
+Sell Short, no position break,Trade,sell short
+sell trade,NANA,Trade,sell trade
+sell trade treasury amt,NANA,Trade,sell trade
+sell trade,no position break,Trade,sell trade
+sell trade,price,Trade,sell trade
+cash adjustments,NANA,Wire Transfer,Wire Transfer
+cash lieu,NANA,Wire Transfer,Wire Transfer
+cash movement,NANA,Wire Transfer,Wire Transfer
+cash tender,NANA,Wire Transfer,Wire Transfer
+CKP,NANA,Wire Transfer,CKP
+CKR,NANA,Wire Transfer,CKR
+IPB journal,NANA,Wire Transfer,IPB journal
+journal,NANA,Wire Transfer,journal
+margin,NANA,Wire Transfer,margin
+money market movement,NANA,Wire Transfer,money market movement
+pb variation margin,NANA,Wire Transfer,pb variation margin
+spec journal,NANA,Wire Transfer,Wire Transfer
+transfer wire,NANA,Wire Transfer,Wire Transfer
+withdrawl,NANA,withdrawl,withdrawl
+Futures Collateral,NANA,Nana,Future Collateral
+Corporate Action,NANA,NANA,Corporate Action
+ticket charges,NANA,NANA,ticket fees
+transfer iwre,NANA,NANA,Wire Transfer
+income from securities,NANA,NANA,income from securities
+PTSL transaction,NANA,NANA,PTSL transaction
+allocation,NANA,NANA,allocleg
+dividend,,,dividend
+dividends,,,dividend
+transfer,NANA,NANA,Wire Transfer
+equity swap,NANA,NANA,equity swap settlement
+collateral cash,NANA,NANA,collateral transfer
+collateral,NANA,NANA,collateral transfer
+Future dated trade,NANA,NANA,Future dated trade
+Corp action,NANA,NANA,Corporate Action
+Follow up email,NANA,NANA,Follow up email
+Hedge roll over,NANA,NANA,Hedge roll over
+roll over,,,Hedge roll over
+Email sent,NANA,NANA,Follow up email
+Corporate,NANA,NANA,Corp 
+stk,NANA,NANA,Corp 
+inc,NANA,NANA,Corp 
+transfer,NANA,NANA,Wire Transfer
+adr,NANA,NANA,adr
+lp,NANA,NANA,company
+plc,NANA,NANA,company
+inc.,NANA,NANA,company
+inc,NANA,NANA,company
+swap,NANA,NANA,equity swap settlement
+future,NANA,NANA,future
+fut,NANA,NANA,future
+internal transfer,NANA,NANA,internal transfer
+loan,NANA,NANA,loan
+loan cash ,NANA,NANA,loan
+corp,NANA,NANA,company
+EQSWAP DIV CLIENT TAX,NANA,NANA,EQSWAP DIV CLIENT TAX
+swap unwind,NANA,NANA,swap unwind
+PB VARIATION MARGIN JOURNAL,NANA,NANA,variation margin
+LENDING FEE,NANA,NANA,LENDING FEE
+Securities lending rebate,NANA,NANA,Securities lending rebate
+Securities lendingrebate,NANA,NANA,Securities lending rebate
+transfer,NANA,NANA,Wire Transfer
+Cash and Equivalents,NANA,NANA,Wire Transfer
+interest payment,NANA,NANA,interest
+CFD,NANA,NANA,interest
+Interest rebate,NANA,NANA,interest
+Interest on credit balance,NANA,NANA,interest
+Interest on debit balance,NANA,NANA,interest
+Prime Broker Interest,NANA,NANA,interest
+call ,NANA,NANA,option
+put,NANA,NANA,option
+futr,NANA,NANA,future
+bond,NANA,NANA,bond
+forward,NANA,NANA,forward
+income earned for TIER 01 UNINVESTED AMNT,NANA,NANA,Revenue
+libor,NANA,NANA,interest
+term loan,NANA,NANA,term loan
+TL-FILO,NANA,NANA,TL-FILO
+144A,NANA,NANA,144A
+Sr Sec,NANA,NANA,Sr Sec
+Sr Unsec,NANA,NANA,Sr Unsec
+s unsec,,,Sr Unsec
+s sec,,,Sr Sec
+Lien,,,Loan
+callable,,,option
+cr_int,,,interest
+debit_interest,,,interest
+debit_int,,,interest
+000000000000STIF INVESTMENTS,,,stif
+co,,,company
+group,,,compnay
+grp,,,compnay
+holdings,,,compnay
+intl,,,compnay
+intl.,,,compnay
+third party fx sell,,,third party fx sell
+third party fx buy,,,third party fx buy
+escrow,,,escrow
+contra,,,contract
+contract,,,contract
+contract1,,,contract
+tl,,,term loan
+shares,,,compnay
+paydown,,,interest

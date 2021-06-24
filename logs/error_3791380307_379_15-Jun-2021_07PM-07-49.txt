@@ -1,0 +1,17 @@
+ERROR:pika.adapters.base_connection:Read empty data, calling disconnect
+ERROR:pika.connection:Connection closed while tuning the connection indicating a probable permission error when accessing a virtual host
+ERROR:pika.connection:Connection setup failed due to Client was disconnected at a connection stage indicating a probable denial of access to the specified virtual host: (-1, 'EOF')
+ERROR:pika.adapters.blocking_connection:Connection open failed - Client was disconnected at a connection stage indicating a probable denial of access to the specified virtual host: (-1, 'EOF')
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\379_Production_Model.py", line 1124, in <module>
+    rb_mq_obj_new_for_publish.fun_publish_single_message(param_message_body = Message_z)
+  File "D:\ViteosModel2.0\src\RabbitMQ_Production.py", line 58, in fun_publish_single_message
+    connection = pika.BlockingConnection(pika.connection.URLParameters(self.connection_string))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 377, in __init__
+    self._process_io_for_connection_setup()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 417, in _process_io_for_connection_setup
+    self._open_error_result.is_ready)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 469, in _flush_output
+    raise maybe_exception
+pika.exceptions.ProbableAccessDeniedError: (-1, 'EOF')

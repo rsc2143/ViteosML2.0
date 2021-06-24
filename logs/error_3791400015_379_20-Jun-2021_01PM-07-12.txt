@@ -1,0 +1,43 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2897, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas\_libs\index.pyx", line 107, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 131, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1607, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1614, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ViewData.Side1_UniqueIds'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 1069, in set
+    loc = self.items.get_loc(item)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2899, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas\_libs\index.pyx", line 107, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 131, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1607, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1614, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ViewData.Side1_UniqueIds'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\379_Production_Model.py", line 2209, in <module>
+    umb_subsum_df['ViewData.Side1_UniqueIds'] = np.array(one_id_new)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 3472, in __setitem__
+    self._set_item(key, value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 3550, in _set_item
+    NDFrame._set_item(self, key, value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3381, in _set_item
+    self._data.set(key, value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 1072, in set
+    self.insert(len(self.items), item, value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 1181, in insert
+    block = make_block(values=value, ndim=self.ndim, placement=slice(loc, loc + 1))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\blocks.py", line 3267, in make_block
+    return klass(values, ndim=ndim, placement=placement)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\blocks.py", line 128, in __init__
+    "{mgr}".format(val=len(self.values), mgr=len(self.mgr_locs))
+ValueError: Wrong number of items passed 0, placement implies 1

@@ -1,0 +1,36 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\pool.py", line 724, in receive_message
+    return receive_message(self, request_id, self.max_message_size)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\network.py", line 215, in receive_message
+    data = _receive_data_on_socket(sock_info, length - 16, deadline)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\network.py", line 287, in _receive_data_on_socket
+    chunk_length = sock_info.sock.recv_into(mv[bytes_read:])
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\125_Production_Model.py", line 1033, in <module>
+    list_of_dicts_query_result_1 = list(query_1_for_MEO_data)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\cursor.py", line 1207, in next
+    if len(self.__data) or self._refresh():
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\cursor.py", line 1144, in _refresh
+    self.__send_message(g)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\cursor.py", line 1001, in __send_message
+    address=self.__address)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 1372, in _run_operation_with_response
+    exhaust=exhaust)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 1471, in _retryable_read
+    return func(session, server, sock_info, slave_ok)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 1366, in _cmd
+    unpack_res)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\server.py", line 117, in run_operation_with_response
+    reply = sock_info.receive_message(request_id)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\pool.py", line 726, in receive_message
+    self._raise_connection_failure(error)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\pool.py", line 891, in _raise_connection_failure
+    _raise_connection_failure(self.address, error)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\pool.py", line 286, in _raise_connection_failure
+    raise AutoReconnect(msg)
+pymongo.errors.AutoReconnect: 10.1.79.212:27017: [WinError 10054] An existing connection was forcibly closed by the remote host

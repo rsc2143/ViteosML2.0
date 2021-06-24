@@ -1,0 +1,215 @@
+Pairing,var,Catogery,replace,Client
+Acquisition,NANA,Acquisition,Acquisition,Weiss
+allocleg,NANA,allocleg,allocleg,Weiss
+Breaks cleared,NANA,Breaks cleared,Breaks cleared,Weiss
+cancelled,NANA,Cancel Correct,cancelled,Weiss
+dvd, cancel,Cancel Correct,dividend,Weiss
+closed,NANA,closed,closed,Weiss
+collateral transfer,NANA,Collateral,collateral transfer,Weiss
+collateral transfer, cash,Collateral,collateral transfer,Weiss
+collateral transfer,cash,Collateral,collateral transfer,Weiss
+collateral transfer,future,Collateral,collateral transfer,Weiss
+future collateral,NANA,Collateral,future collateral,Weiss
+comm adj,NANA,Commission,comm adj,Weiss
+fees, commission,Commission,fees,Weiss
+option commission adjustment,NANA,Commission,options commission adjustment,Weiss
+Corp ,NANA,Corporate Action,Corp ,Weiss
+CPN,NANA,CPN,CPN,Weiss
+CRI,NANA,CRI,CRI,Weiss
+CRM,NANA,CRM,CRM,Weiss
+currency,NANA,Currency,currency,Weiss
+currency, local,Currency,currency,Weiss
+cusip,NANA,cusip,cusip,Weiss
+custodian,NANA,Custodian,Mapped Custodian Account,Weiss
+Mapped Custodian Account,NANA,Custodian,Mapped Custodian Account,Weiss
+Mapped Custodian Account,sd,Custodian,Mapped Custodian Account,Weiss
+capital gain,NANA,Deposit,capital gain,Weiss
+deposit,NANA,Deposit,deposit,Weiss
+dividend journal,NANA,Dividend,dividend,Weiss
+dvd,NANA,Dividend,dividend,Weiss
+dvd journal,NANA,Dividend,dividend,Weiss
+dvd, opposite sign,Dividend,dividend,Weiss
+dvd,currency,Dividend,dividend,Weiss
+tax withheld,NANA,Dividend,tax withheld,Weiss
+wht,NANA,Dividend,withholding tax,Weiss
+Bilfee,NANA,Fees,Billing charges,Weiss
+clearing fee,NANA,Fees,clearing fee,Weiss
+fees,NANA,Fees,fees,Weiss
+fees, SL,Fees,fees,Weiss
+security lending fees,NANA,Fees,security lending fees,Weiss
+stock loan,NANA,Fees,stock loan,Weiss
+ticket fees,NANA,Fees,ticket fees,Weiss
+money market fund,NANA,Fund,money market fund,Weiss
+difference forward fx spot fx sst sd,NANA,FX,difference forward fx spot fx sst sd,Weiss
+forward,NANA,FX,forward,Weiss
+forward fx,NANA,FX,forward fx,Weiss
+spot fx,NANA,FX,spot fx,Weiss
+holding adjustments,NANA,holding adjustments,holding adjustments,Weiss
+credit interest,NANA,Interest,interest,Weiss
+debit interest,NANA,Interest,interest,Weiss
+interest,NANA,Interest,interest,Weiss
+interest, collateral transfer,Interest,interest,Weiss
+interest, month end,Interest,interest,Weiss
+interest, pb,Interest,interest,Weiss
+interest,otc,Interest,interest,Weiss
+interest,otc collateral,Interest,interest,Weiss
+Investment id,NANA,Investment id,Investment id,Weiss
+non sec usd,NANA,non sec usd,non sec usd,Weiss
+global payment,NANA,Payment,global payment,Weiss
+redemption,NANA,redemption,redemption,Weiss
+revenue,NANA,Revenue,revenue,Weiss
+security income,NANA,Revenue,security income,Weiss
+security,NANA,security,security,Weiss
+stock,NANA,stock,stock,Weiss
+equity swap settlement,NANA,Swap Settlement,equity swap settlement,Weiss
+equity swap settlement ,NANA,Swap Settlement,equity swap settlement ,Weiss
+equity swap wht,NANA,Swap Settlement,equity swap wht,Weiss
+swap settlement,NANA,Swap Settlement,swap settlement,Weiss
+buy trade,NANA,Trade,buy trade,Weiss
+buy trade treasury amt,NANA,Trade,buy trade,Weiss
+buy trade, no position break,Trade,buy trade,Weiss
+buy trade,no position break,Trade,buy trade,Weiss
+buy trade,price,Trade,buy trade,Weiss
+Cover short,NANA,Trade,Cover short,Weiss
+Cover short ,NANA,Trade,Cover short ,Weiss
+Cover short, no position break,Trade,Cover short,Weiss
+proceeds sell,NANA,Trade,proceeds sell,Weiss
+purchase,NANA,Trade,purchase,Weiss
+sell short,NANA,Trade,sell short,Weiss
+Sell Short, no position break,Trade,sell short,Weiss
+sell trade,NANA,Trade,sell trade,Weiss
+sell trade treasury amt,NANA,Trade,sell trade,Weiss
+sell trade,no position break,Trade,sell trade,Weiss
+sell trade,price,Trade,sell trade,Weiss
+ttype,NANA,ttype,ttype,Weiss
+Unk,NANA,Unk,Unk,Weiss
+cash adjustments,NANA,Wire Transfer,Wire Transfer,Weiss
+cash lieu,NANA,Wire Transfer,Wire Transfer,Weiss
+cash movement,NANA,Wire Transfer,Wire Transfer,Weiss
+cash tender,NANA,Wire Transfer,Wire Transfer,Weiss
+CKP,NANA,Wire Transfer,CKP,Weiss
+CKR,NANA,Wire Transfer,CKR,Weiss
+IPB journal,NANA,Wire Transfer,IPB journal,Weiss
+journal,NANA,Wire Transfer,ME journal,Weiss
+money market movement,NANA,Wire Transfer,money market movement,Weiss
+pb variation margin,NANA,Wire Transfer,pb variation margin,Weiss
+spec journal,NANA,Wire Transfer,spec journal,Weiss
+transfer wire,NANA,Wire Transfer,Wire Transfer,Weiss
+withdrawl,NANA,withdrawl,withdrawl,Weiss
+Futures Collateral,NANA,Nana,Future Collateral,Weiss
+Corporate Action,NANA,NANA,Corporate Action,Weiss
+ticket charges,NANA,NANA,ticket fees,Weiss
+transfer iwre,NANA,NANA,Wire Transfer,Weiss
+income from securities,NANA,NANA,income from securities,Weiss
+PTSL transaction,NANA,NANA,PTSL transaction,Weiss
+allocation,NANA,NANA,allocleg,Weiss
+dividend,,,dividend,Weiss
+dividends,,,dividend,Weiss
+transfer,NANA,NANA,Wire Transfer,Weiss
+equity swap,NANA,NANA,equity swap settlement,Weiss
+collateral cash,NANA,NANA,collateral transfer,Weiss
+collateral,NANA,NANA,collateral transfer,Weiss
+Future dated trade,NANA,NANA,Future dated trade,Oaktree
+Corp action,NANA,NANA,Corporate Action,Oaktree
+Follow up email,NANA,NANA,Follow up email,Oaktree
+Hedge roll over,NANA,NANA,Hedge roll over,Oaktree
+Email sent,NANA,NANA,email sent,Oaktree
+Corporate,NANA,NANA,Corporate Action,Oaktree
+Internal transfer,NANA,NANA,Internal transfer,Oaktree
+cash activity,NANA,NANA,Wire Transfer,soros
+ROC,NANA,NANA,ROC,soros
+JSSC,NANA,NANA,JSSC,soros
+net cash,NANA,NANA,Wire Transfer,soros
+repo,NANA,NANA,interest,soros
+paydown,NANA,NANA,interest,soros
+F1SA,NANA,NANA,F1SA,soros
+Billing Charges,NANA,NANA,Bilfee,soros
+capital activity,NANA,NANA,capital activity,Oaktree
+break cleared,NANA,NANA,break cleared,Oaktree
+break will clear,NANA,NANA,break cleared,Oaktree
+will clear next run,NANA,NANA,break cleared,Oaktree
+Follow up email,NANA,NANA,email sent,Oaktree
+email sent,NANA,NANA,email sent,Oaktree
+full call,NANA,NANA,full call,Oaktree
+partial call,NANA,NANA,partial call,Oaktree
+corp. action,NANA,NANA,Corporate Action,Oaktree
+corp action,NANA,NANA,Corporate Action,Oaktree
+corp action team,NANA,NANA,corporate action team,Oaktree
+corp. action team,NANA,NANA,corporate action team,Oaktree
+corporate action team,NANA,NANA,corporate action team,Oaktree
+swap cash flow,NANA,NANA,swap cash flow,soros
+trade settlement,NANA,NANA,trade settlement,soros
+dvd reclassification,NANA,NANA,dvd reclassification,soros
+dvd reclass,NANA,NANA,dvd reclassification,soros
+Billing charges,NANA,NANA,Billing charges,soros
+reflect buy,NANA,NANA,buy trade,soros
+Principal transfer,NANA,NANA,Principal transfer,soros
+failed loan,NANA,NANA,failed loan,soros
+orf,NANA,NANA,orf fee,soros
+orf fees,NANA,NANA,orf fee,soros
+orf fee,NANA,NANA,orf fee,soros
+month end interest,NANA,NANA,monthend interest,soros
+monthend interest,NANA,NANA,monthend interest,soros
+monthly interest,NANA,NANA,monthend interest,soros
+ME journal,NANA,NANA,ME journal,Weiss
+futures margin transfer,NANA,NANA,futures margin transfer,
+futures margin,NANA,NANA,futures margin transfer,
+future margin,NANA,NANA,futures margin transfer,
+mail sent,NANA,NANA,email sent,Oaktree
+cancel/correct,NANA,NANA,cancel correct,Oaktree
+covershort, no position break,Trade,Cover short,Weiss
+upfront payment, no position break,Trade,upfront payment,Weiss
+the factor, no position break,Trade,the factor,Weiss
+wire,,,Wire Transfer,lombard
+swap reset,,,swap reset,lombard
+Initial Margin Maintenance,,,Initial Margin Maintenance,lombard
+Transaction Commission,,,Transaction Commission,lombard
+options commission adjustment,NANA,Commission,options commission adjustment,Weiss
+fx,,,forward fx,lombard
+mmf,,,mmf,lombard
+payments, no position break,Trade,wire transfer,Weiss
+fx settlement,,,fx settlement,lombard
+Funding fee,,,funding fee,lombard
+Fee and commisison adjustment,,,Fee and commisison adjustment,
+commission adjustment,NANA,Commission,comm adj,Weiss
+Fee and commisison adjustment,,,Fee and commisison adjustment,lombard
+NRA Withholding tax,,,NRA Withholding tax,lombard
+proceeds,,,proceeds sell,
+cash plug,,Wire Transfer,cash plug,lombard
+transfer pb futures,,Wire Transfer,transfer pb to futures,lombard
+transfer pb future,,Wire Transfer,transfer pb to futures,lombard
+plug in cash,,Wire Transfer,cash plug,lombard
+CFD payment,,Wire Transfer,CFD payment,lombard
+Transfer PB ISDA,,Wire Transfer,Transfer PB ISDA,lombard
+USD Cash Sweep,,Wire Transfer,USD Cash Sweep,lombard
+fractional cash,,Wire Transfer,fractional cash,lombard
+option cash dividend,,Wire Transfer,option cash dividend,lombard
+cfd interest payment,,interest,cfd interest payment,lombard
+repo financing interest,,interest,repo financing interest,lombard
+repo proceeds,,,repo proceeds,lombard
+repo proceed,,,repo proceeds,lombard
+financing interest,,,financing interest,lombard
+coupon interest,,,coupon interest,lombard
+collateral credit interest,,,collateral credit interest,lombard
+collateral debit interest,,,collateral debit interest,lombard
+transfer pb future collateral,,,transfer pb to futures,lombard
+swap settlement proceeds,,,swap settlement proceeds,lombard
+swap settlement proceed,,,swap settlement proceeds,lombard
+equity swap performance,,,equity swap performance,lombard
+equity swap dividend,,,equity swap dividend,lombard
+transfer pb fx,,,transfer pb fx,lombard
+credit event,,,credit event,lombard
+Miscellaneous,,,Miscellaneous,lombard
+otc tax,,,otc tax,lombard
+execution commission,,,execution commission,lombard
+subscription,,,subscription,lombard
+Maintenance Commission,,,Maintenance Commission,lombard
+client custom basket,,,client custom basket,lombard
+swap activity,,,swap activity,lombard
+coupon payment,,,coupon payment,lombard
+expense,,,expenses,lombard
+expenses,,,expenses,lombard
+security lending,,,security lending income expense,lombard
+securities lending,,,security lending income expense,lombard
+common expenses,,,common expenses,lombard
+common expense,,,common expenses,lombard

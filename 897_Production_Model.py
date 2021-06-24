@@ -232,8 +232,8 @@ try:
         #      s2_out = subprocess.check_output([sys.executable, os.getcwd() + '\\ML2_RMQ_Receive_Production.py'])
         #    except Exception:
         #        data = None
-#        s2_out = sys.argv[1]
-        s2_out = '8971380237|Schonfeld Cash - 57|Cash|RecData_897|132120|Recon Run Completed|897|609a34b91e9c9c19c0cbc1e3'
+        s2_out = sys.argv[1]
+#        s2_out = '8971380237|Schonfeld Cash - 57|Cash|RecData_897|132120|Recon Run Completed|897|609a34b91e9c9c19c0cbc1e3'
         stout_list = s2_out.split("|")
         print(stout_list)
         if len(stout_list) > 1:

@@ -1,0 +1,27 @@
+stdout started
+meo size
+50
+The Date value count is:
+2021-06-17    42
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\Oaktree\output_files
+Choosing the date : 2021-06-17
+['14_3791393743_Advent Geneva', '20_3791393743_Advent Geneva', '15_3791393743_Advent Geneva', '1_3791393743_Advent Geneva', '18_3791393743_Advent Geneva', '21_3791393743_Advent Geneva', '19_3791393743_Advent Geneva', '16_3791393743_Advent Geneva']
+['3_3791400017_HSBC', '1_3791400017_HSBC', '2_3791400017_HSBC', '5_3791395745_HSBC', '2_3791395745_HSBC', '1_3791395745_HSBC', '4_3791395745_HSBC', '3_3791395745_HSBC']
+(26, 74)
+(16, 74)
+8
+8
+(18, 74)
+(8, 74)
+['3_3791400017_HSBC', '1_3791400017_HSBC', '2_3791400017_HSBC', '5_3791395745_HSBC', '2_3791395745_HSBC', '1_3791395745_HSBC', '4_3791395745_HSBC', '3_3791395745_HSBC']
+['14_3791393743_Advent Geneva', '20_3791393743_Advent Geneva', '15_3791393743_Advent Geneva', '1_3791393743_Advent Geneva', '18_3791393743_Advent Geneva', '21_3791393743_Advent Geneva', '19_3791393743_Advent Geneva', '16_3791393743_Advent Geneva']
+No One to Many found
+No Many to One found
+No Many to One found
+(18, 67)
+(7, 67)
+379
+2021-06-17
+Following Task ID done
+3791400017

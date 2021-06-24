@@ -1,0 +1,22 @@
+{
+    "MongoDB_parameters_dict": {
+        "MongoDB_parameters_for_reading_data_from": {
+            "MONGO_HOST": "10.1.79.212",
+            "MONGO_PASSWORD": "",
+            "MONGO_PORT": 27017,
+            "MONGO_USERNAME": "",
+            "SSH_HOST": null,
+            "SSH_PASSWORD": null,
+            "SSH_PORT": null,
+            "SSH_USERNAME": null,
+            "db": "ReconDB",
+            "without_RabbitMQ_pipeline": true,
+            "without_ssh": true
+        }
+    },
+    "Oaktree_parameters_dict": {
+        "Oaktree_379_model_files_folder_path": "\\data\\model_files\\379",
+        "Oaktree_379_number_of_days_to_go_behind": 90
+    }
+    
+}

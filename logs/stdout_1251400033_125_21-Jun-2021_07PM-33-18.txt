@@ -1,0 +1,124 @@
+stdout started
+meo size
+823
+It took 0.2734375 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  2.0532623
+It took 2.828125 Mb to execute this method
+The Date value count is:
+2021-06-14    823
+Name: Date, dtype: int64
+Choosing the date : 2021-06-14
+It took 2.375 Mb to execute this method
+It took 1.1640625 Mb to execute this method
+It took 0.28515625 Mb to execute this method
+It took 0.10546875 Mb to execute this method
+cc7 shape is :
+(593, 68)
+It took 0.32421875 Mb to execute this method
+(3, 24)
+(3, 24)
+Time for first apply =  0.0021306000000000935
+Time for first apply =  0.001694700000000715
+Time for second apply =  0.001638699999999993
+It took 0.55078125 Mb to execute this method
+It took 1.7734375 Mb to execute this method
+It took 3.5625 Mb to execute this method
+test_file shape is :
+(3881, 79)
+It took 22.55078125 Mb to execute this method
+It took 15.40625 Mb to execute this method
+test_file3 shape is :
+(3881, 115)
+It took 4.3671875 Mb to execute this method
+It took 22.95703125 Mb to execute this method
+two_step_initiated
+It took 7.24609375 Mb to execute this method
+It took 2.80078125 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.484375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.04296875 Mb to execute this method
+It took 0.00390625 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+It took 0.0 Mb to execute this method
+['1262_1251400033_Morgan Stanley', '1263_1251400033_Morgan Stanley']
+['1344_1251400033_Morgan Stanley', '2498_1251400033_Morgan Stanley']
+['342_1251400033_Advent Geneva', '343_1251400033_Advent Geneva']
+['1162_1251400033_Advent Geneva', '1163_1251400033_Advent Geneva']
+['1016_1251400033_Morgan Stanley' '296_1251400033_Morgan Stanley'
+ '1021_1251400033_Morgan Stanley' '1022_1251400033_Morgan Stanley']
+Time:  13.250363
+v11_initiated
+1859746771
+1859746773
+1859746772, 1859748359, 1859748383, 1859748391
+125
+2021-06-14
+Following Task ID done
+1251400033
+1251400033|Weiss Advisors|Cash|RecData_125|132568|SUCCESS|125|60d09bb31e9c9c1a6094806f

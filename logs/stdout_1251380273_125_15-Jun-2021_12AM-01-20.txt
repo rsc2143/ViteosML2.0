@@ -1,0 +1,88 @@
+stdout started
+meo size
+319
+It took 0.0390625 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  0.2794608000000096
+It took 1.67578125 Mb to execute this method
+The Date value count is:
+2021-06-07    318
+Name: Date, dtype: int64
+Choosing the date : 2021-06-07
+It took 0.015625 Mb to execute this method
+It took 0.0625 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.00390625 Mb to execute this method
+cc7 shape is :
+(315, 68)
+It took 0.0 Mb to execute this method
+(3, 24)
+(3, 24)
+Time for first apply =  0.002135699999996632
+Time for first apply =  0.0016185000000064065
+Time for second apply =  0.001528500000006261
+It took 0.24609375 Mb to execute this method
+It took 0.2578125 Mb to execute this method
+It took 0.58984375 Mb to execute this method
+test_file shape is :
+(734, 79)
+It took 2.40625 Mb to execute this method
+It took 11.33984375 Mb to execute this method
+test_file3 shape is :
+(734, 115)
+It took 0.14453125 Mb to execute this method
+It took 22.5 Mb to execute this method
+two_step_initiated
+It took 6.47265625 Mb to execute this method
+It took 0.203125 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.08203125 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.00390625 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+No Many to One found
+No Many to One found
+It took 0.0 Mb to execute this method
+['3_1251380042_US BANK']
+['1_1251380236_US BANK']
+['1_1251380273_US BANK']
+['267_1251380042_Advent Geneva', '269_1251380042_Advent Geneva']
+['304_1251380236_Advent Geneva', '314_1251380236_Advent Geneva']
+['107_1251380273_Advent Geneva', '101_1251380273_Advent Geneva']
+['122_1251380273_US BANK' '121_1251380273_US BANK']
+['118_1251380236_US BANK' '119_1251380236_US BANK']
+['350_1251359759_US BANK' '265_1251380042_US BANK'
+ '272_1251380006_US BANK']
+Time:  91.8752109
+v11_initiated
+1859587621, 1859588279
+1859570361, 1859571027
+1949712989, 1859525461, 1859513711
+125
+2021-06-07
+Following Task ID done
+1251380273
+1251380273|Weiss Advisors|Cash|RecData_125|132461|SUCCESS|125|60c7a04d1e9c9c0488827152

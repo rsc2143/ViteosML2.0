@@ -1,0 +1,82 @@
+stdout started
+meo size
+780
+It took 0.4765625 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  0.5419789000000002
+It took 1.2421875 Mb to execute this method
+The Date value count is:
+2021-06-10    779
+Name: Date, dtype: int64
+Choosing the date : 2021-06-10
+It took 1.03125 Mb to execute this method
+It took 1.6640625 Mb to execute this method
+It took 0.02734375 Mb to execute this method
+It took 0.38671875 Mb to execute this method
+cc7 shape is :
+(438, 68)
+It took 0.0 Mb to execute this method
+(11, 24)
+(9, 24)
+Time for first apply =  0.0023069000000006668
+Time for first apply =  0.0018571999999998923
+Time for second apply =  0.0017887999999999238
+It took 0.328125 Mb to execute this method
+It took 0.1953125 Mb to execute this method
+It took 0.0 Mb to execute this method
+test_file shape is :
+(92, 79)
+It took 0.0625 Mb to execute this method
+It took 6.6015625 Mb to execute this method
+test_file3 shape is :
+(92, 115)
+It took 0.0078125 Mb to execute this method
+It took 20.17578125 Mb to execute this method
+two_step_initiated
+It took 6.7890625 Mb to execute this method
+It took 0.0859375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.05859375 Mb to execute this method
+It took 0.00390625 Mb to execute this method
+It took 0.0 Mb to execute this method
+No One to Many found
+It took 0.00390625 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+It took 0.0 Mb to execute this method
+['6_1251380353_Advent Geneva' '5_1251380353_Advent Geneva']
+['10_1251380343_Advent Geneva' '9_1251380343_Advent Geneva']
+['6_1251380343_Advent Geneva' '5_1251380343_Advent Geneva']
+['2_1251380353_Advent Geneva' '1_1251380353_Advent Geneva']
+['10_1251380353_Advent Geneva' '9_1251380353_Advent Geneva']
+['2_1251380343_Advent Geneva' '1_1251380343_Advent Geneva']
+['33_1251380330_UBS', '34_1251380330_UBS']
+['35_1251380330_UBS', '36_1251380330_UBS']
+['27_1251380330_UBS', '28_1251380330_UBS']
+['9_1251380330_Advent Geneva', '10_1251380330_Advent Geneva']
+['1_1251380330_Advent Geneva', '2_1251380330_Advent Geneva']
+['5_1251380330_Advent Geneva', '6_1251380330_Advent Geneva']
+Time:  9.0300697
+v11_initiated
+125
+2021-06-10
+Following Task ID done
+1251380353
+1251380353|Weiss Advisors|Cash|RecData_125|132520|SUCCESS|125|60c9fee01e9c9c1a608d3561

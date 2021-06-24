@@ -69,14 +69,14 @@
         }
     },
     "Lombard_parameters_dict": {
-        "Lombard_455_output_folder_path": "\\data\\Lombard\\output_files"
+        "Lombard_455_output_folder_path": "\\data\\output_files"
     },
     "Oaktree_parameters_dict": {
-        "Oaktree_379_output_folder_path": "\\data\\Oaktree\\output_files"
+        "Oaktree_379_output_folder_path": "\\data\\output_files"
     },
     "Schonfeld_parameters_dict": {
 		"Schonfeld_897_number_of_days_to_go_behind": 25,
-        "Schonfeld_897_output_folder_path": "\\data\\Schonfeld\\output_files",
+        "Schonfeld_897_output_folder_path": "\\data\\output_files",
         "Schonfeld_897_position_file_path": "\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\Files and Rules for Lookup\\Rules delivery from Ronson\\Schonfeld\\Schonfeld ML final\\57 Position Recon\\",
         "Schonfeld_897_position_file_first_sheet_name": "FIFTY_SEVEN",
         "Schonfeld_897_position_file_second_sheet_name": "FIFTY_SEVENCAY",
