@@ -1,0 +1,605 @@
+,Side0_UniqueIds,Side1_UniqueIds,BreakID,ViewData.Status,predicted status,predicted action,predicted category,predicted comment,custodian_val_to_use_comgen,first_non_null_breakid_in_breakid_columns
+0,,54_2491400029_Morgan Stanley,1859744607,OB,UCB,Close,Close,,Morgan Stanley,1859744607
+1,,22_2491430051_Morgan Stanley,1859897259,OB,UCB,Close,Close,,Morgan Stanley,1859897259
+2,,6_2491426016_Morgan Stanley,1859877462,OB,UCB,Close,Close,,Morgan Stanley,1859877462
+3,,22_2491430064_Morgan Stanley,1859905285,OB,UCB,Close,Close,,Morgan Stanley,1859905285
+4,,35_2491426016_Morgan Stanley,1859877466,OB,UCB,Close,Close,,Morgan Stanley,1859877466
+5,,17_2491430051_Morgan Stanley,1859897258,OB,UCB,Close,Close,,Morgan Stanley,1859897258
+6,,109_2491430084_Morgan Stanley,1859922613,OB,UCB,Close,Close,,Morgan Stanley,1859922613
+7,,18_2491430051_Morgan Stanley,1859897260,OB,UCB,Close,Close,,Morgan Stanley,1859897260
+8,,98_2491430084_Morgan Stanley,1859922610,OB,UCB,Close,Close,,Morgan Stanley,1859922610
+9,,23_2491430051_Morgan Stanley,1859897261,OB,UCB,Close,Close,,Morgan Stanley,1859897261
+10,,107_2491430084_Morgan Stanley,1859922667,OB,UCB,Close,Close,,Morgan Stanley,1859922667
+11,,10_2491426016_Morgan Stanley,1859877461,OB,UCB,Close,Close,,Morgan Stanley,1859877461
+12,,96_2491430084_Morgan Stanley,1859922663,OB,UCB,Close,Close,,Morgan Stanley,1859922663
+13,,39_2491426016_Morgan Stanley,1859877469,OB,UCB,Close,Close,,Morgan Stanley,1859877469
+14,,41_2491400071_Morgan Stanley,1859770878,OB,UCB,Close,Close,,Morgan Stanley,1859770878
+15,,20_2491430064_Morgan Stanley,1859905280,OB,UCB,Close,Close,,Morgan Stanley,1859905280
+16,,21_2491430051_Morgan Stanley,1859897256,OB,UCB,Close,Close,,Morgan Stanley,1859897256
+17,,43_2491426016_Morgan Stanley,1859877444,OB,UCB,Close,Close,,Morgan Stanley,1859877444
+18,,18_2491430064_Morgan Stanley,1859905286,OB,UCB,Close,Close,,Morgan Stanley,1859905286
+19,,25_2491430051_Morgan Stanley,1859897265,OB,UCB,Close,Close,,Morgan Stanley,1859897265
+20,,16_2491430051_Morgan Stanley,1859897251,OB,UCB,Close,Close,,Morgan Stanley,1859897251
+21,,14_2491426016_Morgan Stanley,1859877436,OB,UCB,Close,Close,,Morgan Stanley,1859877436
+22,,20_2491430051_Morgan Stanley,1859897264,OB,UCB,Close,Close,,Morgan Stanley,1859897264
+23,,51_2491400079_Morgan Stanley,1859772425,OB,UCB,Close,Close,,Morgan Stanley,1859772425
+24,,21_2491430064_Morgan Stanley,1859905283,OB,UCB,Close,Close,,Morgan Stanley,1859905283
+25,,23_2491430064_Morgan Stanley,1859905287,OB,UCB,Close,Close,,Morgan Stanley,1859905287
+26,,16_2491430064_Morgan Stanley,1859905281,OB,UCB,Close,Close,,Morgan Stanley,1859905281
+27,,51_2491400071_Morgan Stanley,1859770869,OB,UCB,Close,Close,,Morgan Stanley,1859770869
+28,,42_2491426016_Morgan Stanley,1859877426,OB,UCB,Close,Close,,Morgan Stanley,1859877426
+29,,25_2491430064_Morgan Stanley,1859905282,OB,UCB,Close,Close,,Morgan Stanley,1859905282
+30,,44_2491400071_Morgan Stanley,1859770888,OB,UCB,Close,Close,,Morgan Stanley,1859770888
+31,,44_2491400079_Morgan Stanley,1859772424,OB,UCB,Close,Close,,Morgan Stanley,1859772424
+32,,102_2491430084_Morgan Stanley,1859922603,OB,UCB,Close,Close,,Morgan Stanley,1859922603
+33,,13_2491426016_Morgan Stanley,1859877419,OB,UCB,Close,Close,,Morgan Stanley,1859877419
+34,,43_2491400079_Morgan Stanley,1859772417,OB,UCB,Close,Close,,Morgan Stanley,1859772417
+35,,5_2491426016_Morgan Stanley,1859877450,OB,UCB,Close,Close,,Morgan Stanley,1859877450
+36,,52_2491400079_Morgan Stanley,1859772432,OB,UCB,Close,Close,,Morgan Stanley,1859772432
+37,,43_2491400071_Morgan Stanley,1859770866,OB,UCB,Close,Close,,Morgan Stanley,1859770866
+38,,113_2491430084_Morgan Stanley,1859922606,OB,UCB,Close,Close,,Morgan Stanley,1859922606
+39,,52_2491400071_Morgan Stanley,1859770885,OB,UCB,Close,Close,,Morgan Stanley,1859770885
+40,,34_2491426016_Morgan Stanley,1859877457,OB,UCB,Close,Close,,Morgan Stanley,1859877457
+41,,31_2491426016_Morgan Stanley,1859877412,OB,UCB,Close,Close,,Morgan Stanley,1859877412
+42,,37_2491426016_Morgan Stanley,1859877445,OB,UCB,Close,Close,,Morgan Stanley,1859877445
+43,,97_2491430084_Morgan Stanley,1859922692,OB,UCB,Close,Close,,Morgan Stanley,1859922692
+44,,9_2491426016_Morgan Stanley,1859877449,OB,UCB,Close,Close,,Morgan Stanley,1859877449
+45,,2_2491426016_Morgan Stanley,1859877402,OB,UCB,Close,Close,,Morgan Stanley,1859877402
+46,,38_2491426016_Morgan Stanley,1859877456,OB,UCB,Close,Close,,Morgan Stanley,1859877456
+47,,8_2491426016_Morgan Stanley,1859877477,OB,UCB,Close,Close,,Morgan Stanley,1859877477
+48,,47_2491400079_Morgan Stanley,1859772412,OB,UCB,Close,Close,,Morgan Stanley,1859772412
+49,,108_2491430084_Morgan Stanley,1859922699,OB,UCB,Close,Close,,Morgan Stanley,1859922699
+50,,51_2491400029_Morgan Stanley,1859744604,OB,UCB,Close,Close,,Morgan Stanley,1859744604
+51,,43_2491400029_Morgan Stanley,1859744595,OB,UCB,Close,Close,,Morgan Stanley,1859744595
+52,,47_2491400071_Morgan Stanley,1859770877,OB,UCB,Close,Close,,Morgan Stanley,1859770877
+53,,101_2491430084_Morgan Stanley,1859922682,OB,UCB,Close,Close,,Morgan Stanley,1859922682
+54,,46_2491400079_Morgan Stanley,1859772430,OB,UCB,Close,Close,,Morgan Stanley,1859772430
+55,,55_2491400079_Morgan Stanley,1859772421,OB,UCB,Close,Close,,Morgan Stanley,1859772421
+56,,54_2491400071_Morgan Stanley,1859770871,OB,UCB,Close,Close,,Morgan Stanley,1859770871
+57,,112_2491430084_Morgan Stanley,1859922686,OB,UCB,Close,Close,,Morgan Stanley,1859922686
+58,,44_2491400029_Morgan Stanley,1859744615,OB,UCB,Close,Close,,Morgan Stanley,1859744615
+59,,46_2491400071_Morgan Stanley,1859770865,OB,UCB,Close,Close,,Morgan Stanley,1859770865
+60,,55_2491400071_Morgan Stanley,1859770884,OB,UCB,Close,Close,,Morgan Stanley,1859770884
+61,,54_2491400079_Morgan Stanley,1859772426,OB,UCB,Close,Close,,Morgan Stanley,1859772426
+62,,30_2491426016_Morgan Stanley,1859877393,OB,UCB,Close,Close,,Morgan Stanley,1859877393
+63,,105_2491430084_Morgan Stanley,1859922659,OB,UCB,Close,Close,,Morgan Stanley,1859922659
+64,,15_2491426016_Morgan Stanley,1859877451,OB,UCB,Close,Close,,Morgan Stanley,1859877451
+65,,44_2491426016_Morgan Stanley,1859877455,OB,UCB,Close,Close,,Morgan Stanley,1859877455
+66,,1_2491426016_Morgan Stanley,1859877382,OB,UCB,Close,Close,,Morgan Stanley,1859877382
+67,,52_2491400029_Morgan Stanley,1859744594,OB,UCB,Close,Close,,Morgan Stanley,1859744594
+68,,94_2491430084_Morgan Stanley,1859922655,OB,UCB,Close,Close,,Morgan Stanley,1859922655
+69,,42_2491400029_Morgan Stanley,1859744609,OB,UCB,Close,Close,,Morgan Stanley,1859744609
+70,,45_2491400029_Morgan Stanley,1859744605,OB,UCB,Close,Close,,Morgan Stanley,1859744605
+71,,50_2491400029_Morgan Stanley,1859744618,OB,UCB,Close,Close,,Morgan Stanley,1859744618
+72,,61_2491400029_Morgan Stanley,1859744622,OB,UCB,Close,Close,,Morgan Stanley,1859744622
+73,,11_2491426016_Morgan Stanley,1859877381,OB,UCB,Close,Close,,Morgan Stanley,1859877381
+74,,62_2491400029_Morgan Stanley,1859744624,OB,UCB,Close,Close,,Morgan Stanley,1859744624
+75,,53_2491400029_Morgan Stanley,1859744613,OB,UCB,Close,Close,,Morgan Stanley,1859744613
+76,,32_2491426016_Morgan Stanley,1859877425,OB,UCB,Close,Close,,Morgan Stanley,1859877425
+77,,110_2491430084_Morgan Stanley,1859922600,OB,UCB,Close,Close,,Morgan Stanley,1859922600
+78,,3_2491426016_Morgan Stanley,1859877421,OB,UCB,Close,Close,,Morgan Stanley,1859877421
+79,,40_2491426016_Morgan Stanley,1859877390,OB,UCB,Close,Close,,Morgan Stanley,1859877390
+80,,41_2491426016_Morgan Stanley,1859877410,OB,UCB,Close,Close,,Morgan Stanley,1859877410
+81,,12_2491426016_Morgan Stanley,1859877400,OB,UCB,Close,Close,,Morgan Stanley,1859877400
+82,,103_2491430084_Morgan Stanley,1859922632,OB,UCB,Close,Close,,Morgan Stanley,1859922632
+83,,36_2491426016_Morgan Stanley,1859877474,OB,UCB,Close,Close,,Morgan Stanley,1859877474
+84,,24_2491430064_Morgan Stanley,1859905275,OB,UCB,Close,Close,,Morgan Stanley,1859905275
+85,,7_2491426016_Morgan Stanley,1859877471,OB,UCB,Close,Close,,Morgan Stanley,1859877471
+86,,19_2491430064_Morgan Stanley,1859905269,OB,UCB,Close,Close,,Morgan Stanley,1859905269
+87,,33_2491426016_Morgan Stanley,1859877443,OB,UCB,Close,Close,,Morgan Stanley,1859877443
+88,,24_2491430051_Morgan Stanley,1859897263,OB,UCB,Close,Close,,Morgan Stanley,1859897263
+89,,19_2491430051_Morgan Stanley,1859897262,OB,UCB,Close,Close,,Morgan Stanley,1859897262
+90,,92_2491430084_Morgan Stanley,1859922629,OB,UCB,Close,Close,,Morgan Stanley,1859922629
+91,,4_2491426016_Morgan Stanley,1859877434,OB,UCB,Close,Close,,Morgan Stanley,1859877434
+92,,41_2491400079_Morgan Stanley,1859772422,OB,UCB,Close,Close,,Morgan Stanley,1859772422
+93,,104_2491430084_Morgan Stanley,1859922642,OB,UCB,Close,Close,,Morgan Stanley,1859922642
+94,,47_2491400029_Morgan Stanley,1859744616,OB,UCB,Close,Close,,Morgan Stanley,1859744616
+95,,49_2491400079_Morgan Stanley,1859772429,OB,UCB,Close,Close,,Morgan Stanley,1859772429
+96,,93_2491430084_Morgan Stanley,1859922634,OB,UCB,Close,Close,,Morgan Stanley,1859922634
+97,,49_2491400071_Morgan Stanley,1859770872,OB,UCB,Close,Close,,Morgan Stanley,1859770872
+98,,100_2491430084_Morgan Stanley,1859922619,OB,UCB,Close,Close,,Morgan Stanley,1859922619
+99,,106_2491430084_Morgan Stanley,1859922679,OB,UCB,Close,Close,,Morgan Stanley,1859922679
+100,,55_2491400029_Morgan Stanley,1859744600,OB,UCB,Close,Close,,Morgan Stanley,1859744600
+101,,111_2491430084_Morgan Stanley,1859922621,OB,UCB,Close,Close,,Morgan Stanley,1859922621
+102,,45_2491426016_Morgan Stanley,1859877467,OB,UCB,Close,Close,,Morgan Stanley,1859877467
+103,,95_2491430084_Morgan Stanley,1859922674,OB,UCB,Close,Close,,Morgan Stanley,1859922674
+104,,16_2491426016_Morgan Stanley,1859877463,OB,UCB,Close,Close,,Morgan Stanley,1859877463
+105,,53_2491400079_Morgan Stanley,1859772423,OB,UCB,Close,Close,,Morgan Stanley,1859772423
+106,,53_2491400071_Morgan Stanley,1859770883,OB,UCB,Close,Close,,Morgan Stanley,1859770883
+107,,45_2491400079_Morgan Stanley,1859772415,OB,UCB,Close,Close,,Morgan Stanley,1859772415
+108,,45_2491400071_Morgan Stanley,1859770879,OB,UCB,Close,Close,,Morgan Stanley,1859770879
+109,,67_2491400029_Morgan Stanley,1859744612,OB,UCB,Close,Close,,Morgan Stanley,1859744612
+110,,17_2491430064_Morgan Stanley,1859905284,OB,UCB,Close,Close,,Morgan Stanley,1859905284
+111,,69_2491400029_Morgan Stanley,1859744596,OB,UCB,Close,Close,,Morgan Stanley,1859744596
+112,,68_2491400029_Morgan Stanley,1859744591,OB,UCB,Close,Close,,Morgan Stanley,1859744591
+113,,70_2491400029_Morgan Stanley,1859744603,OB,UCB,Close,Close,,Morgan Stanley,1859744603
+114,,99_2491430084_Morgan Stanley,1859922706,OB,UCB,Close,Close,,Morgan Stanley,1859922706
+115,,17_2491430287_Morgan Stanley,1860075933,OB,UCB,Close,Close,,Morgan Stanley,1860075933
+116,,23_2491430287_Morgan Stanley,1860075937,OB,UCB,Close,Close,,Morgan Stanley,1860075937
+117,,57_2491400029_Morgan Stanley,1859744610,OB,UCB,Close,Close,,Morgan Stanley,1859744610
+118,,49_2491400029_Morgan Stanley,1859744599,OB,UCB,Close,Close,,Morgan Stanley,1859744599
+119,,42_2491400071_Morgan Stanley,1859770880,OB,UCB,Close,Close,,Morgan Stanley,1859770880
+120,,42_2491400079_Morgan Stanley,1859772434,OB,UCB,Close,Close,,Morgan Stanley,1859772434
+121,,50_2491400079_Morgan Stanley,1859772409,OB,UCB,Close,Close,,Morgan Stanley,1859772409
+122,,50_2491400071_Morgan Stanley,1859770882,OB,UCB,Close,Close,,Morgan Stanley,1859770882
+123,,56_2491400029_Morgan Stanley,1859744617,OB,UCB,Close,Close,,Morgan Stanley,1859744617
+124,,48_2491400029_Morgan Stanley,1859744608,OB,UCB,Close,Close,,Morgan Stanley,1859744608
+125,,56_2491400071_Morgan Stanley,1859770890,OB,UCB,Close,Close,,Morgan Stanley,1859770890
+126,,48_2491400079_Morgan Stanley,1859772428,OB,UCB,Close,Close,,Morgan Stanley,1859772428
+127,,48_2491400071_Morgan Stanley,1859770887,OB,UCB,Close,Close,,Morgan Stanley,1859770887
+128,,56_2491400079_Morgan Stanley,1859772433,OB,UCB,Close,Close,,Morgan Stanley,1859772433
+129,,46_2491400029_Morgan Stanley,1859744597,OB,UCB,Close,Close,,Morgan Stanley,1859744597
+130,,13_2491430287_Morgan Stanley,1860075946,OB,UCB,Close,Close,,Morgan Stanley,1860075946
+131,,19_2491430287_Morgan Stanley,1860075947,OB,UCB,Close,Close,,Morgan Stanley,1860075947
+132,,15_2491430287_Morgan Stanley,1860075948,OB,UCB,Close,Close,,Morgan Stanley,1860075948
+133,,21_2491430287_Morgan Stanley,1860075949,OB,UCB,Close,Close,,Morgan Stanley,1860075949
+134,,14_2491430287_Morgan Stanley,1860075950,OB,UCB,Close,Close,,Morgan Stanley,1860075950
+135,,20_2491430287_Morgan Stanley,1860075951,OB,UCB,Close,Close,,Morgan Stanley,1860075951
+136,,16_2491430287_Morgan Stanley,1860075952,OB,UCB,Close,Close,,Morgan Stanley,1860075952
+137,,22_2491430287_Morgan Stanley,1860075953,OB,UCB,Close,Close,,Morgan Stanley,1860075953
+138,,18_2491430287_Morgan Stanley,1860075954,OB,UCB,Close,Close,,Morgan Stanley,1860075954
+139,,24_2491430287_Morgan Stanley,1860075955,OB,UCB,Close,Close,,Morgan Stanley,1860075955
+140,"46_2491430287_Integrata,47_2491430287_Integrata","3_2491430287_Morgan Stanley,4_2491430287_Morgan Stanley,5_2491430287_Morgan Stanley,6_2491430287_Morgan Stanley,7_2491430287_Morgan Stanley,8_2491430287_Morgan Stanley","1860075921,1860075922,1860075929,1860075928,1860075935,1860075938,1860075940,1860075942","['OB', 'OB', 'OB', 'OB', 'OB', 'OB', 'OB', 'OB']",UMR,UMR,match,match,Morgan Stanley,1860075921
+141,"11_2491430064_Integrata,11_2491430051_Integrata",9_2491430084_Morgan Stanley,"1860075844,1860075848,1860075849","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075844
+142,"14_2491430064_Integrata,14_2491430051_Integrata",30_2491430084_Morgan Stanley,"1860075874,1860075876,1860075877","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075874
+143,"13_2491430051_Integrata,13_2491430064_Integrata",14_2491430084_Morgan Stanley,"1860075770,1860075772,1860075771","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075770
+144,"15_2491430064_Integrata,15_2491430051_Integrata",19_2491430084_Morgan Stanley,"1860075804,1860075808,1860075809","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075804
+145,"16_2491430051_Integrata,16_2491430064_Integrata",34_2491430084_Morgan Stanley,"1860075810,1860075815,1860075814","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075810
+146,"22_2491430064_Integrata,22_2491430051_Integrata",29_2491430084_Morgan Stanley,"1860075861,1860075863,1860075865","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075861
+147,"23_2491430064_Integrata,23_2491430051_Integrata",26_2491430084_Morgan Stanley,"1860075775,1860075777,1860075779","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075775
+148,"24_2491430051_Integrata,24_2491430064_Integrata",32_2491430084_Morgan Stanley,"1860075789,1860075791,1860075792","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075789
+149,"25_2491430051_Integrata,25_2491430064_Integrata",38_2491430084_Morgan Stanley,"1860075774,1860075778,1860075776","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075774
+150,"26_2491430064_Integrata,26_2491430051_Integrata",17_2491430084_Morgan Stanley,"1860075782,1860075786,1860075787","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075782
+151,"27_2491430064_Integrata,27_2491430051_Integrata",16_2491430084_Morgan Stanley,"1860075914,1860075915,1860075916","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075914
+152,"29_2491430064_Integrata,29_2491430051_Integrata",3_2491430084_Morgan Stanley,"1860075889,1860075893,1860075896","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075889
+153,"30_2491430051_Integrata,30_2491430064_Integrata",27_2491430084_Morgan Stanley,"1860075894,1860075899,1860075900","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075894
+154,"31_2491430051_Integrata,31_2491430064_Integrata",24_2491430084_Morgan Stanley,"1860075813,1860075817,1860075816","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075813
+155,"32_2491430064_Integrata,32_2491430051_Integrata",1_2491430084_Morgan Stanley,"1860075880,1860075883,1860075884","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075880
+156,"33_2491430064_Integrata,33_2491430051_Integrata",7_2491430084_Morgan Stanley,"1860075807,1860075811,1860075812","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075807
+157,"34_2491430064_Integrata,34_2491430051_Integrata",23_2491430084_Morgan Stanley,"1860075826,1860075828,1860075830","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075826
+158,"38_2491430064_Integrata,38_2491430051_Integrata",33_2491430084_Morgan Stanley,"1860075841,1860075845,1860075847","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075841
+159,"39_2491430064_Integrata,39_2491430051_Integrata",13_2491430084_Morgan Stanley,"1860075869,1860075873,1860075871","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075869
+160,"40_2491430064_Integrata,40_2491430051_Integrata",12_2491430084_Morgan Stanley,"1860075795,1860075805,1860075798","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075795
+161,"41_2491430064_Integrata,41_2491430051_Integrata",36_2491430084_Morgan Stanley,"1860075773,1860075783,1860075793","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075773
+162,"42_2491430064_Integrata,42_2491430051_Integrata",35_2491430084_Morgan Stanley,"1860075879,1860075881,1860075882","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075879
+163,"43_2491430051_Integrata,43_2491430064_Integrata",39_2491430084_Morgan Stanley,"1860075832,1860075836,1860075837","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075832
+164,"44_2491430064_Integrata,44_2491430051_Integrata",40_2491430084_Morgan Stanley,"1860075903,1860075906,1860075905","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075903
+165,"45_2491430051_Integrata,45_2491430064_Integrata",18_2491430084_Morgan Stanley,"1860075823,1860075824,1860075825","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075823
+166,"46_2491430051_Integrata,46_2491430064_Integrata",21_2491430084_Morgan Stanley,"1860075904,1860075907,1860075908","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075904
+167,"48_2491430051_Integrata,48_2491430064_Integrata",15_2491430084_Morgan Stanley,"1860075898,1860075902,1860075901","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075898
+168,"50_2491430064_Integrata,50_2491430051_Integrata",37_2491430084_Morgan Stanley,"1860075850,1860075851,1860075852","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075850
+169,"51_2491430064_Integrata,51_2491430051_Integrata",5_2491430084_Morgan Stanley,"1860075829,1860075833,1860075835","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075829
+170,"52_2491430064_Integrata,52_2491430051_Integrata",20_2491430084_Morgan Stanley,"1860075853,1860075857,1860075858","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075853
+171,"53_2491430064_Integrata,53_2491430051_Integrata",22_2491430084_Morgan Stanley,"1860075888,1860075891,1860075892","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075888
+172,"54_2491430051_Integrata,54_2491430064_Integrata",4_2491430084_Morgan Stanley,"1860075855,1860075862,1860075860","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075855
+173,"55_2491430064_Integrata,55_2491430051_Integrata",2_2491430084_Morgan Stanley,"1860075794,1860075796,1860075806","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075794
+174,"57_2491430064_Integrata,57_2491430051_Integrata",8_2491430084_Morgan Stanley,"1860075800,1860075803,1860075802","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075800
+175,"58_2491430051_Integrata,58_2491430064_Integrata",6_2491430084_Morgan Stanley,"1860075864,1860075868,1860075867","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075864
+176,"59_2491430051_Integrata,59_2491430064_Integrata",28_2491430084_Morgan Stanley,"1860075780,1860075785,1860075784","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075780
+177,"60_2491430051_Integrata,60_2491430064_Integrata",10_2491430084_Morgan Stanley,"1860075890,1860075895,1860075897","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075890
+178,"61_2491430051_Integrata,61_2491430064_Integrata",25_2491430084_Morgan Stanley,"1860075918,1860075919,1860075920","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075918
+179,"62_2491430064_Integrata,62_2491430051_Integrata",31_2491430084_Morgan Stanley,"1860075910,1860075911,1860075912","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075910
+180,"63_2491430051_Integrata,63_2491430064_Integrata",11_2491430084_Morgan Stanley,"1860075838,1860075842,1860075846","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,Morgan Stanley,1860075838
+181,,65_2491400029_Morgan Stanley,1859744620,OB,UCB,Close,Close,,Morgan Stanley,1859744620
+182,,66_2491400029_Morgan Stanley,1859744621,OB,UCB,Close,Close,,Morgan Stanley,1859744621
+183,2_2491400029_Integrata,,1859744592,OB,OB,No-pair,dividend,Integrata booked the dividend transaction for SD 05-10-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859744592
+184,4_2491430084_Integrata,,1859922598,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-25-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859922598
+185,1_2491400029_Integrata,,1859744601,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 05-17-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859744601
+186,6_2491400029_Integrata,,1859744593,OB,OB,No-pair,dividend,Integrata booked the dividend transaction for SD 06-14-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859744593
+187,3_2491430084_Integrata,,1859922650,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-24-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859922650
+188,6_2491430084_Integrata,,1859922599,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-29-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859922599
+189,5_2491430084_Integrata,,1859922704,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-28-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859922704
+190,,58_2491400071_Morgan Stanley,1859770873,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 06-21-2021. Integrata yet to book.,Morgan Stanley ,1859770873
+191,,90_2491430084_Morgan Stanley,1859922614,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-14-2021. Integrata yet to book.,Morgan Stanley ,1859922614
+192,,58_2491400079_Morgan Stanley,1859772420,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 06-21-2021. Integrata yet to book.,Morgan Stanley ,1859772420
+193,,67_2491426016_Morgan Stanley,1859877389,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877389
+194,,27_2491430064_Morgan Stanley,1859905273,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-13-2021. Integrata yet to book.,Morgan Stanley ,1859905273
+195,,14_2491430064_Morgan Stanley,1859905270,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-13-2021. Integrata yet to book.,Morgan Stanley ,1859905270
+196,,61_2491426016_Morgan Stanley,1859877413,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877413
+197,,38_2491400029_Morgan Stanley,1859744598,OB,OB,No-pair,wire,Morgan Stanley  booked the wire transaction for SD 06-14-2021. Integrata yet to book.,Morgan Stanley ,1859744598
+198,,14_2491430051_Morgan Stanley,1859897252,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-13-2021. Integrata yet to book.,Morgan Stanley ,1859897252
+199,,27_2491430051_Morgan Stanley,1859897249,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-13-2021. Integrata yet to book.,Morgan Stanley ,1859897249
+200,,64_2491426016_Morgan Stanley,1859877380,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877380
+201,,115_2491430084_Morgan Stanley,1859922669,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-14-2021. Integrata yet to book.,Morgan Stanley ,1859922669
+202,,91_2491430084_Morgan Stanley,1859922622,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-14-2021. Integrata yet to book.,Morgan Stanley ,1859922622
+203,,64_2491400029_Morgan Stanley,1859744625,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 06-14-2021. Integrata yet to book.,Morgan Stanley ,1859744625
+204,,24_2491426016_Morgan Stanley,1859877472,OB,OB,No-pair,wire,Morgan Stanley  booked the wire transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877472
+205,,108_2491426016_Morgan Stanley,1859877395,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877395
+206,,89_2491430084_Morgan Stanley,1859922647,OB,OB,No-pair,wire,Morgan Stanley  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,Morgan Stanley ,1859922647
+207,,58_2491400029_Morgan Stanley,1859744623,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 06-14-2021. Integrata yet to book.,Morgan Stanley ,1859744623
+208,,121_2491430084_Morgan Stanley,1859922675,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-14-2021. Integrata yet to book.,Morgan Stanley ,1859922675
+209,,27_2491426016_Morgan Stanley,1859877476,OB,OB,No-pair,wire,Morgan Stanley  booked the wire transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877476
+210,,70_2491426016_Morgan Stanley,1859877423,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877423
+211,,38_2491400079_Morgan Stanley,1859772418,OB,OB,No-pair,wire,Morgan Stanley  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,Morgan Stanley ,1859772418
+212,,73_2491426016_Morgan Stanley,1859877441,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877441
+213,,38_2491400071_Morgan Stanley,1859770870,OB,OB,No-pair,wire,Morgan Stanley  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,Morgan Stanley ,1859770870
+214,,72_2491426016_Morgan Stanley,1859877440,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877440
+215,,59_2491426016_Morgan Stanley,1859877428,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877428
+216,,60_2491426016_Morgan Stanley,1859877414,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877414
+217,,53_2491426016_Morgan Stanley,1859877405,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877405
+218,,77_2491426016_Morgan Stanley,1859877439,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877439
+219,,75_2491426016_Morgan Stanley,1859877431,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877431
+220,,87_2491430084_Morgan Stanley,1859922608,OB,OB,No-pair,wire,Morgan Stanley  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,Morgan Stanley ,1859922608
+221,,98_2491426016_Morgan Stanley,1859877479,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877479
+222,,104_2491426016_Morgan Stanley,1859877427,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877427
+223,,79_2491426016_Morgan Stanley,1859877384,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877384
+224,,59_2491400029_Morgan Stanley,1859744626,OB,OB,No-pair,transfer pb isda,Morgan Stanley  booked the transfer pb isda transaction for SD 06-14-2021. Integrata yet to book.,Morgan Stanley ,1859744626
+225,,85_2491426016_Morgan Stanley,1859877458,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877458
+226,,32_2491430051_Morgan Stanley,1859897250,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-13-2021. Integrata yet to book.,Morgan Stanley ,1859897250
+227,,103_2491426016_Morgan Stanley,1859877475,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877475
+228,,90_2491426016_Morgan Stanley,1859877420,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877420
+229,,32_2491430064_Morgan Stanley,1859905279,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-13-2021. Integrata yet to book.,Morgan Stanley ,1859905279
+230,,81_2491426016_Morgan Stanley,1859877415,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877415
+231,,80_2491426016_Morgan Stanley,1859877399,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877399
+232,,100_2491426016_Morgan Stanley,1859877435,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877435
+233,,94_2491426016_Morgan Stanley,1859877464,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877464
+234,,84_2491426016_Morgan Stanley,1859877446,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877446
+235,,99_2491426016_Morgan Stanley,1859877480,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877480
+236,,83_2491426016_Morgan Stanley,1859877429,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877429
+237,,28_2491426016_Morgan Stanley,1859877383,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877383
+238,,102_2491426016_Morgan Stanley,1859877454,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877454
+239,,92_2491426016_Morgan Stanley,1859877437,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877437
+240,,61_2491400071_Morgan Stanley,1859770864,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 06-21-2021. Integrata yet to book.,Morgan Stanley ,1859770864
+241,,37_2491400071_Morgan Stanley,1859770867,OB,OB,No-pair,wire,Morgan Stanley  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,Morgan Stanley ,1859770867
+242,,37_2491400079_Morgan Stanley,1859772410,OB,OB,No-pair,wire,Morgan Stanley  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,Morgan Stanley ,1859772410
+243,,95_2491426016_Morgan Stanley,1859877442,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877442
+244,,97_2491426016_Morgan Stanley,1859877478,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877478
+245,,59_2491400079_Morgan Stanley,1859772431,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 06-21-2021. Integrata yet to book.,Morgan Stanley ,1859772431
+246,,39_2491400029_Morgan Stanley,1859744611,OB,OB,No-pair,wire,Morgan Stanley  booked the wire transaction for SD 06-14-2021. Integrata yet to book.,Morgan Stanley ,1859744611
+247,,59_2491400071_Morgan Stanley,1859770886,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 06-21-2021. Integrata yet to book.,Morgan Stanley ,1859770886
+248,,96_2491426016_Morgan Stanley,1859877473,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877473
+249,,13_2491430064_Morgan Stanley,1859905268,OB,OB,No-pair,wire,Morgan Stanley  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,Morgan Stanley ,1859905268
+250,,88_2491426016_Morgan Stanley,1859877407,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877407
+251,,110_2491426016_Morgan Stanley,1859877396,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877396
+252,,13_2491430051_Morgan Stanley,1859897247,OB,OB,No-pair,wire,Morgan Stanley  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,Morgan Stanley ,1859897247
+253,,101_2491426016_Morgan Stanley,1859877448,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877448
+254,,78_2491426016_Morgan Stanley,1859877388,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877388
+255,,87_2491426016_Morgan Stanley,1859877391,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877391
+256,,88_2491430084_Morgan Stanley,1859922676,OB,OB,No-pair,wire,Morgan Stanley  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,Morgan Stanley ,1859922676
+257,,89_2491426016_Morgan Stanley,1859877424,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877424
+258,,82_2491426016_Morgan Stanley,1859877433,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877433
+259,,93_2491426016_Morgan Stanley,1859877452,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877452
+260,,86_2491426016_Morgan Stanley,1859877468,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877468
+261,,117_2491430084_Morgan Stanley,1859922652,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-14-2021. Integrata yet to book.,Morgan Stanley ,1859922652
+262,,106_2491426016_Morgan Stanley,1859877470,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877470
+263,,48_2491426016_Morgan Stanley,1859877406,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877406
+264,,91_2491426016_Morgan Stanley,1859877460,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877460
+265,,46_2491426016_Morgan Stanley,1859877387,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877387
+266,,118_2491430084_Morgan Stanley,1859922631,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-14-2021. Integrata yet to book.,Morgan Stanley ,1859922631
+267,,105_2491426016_Morgan Stanley,1859877465,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877465
+268,,50_2491426016_Morgan Stanley,1859877416,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877416
+269,,120_2491430084_Morgan Stanley,1859922654,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-13-2021. Integrata yet to book.,Morgan Stanley ,1859922654
+270,,63_2491400029_Morgan Stanley,1859744614,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 06-14-2021. Integrata yet to book.,Morgan Stanley ,1859744614
+271,,123_2491430084_Morgan Stanley,1859922705,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-14-2021. Integrata yet to book.,Morgan Stanley ,1859922705
+272,,62_2491400071_Morgan Stanley,1859770868,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 06-21-2021. Integrata yet to book.,Morgan Stanley ,1859770868
+273,,62_2491400079_Morgan Stanley,1859772408,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 06-21-2021. Integrata yet to book.,Morgan Stanley ,1859772408
+274,,49_2491426016_Morgan Stanley,1859877398,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877398
+275,,57_2491400079_Morgan Stanley,1859772414,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 06-21-2021. Integrata yet to book.,Morgan Stanley ,1859772414
+276,,57_2491400071_Morgan Stanley,1859770881,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 06-21-2021. Integrata yet to book.,Morgan Stanley ,1859770881
+277,,116_2491430084_Morgan Stanley,1859922643,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-14-2021. Integrata yet to book.,Morgan Stanley ,1859922643
+278,,28_2491430051_Morgan Stanley,1859897254,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-13-2021. Integrata yet to book.,Morgan Stanley ,1859897254
+279,,28_2491430064_Morgan Stanley,1859905278,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-13-2021. Integrata yet to book.,Morgan Stanley ,1859905278
+280,,26_2491430051_Morgan Stanley,1859897246,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-13-2021. Integrata yet to book.,Morgan Stanley ,1859897246
+281,,26_2491430064_Morgan Stanley,1859905274,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-13-2021. Integrata yet to book.,Morgan Stanley ,1859905274
+282,,114_2491430084_Morgan Stanley,1859922697,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-14-2021. Integrata yet to book.,Morgan Stanley ,1859922697
+283,,119_2491430084_Morgan Stanley,1859922638,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-14-2021. Integrata yet to book.,Morgan Stanley ,1859922638
+284,,63_2491400071_Morgan Stanley,1859770876,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 06-21-2021. Integrata yet to book.,Morgan Stanley ,1859770876
+285,,31_2491430287_Morgan Stanley,1860075923,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-15-2021. Integrata yet to book.,Morgan Stanley ,1860075923
+286,,56_2491426016_Morgan Stanley,1859877417,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877417
+287,,9_2491430287_Morgan Stanley,1860075924,OB,OB,No-pair,wire,Morgan Stanley  booked the wire transaction for SD 07-16-2021. Integrata yet to book.,Morgan Stanley ,1860075924
+288,,26_2491426016_Morgan Stanley,1859877394,OB,OB,No-pair,wire,Morgan Stanley  booked the wire transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877394
+289,,25_2491426016_Morgan Stanley,1859877385,OB,OB,No-pair,wire,Morgan Stanley  booked the wire transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877385
+290,,26_2491430287_Morgan Stanley,1860075927,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-16-2021. Integrata yet to book.,Morgan Stanley ,1860075927
+291,1_2491430287_Integrata,,1860075926,OB,OB,No-pair,dividend,Integrata booked the dividend transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075926
+292,,35_2491430287_Morgan Stanley,1860075925,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-16-2021. Integrata yet to book.,Morgan Stanley ,1860075925
+293,,29_2491430064_Morgan Stanley,1859905271,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-13-2021. Integrata yet to book.,Morgan Stanley ,1859905271
+294,,29_2491430051_Morgan Stanley,1859897253,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-13-2021. Integrata yet to book.,Morgan Stanley ,1859897253
+295,,60_2491400029_Morgan Stanley,1859744606,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 06-14-2021. Integrata yet to book.,Morgan Stanley ,1859744606
+296,,30_2491430064_Morgan Stanley,1859905277,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-13-2021. Integrata yet to book.,Morgan Stanley ,1859905277
+297,,30_2491430051_Morgan Stanley,1859897248,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-13-2021. Integrata yet to book.,Morgan Stanley ,1859897248
+298,,60_2491400071_Morgan Stanley,1859770889,OB,OB,No-pair,wire,Morgan Stanley  booked the wire transaction for SD 06-18-2021. Integrata yet to book.,Morgan Stanley ,1859770889
+299,,60_2491400079_Morgan Stanley,1859772416,OB,OB,No-pair,wire,Morgan Stanley  booked the wire transaction for SD 06-18-2021. Integrata yet to book.,Morgan Stanley ,1859772416
+300,,25_2491430287_Morgan Stanley,1860075930,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-16-2021. Integrata yet to book.,Morgan Stanley ,1860075930
+301,,61_2491400079_Morgan Stanley,1859772427,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 06-21-2021. Integrata yet to book.,Morgan Stanley ,1859772427
+302,,32_2491430287_Morgan Stanley,1860075931,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-15-2021. Integrata yet to book.,Morgan Stanley ,1860075931
+303,,69_2491426016_Morgan Stanley,1859877459,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877459
+304,,51_2491426016_Morgan Stanley,1859877453,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877453
+305,,66_2491426016_Morgan Stanley,1859877408,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877408
+306,,62_2491426016_Morgan Stanley,1859877418,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877418
+307,,74_2491426016_Morgan Stanley,1859877422,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877422
+308,,68_2491426016_Morgan Stanley,1859877404,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877404
+309,,76_2491426016_Morgan Stanley,1859877447,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877447
+310,,58_2491426016_Morgan Stanley,1859877409,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877409
+311,,54_2491426016_Morgan Stanley,1859877438,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877438
+312,,65_2491426016_Morgan Stanley,1859877397,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877397
+313,,57_2491426016_Morgan Stanley,1859877411,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877411
+314,,52_2491426016_Morgan Stanley,1859877403,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877403
+315,,71_2491426016_Morgan Stanley,1859877432,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877432
+316,,55_2491426016_Morgan Stanley,1859877401,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877401
+317,,63_2491426016_Morgan Stanley,1859877430,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877430
+318,,11_2491430287_Morgan Stanley,1860075932,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-16-2021. Integrata yet to book.,Morgan Stanley ,1860075932
+319,,34_2491430287_Morgan Stanley,1860075934,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-16-2021. Integrata yet to book.,Morgan Stanley ,1860075934
+320,,47_2491426016_Morgan Stanley,1859877386,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877386
+321,,31_2491430051_Morgan Stanley,1859897255,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-13-2021. Integrata yet to book.,Morgan Stanley ,1859897255
+322,,31_2491430064_Morgan Stanley,1859905272,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-13-2021. Integrata yet to book.,Morgan Stanley ,1859905272
+323,,63_2491400079_Morgan Stanley,1859772419,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 06-21-2021. Integrata yet to book.,Morgan Stanley ,1859772419
+324,,12_2491430287_Morgan Stanley,1860075936,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-16-2021. Integrata yet to book.,Morgan Stanley ,1860075936
+325,,41_2491400029_Morgan Stanley,1859744602,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 06-14-2021. Integrata yet to book.,Morgan Stanley ,1859744602
+326,,15_2491430064_Morgan Stanley,1859905276,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-13-2021. Integrata yet to book.,Morgan Stanley ,1859905276
+327,,15_2491430051_Morgan Stanley,1859897257,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-13-2021. Integrata yet to book.,Morgan Stanley ,1859897257
+328,,40_2491400029_Morgan Stanley,1859744619,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 06-14-2021. Integrata yet to book.,Morgan Stanley ,1859744619
+329,,40_2491400071_Morgan Stanley,1859770874,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 06-21-2021. Integrata yet to book.,Morgan Stanley ,1859770874
+330,,40_2491400079_Morgan Stanley,1859772413,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 06-21-2021. Integrata yet to book.,Morgan Stanley ,1859772413
+331,,29_2491426016_Morgan Stanley,1859877392,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877392
+332,,39_2491400071_Morgan Stanley,1859770875,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 06-21-2021. Integrata yet to book.,Morgan Stanley ,1859770875
+333,,39_2491400079_Morgan Stanley,1859772411,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 06-21-2021. Integrata yet to book.,Morgan Stanley ,1859772411
+334,,27_2491430287_Morgan Stanley,1860075939,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-16-2021. Integrata yet to book.,Morgan Stanley ,1860075939
+335,,29_2491430287_Morgan Stanley,1860075941,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-16-2021. Integrata yet to book.,Morgan Stanley ,1860075941
+336,,28_2491430287_Morgan Stanley,1860075943,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-16-2021. Integrata yet to book.,Morgan Stanley ,1860075943
+337,,10_2491430287_Morgan Stanley,1860075944,OB,OB,No-pair,wire,Morgan Stanley  booked the wire transaction for SD 07-16-2021. Integrata yet to book.,Morgan Stanley ,1860075944
+338,,30_2491430287_Morgan Stanley,1860075945,OB,OB,No-pair,transfer pb future collateral,Morgan Stanley  booked the Transfer from PB to Collateral/Future account for SD 07-16-2021. Integrata yet to book.,Morgan Stanley ,1860075945
+339,,107_2491426016_Morgan Stanley,1859877488,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877488
+340,,122_2491430084_Morgan Stanley,1859922730,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-14-2021. Integrata yet to book.,Morgan Stanley ,1859922730
+341,,109_2491426016_Morgan Stanley,1859877481,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-09-2021. Integrata yet to book.,Morgan Stanley ,1859877481
+342,23_2491400071_Integrata,,1859770898,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770898
+343,4_2491400029_Integrata,,1859744628,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 04-29-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859744628
+344,16_2491400079_Integrata,,1859772439,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772439
+345,24_2491400071_Integrata,,1859770904,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770904
+346,4_2491400079_Integrata,,1859772463,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772463
+347,24_2491400079_Integrata,,1859772442,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772442
+348,16_2491400071_Integrata,,1859770897,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770897
+349,4_2491400071_Integrata,,1859770938,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770938
+350,26_2491400079_Integrata,,1859772457,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772457
+351,18_2491400079_Integrata,,1859772456,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772456
+352,26_2491400071_Integrata,,1859770920,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770920
+353,6_2491400071_Integrata,,1859770950,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770950
+354,8_2491400071_Integrata,,1859770916,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770916
+355,36_2491400079_Integrata,,1859772482,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772482
+356,18_2491400071_Integrata,,1859770909,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770909
+357,36_2491400071_Integrata,,1859770893,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770893
+358,17_2491400079_Integrata,,1859772447,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772447
+359,15_2491400079_Integrata,,1859772500,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772500
+360,15_2491400071_Integrata,,1859770892,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770892
+361,17_2491400071_Integrata,,1859770903,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770903
+362,2_2491430064_Integrata,,1859905288,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859905288
+363,6_2491400079_Integrata,,1859772480,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772480
+364,2_2491430051_Integrata,,1859897279,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859897279
+365,56_2491400079_Integrata,,1859772455,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772455
+366,9_2491400029_Integrata,,1859744631,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-16-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859744631
+367,1_2491430051_Integrata,,1859897272,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859897272
+368,10_2491430084_Integrata,,1859922735,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859922735
+369,5_2491400079_Integrata,,1859772471,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772471
+370,56_2491400071_Integrata,,1859770900,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770900
+371,1_2491430064_Integrata,,1859905290,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859905290
+372,5_2491400071_Integrata,,1859770946,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770946
+373,50_2491400079_Integrata,,1859772473,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772473
+374,40_2491400071_Integrata,,1859770921,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770921
+375,7_2491430064_Integrata,,1859905322,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859905322
+376,13_2491426016_Integrata,,1859877522,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877522
+377,40_2491400079_Integrata,,1859772448,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772448
+378,50_2491400071_Integrata,,1859770956,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770956
+379,7_2491430051_Integrata,,1859897287,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859897287
+380,43_2491400071_Integrata,,1859770917,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770917
+381,8_2491430084_Integrata,,1859922733,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859922733
+382,43_2491400079_Integrata,,1859772475,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772475
+383,20_2491400079_Integrata,,1859772476,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772476
+384,6_2491426016_Integrata,,1859877501,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877501
+385,7_2491426016_Integrata,,1859877505,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877505
+386,20_2491400071_Integrata,,1859770928,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770928
+387,10_2491430051_Integrata,,1859897294,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859897294
+388,12_2491430084_Integrata,,1859922737,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859922737
+389,30_2491400071_Integrata,,1859770901,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770901
+390,10_2491430064_Integrata,,1859905295,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859905295
+391,59_2491400079_Integrata,,1859772485,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772485
+392,35_2491400071_Integrata,,1859770936,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770936
+393,54_2491400079_Integrata,,1859772443,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772443
+394,11_2491430084_Integrata,,1859922736,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859922736
+395,30_2491400079_Integrata,,1859772494,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772494
+396,54_2491400071_Integrata,,1859770935,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770935
+397,29_2491400071_Integrata,,1859770895,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770895
+398,49_2491400079_Integrata,,1859772467,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772467
+399,12_2491426016_Integrata,,1859877519,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877519
+400,49_2491400071_Integrata,,1859770902,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770902
+401,58_2491426016_Integrata,,1859877527,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877527
+402,4_2491430051_Integrata,,1859897276,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859897276
+403,7_2491430084_Integrata,,1859922732,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859922732
+404,35_2491400079_Integrata,,1859772474,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772474
+405,4_2491430064_Integrata,,1859905305,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859905305
+406,31_2491426016_Integrata,,1859877528,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877528
+407,34_2491400071_Integrata,,1859770927,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770927
+408,58_2491400079_Integrata,,1859772478,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772478
+409,58_2491400071_Integrata,,1859770945,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770945
+410,28_2491400079_Integrata,,1859772477,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772477
+411,34_2491400079_Integrata,,1859772464,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772464
+412,55_2491400071_Integrata,,1859770896,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770896
+413,14_2491400079_Integrata,,1859772493,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772493
+414,57_2491400071_Integrata,,1859770924,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770924
+415,57_2491400079_Integrata,,1859772465,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772465
+416,14_2491400071_Integrata,,1859770955,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770955
+417,55_2491400079_Integrata,,1859772446,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772446
+418,52_2491426016_Integrata,,1859877510,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877510
+419,28_2491400071_Integrata,,1859770941,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770941
+420,13_2491400071_Integrata,,1859770951,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770951
+421,11_2491426016_Integrata,,1859877516,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877516
+422,19_2491400071_Integrata,,1859770918,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770918
+423,47_2491400071_Integrata,,1859770949,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770949
+424,14_2491426016_Integrata,,1859877525,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877525
+425,19_2491400079_Integrata,,1859772469,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772469
+426,7_2491400079_Integrata,,1859772492,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772492
+427,47_2491400079_Integrata,,1859772451,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772451
+428,7_2491400071_Integrata,,1859770954,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770954
+429,2_2491430084_Integrata,,1859922731,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859922731
+430,59_2491400071_Integrata,,1859770907,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770907
+431,29_2491400079_Integrata,,1859772487,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772487
+432,13_2491400079_Integrata,,1859772479,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772479
+433,51_2491400079_Integrata,,1859772484,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772484
+434,1_2491430084_Integrata,,1859922729,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859922729
+435,51_2491400071_Integrata,,1859770894,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770894
+436,25_2491400071_Integrata,,1859770911,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770911
+437,61_2491400071_Integrata,,1859770939,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770939
+438,8_2491430064_Integrata,,1859905329,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859905329
+439,8_2491430051_Integrata,,1859897289,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859897289
+440,47_2491430051_Integrata,,1859897282,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859897282
+441,56_2491426016_Integrata,,1859877521,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877521
+442,6_2491430051_Integrata,,1859897283,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859897283
+443,44_2491400079_Integrata,,1859772481,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772481
+444,6_2491430064_Integrata,,1859905319,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859905319
+445,61_2491400079_Integrata,,1859772435,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772435
+446,25_2491400079_Integrata,,1859772450,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772450
+447,47_2491430064_Integrata,,1859905328,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859905328
+448,68_2491400071_Integrata,,1859770952,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770952
+449,44_2491400071_Integrata,,1859770926,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770926
+450,1_2491426016_Integrata,,1859877483,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877483
+451,21_2491400071_Integrata,,1859770937,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770937
+452,9_2491400079_Integrata,,1859772437,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772437
+453,66_2491400079_Integrata,,1859772461,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772461
+454,62_2491400079_Integrata,,1859772444,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772444
+455,68_2491400079_Integrata,,1859772483,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772483
+456,66_2491400071_Integrata,,1859770930,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770930
+457,21_2491400079_Integrata,,1859772486,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772486
+458,9_2491400071_Integrata,,1859770925,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770925
+459,4_2491426016_Integrata,,1859877493,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877493
+460,41_2491400079_Integrata,,1859772459,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772459
+461,15_2491426016_Integrata,,1859877484,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877484
+462,2_2491426016_Integrata,,1859877490,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877490
+463,62_2491400071_Integrata,,1859770943,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770943
+464,3_2491426016_Integrata,,1859877487,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877487
+465,49_2491426016_Integrata,,1859877500,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877500
+466,48_2491400079_Integrata,,1859772460,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772460
+467,46_2491400071_Integrata,,1859770944,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770944
+468,46_2491400079_Integrata,,1859772440,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772440
+469,17_2491426016_Integrata,,1859877489,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877489
+470,23_2491400079_Integrata,,1859772497,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772497
+471,48_2491400071_Integrata,,1859770953,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770953
+472,60_2491400071_Integrata,,1859770913,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770913
+473,33_2491400071_Integrata,,1859770919,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770919
+474,54_2491426016_Integrata,,1859877515,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877515
+475,63_2491400071_Integrata,,1859770922,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770922
+476,33_2491400079_Integrata,,1859772453,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772453
+477,27_2491426016_Integrata,,1859877517,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877517
+478,32_2491400071_Integrata,,1859770910,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770910
+479,63_2491400079_Integrata,,1859772454,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772454
+480,32_2491400079_Integrata,,1859772445,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772445
+481,60_2491400079_Integrata,,1859772495,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772495
+482,31_2491400079_Integrata,,1859772438,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772438
+483,38_2491426016_Integrata,,1859877486,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877486
+484,3_2491430064_Integrata,,1859905298,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859905298
+485,31_2491400071_Integrata,,1859770905,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770905
+486,35_2491426016_Integrata,,1859877531,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877531
+487,45_2491400071_Integrata,,1859770934,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770934
+488,38_2491400071_Integrata,,1859770906,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770906
+489,8_2491400079_Integrata,,1859772499,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772499
+490,3_2491430051_Integrata,,1859897271,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859897271
+491,39_2491400071_Integrata,,1859770912,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770912
+492,30_2491426016_Integrata,,1859877526,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877526
+493,42_2491426016_Integrata,,1859877498,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877498
+494,59_2491426016_Integrata,,1859877529,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877529
+495,53_2491426016_Integrata,,1859877512,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877512
+496,46_2491426016_Integrata,,1859877485,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877485
+497,41_2491426016_Integrata,,1859877378,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877378
+498,41_2491400071_Integrata,,1859770932,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770932
+499,47_2491426016_Integrata,,1859877492,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877492
+500,39_2491426016_Integrata,,1859877494,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877494
+501,25_2491426016_Integrata,,1859877509,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877509
+502,51_2491426016_Integrata,,1859877506,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877506
+503,45_2491400079_Integrata,,1859772489,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772489
+504,26_2491426016_Integrata,,1859877514,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877514
+505,67_2491400071_Integrata,,1859770948,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770948
+506,67_2491400079_Integrata,,1859772472,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772472
+507,37_2491400079_Integrata,,1859772488,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772488
+508,20_2491426016_Integrata,,1859877495,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877495
+509,55_2491426016_Integrata,,1859877518,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877518
+510,37_2491400071_Integrata,,1859770899,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770899
+511,34_2491426016_Integrata,,1859877530,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877530
+512,44_2491426016_Integrata,,1859877491,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877491
+513,43_2491426016_Integrata,,1859877502,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877502
+514,9_2491426016_Integrata,,1859877511,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877511
+515,3_2491400029_Integrata,,1859744627,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 04-27-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859744627
+516,48_2491426016_Integrata,,1859877496,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877496
+517,22_2491400079_Integrata,,1859772491,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772491
+518,36_2491426016_Integrata,,1859877532,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877532
+519,28_2491426016_Integrata,,1859877520,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877520
+520,22_2491400071_Integrata,,1859770891,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770891
+521,29_2491426016_Integrata,,1859877523,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877523
+522,5_2491430064_Integrata,,1859905311,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859905311
+523,7_2491400029_Integrata,,1859744629,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-16-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859744629
+524,37_2491426016_Integrata,,1859877533,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877533
+525,24_2491426016_Integrata,,1859877508,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877508
+526,5_2491430051_Integrata,,1859897280,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859897280
+527,22_2491426016_Integrata,,1859877499,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877499
+528,16_2491426016_Integrata,,1859877482,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877482
+529,50_2491426016_Integrata,,1859877504,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877504
+530,57_2491426016_Integrata,,1859877524,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877524
+531,23_2491426016_Integrata,,1859877503,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877503
+532,38_2491400079_Integrata,,1859772496,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772496
+533,1_2491400079_Integrata,,1859772436,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772436
+534,1_2491400071_Integrata,,1859770914,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770914
+535,3_2491400071_Integrata,,1859770931,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770931
+536,3_2491400079_Integrata,,1859772458,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772458
+537,8_2491426016_Integrata,,1859877507,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877507
+538,11_2491400071_Integrata,,1859770942,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770942
+539,11_2491400079_Integrata,,1859772462,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772462
+540,10_2491400071_Integrata,,1859770933,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770933
+541,10_2491400079_Integrata,,1859772452,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772452
+542,12_2491400071_Integrata,,1859770947,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770947
+543,12_2491400079_Integrata,,1859772470,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772470
+544,5_2491400029_Integrata,,1859744630,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 04-29-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859744630
+545,39_2491400079_Integrata,,1859772441,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772441
+546,5_2491426016_Integrata,,1859877497,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877497
+547,9_2491430064_Integrata,,1859905334,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859905334
+548,9_2491430051_Integrata,,1859897292,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859897292
+549,42_2491400071_Integrata,,1859770940,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770940
+550,42_2491400079_Integrata,,1859772466,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772466
+551,53_2491400079_Integrata,,1859772498,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772498
+552,53_2491400071_Integrata,,1859770915,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770915
+553,52_2491400079_Integrata,,1859772490,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772490
+554,52_2491400071_Integrata,,1859770908,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770908
+555,10_2491426016_Integrata,,1859877513,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859877513
+556,9_2491430084_Integrata,,1859922734,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859922734
+557,2_2491430287_Integrata,,1860075956,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075956
+558,32_2491430287_Integrata,,1860075957,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075957
+559,19_2491430287_Integrata,,1860075959,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075959
+560,33_2491430287_Integrata,,1860075958,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075958
+561,,33_2491430287_Morgan Stanley,1860075961,OB,OB,No-pair,fees,Morgan Stanley  booked the fees transaction for SD 07-16-2021. Integrata yet to book.,Morgan Stanley ,1860075961
+562,11_2491430287_Integrata,,1860075960,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075960
+563,3_2491430287_Integrata,,1860075962,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075962
+564,34_2491430287_Integrata,,1860075963,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075963
+565,20_2491430287_Integrata,,1860075964,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075964
+566,12_2491430287_Integrata,,1860075965,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075965
+567,4_2491430287_Integrata,,1860075966,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075966
+568,21_2491430287_Integrata,,1860075968,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075968
+569,29_2491430287_Integrata,,1860075967,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075967
+570,5_2491430287_Integrata,,1860075969,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075969
+571,13_2491430287_Integrata,,1860075970,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075970
+572,22_2491430287_Integrata,,1860075971,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075971
+573,35_2491430287_Integrata,,1860075972,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075972
+574,6_2491430287_Integrata,,1860075973,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075973
+575,14_2491430287_Integrata,,1860075974,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075974
+576,23_2491430287_Integrata,,1860075975,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075975
+577,36_2491430287_Integrata,,1860075976,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075976
+578,15_2491430287_Integrata,,1860075977,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075977
+579,7_2491430287_Integrata,,1860075978,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075978
+580,24_2491430287_Integrata,,1860075979,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075979
+581,37_2491430287_Integrata,,1860075980,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075980
+582,16_2491430287_Integrata,,1860075981,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075981
+583,8_2491430287_Integrata,,1860075982,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075982
+584,25_2491430287_Integrata,,1860075983,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075983
+585,38_2491430287_Integrata,,1860075984,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075984
+586,17_2491430287_Integrata,,1860075985,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075985
+587,9_2491430287_Integrata,,1860075986,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075986
+588,26_2491430287_Integrata,,1860075987,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075987
+589,41_2491430287_Integrata,,1860075988,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075988
+590,18_2491430287_Integrata,,1860075989,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075989
+591,10_2491430287_Integrata,,1860075990,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075990
+592,27_2491430287_Integrata,,1860075991,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075991
+593,39_2491430287_Integrata,,1860075992,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075992
+594,28_2491430287_Integrata,,1860075993,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075993
+595,40_2491430287_Integrata,,1860075994,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075994
+596,30_2491430287_Integrata,,1860075995,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075995
+597,42_2491430287_Integrata,,1860075996,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075996
+598,31_2491430287_Integrata,,1860075997,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075997
+599,43_2491430287_Integrata,,1860075998,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1860075998
+600,27_2491400079_Integrata,,1859772468,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772468
+601,27_2491400071_Integrata,,1859770929,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770929
+602,2_2491400071_Integrata,,1859770923,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859770923
+603,2_2491400079_Integrata,,1859772449,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. Morgan Stanley  yet to book.,Morgan Stanley ,1859772449

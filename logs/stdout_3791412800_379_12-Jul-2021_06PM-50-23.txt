@@ -1,0 +1,43 @@
+stdout started
+meo size
+166
+The Date value count is:
+2021-07-09    113
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\output_files
+Choosing the date : 2021-07-09
+['3_3791426406_Advent Geneva', '4_3791426406_Advent Geneva', '2_3791426406_Advent Geneva', '1_3791426406_Advent Geneva', '6_3791426406_Advent Geneva', '5_3791426406_Advent Geneva', '7_3791426406_Advent Geneva']
+['7_3791426406_HSBC', '6_3791426406_HSBC', '4_3791426406_HSBC', '1_3791426406_HSBC', '3_3791426406_HSBC', '5_3791426406_HSBC', '2_3791426406_HSBC']
+(58, 74)
+(39, 74)
+7
+7
+(44, 74)
+(25, 74)
+['7_3791426406_HSBC', '6_3791426406_HSBC', '4_3791426406_HSBC', '1_3791426406_HSBC', '3_3791426406_HSBC', '5_3791426406_HSBC', '2_3791426406_HSBC']
+['3_3791426406_Advent Geneva', '4_3791426406_Advent Geneva', '2_3791426406_Advent Geneva', '1_3791426406_Advent Geneva', '6_3791426406_Advent Geneva', '5_3791426406_Advent Geneva', '7_3791426406_Advent Geneva']
+1
+2
+3
+No One to Many found
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+No Many to One found
+No Many to One found
+(60, 67)
+(33, 67)
+379
+2021-07-09
+Following Task ID done
+3791412800

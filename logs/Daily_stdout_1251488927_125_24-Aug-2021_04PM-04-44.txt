@@ -1,0 +1,83 @@
+stdout started
+meo size
+129
+It took 0.04296875 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  0.44971996999999986
+It took 1.38671875 Mb to execute this method
+The Date value count is:
+2021-08-20    129
+Name: Date, dtype: int64
+Choosing the date : 2021-08-20
+It took 0.015625 Mb to execute this method
+It took 0.03515625 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.03515625 Mb to execute this method
+cc7 shape is :
+(78, 68)
+It took 0.0 Mb to execute this method
+(24, 24)
+(24, 24)
+Time for first apply =  0.011715566000000344
+Time for first apply =  0.004799479999999967
+Time for second apply =  0.004626425000000545
+It took 0.6328125 Mb to execute this method
+It took 0.22265625 Mb to execute this method
+It took 0.72265625 Mb to execute this method
+test_file shape is :
+(765, 79)
+It took 4.8203125 Mb to execute this method
+It took 11.3125 Mb to execute this method
+test_file3 shape is :
+(765, 115)
+It took 0.36328125 Mb to execute this method
+It took 21.703125 Mb to execute this method
+two_step_initiated
+It took 7.01953125 Mb to execute this method
+It took 0.0859375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.05859375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.00390625 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+No Many to One found
+No Many to One found
+It took 0.0 Mb to execute this method
+['2_1251486955_State Street' '1_1251486955_State Street']
+['196_1251488927_State Street' '199_1251488927_State Street'
+ '201_1251488927_State Street' '198_1251488927_State Street'
+ '200_1251488927_State Street' '208_1251488927_State Street']
+Time:  12.726750798
+v11_initiated

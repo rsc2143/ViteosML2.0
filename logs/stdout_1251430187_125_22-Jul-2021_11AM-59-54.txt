@@ -1,0 +1,74 @@
+stdout started
+meo size
+1964
+It took 0.69140625 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  2.831043952
+It took 5.84375 Mb to execute this method
+The Date value count is:
+2021-07-19    1961
+Name: Date, dtype: int64
+Choosing the date : 2021-07-19
+It took 4.3984375 Mb to execute this method
+It took 2.68359375 Mb to execute this method
+It took 0.96875 Mb to execute this method
+It took 0.97265625 Mb to execute this method
+cc7 shape is :
+(1084, 68)
+It took -0.97265625 Mb to execute this method
+(16, 24)
+(15, 24)
+Time for first apply =  0.008274269000001055
+Time for first apply =  0.0069632059999999996
+Time for second apply =  0.006746459000000371
+It took 0.08984375 Mb to execute this method
+It took 0.0234375 Mb to execute this method
+It took 0.0 Mb to execute this method
+test_file shape is :
+(763, 79)
+It took 1.7734375 Mb to execute this method
+It took 7.63671875 Mb to execute this method
+test_file3 shape is :
+(763, 115)
+It took 0.5859375 Mb to execute this method
+It took 19.18359375 Mb to execute this method
+two_step_initiated
+It took 8.1796875 Mb to execute this method
+It took 0.08203125 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.0234375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.51171875 Mb to execute this method
+No One to Many found
+It took 0.00390625 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+It took 0.0 Mb to execute this method
+['6_1251380343_Advent Geneva' '5_1251380343_Advent Geneva']
+['2_1251380343_Advent Geneva' '1_1251380343_Advent Geneva']
+['33_1251380330_UBS', '34_1251380330_UBS']
+['27_1251380330_UBS', '28_1251380330_UBS']
+['9_1251380330_Advent Geneva', '10_1251380330_Advent Geneva']
+['5_1251380330_Advent Geneva', '6_1251380330_Advent Geneva']
+Time:  20.638306508000003
+v11_initiated
+125
+2021-07-19
+Following Task ID done
+1251430187
+1251430187|Weiss Advisors|Cash|RecData_125|132813|SUCCESS|125|60f910301e9c9c29f4ad5691

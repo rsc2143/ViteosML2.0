@@ -1,0 +1,74 @@
+stdout started
+meo size
+67
+It took 0.0390625 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  0.31565297700000006
+It took 0.234375 Mb to execute this method
+The Date value count is:
+2021-08-11    66
+Name: Date, dtype: int64
+Choosing the date : 2021-08-11
+It took 0.015625 Mb to execute this method
+It took 0.0703125 Mb to execute this method
+It took 0.0234375 Mb to execute this method
+It took 0.0 Mb to execute this method
+cc7 shape is :
+(68, 68)
+It took 0.0234375 Mb to execute this method
+(5, 24)
+(4, 24)
+Time for first apply =  0.004192591000000689
+Time for first apply =  0.003119440999999945
+Time for second apply =  0.002984955000000511
+It took 0.09765625 Mb to execute this method
+It took 0.5546875 Mb to execute this method
+It took 0.69140625 Mb to execute this method
+test_file shape is :
+(693, 79)
+It took 5.05078125 Mb to execute this method
+It took 11.6015625 Mb to execute this method
+test_file3 shape is :
+(693, 115)
+It took 0.33203125 Mb to execute this method
+It took 21.48046875 Mb to execute this method
+two_step_initiated
+It took 7.2890625 Mb to execute this method
+It took 0.08203125 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.05859375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.00390625 Mb to execute this method
+It took 0.00390625 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+No Many to One found
+No Many to One found
+It took 0.0 Mb to execute this method
+['1_1251470073_US BANK', '2_1251470073_US BANK']
+['323_1251470073_Advent Geneva', '324_1251470073_Advent Geneva', '325_1251470073_Advent Geneva', '326_1251470073_Advent Geneva']
+['105_1251470116_US BANK' '76_1251470116_US BANK' '75_1251470116_US BANK']
+Time:  12.070542228
+v11_initiated
+1860363130, 1860362715, 1860363127
+125
+2021-08-11
+Following Task ID done
+1251470116
+1251470116|Weiss Advisors|Cash|RecData_125|133258|SUCCESS|125|611ca40d1e9c9c0d7844c8df

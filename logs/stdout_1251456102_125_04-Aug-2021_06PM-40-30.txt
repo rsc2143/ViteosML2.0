@@ -1,0 +1,145 @@
+stdout started
+meo size
+233
+It took 0.046875 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  0.41631995700000024
+It took 0.8515625 Mb to execute this method
+The Date value count is:
+2021-08-02    229
+Name: Date, dtype: int64
+Choosing the date : 2021-08-02
+It took 0.01171875 Mb to execute this method
+It took 0.06640625 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.0 Mb to execute this method
+cc7 shape is :
+(220, 68)
+It took 0.0 Mb to execute this method
+(15, 24)
+(17, 24)
+Time for first apply =  0.006514683999999882
+Time for first apply =  0.009007782000000297
+Time for second apply =  0.008798545000000324
+It took 0.47265625 Mb to execute this method
+It took 5.3203125 Mb to execute this method
+It took 5.296875 Mb to execute this method
+test_file shape is :
+(8034, 79)
+It took 49.76171875 Mb to execute this method
+It took 17.12890625 Mb to execute this method
+test_file3 shape is :
+(8034, 115)
+It took 9.41015625 Mb to execute this method
+It took 25.96484375 Mb to execute this method
+two_step_initiated
+It took 5.1953125 Mb to execute this method
+It took 6.4140625 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.1484375 Mb to execute this method
+It took 0.0625 Mb to execute this method
+It took 0.06640625 Mb to execute this method
+It took 0.59765625 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+It took 0.0 Mb to execute this method
+['1_1251450084_US BANK', '1_1251450099_US BANK']
+['405_1251450084_Advent Geneva', '406_1251450084_Advent Geneva', '405_1251450099_Advent Geneva', '406_1251450099_Advent Geneva']
+['276_1251450040_Advent Geneva' '275_1251450040_Advent Geneva'
+ '36_1251430249_Advent Geneva']
+['325_1251456102_Advent Geneva' '393_1251456102_Advent Geneva']
+['256_1251430216_Advent Geneva' '138_1251430216_Advent Geneva']
+['227_1251430223_Advent Geneva', '225_1251430223_Advent Geneva']
+['102_1251456102_US BANK' '101_1251456102_US BANK'
+ '103_1251456102_US BANK']
+['334_1251430249_US BANK' '335_1251430249_US BANK']
+Time:  18.570064945
+v11_initiated
+1860094158, 1860094155, 1860056998
+1860230436, 1860230439, 1860230629
+1860056867, 1860059007
+125
+2021-08-02
+Following Task ID done
+1251456102
+1251456102|Weiss Advisors|Cash|RecData_125|133111|SUCCESS|125|610a919b1e9c9c0d78107b3d

@@ -1,0 +1,156 @@
+stdout started
+meo size
+16319
+Choosing the date : 2021-07-21
+D:\ViteosModel2.0
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Strike Price', 'ViewData.Cust Strike Price',
+       'ViewData.Strike Price Difference',
+       'ViewData.Accounting Bloomberg_Yellow_Key',
+       'ViewData.Cust Bloomberg_Yellow_Key',
+       'ViewData.Bloomberg_Yellow_Key Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Strike Price', 'ViewData.Cust Strike Price',
+       'ViewData.Strike Price Difference',
+       'ViewData.Accounting Bloomberg_Yellow_Key',
+       'ViewData.Cust Bloomberg_Yellow_Key',
+       'ViewData.Bloomberg_Yellow_Key Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Strike Price', 'ViewData.Cust Strike Price',
+       'ViewData.Strike Price Difference',
+       'ViewData.Accounting Bloomberg_Yellow_Key',
+       'ViewData.Cust Bloomberg_Yellow_Key',
+       'ViewData.Bloomberg_Yellow_Key Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Strike Price', 'ViewData.Cust Strike Price',
+       'ViewData.Strike Price Difference',
+       'ViewData.Accounting Bloomberg_Yellow_Key',
+       'ViewData.Cust Bloomberg_Yellow_Key',
+       'ViewData.Bloomberg_Yellow_Key Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Strike Price', 'ViewData.Cust Strike Price',
+       'ViewData.Strike Price Difference',
+       'ViewData.Accounting Bloomberg_Yellow_Key',
+       'ViewData.Cust Bloomberg_Yellow_Key',
+       'ViewData.Bloomberg_Yellow_Key Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Strike Price', 'ViewData.Cust Strike Price',
+       'ViewData.Strike Price Difference',
+       'ViewData.Accounting Bloomberg_Yellow_Key',
+       'ViewData.Cust Bloomberg_Yellow_Key',
+       'ViewData.Bloomberg_Yellow_Key Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Strike Price', 'ViewData.Cust Strike Price',
+       'ViewData.Strike Price Difference',
+       'ViewData.Accounting Bloomberg_Yellow_Key',
+       'ViewData.Cust Bloomberg_Yellow_Key',
+       'ViewData.Bloomberg_Yellow_Key Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Strike Price', 'ViewData.Cust Strike Price',
+       'ViewData.Strike Price Difference',
+       'ViewData.Accounting Bloomberg_Yellow_Key',
+       'ViewData.Cust Bloomberg_Yellow_Key',
+       'ViewData.Bloomberg_Yellow_Key Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Strike Price', 'ViewData.Cust Strike Price',
+       'ViewData.Strike Price Difference',
+       'ViewData.Accounting Bloomberg_Yellow_Key',
+       'ViewData.Cust Bloomberg_Yellow_Key',
+       'ViewData.Bloomberg_Yellow_Key Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Strike Price', 'ViewData.Cust Strike Price',
+       'ViewData.Strike Price Difference',
+       'ViewData.Accounting Bloomberg_Yellow_Key',
+       'ViewData.Cust Bloomberg_Yellow_Key',
+       'ViewData.Bloomberg_Yellow_Key Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Strike Price', 'ViewData.Cust Strike Price',
+       'ViewData.Strike Price Difference',
+       'ViewData.Accounting Bloomberg_Yellow_Key',
+       'ViewData.Cust Bloomberg_Yellow_Key',
+       'ViewData.Bloomberg_Yellow_Key Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Time:  274.438300107
+455
+2021-07-21
+455
+2021-07-21
+Following Task ID done
+4551450053
+4551450053|Lombard|Cash|RecData_455|132944|SUCCESS|455|60ffea461e9c9c0d78e9dc7f

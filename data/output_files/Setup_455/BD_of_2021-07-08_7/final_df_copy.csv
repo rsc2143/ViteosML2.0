@@ -1,0 +1,229 @@
+,Side0_UniqueIds,Side1_UniqueIds,BreakID,ViewData.Status,predicted status,predicted action,predicted category,predicted comment,first_non_null_breakid_in_breakid_columns,ViewData.BreakID,ViewData.Task ID,ViewData.Source Combination Code,BusinessDate
+0,127_4551426007_Integrata,,1859875390,CNF,UCB,Close,Close,,1859875390,1859875390,4551426007,-590882299,2021-07-08
+1,148_4551426007_Integrata,,1859875391,CNF,UCB,Close,Close,,1859875391,1859875391,4551426007,-590882299,2021-07-08
+2,158_4551426007_Integrata,,1859875392,CNF,UCB,Close,Close,,1859875392,1859875392,4551426007,-590882299,2021-07-08
+3,156_4551426007_Integrata,,1859875393,CNF,UCB,Close,Close,,1859875393,1859875393,4551426007,-590882299,2021-07-08
+4,128_4551426007_Integrata,,1859875394,CNF,UCB,Close,Close,,1859875394,1859875394,4551426007,-590882299,2021-07-08
+5,157_4551426007_Integrata,,1859875395,CNF,UCB,Close,Close,,1859875395,1859875395,4551426007,-590882299,2021-07-08
+6,59_4551426007_Integrata,,1859875405,OB,UCB,Close,Close,,1859875405,1859875405,4551426007,-590882299,2021-07-08
+7,59_4551426004_Integrata,,1859874860,OB,UCB,Close,Close,,1859874860,1859874860,4551426007,-590882299,2021-07-08
+8,124_4551426007_Integrata,,1859875418,OB,UCB,Close,Close,,1859875418,1859875418,4551426007,-590882299,2021-07-08
+9,124_4551426004_Integrata,,1859874868,OB,UCB,Close,Close,,1859874868,1859874868,4551426007,-590882299,2021-07-08
+10,14_4551426007_Integrata,,1859875422,OB,UCB,Close,Close,,1859875422,1859875422,4551426007,-590882299,2021-07-08
+11,14_4551426004_Integrata,,1859874875,OB,UCB,Close,Close,,1859874875,1859874875,4551426007,-590882299,2021-07-08
+12,157_4551426004_Integrata,,1859874832,OB,UCB,Close,Close,,1859874832,1859874832,4551426007,-590882299,2021-07-08
+13,148_4551426004_Integrata,,1859874828,OB,UCB,Close,Close,,1859874828,1859874828,4551426007,-590882299,2021-07-08
+14,72_4551426004_Integrata,,1859874895,OB,UCB,Close,Close,,1859874895,1859874895,4551426007,-590882299,2021-07-08
+15,65_4551426007_Integrata,,1859875431,OB,UCB,Close,Close,,1859875431,1859875431,4551426007,-590882299,2021-07-08
+16,65_4551426004_Integrata,,1859874885,OB,UCB,Close,Close,,1859874885,1859874885,4551426007,-590882299,2021-07-08
+17,72_4551426007_Integrata,,1859875437,OB,UCB,Close,Close,,1859875437,1859875437,4551426007,-590882299,2021-07-08
+18,76_4551426007_Integrata,,1859875439,OB,UCB,Close,Close,,1859875439,1859875439,4551426007,-590882299,2021-07-08
+19,76_4551426004_Integrata,,1859874896,OB,UCB,Close,Close,,1859874896,1859874896,4551426007,-590882299,2021-07-08
+20,79_4551426007_Integrata,,1859875441,OB,UCB,Close,Close,,1859875441,1859875441,4551426007,-590882299,2021-07-08
+21,79_4551426004_Integrata,,1859874891,OB,UCB,Close,Close,,1859874891,1859874891,4551426007,-590882299,2021-07-08
+22,158_4551426004_Integrata,,1859874831,OB,UCB,Close,Close,,1859874831,1859874831,4551426007,-590882299,2021-07-08
+23,82_4551426007_Integrata,,1859875448,OB,UCB,Close,Close,,1859875448,1859875448,4551426007,-590882299,2021-07-08
+24,82_4551426004_Integrata,,1859874897,OB,UCB,Close,Close,,1859874897,1859874897,4551426007,-590882299,2021-07-08
+25,127_4551426004_Integrata,,1859874829,OB,UCB,Close,Close,,1859874829,1859874829,4551426007,-590882299,2021-07-08
+26,156_4551426004_Integrata,,1859874830,OB,UCB,Close,Close,,1859874830,1859874830,4551426007,-590882299,2021-07-08
+27,128_4551426004_Integrata,,1859874827,OB,UCB,Close,Close,,1859874827,1859874827,4551426007,-590882299,2021-07-08
+28,,1_4551426004_CACEIS,1859874847,OB,UCB,Close,Close,,1859874847,1859874847,4551426007,-590882299,2021-07-08
+29,,7_4551426004_CACEIS,1859874841,OB,UCB,Close,Close,,1859874841,1859874841,4551426007,-590882299,2021-07-08
+30,,7_4551426007_CACEIS,1859875408,OB,UCB,Close,Close,,1859875408,1859875408,4551426007,-590882299,2021-07-08
+31,,1_4551426007_CACEIS,1859875410,OB,UCB,Close,Close,,1859875410,1859875410,4551426007,-590882299,2021-07-08
+32,159_4551426007_Integrata,,1859875425,OB,UCB,Close,Close,,1859875425,1859875425,4551426007,-590882299,2021-07-08
+33,159_4551426004_Integrata,,1859874876,OB,UCB,Close,Close,,1859874876,1859874876,4551426007,-590882299,2021-07-08
+34,160_4551426007_Integrata,,1859875434,OB,UCB,Close,Close,,1859875434,1859875434,4551426007,-590882299,2021-07-08
+35,160_4551426004_Integrata,,1859874883,OB,UCB,Close,Close,,1859874883,1859874883,4551426007,-590882299,2021-07-08
+36,102_4551426007_Integrata,,1859875296,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875296,1859875296,4551426007,-590882299,2021-07-08
+37,50_4551426007_Integrata,,1859875295,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859875295,1859875295,4551426007,-590882299,2021-07-08
+38,136_4551426007_Integrata,,1859875294,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859875294,1859875294,4551426007,-590882299,2021-07-08
+39,94_4551426007_Integrata,,1859875297,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875297,1859875297,4551426007,-590882299,2021-07-08
+40,49_4551426007_Integrata,,1859875298,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859875298,1859875298,4551426007,-590882299,2021-07-08
+41,96_4551426007_Integrata,,1859875299,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875299,1859875299,4551426007,-590882299,2021-07-08
+42,51_4551426007_Integrata,,1859875300,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859875300,1859875300,4551426007,-590882299,2021-07-08
+43,140_4551426007_Integrata,,1859875301,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859875301,1859875301,4551426007,-590882299,2021-07-08
+44,139_4551426007_Integrata,,1859875302,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859875302,1859875302,4551426007,-590882299,2021-07-08
+45,105_4551426007_Integrata,,1859875303,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859875303,1859875303,4551426007,-590882299,2021-07-08
+46,133_4551426007_Integrata,,1859875304,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875304,1859875304,4551426007,-590882299,2021-07-08
+47,100_4551426007_Integrata,,1859875305,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875305,1859875305,4551426007,-590882299,2021-07-08
+48,90_4551426007_Integrata,,1859875306,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859875306,1859875306,4551426007,-590882299,2021-07-08
+49,126_4551426007_Integrata,,1859875307,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859875307,1859875307,4551426007,-590882299,2021-07-08
+50,38_4551426007_Integrata,,1859875308,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875308,1859875308,4551426007,-590882299,2021-07-08
+51,121_4551426007_Integrata,,1859875309,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859875309,1859875309,4551426007,-590882299,2021-07-08
+52,115_4551426007_Integrata,,1859875310,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859875310,1859875310,4551426007,-590882299,2021-07-08
+53,147_4551426007_Integrata,,1859875311,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859875311,1859875311,4551426007,-590882299,2021-07-08
+54,95_4551426007_Integrata,,1859875312,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875312,1859875312,4551426007,-590882299,2021-07-08
+55,153_4551426007_Integrata,,1859875315,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859875315,1859875315,4551426007,-590882299,2021-07-08
+56,103_4551426007_Integrata,,1859875313,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875313,1859875313,4551426007,-590882299,2021-07-08
+57,86_4551426007_Integrata,,1859875314,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859875314,1859875314,4551426007,-590882299,2021-07-08
+58,42_4551426007_Integrata,,1859875316,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875316,1859875316,4551426007,-590882299,2021-07-08
+59,123_4551426007_Integrata,,1859875317,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875317,1859875317,4551426007,-590882299,2021-07-08
+60,104_4551426007_Integrata,,1859875318,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875318,1859875318,4551426007,-590882299,2021-07-08
+61,89_4551426007_Integrata,,1859875319,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859875319,1859875319,4551426007,-590882299,2021-07-08
+62,122_4551426007_Integrata,,1859875320,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875320,1859875320,4551426007,-590882299,2021-07-08
+63,151_4551426007_Integrata,,1859875321,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859875321,1859875321,4551426007,-590882299,2021-07-08
+64,154_4551426007_Integrata,,1859875322,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875322,1859875322,4551426007,-590882299,2021-07-08
+65,91_4551426007_Integrata,,1859875323,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875323,1859875323,4551426007,-590882299,2021-07-08
+66,155_4551426007_Integrata,,1859875324,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875324,1859875324,4551426007,-590882299,2021-07-08
+67,113_4551426007_Integrata,,1859875325,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875325,1859875325,4551426007,-590882299,2021-07-08
+68,97_4551426007_Integrata,,1859875326,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875326,1859875326,4551426007,-590882299,2021-07-08
+69,149_4551426007_Integrata,,1859875327,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875327,1859875327,4551426007,-590882299,2021-07-08
+70,39_4551426007_Integrata,,1859875328,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875328,1859875328,4551426007,-590882299,2021-07-08
+71,47_4551426007_Integrata,,1859875329,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875329,1859875329,4551426007,-590882299,2021-07-08
+72,107_4551426007_Integrata,,1859875330,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875330,1859875330,4551426007,-590882299,2021-07-08
+73,110_4551426007_Integrata,,1859875331,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875331,1859875331,4551426007,-590882299,2021-07-08
+74,93_4551426007_Integrata,,1859875332,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875332,1859875332,4551426007,-590882299,2021-07-08
+75,45_4551426007_Integrata,,1859875333,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875333,1859875333,4551426007,-590882299,2021-07-08
+76,31_4551426007_Integrata,,1859875334,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859875334,1859875334,4551426007,-590882299,2021-07-08
+77,46_4551426007_Integrata,,1859875335,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875335,1859875335,4551426007,-590882299,2021-07-08
+78,34_4551426007_Integrata,,1859875336,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875336,1859875336,4551426007,-590882299,2021-07-08
+79,98_4551426007_Integrata,,1859875337,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875337,1859875337,4551426007,-590882299,2021-07-08
+80,35_4551426007_Integrata,,1859875338,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875338,1859875338,4551426007,-590882299,2021-07-08
+81,20_4551426007_Integrata,,1859875339,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859875339,1859875339,4551426007,-590882299,2021-07-08
+82,99_4551426007_Integrata,,1859875340,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875340,1859875340,4551426007,-590882299,2021-07-08
+83,36_4551426007_Integrata,,1859875341,CMF,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875341,1859875341,4551426007,-590882299,2021-07-08
+84,32_4551426004_Integrata,,1859874858,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874858,1859874858,4551426007,-590882299,2021-07-08
+85,78_4551426004_Integrata,,1859874866,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874866,1859874866,4551426007,-590882299,2021-07-08
+86,11_4551426004_Integrata,,1859874862,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874862,1859874862,4551426007,-590882299,2021-07-08
+87,9_4551426004_Integrata,,1859874853,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874853,1859874853,4551426007,-590882299,2021-07-08
+88,15_4551426004_Integrata,,1859874871,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874871,1859874871,4551426007,-590882299,2021-07-08
+89,126_4551426004_Integrata,,1859874782,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859874782,1859874782,4551426007,-590882299,2021-07-08
+90,17_4551426004_Integrata,,1859874861,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874861,1859874861,4551426007,-590882299,2021-07-08
+91,90_4551426004_Integrata,,1859874758,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859874758,1859874758,4551426007,-590882299,2021-07-08
+92,115_4551426004_Integrata,,1859874790,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859874790,1859874790,4551426007,-590882299,2021-07-08
+93,50_4551426004_Integrata,,1859874736,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859874736,1859874736,4551426007,-590882299,2021-07-08
+94,107_4551426004_Integrata,,1859874779,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874779,1859874779,4551426007,-590882299,2021-07-08
+95,140_4551426004_Integrata,,1859874765,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859874765,1859874765,4551426007,-590882299,2021-07-08
+96,51_4551426004_Integrata,,1859874744,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859874744,1859874744,4551426007,-590882299,2021-07-08
+97,110_4551426004_Integrata,,1859874786,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874786,1859874786,4551426007,-590882299,2021-07-08
+98,45_4551426004_Integrata,,1859874756,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874756,1859874756,4551426007,-590882299,2021-07-08
+99,89_4551426004_Integrata,,1859874754,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859874754,1859874754,4551426007,-590882299,2021-07-08
+100,97_4551426004_Integrata,,1859874791,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874791,1859874791,4551426007,-590882299,2021-07-08
+101,47_4551426004_Integrata,,1859874796,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874796,1859874796,4551426007,-590882299,2021-07-08
+102,86_4551426004_Integrata,,1859874769,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859874769,1859874769,4551426007,-590882299,2021-07-08
+103,98_4551426004_Integrata,,1859874762,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874762,1859874762,4551426007,-590882299,2021-07-08
+104,36_4551426004_Integrata,,1859874731,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874731,1859874731,4551426007,-590882299,2021-07-08
+105,147_4551426004_Integrata,,1859874792,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859874792,1859874792,4551426007,-590882299,2021-07-08
+106,136_4551426004_Integrata,,1859874805,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859874805,1859874805,4551426007,-590882299,2021-07-08
+107,34_4551426004_Integrata,,1859874739,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874739,1859874739,4551426007,-590882299,2021-07-08
+108,121_4551426004_Integrata,,1859874799,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859874799,1859874799,4551426007,-590882299,2021-07-08
+109,139_4551426004_Integrata,,1859874814,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859874814,1859874814,4551426007,-590882299,2021-07-08
+110,154_4551426004_Integrata,,1859874804,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874804,1859874804,4551426007,-590882299,2021-07-08
+111,113_4551426004_Integrata,,1859874794,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874794,1859874794,4551426007,-590882299,2021-07-08
+112,149_4551426004_Integrata,,1859874793,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874793,1859874793,4551426007,-590882299,2021-07-08
+113,95_4551426004_Integrata,,1859874741,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874741,1859874741,4551426007,-590882299,2021-07-08
+114,104_4551426004_Integrata,,1859874788,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874788,1859874788,4551426007,-590882299,2021-07-08
+115,42_4551426004_Integrata,,1859874733,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874733,1859874733,4551426007,-590882299,2021-07-08
+116,96_4551426004_Integrata,,1859874768,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874768,1859874768,4551426007,-590882299,2021-07-08
+117,102_4551426004_Integrata,,1859874776,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874776,1859874776,4551426007,-590882299,2021-07-08
+118,35_4551426004_Integrata,,1859874748,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874748,1859874748,4551426007,-590882299,2021-07-08
+119,93_4551426004_Integrata,,1859874753,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874753,1859874753,4551426007,-590882299,2021-07-08
+120,123_4551426004_Integrata,,1859874803,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874803,1859874803,4551426007,-590882299,2021-07-08
+121,155_4551426004_Integrata,,1859874810,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874810,1859874810,4551426007,-590882299,2021-07-08
+122,99_4551426004_Integrata,,1859874772,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874772,1859874772,4551426007,-590882299,2021-07-08
+123,46_4551426004_Integrata,,1859874766,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874766,1859874766,4551426007,-590882299,2021-07-08
+124,142_4551426004_Integrata,,1859874886,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874886,1859874886,4551426007,-590882299,2021-07-08
+125,80_4551426007_Integrata,,1859875401,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859875401,1859875401,4551426007,-590882299,2021-07-08
+126,9_4551426007_Integrata,,1859875402,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875402,1859875402,4551426007,-590882299,2021-07-08
+127,64_4551426007_Integrata,,1859875403,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875403,1859875403,4551426007,-590882299,2021-07-08
+128,23_4551426007_Integrata,,1859875404,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875404,1859875404,4551426007,-590882299,2021-07-08
+129,54_4551426007_Integrata,,1859875406,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859875406,1859875406,4551426007,-590882299,2021-07-08
+130,55_4551426007_Integrata,,1859875407,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875407,1859875407,4551426007,-590882299,2021-07-08
+131,10_4551426007_Integrata,,1859875411,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875411,1859875411,4551426007,-590882299,2021-07-08
+132,3_4551426007_Integrata,,1859875409,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859875409,1859875409,4551426007,-590882299,2021-07-08
+133,17_4551426007_Integrata,,1859875412,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875412,1859875412,4551426007,-590882299,2021-07-08
+134,133_4551426004_Integrata,,1859874759,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874759,1859874759,4551426007,-590882299,2021-07-08
+135,38_4551426004_Integrata,,1859874787,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874787,1859874787,4551426007,-590882299,2021-07-08
+136,100_4551426004_Integrata,,1859874781,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874781,1859874781,4551426007,-590882299,2021-07-08
+137,39_4551426004_Integrata,,1859874755,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874755,1859874755,4551426007,-590882299,2021-07-08
+138,91_4551426004_Integrata,,1859874761,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874761,1859874761,4551426007,-590882299,2021-07-08
+139,109_4551426007_Integrata,,1859875413,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859875413,1859875413,4551426007,-590882299,2021-07-08
+140,80_4551426004_Integrata,,1859874859,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859874859,1859874859,4551426007,-590882299,2021-07-08
+141,109_4551426004_Integrata,,1859874867,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859874867,1859874867,4551426007,-590882299,2021-07-08
+142,49_4551426004_Integrata,,1859874734,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859874734,1859874734,4551426007,-590882299,2021-07-08
+143,105_4551426004_Integrata,,1859874742,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859874742,1859874742,4551426007,-590882299,2021-07-08
+144,153_4551426004_Integrata,,1859874816,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859874816,1859874816,4551426007,-590882299,2021-07-08
+145,151_4551426004_Integrata,,1859874822,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859874822,1859874822,4551426007,-590882299,2021-07-08
+146,19_4551426007_Integrata,,1859875414,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875414,1859875414,4551426007,-590882299,2021-07-08
+147,10_4551426004_Integrata,,1859874879,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874879,1859874879,4551426007,-590882299,2021-07-08
+148,19_4551426004_Integrata,,1859874888,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874888,1859874888,4551426007,-590882299,2021-07-08
+149,132_4551426007_Integrata,,1859875415,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875415,1859875415,4551426007,-590882299,2021-07-08
+150,55_4551426004_Integrata,,1859874870,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874870,1859874870,4551426007,-590882299,2021-07-08
+151,135_4551426007_Integrata,,1859875416,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859875416,1859875416,4551426007,-590882299,2021-07-08
+152,132_4551426004_Integrata,,1859874880,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874880,1859874880,4551426007,-590882299,2021-07-08
+153,94_4551426004_Integrata,,1859874751,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874751,1859874751,4551426007,-590882299,2021-07-08
+154,117_4551426004_Integrata,,1859874864,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859874864,1859874864,4551426007,-590882299,2021-07-08
+155,3_4551426004_Integrata,,1859874839,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859874839,1859874839,4551426007,-590882299,2021-07-08
+156,135_4551426004_Integrata,,1859874845,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859874845,1859874845,4551426007,-590882299,2021-07-08
+157,117_4551426007_Integrata,,1859875417,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859875417,1859875417,4551426007,-590882299,2021-07-08
+158,54_4551426004_Integrata,,1859874854,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859874854,1859874854,4551426007,-590882299,2021-07-08
+159,57_4551426004_Integrata,,1859874890,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859874890,1859874890,4551426007,-590882299,2021-07-08
+160,142_4551426007_Integrata,,1859875419,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875419,1859875419,4551426007,-590882299,2021-07-08
+161,23_4551426004_Integrata,,1859874878,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874878,1859874878,4551426007,-590882299,2021-07-08
+162,70_4551426004_Integrata,,1859874849,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859874849,1859874849,4551426007,-590882299,2021-07-08
+163,20_4551426004_Integrata,,1859874732,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859874732,1859874732,4551426007,-590882299,2021-07-08
+164,31_4551426004_Integrata,,1859874746,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859874746,1859874746,4551426007,-590882299,2021-07-08
+165,68_4551426007_Integrata,,1859875420,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875420,1859875420,4551426007,-590882299,2021-07-08
+166,64_4551426004_Integrata,,1859874846,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874846,1859874846,4551426007,-590882299,2021-07-08
+167,68_4551426004_Integrata,,1859874856,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874856,1859874856,4551426007,-590882299,2021-07-08
+168,18_4551426007_Integrata,,1859875421,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875421,1859875421,4551426007,-590882299,2021-07-08
+169,52_4551426007_Integrata,,1859875423,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875423,1859875423,4551426007,-590882299,2021-07-08
+170,114_4551426007_Integrata,,1859875424,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859875424,1859875424,4551426007,-590882299,2021-07-08
+171,63_4551426007_Integrata,,1859875426,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859875426,1859875426,4551426007,-590882299,2021-07-08
+172,111_4551426007_Integrata,,1859875427,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859875427,1859875427,4551426007,-590882299,2021-07-08
+173,67_4551426004_Integrata,,1859874838,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859874838,1859874838,4551426007,-590882299,2021-07-08
+174,71_4551426007_Integrata,,1859875428,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875428,1859875428,4551426007,-590882299,2021-07-08
+175,111_4551426004_Integrata,,1859874851,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859874851,1859874851,4551426007,-590882299,2021-07-08
+176,22_4551426007_Integrata,,1859875429,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875429,1859875429,4551426007,-590882299,2021-07-08
+177,77_4551426007_Integrata,,1859875430,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875430,1859875430,4551426007,-590882299,2021-07-08
+178,18_4551426004_Integrata,,1859874889,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874889,1859874889,4551426007,-590882299,2021-07-08
+179,77_4551426004_Integrata,,1859874893,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874893,1859874893,4551426007,-590882299,2021-07-08
+180,103_4551426004_Integrata,,1859874800,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874800,1859874800,4551426007,-590882299,2021-07-08
+181,122_4551426004_Integrata,,1859874808,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874808,1859874808,4551426007,-590882299,2021-07-08
+182,129_4551426007_Integrata,,1859875432,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875432,1859875432,4551426007,-590882299,2021-07-08
+183,52_4551426004_Integrata,,1859874840,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874840,1859874840,4551426007,-590882299,2021-07-08
+184,129_4551426004_Integrata,,1859874848,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874848,1859874848,4551426007,-590882299,2021-07-08
+185,131_4551426007_Integrata,,1859875433,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859875433,1859875433,4551426007,-590882299,2021-07-08
+186,114_4551426004_Integrata,,1859874873,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859874873,1859874873,4551426007,-590882299,2021-07-08
+187,131_4551426004_Integrata,,1859874881,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859874881,1859874881,4551426007,-590882299,2021-07-08
+188,70_4551426007_Integrata,,1859875435,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859875435,1859875435,4551426007,-590882299,2021-07-08
+189,63_4551426004_Integrata,,1859874844,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859874844,1859874844,4551426007,-590882299,2021-07-08
+190,81_4551426004_Integrata,,1859874863,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874863,1859874863,4551426007,-590882299,2021-07-08
+191,81_4551426007_Integrata,,1859875436,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875436,1859875436,4551426007,-590882299,2021-07-08
+192,71_4551426004_Integrata,,1859874855,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874855,1859874855,4551426007,-590882299,2021-07-08
+193,143_4551426004_Integrata,,1859874850,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874850,1859874850,4551426007,-590882299,2021-07-08
+194,69_4551426007_Integrata,,1859875438,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875438,1859875438,4551426007,-590882299,2021-07-08
+195,24_4551426007_Integrata,,1859875440,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875440,1859875440,4551426007,-590882299,2021-07-08
+196,22_4551426004_Integrata,,1859874865,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874865,1859874865,4551426007,-590882299,2021-07-08
+197,24_4551426004_Integrata,,1859874874,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874874,1859874874,4551426007,-590882299,2021-07-08
+198,73_4551426004_Integrata,,1859874852,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874852,1859874852,4551426007,-590882299,2021-07-08
+199,57_4551426007_Integrata,,1859875442,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859875442,1859875442,4551426007,-590882299,2021-07-08
+200,67_4551426007_Integrata,,1859875443,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-29.Caceis yet to book.,1859875443,1859875443,4551426007,-590882299,2021-07-08
+201,32_4551426007_Integrata,,1859875444,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875444,1859875444,4551426007,-590882299,2021-07-08
+202,4_4551426007_Integrata,,1859875445,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859875445,1859875445,4551426007,-590882299,2021-07-08
+203,28_4551426007_Integrata,,1859875446,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859875446,1859875446,4551426007,-590882299,2021-07-08
+204,25_4551426004_Integrata,,1859874877,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859874877,1859874877,4551426007,-590882299,2021-07-08
+205,28_4551426004_Integrata,,1859874887,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859874887,1859874887,4551426007,-590882299,2021-07-08
+206,75_4551426007_Integrata,,1859875447,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875447,1859875447,4551426007,-590882299,2021-07-08
+207,69_4551426004_Integrata,,1859874857,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874857,1859874857,4551426007,-590882299,2021-07-08
+208,75_4551426004_Integrata,,1859874869,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874869,1859874869,4551426007,-590882299,2021-07-08
+209,16_4551426007_Integrata,,1859875449,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875449,1859875449,4551426007,-590882299,2021-07-08
+210,11_4551426007_Integrata,,1859875450,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875450,1859875450,4551426007,-590882299,2021-07-08
+211,60_4551426007_Integrata,,1859875451,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859875451,1859875451,4551426007,-590882299,2021-07-08
+212,60_4551426004_Integrata,,1859874894,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-23.Caceis yet to book.,1859874894,1859874894,4551426007,-590882299,2021-07-08
+213,78_4551426007_Integrata,,1859875452,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875452,1859875452,4551426007,-590882299,2021-07-08
+214,141_4551426007_Integrata,,1859875453,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859875453,1859875453,4551426007,-590882299,2021-07-08
+215,4_4551426004_Integrata,,1859874872,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859874872,1859874872,4551426007,-590882299,2021-07-08
+216,141_4551426004_Integrata,,1859874884,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859874884,1859874884,4551426007,-590882299,2021-07-08
+217,15_4551426007_Integrata,,1859875454,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875454,1859875454,4551426007,-590882299,2021-07-08
+218,25_4551426007_Integrata,,1859875455,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-25.Caceis yet to book.,1859875455,1859875455,4551426007,-590882299,2021-07-08
+219,125_4551426007_Integrata,,1859875456,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875456,1859875456,4551426007,-590882299,2021-07-08
+220,16_4551426004_Integrata,,1859874882,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874882,1859874882,4551426007,-590882299,2021-07-08
+221,125_4551426004_Integrata,,1859874892,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874892,1859874892,4551426007,-590882299,2021-07-08
+222,5_4551426007_Integrata,,1859875457,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875457,1859875457,4551426007,-590882299,2021-07-08
+223,8_4551426007_Integrata,,1859875458,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875458,1859875458,4551426007,-590882299,2021-07-08
+224,143_4551426007_Integrata,,1859875459,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859875459,1859875459,4551426007,-590882299,2021-07-08
+225,5_4551426004_Integrata,,1859874842,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-24.Caceis yet to book.,1859874842,1859874842,4551426007,-590882299,2021-07-08
+226,73_4551426007_Integrata,,1859875460,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859875460,1859875460,4551426007,-590882299,2021-07-08
+227,8_4551426004_Integrata,,1859874843,OB,OB,No-pair,proceeds sell,Integrata booked the proceeds sell for SD 2021-06-28.Caceis yet to book.,1859874843,1859874843,4551426007,-590882299,2021-07-08

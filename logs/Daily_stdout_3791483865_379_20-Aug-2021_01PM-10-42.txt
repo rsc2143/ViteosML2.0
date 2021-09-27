@@ -1,0 +1,63 @@
+stdout started
+meo size
+220
+The Date value count is:
+2021-08-18    147
+2019-04-22      1
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\output_files
+Choosing the date : 2021-08-18
+['20_3791483865_Advent Geneva', '27_3791483865_Advent Geneva', '23_3791483865_Advent Geneva', '26_3791483865_Advent Geneva', '28_3791483865_Advent Geneva', '30_3791483865_Advent Geneva', '21_3791483865_Advent Geneva', '24_3791483865_Advent Geneva', '29_3791483865_Advent Geneva', '22_3791483865_Advent Geneva', '17_3791483865_Advent Geneva', '19_3791483865_Advent Geneva', '12_3791483865_Advent Geneva', '11_3791483865_Advent Geneva', '18_3791483865_Advent Geneva', '13_3791483865_Advent Geneva']
+['139_3791481856_State Street', '141_3791481856_State Street', '144_3791481856_State Street', '142_3791481856_State Street', '138_3791481856_State Street', '135_3791481856_State Street', '134_3791481856_State Street', '143_3791481856_State Street', '136_3791481856_State Street', '127_3791481856_State Street', '124_3791481856_State Street', '128_3791481856_State Street']
+(67, 74)
+(73, 74)
+12
+16
+(55, 74)
+(57, 74)
+['139_3791481856_State Street', '141_3791481856_State Street', '144_3791481856_State Street', '142_3791481856_State Street', '138_3791481856_State Street', '135_3791481856_State Street', '134_3791481856_State Street', '143_3791481856_State Street', '136_3791481856_State Street']
+['127_3791481856_State Street', '124_3791481856_State Street', '128_3791481856_State Street']
+['20_3791483865_Advent Geneva', '27_3791483865_Advent Geneva', '23_3791483865_Advent Geneva', '26_3791483865_Advent Geneva', '28_3791483865_Advent Geneva', '30_3791483865_Advent Geneva', '21_3791483865_Advent Geneva', '24_3791483865_Advent Geneva', '29_3791483865_Advent Geneva', '22_3791483865_Advent Geneva']
+['17_3791483865_Advent Geneva', '19_3791483865_Advent Geneva', '12_3791483865_Advent Geneva', '11_3791483865_Advent Geneva', '18_3791483865_Advent Geneva', '13_3791483865_Advent Geneva']
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+No One to Many found
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+No Many to One found
+No Many to One found
+(43, 67)
+(45, 67)
+2107875499
+1767133953
+1690962033
+1714965000
+1690962040
+2113071503
+2113071513
+379
+2021-08-18
+Following Task ID done
+3791483865

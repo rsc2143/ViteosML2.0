@@ -1,0 +1,21 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\125_Production_Model.py", line 1471, in <module>
+    All_combination_df = All_combination_file(fun_df=meo_for_transaction_type_for_closing_value)
+  File "D:\ViteosModel2.0\125_Production_Model.py", line 573, in All_combination_file
+    all_training_df_for_transaction_type_filter_slice, on='filter_key')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\reshape\merge.py", line 83, in merge
+    return op.get_result()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\reshape\merge.py", line 658, in get_result
+    copy=self.copy,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 2054, in concatenate_block_managers
+    concatenate_join_units(join_units, concat_axis, copy=copy),
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\concat.py", line 253, in concatenate_join_units
+    for ju in join_units
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\concat.py", line 253, in <listcomp>
+    for ju in join_units
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\concat.py", line 236, in get_reindexed_values
+    values = algos.take_nd(values, indexer, axis=ax, fill_value=fill_value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\algorithms.py", line 1716, in take_nd
+    out = np.empty(out_shape, dtype=dtype)
+MemoryError

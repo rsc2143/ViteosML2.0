@@ -1,0 +1,19 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\249_Production_Model_Daily.py", line 1531, in <module>
+    df = pd.read_excel('\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + str(client) +'\\output_files\\Setup_' + str(setup_code) + '\\Mapping variables for variable cleaning.xlsx', sheet_name='General')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 208, in wrapper
+    return func(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\excel\_base.py", line 310, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\excel\_base.py", line 819, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\excel\_xlrd.py", line 21, in __init__
+    super().__init__(filepath_or_buffer)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\excel\_base.py", line 359, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\excel\_xlrd.py", line 36, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\Lombard\\output_files\\Setup_249\\Mapping variables for variable cleaning.xlsx'

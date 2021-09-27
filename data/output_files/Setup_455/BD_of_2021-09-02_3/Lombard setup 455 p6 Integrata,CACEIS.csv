@@ -1,0 +1,7 @@
+,ViewData.Side0_UniqueIds,ViewData.Side1_UniqueIds,ViewData.BreakID,ViewData.Status,predicted status,predicted action,predicted category,predicted comment
+0,"['10_4551478593_Integrata', '9_4551478593_Integrata', None]","[None, None, '177_4551480567_CACEIS']","[2105698943, 2105698933, 2108620867]","['OB', 'OB', 'OB']",UMR,UMR,match,match
+1,"['7_4551122535_Integrata', None, None]","[None, '94_4551117124_CACEIS', '93_4551117124_CACEIS']","[1631194828, 1623224429, 1623224424]","['OB', 'OB', 'OB']",UMR,UMR,match,match
+2,"['4_4551394628_Integrata', '3_4551394628_Integrata', '6_4551394628_Integrata', '5_4551394628_Integrata', '7_4551394628_Integrata', None]","[None, None, None, None, None, '2_4551398589_CACEIS']","[1997244527, 1997244524, 1997244525, 1997244526, 1997244529, 2002008738]","['OB', 'OB', 'OB', 'OB', 'OB', 'OB']",UMR,UMR,match,match
+3,"['7_4551506468_Integrata', None]","[None, '4_4551506468_CACEIS']","[2140785054, 2140785055]","['SPM', 'SPM']",UMR,UMR,match,match
+4,"['47_4551201062_Integrata', None, '46_4551201062_Integrata']","[None, '34_4551201062_CACEIS', None]","[1734565912, 1734565919, 1734565910]","['OB', 'OB', 'OB']",UMR,UMR,match,match
+5,"['19_4551248485_Integrata', '20_4551248485_Integrata', None]","[None, None, '33_4551248485_CACEIS']","[1800039341, 1800039344, 1800039361]","['OB', 'OB', 'OB']",UMR,UMR,match,match

@@ -1,0 +1,78 @@
+stdout started
+meo size
+2028
+It took 0.99609375 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  3.614684358
+It took 3.25 Mb to execute this method
+The Date value count is:
+2021-07-26    2025
+Name: Date, dtype: int64
+Choosing the date : 2021-07-26
+It took 8.90625 Mb to execute this method
+It took 2.0703125 Mb to execute this method
+It took 1.9921875 Mb to execute this method
+It took 0.0 Mb to execute this method
+cc7 shape is :
+(1043, 68)
+It took 0.0078125 Mb to execute this method
+(18, 24)
+(14, 24)
+Time for first apply =  0.009862479999998897
+Time for first apply =  0.006962855000001156
+Time for second apply =  0.00762401799999779
+It took 0.09375 Mb to execute this method
+It took 0.01171875 Mb to execute this method
+It took 0.0 Mb to execute this method
+test_file shape is :
+(601, 79)
+It took 0.0703125 Mb to execute this method
+It took 6.02734375 Mb to execute this method
+test_file3 shape is :
+(601, 115)
+It took 0.19140625 Mb to execute this method
+It took 20.23828125 Mb to execute this method
+two_step_initiated
+It took 7.27734375 Mb to execute this method
+It took 0.08203125 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.05859375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.12890625 Mb to execute this method
+No One to Many found
+It took 0.00390625 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+It took 0.0 Mb to execute this method
+['6_1251380343_Advent Geneva' '5_1251380343_Advent Geneva']
+['2_1251380343_Advent Geneva' '1_1251380343_Advent Geneva']
+['33_1251380330_UBS', '34_1251380330_UBS']
+['27_1251380330_UBS', '28_1251380330_UBS']
+['9_1251380330_Advent Geneva', '10_1251380330_Advent Geneva']
+['5_1251380330_Advent Geneva', '6_1251380330_Advent Geneva']
+Time:  26.754094718
+v11_initiated
+125
+2021-07-26
+Following Task ID done
+1251450121
+1251450121|Weiss Advisors|Cash|RecData_125|132992|SUCCESS|125|61012ca21e9c9c0d78f4863e

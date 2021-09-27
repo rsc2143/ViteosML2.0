@@ -1,0 +1,134 @@
+stdout started
+meo size
+16396
+Choosing the date : 2021-07-29
+D:\ViteosModel2.0
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting UserTran2', 'ViewData.Cust UserTran2',
+       'ViewData.UserTran2 Difference', 'ViewData.Accounting Fund',
+       'ViewData.Cust Fund', 'ViewData.Fund Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting UserTran2', 'ViewData.Cust UserTran2',
+       'ViewData.UserTran2 Difference', 'ViewData.Accounting Fund',
+       'ViewData.Cust Fund', 'ViewData.Fund Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting UserTran2', 'ViewData.Cust UserTran2',
+       'ViewData.UserTran2 Difference', 'ViewData.Accounting Fund',
+       'ViewData.Cust Fund', 'ViewData.Fund Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting UserTran2', 'ViewData.Cust UserTran2',
+       'ViewData.UserTran2 Difference', 'ViewData.Accounting Fund',
+       'ViewData.Cust Fund', 'ViewData.Fund Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting UserTran2', 'ViewData.Cust UserTran2',
+       'ViewData.UserTran2 Difference', 'ViewData.Accounting Fund',
+       'ViewData.Cust Fund', 'ViewData.Fund Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting UserTran2', 'ViewData.Cust UserTran2',
+       'ViewData.UserTran2 Difference', 'ViewData.Accounting Fund',
+       'ViewData.Cust Fund', 'ViewData.Fund Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting UserTran2', 'ViewData.Cust UserTran2',
+       'ViewData.UserTran2 Difference', 'ViewData.Accounting Fund',
+       'ViewData.Cust Fund', 'ViewData.Fund Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting UserTran2', 'ViewData.Cust UserTran2',
+       'ViewData.UserTran2 Difference', 'ViewData.Accounting Fund',
+       'ViewData.Cust Fund', 'ViewData.Fund Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting UserTran2', 'ViewData.Cust UserTran2',
+       'ViewData.UserTran2 Difference', 'ViewData.Accounting Fund',
+       'ViewData.Cust Fund', 'ViewData.Fund Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting UserTran2', 'ViewData.Cust UserTran2',
+       'ViewData.UserTran2 Difference', 'ViewData.Accounting Fund',
+       'ViewData.Cust Fund', 'ViewData.Fund Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting UserTran2', 'ViewData.Cust UserTran2',
+       'ViewData.UserTran2 Difference', 'ViewData.Accounting Fund',
+       'ViewData.Cust Fund', 'ViewData.Fund Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Time:  246.403170098
+455
+2021-07-29
+455
+2021-07-29
+Following Task ID done
+4551450220
+4551450220|Lombard|Cash|RecData_455|133035|SUCCESS|455|6107b69c1e9c9c0d78fec413

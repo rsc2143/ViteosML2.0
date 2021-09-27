@@ -1,0 +1,4 @@
+dummyk['remove_mark_fin'] = dummyk.apply(lambda x :remove_mark_notolerance(x['pos_qnt_diff'] ,x['Cash Standing'],x['len_cash']),axis = 1)
+
+In above code line, what if the columns for Cash Standing and len cash have null values? Asking since we are not imputing null values with anything for these two columns.
+For column pos_qnt_diff, we impute with 0, so that's okay.

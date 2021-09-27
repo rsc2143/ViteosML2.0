@@ -1,0 +1,145 @@
+stdout started
+meo size
+16839
+Choosing the date : 2021-08-27
+D:\ViteosModel2.0
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Quantity', 'ViewData.Cust Quantity',
+       'ViewData.Quantity Difference', 'ViewData.Accounting Settle Date',
+       'ViewData.Cust Settle Date', 'ViewData.Settle Date Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Quantity', 'ViewData.Cust Quantity',
+       'ViewData.Quantity Difference', 'ViewData.Accounting Settle Date',
+       'ViewData.Cust Settle Date', 'ViewData.Settle Date Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Quantity', 'ViewData.Cust Quantity',
+       'ViewData.Quantity Difference', 'ViewData.Accounting Settle Date',
+       'ViewData.Cust Settle Date', 'ViewData.Settle Date Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Quantity', 'ViewData.Cust Quantity',
+       'ViewData.Quantity Difference', 'ViewData.Accounting Settle Date',
+       'ViewData.Cust Settle Date', 'ViewData.Settle Date Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Quantity', 'ViewData.Cust Quantity',
+       'ViewData.Quantity Difference', 'ViewData.Accounting Settle Date',
+       'ViewData.Cust Settle Date', 'ViewData.Settle Date Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Quantity', 'ViewData.Cust Quantity',
+       'ViewData.Quantity Difference', 'ViewData.Accounting Settle Date',
+       'ViewData.Cust Settle Date', 'ViewData.Settle Date Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Quantity', 'ViewData.Cust Quantity',
+       'ViewData.Quantity Difference', 'ViewData.Accounting Settle Date',
+       'ViewData.Cust Settle Date', 'ViewData.Settle Date Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Quantity', 'ViewData.Cust Quantity',
+       'ViewData.Quantity Difference', 'ViewData.Accounting Settle Date',
+       'ViewData.Cust Settle Date', 'ViewData.Settle Date Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Quantity', 'ViewData.Cust Quantity',
+       'ViewData.Quantity Difference', 'ViewData.Accounting Settle Date',
+       'ViewData.Cust Settle Date', 'ViewData.Settle Date Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Quantity', 'ViewData.Cust Quantity',
+       'ViewData.Quantity Difference', 'ViewData.Accounting Settle Date',
+       'ViewData.Cust Settle Date', 'ViewData.Settle Date Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Quantity', 'ViewData.Cust Quantity',
+       'ViewData.Quantity Difference', 'ViewData.Accounting Settle Date',
+       'ViewData.Cust Settle Date', 'ViewData.Settle Date Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Quantity', 'ViewData.Cust Quantity',
+       'ViewData.Quantity Difference', 'ViewData.Accounting Settle Date',
+       'ViewData.Cust Settle Date', 'ViewData.Settle Date Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Time:  275.309788537
+455
+2021-08-27
+455
+2021-08-27
+Following Task ID done
+4551498551
+4551498551|Lombard|Cash|RecData_455|16880|SUCCESS|455|612ca2b815545841f0c8be5d

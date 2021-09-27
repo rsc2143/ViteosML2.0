@@ -1,0 +1,45 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:/ViteosModel2.0/379_Production_Model.py", line 1102, in <module>
+    list_of_dicts_query_result_1 = list(query_1_for_MEO_data)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\cursor.py", line 1207, in next
+    if len(self.__data) or self._refresh():
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\cursor.py", line 1124, in _refresh
+    self.__send_message(q)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\cursor.py", line 1001, in __send_message
+    address=self.__address)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 1372, in _run_operation_with_response
+    exhaust=exhaust)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 1465, in _retryable_read
+    exhaust=exhaust) as (sock_info,
+  File "C:\ProgramData\Anaconda3\lib\contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 1309, in _slaveok_for_server
+    with self._get_socket(server, session, exhaust=exhaust) as sock_info:
+  File "C:\ProgramData\Anaconda3\lib\contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 1247, in _get_socket
+    self.__all_credentials, checkout=exhaust) as sock_info:
+  File "C:\ProgramData\Anaconda3\lib\contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\pool.py", line 1225, in get_socket
+    sock_info = self._get_socket(all_credentials)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\pool.py", line 1279, in _get_socket
+    sock_info.check_auth(all_credentials)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\pool.py", line 793, in check_auth
+    self.authenticate(credentials)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\pool.py", line 810, in authenticate
+    auth.authenticate(credentials, self)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\auth.py", line 673, in authenticate
+    auth_func(credentials, sock_info)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\auth.py", line 593, in _authenticate_default
+    return _authenticate_scram(credentials, sock_info, 'SCRAM-SHA-1')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\auth.py", line 295, in _authenticate_scram
+    res = sock_info.command(source, cmd)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\pool.py", line 694, in command
+    exhaust_allowed=exhaust_allowed)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\network.py", line 162, in command
+    parse_write_concern_error=parse_write_concern_error)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\helpers.py", line 168, in _check_command_response
+    max_wire_version)
+pymongo.errors.OperationFailure: Authentication failed., full error: {'ok': 0.0, 'errmsg': 'Authentication failed.', 'code': 18, 'codeName': 'AuthenticationFailed'}

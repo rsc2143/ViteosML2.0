@@ -1,0 +1,27 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\125_Production_Model.py", line 1471, in <module>
+    All_combination_df = All_combination_file(fun_df=meo_for_transaction_type_for_closing_value)
+  File "D:\ViteosModel2.0\125_Production_Model.py", line 578, in All_combination_file
+    return (pd.concat(all_training_df_for_transaction_type))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\reshape\concat.py", line 255, in concat
+    sort=sort,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\reshape\concat.py", line 335, in __init__
+    obj._consolidate(inplace=True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 5270, in _consolidate
+    self._consolidate_inplace()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 5252, in _consolidate_inplace
+    self._protect_consolidate(f)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 5241, in _protect_consolidate
+    result = f()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 5250, in f
+    self._data = self._data.consolidate()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 932, in consolidate
+    bm._consolidate_inplace()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 937, in _consolidate_inplace
+    self.blocks = tuple(_consolidate(self.blocks))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 1913, in _consolidate
+    list(group_blocks), dtype=dtype, _can_consolidate=_can_consolidate
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\blocks.py", line 3323, in _merge_blocks
+    new_values = new_values[argsort]
+MemoryError

@@ -1,0 +1,11 @@
+2021-07-08 19:06:49.172688 : Log started for datettime = 08-Jul-2021_07PM-06-49
+2021-07-08 19:06:49.203942 : Prediction Message Received for : 1251412749
+2021-07-08 19:07:19.240790 : meo created
+2021-07-08 19:07:19.412692 : meo df is not empty, initiating calculations
+2021-07-08 19:07:19.662682 : umb carry forward not empty, making umb carry forward file
+2021-07-08 19:07:19.709563 : ob carry forward not empty, not making umb carry forward file
+2021-07-08 19:07:20.600311 : Before carrying out SMB-OB operation
+2021-07-08 19:07:20.647167 : After carrying out SMB-OB operation
+2021-07-08 19:07:20.787846 : Before carrying out UMB-OB operation
+2021-07-08 19:07:20.928447 : After carrying out UMB-OB operation
+2021-07-08 19:07:20.959700 : Before carrying out closed

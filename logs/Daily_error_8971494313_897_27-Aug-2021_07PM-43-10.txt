@@ -1,0 +1,13 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\897_Production_Model_Daily.py", line 818, in <module>
+    dummy = pd.merge(dummy, pos , on = ['Custodian Account','Currency','Ticker1'], how = 'left')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\reshape\merge.py", line 81, in merge
+    validate=validate,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\reshape\merge.py", line 626, in __init__
+    ) = self._get_merge_keys()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\reshape\merge.py", line 988, in _get_merge_keys
+    left_keys.append(left._get_label_or_level_values(lk))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 1774, in _get_label_or_level_values
+    raise KeyError(key)
+KeyError: 'Custodian Account'

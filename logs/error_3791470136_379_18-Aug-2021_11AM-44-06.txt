@@ -1,0 +1,28 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 3525, in _ensure_valid_index
+    value = Series(value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\series.py", line 313, in __init__
+    data = SingleBlockManager(data, index, fastpath=True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 1516, in __init__
+    block = make_block(block, placement=slice(0, len(axis)), ndim=1)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\blocks.py", line 3267, in make_block
+    return klass(values, ndim=ndim, placement=placement)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\blocks.py", line 2775, in __init__
+    super().__init__(values, ndim=ndim, placement=placement)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\blocks.py", line 128, in __init__
+    "{mgr}".format(val=len(self.values), mgr=len(self.mgr_locs))
+ValueError: Wrong number of items passed 68, placement implies 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\379_Production_Model.py", line 2023, in <module>
+    df['flag_side0'] = df.apply(lambda x: len(x['ViewData.Side0_UniqueIds'].split(',')), axis=1)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 3472, in __setitem__
+    self._set_item(key, value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 3548, in _set_item
+    self._ensure_valid_index(value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 3528, in _ensure_valid_index
+    "Cannot set a frame with no defined index "
+ValueError: Cannot set a frame with no defined index and a value that cannot be converted to a Series

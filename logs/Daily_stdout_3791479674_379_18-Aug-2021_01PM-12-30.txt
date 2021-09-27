@@ -1,0 +1,35 @@
+stdout started
+meo size
+260
+The Date value count is:
+2021-08-16    258
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\output_files
+Choosing the date : 2021-08-16
+['290_3791479674_Advent Geneva', '532_3791479674_Advent Geneva']
+['7_3791419914_Northern Trust', '6_3791419914_Northern Trust', '5_3791419914_Northern Trust', '17_3791463819_Northern Trust', '16_3791463819_Northern Trust', '15_3791463819_Northern Trust']
+(88, 74)
+(82, 74)
+6
+2
+(82, 74)
+(80, 74)
+['7_3791419914_Northern Trust', '6_3791419914_Northern Trust', '5_3791419914_Northern Trust']
+['17_3791463819_Northern Trust', '16_3791463819_Northern Trust', '15_3791463819_Northern Trust']
+['290_3791479674_Advent Geneva']
+['532_3791479674_Advent Geneva']
+1
+1
+2
+3
+4
+No Many to One found
+No Many to One found
+['24_3791378245_Northern Trust' '25_3791378245_Northern Trust'
+ '26_3791378245_Northern Trust']
+(8, 67)
+(11, 67)
+379
+2021-08-16
+Following Task ID done
+3791479674

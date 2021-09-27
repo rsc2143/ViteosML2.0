@@ -1,0 +1,11 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\379_Production_Model.py", line 5799, in <module>
+    BusinessDate_df_to_append_value = final_table_to_write['BusinessDate'].iloc[1]
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1424, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 2157, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 2088, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds

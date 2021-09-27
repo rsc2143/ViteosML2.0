@@ -1,0 +1,43 @@
+,Side0_UniqueIds,Side1_UniqueIds,BreakID,ViewData.Status,predicted status,predicted action,predicted category,predicted comment,custodian_val_to_use_comgen,first_non_null_breakid_in_breakid_columns
+0,,2_2491430052_Bank of America Merrill Lynch,1859897316,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1859897316
+1,,1_2491426017_Bank of America Merrill Lynch,1859877534,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1859877534
+2,,1_2491430085_Bank of America Merrill Lynch,1859922738,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1859922738
+3,,3_2491400030_Bank of America Merrill Lynch,1859744634,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1859744634
+4,,2_2491430085_Bank of America Merrill Lynch,1859922739,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1859922739
+5,,1_2491430065_Bank of America Merrill Lynch,1859905371,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1859905371
+6,,3_2491430309_Bank of America Merrill Lynch,1860080677,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1860080677
+7,,1_2491400082_Bank of America Merrill Lynch,1859772929,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1859772929
+8,,2_2491430065_Bank of America Merrill Lynch,1859905372,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1859905372
+9,,1_2491430288_Bank of America Merrill Lynch,1860076001,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1860076001
+10,,1_2491430307_Bank of America Merrill Lynch,1860080666,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1860080666
+11,,2_2491430308_Bank of America Merrill Lynch,1860080673,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1860080673
+12,,1_2491430309_Bank of America Merrill Lynch,1860080676,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1860080676
+13,,2_2491400082_Bank of America Merrill Lynch,1859772930,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1859772930
+14,,3_2491430311_Bank of America Merrill Lynch,1860080808,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1860080808
+15,,1_2491430311_Bank of America Merrill Lynch,1860080806,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1860080806
+16,,1_2491400030_Bank of America Merrill Lynch,1859744633,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1859744633
+17,,11_2491430307_Bank of America Merrill Lynch,1860080668,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1860080668
+18,,1_2491430052_Bank of America Merrill Lynch,1859897317,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1859897317
+19,,1_2491430308_Bank of America Merrill Lynch,1860080674,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1860080674
+20,,3_2491450111_Bank of America Merrill Lynch,1860134546,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1860134546
+21,,5_2491430288_Bank of America Merrill Lynch,1860076002,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1860076002
+22,,1_2491450111_Bank of America Merrill Lynch,1860134544,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1860134544
+23,,2_2491450150_Bank of America Merrill Lynch,1860150715,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1860150715
+24,,2_2491426017_Bank of America Merrill Lynch,1859877535,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1859877535
+25,,1_2491450150_Bank of America Merrill Lynch,1860150716,OB,UCB,Close,Close,,Bank of America Merrill Lynch,1860150716
+26,,4_2491430307_Bank of America Merrill Lynch,1860080672,OB,OB,No-pair,swap cash flow,Bank Of America  booked the swap cash flow transaction for SD 07-20-2021. Integrata yet to book.,Bank Of America ,1860080672
+27,,3_2491430288_Bank of America Merrill Lynch,1860076000,OB,OB,No-pair,swap cash flow,Bank Of America  booked the swap cash flow transaction for SD 07-19-2021. Integrata yet to book.,Bank Of America ,1860076000
+28,,6_2491430307_Bank of America Merrill Lynch,1860080669,OB,OB,No-pair,swap cash flow,Bank Of America  booked the swap cash flow transaction for SD 07-20-2021. Integrata yet to book.,Bank Of America ,1860080669
+29,,2_2491430307_Bank of America Merrill Lynch,1860080664,OB,OB,No-pair,swap cash flow,Bank Of America  booked the swap cash flow transaction for SD 07-20-2021. Integrata yet to book.,Bank Of America ,1860080664
+30,,5_2491430307_Bank of America Merrill Lynch,1860080662,OB,OB,No-pair,swap cash flow,Bank Of America  booked the swap cash flow transaction for SD 07-20-2021. Integrata yet to book.,Bank Of America ,1860080662
+31,,2_2491430288_Bank of America Merrill Lynch,1860075999,OB,OB,No-pair,swap cash flow,Bank Of America  booked the swap cash flow transaction for SD 07-19-2021. Integrata yet to book.,Bank Of America ,1860075999
+32,,7_2491430307_Bank of America Merrill Lynch,1860080663,OB,OB,No-pair,swap cash flow,Bank Of America  booked the swap cash flow transaction for SD 07-20-2021. Integrata yet to book.,Bank Of America ,1860080663
+33,,3_2491430307_Bank of America Merrill Lynch,1860080671,OB,OB,No-pair,swap cash flow,Bank Of America  booked the swap cash flow transaction for SD 07-20-2021. Integrata yet to book.,Bank Of America ,1860080671
+34,,2_2491430309_Bank of America Merrill Lynch,1860080675,OB,OB,No-pair,swap cash flow,Bank Of America  booked the swap cash flow transaction for SD 07-23-2021. Integrata yet to book.,Bank Of America ,1860080675
+35,,9_2491430307_Bank of America Merrill Lynch,1860080670,OB,OB,No-pair,swap cash flow,Bank Of America  booked the swap cash flow transaction for SD 07-20-2021. Integrata yet to book.,Bank Of America ,1860080670
+36,,2_2491430311_Bank of America Merrill Lynch,1860080807,OB,OB,No-pair,swap cash flow,Bank Of America  booked the swap cash flow transaction for SD 07-22-2021. Integrata yet to book.,Bank Of America ,1860080807
+37,,4_2491430288_Bank of America Merrill Lynch,1860076003,OB,OB,No-pair,swap cash flow,Bank Of America  booked the swap cash flow transaction for SD 07-19-2021. Integrata yet to book.,Bank Of America ,1860076003
+38,,8_2491430307_Bank of America Merrill Lynch,1860080665,OB,OB,No-pair,swap cash flow,Bank Of America  booked the swap cash flow transaction for SD 07-20-2021. Integrata yet to book.,Bank Of America ,1860080665
+39,,2_2491400030_Bank of America Merrill Lynch,1859744632,OB,OB,No-pair,swap cash flow,Bank Of America  booked the swap cash flow transaction for SD 06-11-2021. Integrata yet to book.,Bank Of America ,1859744632
+40,,2_2491450111_Bank of America Merrill Lynch,1860134545,OB,OB,No-pair,swap cash flow,Bank Of America  booked the swap cash flow transaction for SD 07-22-2021. Integrata yet to book.,Bank Of America ,1860134545
+41,,10_2491430307_Bank of America Merrill Lynch,1860080667,OB,OB,No-pair,swap cash flow,Bank Of America  booked the swap cash flow transaction for SD 07-20-2021. Integrata yet to book.,Bank Of America ,1860080667

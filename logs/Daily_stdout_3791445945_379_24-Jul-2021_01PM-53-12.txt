@@ -1,0 +1,168 @@
+stdout started
+meo size
+366
+The Date value count is:
+2021-07-22    271
+2019-04-22      1
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\output_files
+Choosing the date : 2021-07-22
+['10_3791445945_Advent Geneva', '11_3791445945_Advent Geneva', '12_3791445945_Advent Geneva', '19_3791445945_Advent Geneva', '20_3791445945_Advent Geneva', '21_3791445945_Advent Geneva', '38_3791445945_Advent Geneva', '30_3791445945_Advent Geneva', '31_3791445945_Advent Geneva', '32_3791445945_Advent Geneva', '33_3791445945_Advent Geneva', '35_3791445945_Advent Geneva', '36_3791445945_Advent Geneva', '37_3791445945_Advent Geneva']
+['64_3791443912_State Street', '68_3791443912_State Street', '66_3791443912_State Street', '65_3791443912_State Street', '69_3791443912_State Street', '70_3791443912_State Street', '72_3791443912_State Street', '76_3791443912_State Street', '71_3791443912_State Street']
+(86, 74)
+(185, 74)
+9
+14
+(77, 74)
+(171, 74)
+['64_3791443912_State Street', '68_3791443912_State Street', '66_3791443912_State Street', '65_3791443912_State Street']
+['69_3791443912_State Street', '70_3791443912_State Street', '72_3791443912_State Street', '76_3791443912_State Street', '71_3791443912_State Street']
+['10_3791445945_Advent Geneva', '11_3791445945_Advent Geneva', '12_3791445945_Advent Geneva', '19_3791445945_Advent Geneva', '20_3791445945_Advent Geneva', '21_3791445945_Advent Geneva']
+['38_3791445945_Advent Geneva', '30_3791445945_Advent Geneva', '31_3791445945_Advent Geneva', '32_3791445945_Advent Geneva', '33_3791445945_Advent Geneva', '35_3791445945_Advent Geneva', '36_3791445945_Advent Geneva', '37_3791445945_Advent Geneva']
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+No One to Many found
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+(50, 67)
+(90, 67)
+2053971594
+2053971597
+379
+2021-07-22
+Following Task ID done
+3791445945

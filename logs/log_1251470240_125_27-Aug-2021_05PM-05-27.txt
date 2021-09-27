@@ -1,0 +1,73 @@
+2021-08-27 17:05:27.495181 : Log started for datettime = 27-Aug-2021_05PM-05-27
+2021-08-27 17:05:27.542059 : Prediction Message Received for : 1251470240
+2021-08-27 17:05:41.856053 : meo created
+2021-08-27 17:05:41.918561 : meo df is not empty, initiating calculations
+2021-08-27 17:05:41.934188 : meo df shape is7077
+2021-08-27 17:05:42.043543 : umb carry forward not empty, making umb carry forward file
+2021-08-27 17:05:42.106048 : ob carry forward not empty, not making umb carry forward file
+2021-08-27 17:05:42.387361 : Before carrying out SMB-OB operation
+2021-08-27 17:05:42.496745 : After carrying out SMB-OB operation
+2021-08-27 17:05:42.637384 : Before carrying out UMB-OB operation
+2021-08-27 17:05:42.777996 : After carrying out UMB-OB operation
+2021-08-27 17:05:42.809282 : Before carrying out closed
+2021-08-27 17:05:54.513604 : After carrying out closed
+2021-08-27 17:05:55.810615 : Before catching mtm for revenue, expense and stock loan
+2021-08-27 17:05:58.264036 : After catching mtm for revenue, expense and stock loan
+2021-08-27 17:05:58.701575 : Before catching mtm for equity swap
+2021-08-27 17:05:59.545384 : After catching mtm for equity swap
+2021-08-27 17:05:59.764188 : Before catching updown
+2021-08-27 17:05:59.936072 : dffacc and dffpb created
+2021-08-27 17:06:00.264256 : updlist created
+2021-08-27 17:06:00.733010 : if statement started when dff4 and dff5 are non empty
+2021-08-27 17:06:00.920553 : appended data created
+2021-08-27 17:06:14.860340 : After catching updown
+2021-08-27 17:06:14.875966 : Before mXn
+2021-08-27 17:06:20.845341 : After mXn
+2021-08-27 17:06:20.876593 : Before mXn training df
+2021-08-27 17:06:23.798777 : After mXn training df
+2021-08-27 17:17:24.704543 : After test file cleaning
+2021-08-27 17:17:54.004498 : After test file 3
+2021-08-27 17:18:04.239950 : Before Xtest creation
+2021-08-27 17:19:44.387904 : After Xtest first prediction
+2021-08-27 17:20:30.441872 : After Xtest second prediction
+2021-08-27 17:20:43.740210 : After Xtest UMT segregation
+2021-08-27 17:20:44.412286 : Before Xtest no pair segregation
+2021-08-27 17:20:48.896937 : Before Xtest left
+2021-08-27 17:20:52.928679 : Before ccnew
+2021-08-27 17:20:56.085387 : After ccnew
+2021-08-27 17:33:21.586332 : After umr otm table loop
+2021-08-27 17:41:42.623989 : After umr mto table loop
+2021-08-27 17:41:51.124715 : After final_table_to_write creation
+2021-08-27 17:41:51.359119 : Before commenting
+2021-08-27 17:41:54.187510 : Before commenting
+2021-08-27 17:41:55.609574 : Com file read
+2021-08-27 17:41:57.438494 : new pb mapping declared
+2021-08-27 17:41:58.079161 : Cancel functions delared
+2021-08-27 17:41:59.048053 : Before making df_mod_1
+2021-08-27 17:41:59.563720 : After making df_mod_1
+2021-08-27 17:42:00.063777 : Before reading comment sav file
+2021-08-27 17:42:00.235672 : After reading and loading comment sav file
+2021-08-27 17:42:00.876365 : After making result non trade
+2021-08-27 17:42:01.860806 : Before merging comment df final with final_df
+2021-08-27 17:42:01.907686 : After merging comment df final with final_df
+2021-08-27 17:42:02.110862 : Before removing Side01 id of OB record
+2021-08-27 17:42:02.157763 : After removing Side01 id of OB record
+2021-08-27 17:42:02.470285 : After getting first term before separator and making amends
+2021-08-27 17:42:03.642271 : After SMB commenting
+2021-08-27 17:42:03.939192 : After UMB commenting
+2021-08-27 17:42:09.283488 : After UMB_SMB duplication issue
+2021-08-27 17:42:09.345996 : Before getting NetAmountDifference
+2021-08-27 17:42:33.114540 : After getting NetAmountDifference
+2021-08-27 17:42:33.177049 : After dropping columns
+2021-08-27 17:42:33.223930 : After renaming columns
+2021-08-27 17:42:33.270809 : After renaming columns again
+2021-08-27 17:42:33.317884 : After making copy of final_df2
+2021-08-27 17:42:33.380197 : After replacing BreakID spaces
+2021-08-27 17:42:33.427076 : After replacing Final Predicted BreakID spaces
+2021-08-27 17:42:33.489582 : After making ReconSetupName and ClientShortCode columns
+2021-08-27 17:42:33.531748 : After making today_y_m_d
+2021-08-27 17:42:33.578838 : 6850
+2021-08-27 17:42:33.797408 : After making CreatedDateColumns
+2021-08-27 17:42:33.844321 : Before deleting objects
+2021-08-27 17:42:36.985244 : After inserting in db
+2021-08-27 17:42:37.112030 : 1251470240|Weiss Advisors|Cash|RecData_125|133346|SUCCESS|125|6128cbe41e9c9c11b450ff4b

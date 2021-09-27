@@ -39,7 +39,8 @@ import pandas as pd
 
 
 import os
-os.chdir('D:\\ViteosModel2.0\\')
+base_dir_viteosmodel2 = 'D:\\ViteosModel2.0\\'
+os.chdir(base_dir_viteosmodel2)
 #from imblearn.over_sampling import SMOTE
 from sklearn.metrics import accuracy_score 
 from sklearn.metrics import classification_report
@@ -95,7 +96,7 @@ try:
 #Logger_obj.log_to_file(param_filename = log_filepath, param_log_str = 'Log started for datettime = ' + str(current_date_and_time))
 #print(os.getcwd())
 
-    with open(os.getcwd() + '\\data\\Production_loop_1_parameters.json') as f:
+    with open(os.getcwd() + '\\data\\Production_Model_parameters.json') as f:
         parameters_dict = json.load(f)
 
     client = 'Oaktree'
@@ -393,47 +394,55 @@ try:
     #    Commened out below line on 26-11-2020 to exclude SPM from closed coverage, and added the line below the commened line
     #    meo = meo[~meo['ViewData.Status'].isin(['SMT','HST', 'OC', 'CT', 'Archive','SMR'])]
         meo = meo[~meo['ViewData.Status'].isin(['SPM','SMT','HST', 'OC', 'CT', 'Archive','SMR','UMB','SMB'])] 
-        meo = meo[~meo['ViewData.Status'].isnull()]\
-                                         .reset_index()\
-                                         .drop('index',1)
-        
-        meo['Date'] = pd.to_datetime(meo['ViewData.Task Business Date'])
-        meo = meo[~meo['Date'].isnull()]\
-                              .reset_index()\
-                              .drop('index',1)
-        
-        meo['Date'] = pd.to_datetime(meo['Date']).dt.date
-        meo['Date'] = meo['Date'].astype(str)
-    
-        meo['ViewData.Side0_UniqueIds'] = meo['ViewData.Side0_UniqueIds'].astype(str)
-        meo['ViewData.Side1_UniqueIds'] = meo['ViewData.Side1_UniqueIds'].astype(str)
-    
-        meo['flag_side0'] = meo.apply(lambda x: len(x['ViewData.Side0_UniqueIds'].split(',')), axis=1)
-        meo['flag_side1'] = meo.apply(lambda x: len(x['ViewData.Side1_UniqueIds'].split(',')), axis=1)
-    
-    
-        meo.loc[meo['ViewData.Side0_UniqueIds']=='nan','flag_side0'] = 0
-        meo.loc[meo['ViewData.Side1_UniqueIds']=='nan','flag_side1'] = 0
-    
-        meo.loc[meo['ViewData.Side0_UniqueIds']=='None','flag_side0'] = 0
-        meo.loc[meo['ViewData.Side1_UniqueIds']=='None','flag_side1'] = 0
-    
-        meo.loc[meo['ViewData.Side0_UniqueIds']=='','flag_side0'] = 0
-        meo.loc[meo['ViewData.Side1_UniqueIds']=='','flag_side1'] = 0
-    
-        meo['ViewData.BreakID'] = meo['ViewData.BreakID'].astype(int)
-        meo = meo[meo['ViewData.BreakID']!=-1] \
-              .reset_index() \
-              .drop('index',1)
-              
-        meo['Side_0_1_UniqueIds'] = meo['ViewData.Side0_UniqueIds'].astype(str) + \
-                                    meo['ViewData.Side1_UniqueIds'].astype(str)
-        meo['PB_or_Acct_Side'] = meo.apply(lambda row : assign_PB_Acct_side_row_apply(fun_row = row), axis = 1, result_type="expand")
-        meo['ViewData.Transaction Type'] = meo['ViewData.Transaction Type'].astype(str)
-        meo['Transaction_Type_for_closing'] = meo.apply(lambda row : assign_Transaction_Type_for_closing_apply_row_379(fun_row = row, fun_transaction_type_col_name = 'ViewData.Transaction Type'), axis = 1, result_type="expand")
-        meo['abs_net_amount_difference'] = meo['ViewData.Net Amount Difference'].apply(lambda x : abs(x))
-        meo = meo.sort_values(by=['ViewData.Transaction ID','ViewData.Transaction Type'],ascending = False)
-        return(meo)  
+        if(meo.shape[0] != 0):
+            meo = meo[~meo['ViewData.Status'].isnull()]\
+                                             .reset_index()\
+                                             .drop('index',1)
+            if(meo.shape[0] != 0):
+                meo['Date'] = pd.to_datetime(meo['ViewData.Task Business Date'])
+                meo = meo[~meo['Date'].isnull()]\
+                                      .reset_index()\
+                                      .drop('index',1)
+                
+                if(meo.shape[0] != 0):
+                    meo['Date'] = pd.to_datetime(meo['Date']).dt.date
+                    meo['Date'] = meo['Date'].astype(str)
+                
+                    meo['ViewData.Side0_UniqueIds'] = meo['ViewData.Side0_UniqueIds'].astype(str)
+                    meo['ViewData.Side1_UniqueIds'] = meo['ViewData.Side1_UniqueIds'].astype(str)
+                
+                    meo['flag_side0'] = meo.apply(lambda x: len(x['ViewData.Side0_UniqueIds'].split(',')), axis=1)
+                    meo['flag_side1'] = meo.apply(lambda x: len(x['ViewData.Side1_UniqueIds'].split(',')), axis=1)
+                
+                
+                    meo.loc[meo['ViewData.Side0_UniqueIds']=='nan','flag_side0'] = 0
+                    meo.loc[meo['ViewData.Side1_UniqueIds']=='nan','flag_side1'] = 0
+                
+                    meo.loc[meo['ViewData.Side0_UniqueIds']=='None','flag_side0'] = 0
+                    meo.loc[meo['ViewData.Side1_UniqueIds']=='None','flag_side1'] = 0
+                
+                    meo.loc[meo['ViewData.Side0_UniqueIds']=='','flag_side0'] = 0
+                    meo.loc[meo['ViewData.Side1_UniqueIds']=='','flag_side1'] = 0
+                
+                    meo['ViewData.BreakID'] = meo['ViewData.BreakID'].astype(int)
+                    meo = meo[meo['ViewData.BreakID']!=-1] \
+                          .reset_index() \
+                          .drop('index',1)
+                          
+                    meo['Side_0_1_UniqueIds'] = meo['ViewData.Side0_UniqueIds'].astype(str) + \
+                                                meo['ViewData.Side1_UniqueIds'].astype(str)
+                    meo['PB_or_Acct_Side'] = meo.apply(lambda row : assign_PB_Acct_side_row_apply(fun_row = row), axis = 1, result_type="expand")
+                    meo['ViewData.Transaction Type'] = meo['ViewData.Transaction Type'].astype(str)
+                    meo['Transaction_Type_for_closing'] = meo.apply(lambda row : assign_Transaction_Type_for_closing_apply_row_379(fun_row = row, fun_transaction_type_col_name = 'ViewData.Transaction Type'), axis = 1, result_type="expand")
+                    meo['abs_net_amount_difference'] = meo['ViewData.Net Amount Difference'].apply(lambda x : abs(x))
+                    meo = meo.sort_values(by=['ViewData.Transaction ID','ViewData.Transaction Type'],ascending = False)
+                    return(meo)  
+                else:
+                    return(pd.DataFrame())
+            else:
+                return(pd.DataFrame())
+        else:
+            return(pd.DataFrame())
     
     def interacting_closing_379(fun_df): #The name of the function contains 125 but it is also being used in 379
         fun_df['ViewData.Mapped Custodian Account'] = fun_df['ViewData.Mapped Custodian Account'].astype(str)
@@ -994,7 +1003,7 @@ try:
 
         # Decoding the output of rabbit MQ message
         s2_out = sys.argv[1]
-    
+#        s2_out = '3791470136|OakTree|Cash|RecData_379|131363|Recon Run Completed|379|60d6f4ec15545826dc04b526'
 #        Logger_obj.log_to_file(param_filename = log_filepath, param_log_str = 'RabbitMQ Receive file executed')    
     #Note that message from .Net code is as follows:
     #string message = string.Format("{0}|{1}|{2}|{3}|{4}|{5}|{6}", task.InstanceID, task.ReconSetupForTask.Client.ClientShortCode, task.ReconSetupForTask.ReconPurpose.ReconPurpose, ReconciliationDataRepository.GetReconDataCollection(task.ReconSetupCode), processID, "Recon Run Completed", task.ReconSetupCode) 
@@ -1007,6 +1016,7 @@ try:
         print (stout_list)
         if len(stout_list) > 1:
             while_loop_iterator = while_loop_iterator + 1
+            outer_while_loop_iterator = outer_while_loop_iterator + 1
     
 #            Logger_obj.log_to_file(param_filename = log_filepath, param_log_str = 'RabbitMQ Receive file executed and got a message')
             print('Receiving method worked')
@@ -1678,6 +1688,7 @@ try:
                                   #'label']
                     
                     ob_carry_forward_df = meo_df[meo_df['ViewData.Status'] == 'OB']                
+                    Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='meo df shape is' + str(meo_df.shape[0]))
     
                     meo_df['Date'] = pd.to_datetime(meo_df['ViewData.Task Business Date'])
                     meo_df = meo_df.reset_index()
@@ -1814,7 +1825,7 @@ try:
                                                            'ViewData.Source Combination Code' : 'SourceCombinationCode'
                                                            }
                         final_smb_ob_table_copy.rename(columns = columns_rename_for_smb_ob_table_dict, inplace = True)
-                        filepaths_final_smb_ob_table_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_smb_ob_table_copy_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
+#                        filepaths_final_smb_ob_table_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_smb_ob_table_copy_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
                     
 #                        final_smb_ob_table_copy.to_csv(filepaths_final_smb_ob_table_copy)
                     
@@ -1892,7 +1903,7 @@ try:
                                                            'ViewData.Source Combination Code' : 'SourceCombinationCode'
                                                            }
                         final_umb_ob_table_copy.rename(columns = columns_rename_for_umb_ob_table_dict, inplace = True)
-                        filepaths_final_umb_ob_table_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_umb_ob_table_copy_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
+#                        filepaths_final_umb_ob_table_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_umb_ob_table_copy_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
                     
 #                        final_umb_ob_table_copy.to_csv(filepaths_final_umb_ob_table_copy)
                     
@@ -1912,54 +1923,67 @@ try:
                     
                     closed_df_list = []
                     
-                    for transaction_type_for_closing_value in mapping_dict_trans_type_379:
-                        meo_for_transaction_type_for_closing_value_input = meo_for_closed[meo_for_closed['Transaction_Type_for_closing'] == transaction_type_for_closing_value]
-                        meo_for_transaction_type_for_closing_value = interacting_closing_379(meo_for_transaction_type_for_closing_value_input)
-                        All_combination_df = All_combination_file_379(fun_df = meo_for_transaction_type_for_closing_value)
-                        if(All_combination_df.shape[0] != 0):
-                            closed_df_for_transaction_type_for_closing_value = identifying_closed_breaks_379(fun_all_meo_combination_df = All_combination_df, \
-                                                                                     fun_setup_code_crucial = Setup_Code_z, \
-                                                                                     fun_Transaction_Type_for_closing = transaction_type_for_closing_value)
-                            closed_df_list.append(closed_df_for_transaction_type_for_closing_value)
+                    if(meo_for_closed.shape[0] != 0):
+
+                        for transaction_type_for_closing_value in mapping_dict_trans_type_379:
+                            meo_for_transaction_type_for_closing_value_input = meo_for_closed[meo_for_closed['Transaction_Type_for_closing'] == transaction_type_for_closing_value]
+                            meo_for_transaction_type_for_closing_value = interacting_closing_379(meo_for_transaction_type_for_closing_value_input)
+                            All_combination_df = All_combination_file_379(fun_df = meo_for_transaction_type_for_closing_value)
+                            if(All_combination_df.shape[0] != 0):
+                                closed_df_for_transaction_type_for_closing_value = identifying_closed_breaks_379(fun_all_meo_combination_df = All_combination_df, \
+                                                                                         fun_setup_code_crucial = Setup_Code_z, \
+                                                                                         fun_Transaction_Type_for_closing = transaction_type_for_closing_value)
+                                closed_df_list.append(closed_df_for_transaction_type_for_closing_value)
+                            else:
+                                closed_df_list.append(pd.DataFrame())
+                            del(meo_for_transaction_type_for_closing_value_input)
+                            del(meo_for_transaction_type_for_closing_value)
+                            del(All_combination_df)
+                        
+                        
+                        closed_df_interacting = pd.concat(closed_df_list)
+                        
+                        if(closed_df_interacting.shape[0]):
+                            breakId_x = set(list(closed_df_interacting['ViewData.BreakID_x']))
+                            breakId_y = set(list(closed_df_interacting['ViewData.BreakID_y']))
                         else:
-                            closed_df_list.append(pd.DataFrame())
-                        del(meo_for_transaction_type_for_closing_value_input)
-                        del(meo_for_transaction_type_for_closing_value)
-                        del(All_combination_df)
+                            breakId_x = set()
+                            breakId_y = set()
+    
+                        
+                        all_interacting_closed_breakIds = list(breakId_x.union(breakId_y))
+                        
+                        all_predicted_close_breakids = all_interacting_closed_breakIds
+                        
+                        int_all_predicted_close_breakids = [int(x) for x in all_predicted_close_breakids]
+                        
+                        
+                        def make_Side01_UniqueIds_apply_row(fun_row):
+                            side0id = str(fun_row['ViewData.Side0_UniqueIds'])
+                            side1id = str(fun_row['ViewData.Side1_UniqueIds'])
+                            return(side0id + side1id)
+                            
+                        if(len(int_all_predicted_close_breakids) != 0):   
+                            closed_new_breakid_side01_ids_df2 = meo_df[meo_df['ViewData.BreakID'].isin(int_all_predicted_close_breakids)][['ViewData.BreakID','ViewData.Side0_UniqueIds','ViewData.Side1_UniqueIds']]
+                            closed_new_breakid_side01_ids_df2['Side0_1_UniqueIds'] = closed_new_breakid_side01_ids_df2.apply(lambda row : make_Side01_UniqueIds_apply_row(fun_row = row), axis = 1, result_type="expand")
+                            Side_0_1_UniqueIds_closed_all_dates_list = closed_new_breakid_side01_ids_df2['Side0_1_UniqueIds'].tolist()
+                        else:
+                            Side_0_1_UniqueIds_closed_all_dates_list = []
+    
+    
+                        new_closed_keys = [i.replace('nan','') for i in Side_0_1_UniqueIds_closed_all_dates_list]
+                        new_closed_keys = [i.replace('None','') for i in new_closed_keys]
                     
-                    
-                    closed_df_interacting = pd.concat(closed_df_list)
-                    
-                    if(closed_df_interacting.shape[0]):
-                        breakId_x = set(list(closed_df_interacting['ViewData.BreakID_x']))
-                        breakId_y = set(list(closed_df_interacting['ViewData.BreakID_y']))
                     else:
+                        closed_df_list = []
+                        closed_df_interacting = pd.DataFrame()
                         breakId_x = set()
                         breakId_y = set()
-
-                    
-                    all_interacting_closed_breakIds = list(breakId_x.union(breakId_y))
-                    
-                    all_predicted_close_breakids = all_interacting_closed_breakIds
-                    
-                    int_all_predicted_close_breakids = [int(x) for x in all_predicted_close_breakids]
-                    
-                    
-                    def make_Side01_UniqueIds_apply_row(fun_row):
-                        side0id = str(fun_row['ViewData.Side0_UniqueIds'])
-                        side1id = str(fun_row['ViewData.Side1_UniqueIds'])
-                        return(side0id + side1id)
-                        
-                    if(len(int_all_predicted_close_breakids) != 0):   
-                        closed_new_breakid_side01_ids_df2 = meo_df[meo_df['ViewData.BreakID'].isin(int_all_predicted_close_breakids)][['ViewData.BreakID','ViewData.Side0_UniqueIds','ViewData.Side1_UniqueIds']]
-                        closed_new_breakid_side01_ids_df2['Side0_1_UniqueIds'] = closed_new_breakid_side01_ids_df2.apply(lambda row : make_Side01_UniqueIds_apply_row(fun_row = row), axis = 1, result_type="expand")
-                        Side_0_1_UniqueIds_closed_all_dates_list = closed_new_breakid_side01_ids_df2['Side0_1_UniqueIds'].tolist()
-                    else:
+                        all_interacting_closed_breakIds = []
+                        all_predicted_close_breakids = []
+                        int_all_predicted_close_breakids = []
                         Side_0_1_UniqueIds_closed_all_dates_list = []
-
-
-                    new_closed_keys = [i.replace('nan','') for i in Side_0_1_UniqueIds_closed_all_dates_list]
-                    new_closed_keys = [i.replace('None','') for i in new_closed_keys]
+                        new_closed_keys = []
                     
                     
                     #End new closed code
@@ -1977,25 +2001,28 @@ try:
                     closed_df = closed_df_side1.append(closed_df_side0)
                                         
                     df2 = df1[~((df1['ViewData.Side1_UniqueIds'].isin(new_closed_keys)) | (df1['ViewData.Side0_UniqueIds'].isin(new_closed_keys)))]
+
                     if(df2.shape[0] != 0):
-                        
                         df = df2.copy()
                         df = df.reset_index()
                         df = df.drop('index',1)
                         df['Date'] = pd.to_datetime(df['ViewData.Task Business Date'])
                         df = df[~df['Date'].isnull()]
-                        df = df.reset_index()
+                        df = df.reset_index()                        
                         df = df.drop('index',1)
-                        
-                        pd.to_datetime(df['Date'])
-                        
                         df['Date'] = pd.to_datetime(df['Date']).dt.date
-                        
                         df['Date'] = df['Date'].astype(str)
                         
                         df = df[df['ViewData.Status'].isin(['OB','SDB','UOB','UDB','CMF','CNF','SMB','SPM'])]
                         df = df.reset_index()
                         df = df.drop('index',1)
+                        
+                    else:
+                        df2 = pd.DataFrame()
+                        df = pd.DataFrame()
+                    
+                    if(df.shape[0] != 0):
+                                                
                         df['ViewData.Side0_UniqueIds'] = df['ViewData.Side0_UniqueIds'].astype(str)
                         df['ViewData.Side1_UniqueIds'] = df['ViewData.Side1_UniqueIds'].astype(str)
                         df['flag_side0'] = df.apply(lambda x: len(x['ViewData.Side0_UniqueIds'].split(',')), axis=1)
@@ -2024,39 +2051,39 @@ try:
                         print(str(os.getcwd()) + Oaktree_parameters_dict.get(str(client) + '_' + str(setup_code) + '_output_folder_path'))
                         Oaktree_379_output_files_path_from_dict = str(os.getcwd()) + Oaktree_parameters_dict.get(str(client) + '_' + str(setup_code) + '_output_folder_path')
     
-                        base_dir = os.getcwd()       
+#                        base_dir = os.getcwd()       
                         
                         # create dynamic name with date as folder
-                        base_dir = os.path.join(base_dir + '\\Setup_' + setup_code)
+#                        base_dir = os.path.join(base_dir + '\\Setup_' + setup_code)
                         # create 'dynamic' dir, if it does not exist
-                        if not os.path.exists(base_dir):
-                            os.makedirs(base_dir)
-                        os.chdir(base_dir)
+#                        if not os.path.exists(base_dir):
+#                            os.makedirs(base_dir)
+#                        os.chdir(base_dir)
                         
-                        recon_done_for_dates_folder_names = [name for name in os.listdir(".") if os.path.isdir(name)]
+#                        recon_done_for_dates_folder_names = [name for name in os.listdir(".") if os.path.isdir(name)]
                         
                         def get_date_subfolder_suffix(param_date, param_subfolder_list):
-                        	greatest_element_number_suffix = 0
-                        	for element in param_subfolder_list:
-                        		if(param_date in element):
-                        			if(element.split('_')[-1].isnumeric() == True):
-                        				if(int(element.split('_')[-1]) > greatest_element_number_suffix):
-                        					greatest_element_number_suffix = int(element.split('_')[-1])
-                        				else:
-                        					greatest_element_number_suffix = greatest_element_number_suffix
-                        			else:
-                        				greatest_element_number_suffix = greatest_element_number_suffix
-                        		else:
-                        			greatest_element_number_suffix = greatest_element_number_suffix
-                        	
-                        	return(greatest_element_number_suffix + 1)
+                            greatest_element_number_suffix = 0
+                            for element in param_subfolder_list:
+                                if(param_date in element):
+                                    if(element.split('_')[-1].isnumeric() == True):
+                                        if(int(element.split('_')[-1]) > greatest_element_number_suffix):
+                                            greatest_element_number_suffix = int(element.split('_')[-1])
+                                        else:
+                                            greatest_element_number_suffix = greatest_element_number_suffix
+                                    else:
+                                        greatest_element_number_suffix = greatest_element_number_suffix
+                                else:
+                                    greatest_element_number_suffix = greatest_element_number_suffix
+                            
+                            return(greatest_element_number_suffix + 1)
                         
-                        suffix_for_BD_folder = get_date_subfolder_suffix(param_date = date_i, param_subfolder_list = recon_done_for_dates_folder_names)
-                        base_dir = os.path.join(base_dir + '\\BD_of_' + str(date_i) + '_' + str(suffix_for_BD_folder))
-                        if not os.path.exists(base_dir):
-                            os.makedirs(base_dir)
+#                        suffix_for_BD_folder = get_date_subfolder_suffix(param_date = date_i, param_subfolder_list = recon_done_for_dates_folder_names)
+#                        base_dir = os.path.join(base_dir + '\\BD_of_' + str(date_i) + '_' + str(suffix_for_BD_folder))
+#                        if not os.path.exists(base_dir):
+#                            os.makedirs(base_dir)
                         
-                        os.chdir(base_dir)
+                        os.chdir(base_dir_viteosmodel2)
     
     #                    base_dir = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client +'\\output_files'
     #                    
@@ -2374,7 +2401,7 @@ try:
                             umb_subsum_df_copy['SetupID'] = Setup_Code_z 
                             umb_subsum_df_copy['PredictedComment'] = ''    
                             umb_subsum_df_copy['PredictedCategory'] = ''    
-                            filepaths_umb_subsum_df_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\umb_subsum_df_copy_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
+#                            filepaths_umb_subsum_df_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\umb_subsum_df_copy_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
     #                        umb_subsum_df_copy.to_csv(filepaths_umb_subsum_df_copy)
                         else:
                             umb_subsum_df_copy = pd.DataFrame()
@@ -2417,7 +2444,7 @@ try:
                             mtm_df_full_umb_copy['SetupID'] = Setup_Code_z 
                             mtm_df_full_umb_copy['PredictedComment'] = ''    
                             mtm_df_full_umb_copy['PredictedCategory'] = ''    
-                            filepaths_mtm_df_full_umb_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\mtm_df_full_umb_copy_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
+#                            filepaths_mtm_df_full_umb_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\mtm_df_full_umb_copy_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
     #                        mtm_df_full_umb_copy.to_csv(filepaths_mtm_df_full_umb_copy)
                         else:
                             mtm_df_full_umb_copy = pd.DataFrame()
@@ -2889,7 +2916,7 @@ try:
                                     del final_mtm_table_copy['ViewData.Side0_UniqueIds_for_merging']
                                     del final_mtm_table_copy_new['ViewData.Side0_UniqueIds_for_merging']
                                     
-                                    filepaths_final_mtm_table_copy_new = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_mtm_table_copy_new_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
+#                                    filepaths_final_mtm_table_copy_new = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_mtm_table_copy_new_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
             #                        final_mtm_table_copy_new.to_csv(filepaths_final_mtm_table_copy_new)
                                     
                                     change_names_of_final_mtm_table_copy_new_mapping_dict = {
@@ -2963,7 +2990,7 @@ try:
                                      'SetupID']
                                     
                                     final_mtm_table_copy_new_to_write = final_mtm_table_copy_new[cols_for_database_new]
-                                    filepaths_final_mtm_table_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_mtm_table_copy_new_to_write_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
+#                                    filepaths_final_mtm_table_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_mtm_table_copy_new_to_write_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
                                     
             #                        final_mtm_table_copy_new_to_write.to_csv(filepaths_final_mtm_table_copy_new_to_write)
                                 
@@ -3437,7 +3464,7 @@ try:
                                 
                                 
                                 #Changes made on 25-11-2020.
-                                filepaths_X_test = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\X_Test_for_Pratik_setup_' + Setup_Code_z + '_date_' + str(date_i) + '_2_after_changes.csv'
+#                                filepaths_X_test = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\X_Test_for_Pratik_setup_' + Setup_Code_z + '_date_' + str(date_i) + '_2_after_changes.csv'
             #                    X_test.to_csv(filepaths_X_test)
                                 
                                 # ## New Aggregation
@@ -4556,7 +4583,7 @@ try:
                                     final_otm_table_copy_new['ML_flag'] = 'ML'
                                     final_otm_table_copy_new['SetupID'] = Setup_Code_z 
                                     
-                                    filepaths_final_otm_table_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\UAT_Run\\X_Test_' + Setup_Code_z +'\\final_otm_table_copy_new.csv'
+#                                    filepaths_final_otm_table_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\UAT_Run\\X_Test_' + Setup_Code_z +'\\final_otm_table_copy_new.csv'
             #                        final_otm_table_copy_new.to_csv(filepaths_final_otm_table_copy)
                                     
                                     change_names_of_final_otm_table_copy_new_mapping_dict = {
@@ -4631,7 +4658,7 @@ try:
                                     #final_otm_table_copy_new_to_write['BreakID'] = final_otm_table_copy_new_to_write['BreakID'].replace('[','',regex = True).replace(']','',regex = True)
                                     #final_otm_table_copy_new_to_write['Final_predicted_break'] = final_otm_table_copy_new_to_write['Final_predicted_break'].replace('[','',regex = True).replace(']','',regex = True)
                                     
-                                    filepaths_final_otm_table_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_otm_table_copy_new_to_write_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
+#                                    filepaths_final_otm_table_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_otm_table_copy_new_to_write_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
             #                        final_otm_table_copy_new_to_write.to_csv(filepaths_final_otm_table_copy_new_to_write)
                                 
                                 else:
@@ -4669,7 +4696,7 @@ try:
                                     final_mto_table_copy_new['SetupID'] = Setup_Code_z 
                                     
                                     #filepaths_final_mto_table_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\UAT_Run\\X_Test_' + setup_code +'\\final_mto_table_copy.csv'
-                                    filepaths_final_mto_table_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_mto_table_copy_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
+#                                    filepaths_final_mto_table_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_mto_table_copy_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
                                     
             #                        final_mto_table_copy.to_csv(filepaths_final_mto_table_copy)
                                     
@@ -4746,7 +4773,7 @@ try:
                                     #final_mto_table_copy_new_to_write['BreakID'] = final_mto_table_copy_new_to_write['BreakID'].replace('[','',regex = True).replace(']','',regex = True)
                                     #final_mto_table_copy_new_to_write['Final_predicted_break'] = final_mto_table_copy_new_to_write['Final_predicted_break'].replace('[','',regex = True).replace(']','',regex = True)
                                     
-                                    filepaths_final_mto_table_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_mto_table_copy_new_to_write_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
+#                                    filepaths_final_mto_table_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_mto_table_copy_new_to_write_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
                                     
             #                        final_mto_table_copy_new_to_write.to_csv(filepaths_final_mto_table_copy_new_to_write)
                                 
@@ -4774,7 +4801,7 @@ try:
                                     final_oto_umb_table_new['SetupID'] = Setup_Code_z 
                                     
                                     
-                                    filepaths_final_oto_umb_table_new = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_oto_umb_table_new_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
+#                                    filepaths_final_oto_umb_table_new = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_oto_umb_table_new_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
                                     
                 #                    final_oto_umb_table_new.to_csv(filepaths_final_oto_umb_table_new)
                                     
@@ -4835,7 +4862,7 @@ try:
                                     
                                     final_oto_umb_table_new_to_write = final_oto_umb_table_new[cols_for_database_new]
                                     
-                                    filepaths_final_oto_umb_table_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_oto_umb_table_new_to_write_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
+#                                    filepaths_final_oto_umb_table_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_oto_umb_table_new_to_write_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
                 #                    final_oto_umb_table_new_to_write.to_csv(filepaths_final_oto_umb_table_new_to_write)
                                     #OTM,MTO,OTO code end
                                 else:
@@ -5009,13 +5036,13 @@ try:
                                     final_no_pair_table_copy['Task Business Date'] = final_no_pair_table_copy['Task Business Date'].map(lambda x: dt.datetime.strftime(x, '%Y-%m-%dT%H:%M:%SZ'))
                                     final_no_pair_table_copy['Task Business Date'] = pd.to_datetime(final_no_pair_table_copy['Task Business Date'])
                                 
-                                filepaths_final_no_pair_table = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_no_pair_table_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
+#                                filepaths_final_no_pair_table = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_no_pair_table_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
             #                    final_no_pair_table_copy.to_csv(filepaths_final_no_pair_table)
                                 
                                 if(final_umr_table.shape[0] != 0):
                                     final_umr_table_copy = final_umr_table.copy()
                                     final_umr_table_copy = normalize_final_no_pair_table_col_names(fun_final_no_pair_table = final_umr_table_copy)
-                                    filepaths_final_umr_table = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_umr_table_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
+#                                    filepaths_final_umr_table = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_umr_table_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
                                     
             #                        final_umr_table_copy.to_csv(filepaths_final_umr_table)
                                     
@@ -5196,7 +5223,7 @@ try:
                                     
                                     final_closed_df[['SetupID']] = final_closed_df[['SetupID']].astype(int)
                                     
-                                    filepaths_final_closed_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_closed_df_setup_' + Setup_Code_z + '_date_' + str(date_i) + '_after_changes.csv'
+#                                    filepaths_final_closed_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_closed_df_setup_' + Setup_Code_z + '_date_' + str(date_i) + '_after_changes.csv'
             #                        final_closed_df.to_csv(filepaths_final_closed_df)
                                 else:
                                     final_closed_df = pd.DataFrame()
@@ -5263,7 +5290,7 @@ try:
                                 
                                 umb_carry_forward_df[['SetupID']] = umb_carry_forward_df[['SetupID']].astype(int)
                                 #filepaths_umb_carry_forward_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\umb_carry_forward_df.csv'
-                                filepaths_umb_carry_forward_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\umb_carry_forward_df_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
+#                                filepaths_umb_carry_forward_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\umb_carry_forward_df_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
                                 
             #                    umb_carry_forward_df.to_csv(filepaths_umb_carry_forward_df)
                                 
@@ -5297,16 +5324,16 @@ try:
                                 #final_table_to_write['Final_predicted_break'] = final_table_to_write['Final_predicted_break'].replace('[','',regex = True).replace(']','',regex = True)
                                 
                                 
-                                filepaths_final_no_pair_table_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_no_pair_table_copy.csv'
+#                                filepaths_final_no_pair_table_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_no_pair_table_copy.csv'
             #                    final_no_pair_table_copy.to_csv(filepaths_final_no_pair_table_copy)
                                 
-                                filepaths_final_no_pair_table = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_no_pair_table.csv'
+#                                filepaths_final_no_pair_table = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_no_pair_table.csv'
             #                    final_no_pair_table.to_csv(filepaths_final_no_pair_table)
                                 
-                                filepaths_final_table_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_table_to_write_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
+#                                filepaths_final_table_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_table_to_write_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
             #                    final_table_to_write.to_csv(filepaths_final_table_to_write)
                                 
-                                filepaths_meo_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\meo_df_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
+#                                filepaths_meo_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\meo_df_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
             #                    meo_df.to_csv(filepaths_meo_df)
             
                                 #Change added on 12-01-2021 as per Pratik. This code is for adding UMT table in oaktree, almost similar to what we did in Weiss 125
@@ -5390,7 +5417,7 @@ try:
                                      'SetupID']
                                     
                                     final_umt_table_copy_new_to_write = final_umt_table_copy_new[cols_for_database_new]
-                                    filepaths_final_umt_table_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_umt_table_copy_new_to_write_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
+#                                    filepaths_final_umt_table_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_umt_table_copy_new_to_write_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
             #                        final_umt_table_copy_new_to_write.to_csv(filepaths_final_umt_table_copy_new_to_write)
                                 else:
                                     final_umt_table_copy_new_to_write = pd.DataFrame()
@@ -5454,7 +5481,7 @@ try:
                                     #umb_carry_forward_df[['BreakID', 'TaskID']] = umb_carry_forward_df[['BreakID', 'TaskID']].astype(np.int64)
                                     
                                     umb_carry_forward_df[['SetupID']] = umb_carry_forward_df[['SetupID']].astype(int)
-                                    filepaths_umb_carry_forward_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\umb_carry_forward_df_setup_' + Setup_Code_z + '_date_' + str(date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                                    filepaths_umb_carry_forward_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\umb_carry_forward_df_setup_' + Setup_Code_z + '_date_' + str(date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
                 #                    umb_carry_forward_df.to_csv(filepaths_umb_carry_forward_df)
                                 else:
                                     umb_carry_forward_df = pd.DataFrame()
@@ -5514,7 +5541,7 @@ try:
                                     #ob_carry_forward_df[['BreakID', 'TaskID']] = ob_carry_forward_df[['BreakID', 'TaskID']].astype(np.int64)
                                     
                                     ob_carry_forward_df[['SetupID']] = ob_carry_forward_df[['SetupID']].astype(int)
-                                    filepaths_ob_carry_forward_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\ob_carry_forward_df_setup_' + Setup_Code_z + '_date_' + str(date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                                    filepaths_ob_carry_forward_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\ob_carry_forward_df_setup_' + Setup_Code_z + '_date_' + str(date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
                 #                    ob_carry_forward_df.to_csv(filepaths_ob_carry_forward_df)
                                 else:
                                     ob_carry_forward_df = pd.DataFrame()
@@ -5600,7 +5627,7 @@ try:
                                 
                                 final_closed_df[['SetupID']] = final_closed_df[['SetupID']].astype(int)
                                 
-                                filepaths_final_closed_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_closed_df_setup_' + Setup_Code_z + '_date_' + str(date_i) + '_after_changes.csv'
+#                                filepaths_final_closed_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_closed_df_setup_' + Setup_Code_z + '_date_' + str(date_i) + '_after_changes.csv'
         #                        final_closed_df.to_csv(filepaths_final_closed_df)
                             else:
                                 final_closed_df = pd.DataFrame()
@@ -5745,7 +5772,7 @@ try:
                             
                             final_closed_df[['SetupID']] = final_closed_df[['SetupID']].astype(int)
                             
-                            filepaths_final_closed_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_closed_df_setup_' + Setup_Code_z + '_date_' + str(date_i) + '_after_changes.csv'
+#                            filepaths_final_closed_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_closed_df_setup_' + Setup_Code_z + '_date_' + str(date_i) + '_after_changes.csv'
     #                        final_closed_df.to_csv(filepaths_final_closed_df)
                         else:
                             final_closed_df = pd.DataFrame()
@@ -5795,7 +5822,7 @@ try:
                     
                     unpredicted_breakids = get_remaining_breakids(fun_meo_df = meo_df, fun_final_df_2 = final_table_to_write)
                     #unpredicted_breakids_Predicted_Status = meo_df[meo_df['ViewData.BreakID'] == ]  
-                    BusinessDate_df_to_append_value = final_table_to_write['BusinessDate'].iloc[1]
+                    BusinessDate_df_to_append_value = final_table_to_write['BusinessDate'].iloc[0]
                     
                     df_to_append= meo_df[meo_df['ViewData.BreakID'].isin(unpredicted_breakids)][['ViewData.BreakID','ViewData.Side0_UniqueIds','ViewData.Side1_UniqueIds','ViewData.Task ID','ViewData.Status','ViewData.Source Combination Code']]
                     change_names_of_df_to_append_mapping_dict = {
@@ -5827,13 +5854,13 @@ try:
                     df_to_append['PredictedComment'] = ''
                     df_to_append['PredictedCategory'] = ''
                     
-                    filepaths_df_to_append = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\df_to_append_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
+#                    filepaths_df_to_append = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\df_to_append_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
 #                    df_to_append.to_csv(filepaths_df_to_append)
                     
                     final_table_to_write = final_table_to_write.append(df_to_append)
                     
                     
-                    filepaths_final_table_to_write_before_comment = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_table_to_write_before_comment_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
+#                    filepaths_final_table_to_write_before_comment = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_table_to_write_before_comment_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
 #                    final_table_to_write.to_csv(filepaths_final_table_to_write_before_comment)
                     #data_dict = final_table_to_write.to_dict("records")
                     #coll_1_for_writing_prediction_data = db_1_for_MEO_data['MLPrediction_Cash']
@@ -5852,7 +5879,7 @@ try:
                     brk = brk[brk['Predicted_action'] == 'No-Pair']
                     
                     #meo_df = pd.read_csv('\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\Soros\\meo_df.csv')
-                    filepaths_brk = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\brk_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
+#                    filepaths_brk = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\brk_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
 #                    brk.to_csv(filepaths_brk)
                     if(brk.shape[0] != 0):                    
                         brk = brk.rename(columns ={'Side0_UniqueIds':'ViewData.Side0_UniqueIds',
@@ -5921,7 +5948,7 @@ try:
                         df1['ViewData.Side0_UniqueIds'] = df1['ViewData.Side0_UniqueIds'].replace('','AA')
                         df1['ViewData.Side1_UniqueIds'] = df1['ViewData.Side1_UniqueIds'].replace('','BB')
                         
-                        filepaths_df1 = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\df1_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
+#                        filepaths_df1 = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\df1_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
     #                    df1.to_csv(filepaths_df1)
                         
                         def fid(a,b):
@@ -7153,309 +7180,312 @@ try:
                         frames = [dff4,dff5]
                         
                         data = pd.concat(frames)
-                        data = data.reset_index()
-                        data = data.drop('index', axis = 1)
-                        data['new_pb2'] = data.apply(lambda x : 'Geneva' if x['ViewData.Side0_UniqueIds'] != 'AA' else x['new_pb1'], axis = 1)
-                        
-                        Pre_final = [
+                        if(data.shape[0] != 0):
+                            data = data.reset_index()
+                            data = data.drop('index', axis = 1)
+                            data['new_pb2'] = data.apply(lambda x : 'Geneva' if x['ViewData.Side0_UniqueIds'] != 'AA' else x['new_pb1'], axis = 1)
                             
-                        'ViewData.Side0_UniqueIds','ViewData.Side1_UniqueIds','ViewData.BreakID',
-                         'ViewData.Currency',
-                         'ViewData.Custodian',
-                             'ViewData.ISIN',
-                         'ViewData.Mapped Custodian Account',
-                          'ViewData.Net Amount Difference Absolute',
-                          'ViewData.Portolio',
-                         'ViewData.Settle Date',
-                          'ViewData.Trade Date',
-                         'ViewData.Transaction Type1',
-                        'new_desc_cat',
-                            'ViewData.Department',
-                         'ViewData.Accounting Net Amount',
-                         'ViewData.Asset Type Category1',
-                         'ViewData.CUSIP',
-                         'ViewData.Commission',
-                         'ViewData.Fund',
-                         'ViewData.Investment ID',
-                         'ViewData.Investment Type1',
-                         'ViewData.Price',
-                         'ViewData.Prime Broker1',
-                         'ViewData.Quantity',
-                        'ViewData.InternalComment2', 'ViewData.Description','new_pb2','new_pb1','ViewData.TaskvsTrade Date'
-                        ]
-                        
-                        
-                        #data = data[Pre_final]
-                        
-                        df_mod1 = data.copy()
-                        
-                        df_mod1['ViewData.TaskvsTrade Date'] = df_mod1['ViewData.TaskvsTrade Date'].fillna(0)
-                        
-                        df_mod1['ViewData.Custodian'] = df_mod1['ViewData.Custodian'].fillna('AA')
-                        df_mod1['ViewData.Portolio'] = df_mod1['ViewData.Portolio'].fillna('bb')
-                        df_mod1['ViewData.Settle Date'] = df_mod1['ViewData.Settle Date'].fillna(0)
-                        df_mod1['ViewData.Trade Date'] = df_mod1['ViewData.Trade Date'].fillna(0)
-                        df_mod1['ViewData.Accounting Net Amount'] = df_mod1['ViewData.Accounting Net Amount'].fillna(0)
-                        df_mod1['ViewData.Asset Type Category1'] = df_mod1['ViewData.Asset Type Category1'].fillna('CC')
-                        df_mod1['ViewData.CUSIP'] = df_mod1['ViewData.CUSIP'].fillna('DD')
-                        df_mod1['ViewData.Fund'] = df_mod1['ViewData.Fund'].fillna('EE')
-                        df_mod1['ViewData.Investment ID'] = df_mod1['ViewData.Investment ID'].fillna('FF')
-                        df_mod1['ViewData.Investment Type1'] = df_mod1['ViewData.Investment Type1'].fillna('GG')
-                        #df_mod1['ViewData.Knowledge Date'] = df_mod1['ViewData.Knowledge Date'].fillna(0)
-                        df_mod1['ViewData.Price'] = df_mod1['ViewData.Price'].fillna(0)
-                        df_mod1['ViewData.Prime Broker1'] = df_mod1['ViewData.Prime Broker1'].fillna("HH")
-                        df_mod1['ViewData.Quantity'] = df_mod1['ViewData.Quantity'].fillna(0)
-                        #df_mod1['ViewData.Sec Fees'] = df_mod1['ViewData.Sec Fees'].fillna(0)
-                        #df_mod1['ViewData.Strike Price'] = df_mod1['ViewData.Strike Price'].fillna(0)
-                        df_mod1['ViewData.Commission'] = df_mod1['ViewData.Commission'].fillna(0)
-                        df_mod1['ViewData.Transaction Type1'] = df_mod1['ViewData.Transaction Type1'].fillna('kk')
-                        df_mod1['ViewData.ISIN'] = df_mod1['ViewData.ISIN'].fillna('mm')
-                        df_mod1['new_desc_cat'] = df_mod1['new_desc_cat'].fillna('nn')
-                        #df_mod1['Category'] = df_mod1['Category'].fillna('NA')
-                        df_mod1['ViewData.Description'] = df_mod1['ViewData.Description'].fillna('nn')
-                        df_mod1['ViewData.Department'] = df_mod1['ViewData.Department'].fillna('nn')
-                        
-                        df_mod1['ViewData.Custodian'] = df_mod1['ViewData.Custodian'].replace('nan','kkk')
-                        df_mod1['ViewData.Custodian'] = df_mod1['ViewData.Custodian'].replace('None','kkk')
-                        df_mod1['ViewData.Custodian'] = df_mod1['ViewData.Custodian'].replace('','kkk')
-                        
-                        df_mod1['ViewData.Portolio'] = df_mod1['ViewData.Portolio'].replace('nan','bb')
-                        df_mod1['ViewData.Portolio'] = df_mod1['ViewData.Portolio'].replace('None','bb')
-                        df_mod1['ViewData.Portolio'] = df_mod1['ViewData.Portolio'].replace('','bb')
-                        
-                        df_mod1['ViewData.Settle Date'] = df_mod1['ViewData.Settle Date'].replace('nan',0)
-                        df_mod1['ViewData.Settle Date'] = df_mod1['ViewData.Settle Date'].replace('None',0)
-                        df_mod1['ViewData.Settle Date'] = df_mod1['ViewData.Settle Date'].replace('',0)
-                        
-                        df_mod1['ViewData.Trade Date'] = df_mod1['ViewData.Trade Date'].replace('nan',0)
-                        df_mod1['ViewData.Trade Date'] = df_mod1['ViewData.Trade Date'].replace('None',0)
-                        df_mod1['ViewData.Trade Date'] = df_mod1['ViewData.Trade Date'].replace('',0)
-                        
-                        df_mod1['ViewData.Accounting Net Amount'] = df_mod1['ViewData.Accounting Net Amount'].replace('nan',0)
-                        df_mod1['ViewData.Accounting Net Amount'] = df_mod1['ViewData.Accounting Net Amount'].replace('None',0)
-                        df_mod1['ViewData.Accounting Net Amount'] = df_mod1['ViewData.Accounting Net Amount'].replace('',0)
-                        
-                        
-                        df_mod1['ViewData.Asset Type Category1'] = df_mod1['ViewData.Asset Type Category1'].replace('nan','CC')
-                        df_mod1['ViewData.Asset Type Category1'] = df_mod1['ViewData.Asset Type Category1'].replace('None','CC')
-                        df_mod1['ViewData.Asset Type Category1'] = df_mod1['ViewData.Asset Type Category1'].replace('','CC')
-                        
-                        df_mod1['ViewData.CUSIP'] = df_mod1['ViewData.CUSIP'].replace('nan','DD')
-                        df_mod1['ViewData.CUSIP'] = df_mod1['ViewData.CUSIP'].replace('None','DD')
-                        df_mod1['ViewData.CUSIP'] = df_mod1['ViewData.CUSIP'].replace('','DD')
-                        
-                        df_mod1['ViewData.Fund'] = df_mod1['ViewData.Fund'].replace('nan','EE')
-                        df_mod1['ViewData.Fund'] = df_mod1['ViewData.Fund'].replace('None','EE')
-                        df_mod1['ViewData.Fund'] = df_mod1['ViewData.Fund'].replace('','EE')
-                        
-                        df_mod1['ViewData.Investment ID'] = df_mod1['ViewData.Investment ID'].replace('nan','FF')
-                        df_mod1['ViewData.Investment ID'] = df_mod1['ViewData.Investment ID'].replace('None','FF')
-                        df_mod1['ViewData.Investment ID'] = df_mod1['ViewData.Investment ID'].replace('','FF')
-                        
-                        df_mod1['ViewData.Investment Type1'] = df_mod1['ViewData.Investment Type1'].replace('nan','GG')
-                        df_mod1['ViewData.Investment Type1'] = df_mod1['ViewData.Investment Type1'].replace('None','GG')
-                        df_mod1['ViewData.Investment Type1'] = df_mod1['ViewData.Investment Type1'].replace('','GG')
-                        
-                        df_mod1['ViewData.Price'] = df_mod1['ViewData.Price'].replace('nan',0)
-                        df_mod1['ViewData.Price'] = df_mod1['ViewData.Price'].replace('None',0)
-                        df_mod1['ViewData.Price'] = df_mod1['ViewData.Price'].replace('',0)
-                        
-                        df_mod1['ViewData.Prime Broker1'] = df_mod1['ViewData.Prime Broker1'].replace('nan','HH')
-                        df_mod1['ViewData.Prime Broker1'] = df_mod1['ViewData.Prime Broker1'].replace('None','HH')
-                        df_mod1['ViewData.Prime Broker1'] = df_mod1['ViewData.Prime Broker1'].replace('','HH')
-                        
-                        df_mod1['ViewData.Quantity'] = df_mod1['ViewData.Quantity'].replace('nan',0)
-                        df_mod1['ViewData.Quantity'] = df_mod1['ViewData.Quantity'].replace('None',0)
-                        df_mod1['ViewData.Quantity'] = df_mod1['ViewData.Quantity'].replace('',0)
-                        
-                        df_mod1['ViewData.Commission'] = df_mod1['ViewData.Commission'].replace('nan',0)
-                        df_mod1['ViewData.Commission'] = df_mod1['ViewData.Commission'].replace('None',0)
-                        df_mod1['ViewData.Commission'] = df_mod1['ViewData.Commission'].replace('',0)
-                        
-                        df_mod1['ViewData.Transaction Type1'] = df_mod1['ViewData.Transaction Type1'].replace('nan','kk')
-                        df_mod1['ViewData.Transaction Type1'] = df_mod1['ViewData.Transaction Type1'].replace('None','kk')
-                        df_mod1['ViewData.Transaction Type1'] = df_mod1['ViewData.Transaction Type1'].replace('','kk')
-                        
-                        df_mod1['ViewData.ISIN'] = df_mod1['ViewData.ISIN'].replace('nan','mm')
-                        df_mod1['ViewData.ISIN'] = df_mod1['ViewData.ISIN'].replace('None','mm')
-                        df_mod1['ViewData.ISIN'] = df_mod1['ViewData.ISIN'].replace('','mm')
-                        
-                        df_mod1['new_desc_cat'] = df_mod1['new_desc_cat'].replace('nan','nn')
-                        df_mod1['new_desc_cat'] = df_mod1['new_desc_cat'].replace('None','nn')
-                        df_mod1['new_desc_cat'] = df_mod1['new_desc_cat'].replace('','nn')
-                        
-                        df_mod1['ViewData.Description'] = df_mod1['ViewData.Description'].replace('nan','nn')
-                        df_mod1['ViewData.Description'] = df_mod1['ViewData.Description'].replace('None','nn')
-                        df_mod1['ViewData.Description'] = df_mod1['ViewData.Description'].replace('','nn')
-                        
-                        df_mod1['ViewData.Department'] = df_mod1['ViewData.Department'].replace('nan','nn')
-                        df_mod1['ViewData.Department'] = df_mod1['ViewData.Department'].replace('None','nn')
-                        df_mod1['ViewData.Department'] = df_mod1['ViewData.Department'].replace('','nn')
-                        
-                        
-                        def fid(a,b):
-                           
-                            if ( b=='BB'):
-                                return a
-                            else:
-                                return b
-                        
-                        
-                        df_mod1['final_ID'] = df_mod1.apply(lambda row: fid(row['ViewData.Side0_UniqueIds'],row['ViewData.Side1_UniqueIds']),axis =1)
-                        
-                        data2 = df_mod1.copy()
-                        
-                        # Change added on 20-12-2020 as per Abhijeet. 
-                        data2['fut_date'] = data2['fut_date'].fillna(0)
-                        data2['full_call'] = data2['full_call'].fillna(0)
-                        data2['rate_var'] = data2['rate_var'].fillna(0)
-                        data2['month_end_mark'] = data2['month_end_mark'].fillna(0)
-                        
-                        data2['fut_date'] = data2['fut_date'].astype(int)
-                        data2['full_call'] = data2['full_call'].astype(int)
-                        data2['rate_var'] = data2['rate_var'].astype(int)
-                        data2['month_end_mark'] = data2['month_end_mark'].astype(int)
-                        
-                        # ### Separate Prediction of the Trade and Non trade
-                        
-                        # #### 1st for Non Trade
-                        
-                        # trade_types = ['buy','sell','cover short', 'sell short', 'forward', 'forwardfx', 'spotfx']
-                        
-                        # data21 = data2[~data2['ViewData.Transaction Type1'].isin(trade_types)]
-                        
-                        cols = [
-                         
-                        
-                         
-                         'ViewData.Transaction Type1','ViewData.Asset Type Category1', 'ViewData.Department',
-                                    'ViewData.Investment Type1','new_desc_cat','new_pb1','fut_date'
-                         
-                                      
-                                     ]
-                        
-                        
-                        #cols = [ 
-                        #  'ViewData.Transaction Type1',
-                        # 'ViewData.Asset Type Category1',
-                        #    'ViewData.Department',
-                        #  'ViewData.Investment Type1',
-                        #    'new_desc_cat',
-                        #  
-                        # 'new_pb1'
-                        ##     ,'new_pb2'
-                        #,'fut_date'
-                        #    ,'full_call','rate_var','month_end_mark'
-                        #]
-                        
-                        data211 = data2[cols]
-    
-#                        filename = os.getcwd() + '\\data\\model_files\\379\\Oaktree_379_comment_model.sav'
-                        filename = str(Oaktree_379_model_files_path_from_dict) + '\\Oaktree_379_comment_model.sav'
-                        
-                        clf = pickle.load(open(filename, 'rb'))
-                        # Actual class predictions
-                        cb_predictions = clf.predict(data211)#.astype(str)
-                        # Probabilities for each class
-                        #cb_probs = clf.predict_proba(X_test)[:, 1]
-                        
-                        # #### Testing of Model and final prediction file - Non Trade
-                        
-                        demo = []
-                        for item in cb_predictions:
-                            demo.append(item[0])
-                        
-                        result_non_trade =data2.copy()
-                        result_non_trade = result_non_trade.reset_index()
-                        
-                        result_non_trade['predicted category'] = pd.Series(demo)
-                        result_non_trade['predicted comment'] = 'NA'
-                        
-                        #Change added on 12-01-2021 as per Abhijeet. This code will apply final rules on comments
-                        #Begin changes made on 12-01-2021
-                        
-                        
-                        sell = ['Sell','sell']
-                        redem = ['redemption','Redemption']
-                        forward = ['forwardfx','forward fx']
-                        interest = ['int','interest','Interest']
-                        term_loan = ['bank debt (term loan)','bank debt','term loan']
-                        hedging = ['forward']
-                        drawdown = ['drawdown']
-                        tender = ['tender']
-                        buy = ['buy','Buy']
-                        sink = ['sink','Sink']
-                        
-                        def autocom(x,y,z,k,a,b,c):
-                            if ((x in sell) & (c < 0)):
-                                return 'future dated sell'
-                            elif ((x in buy) & (c < 0)):
-                                return 'future dated buy'
-                            elif x in buy:
-                                return 'buy trade'
-                            elif x in sell:
-                                return 'sell trade'
-                            elif x in drawdown:
-                                return 'drawdown'
-                            elif ((x in redem) & (k=='loan')):
-                                return 'redemption'
-                        
-                            elif ((x in interest) & (y in term_loan)):
-                                return 'bank loan interest'
-                            elif ((x in sink)):
-                                return 'sink reschedule'
-                            elif ((x in interest) & (a == 'DD') & (b == 'mm')):
-                                return 'monthend interest'
+                            Pre_final = [
+                                
+                            'ViewData.Side0_UniqueIds','ViewData.Side1_UniqueIds','ViewData.BreakID',
+                             'ViewData.Currency',
+                             'ViewData.Custodian',
+                                 'ViewData.ISIN',
+                             'ViewData.Mapped Custodian Account',
+                              'ViewData.Net Amount Difference Absolute',
+                              'ViewData.Portolio',
+                             'ViewData.Settle Date',
+                              'ViewData.Trade Date',
+                             'ViewData.Transaction Type1',
+                            'new_desc_cat',
+                                'ViewData.Department',
+                             'ViewData.Accounting Net Amount',
+                             'ViewData.Asset Type Category1',
+                             'ViewData.CUSIP',
+                             'ViewData.Commission',
+                             'ViewData.Fund',
+                             'ViewData.Investment ID',
+                             'ViewData.Investment Type1',
+                             'ViewData.Price',
+                             'ViewData.Prime Broker1',
+                             'ViewData.Quantity',
+                            'ViewData.InternalComment2', 'ViewData.Description','new_pb2','new_pb1','ViewData.TaskvsTrade Date'
+                            ]
                             
-                            else:
-                                return z
-                        
-                        result_non_trade['predicted category'] = result_non_trade.apply(lambda row: autocom(row['ViewData.Transaction Type1'],row['ViewData.Investment Type1'], row['predicted category'],row['new_desc_cat'], row['ViewData.CUSIP'],row['ViewData.ISIN'],row['ViewData.TaskvsTrade Date']), axis = 1)
-                        
-                        #End changes made on 12-01-2021
-                        
-                        
-                        
-                        result_non_trade = result_non_trade.drop('predicted comment', axis = 1)
-                        
-                        #com_temp = pd.read_csv('Soros comment template for delivery.csv')
-    #                    com_temp = pd.read_csv('oaktree Comment template for delivery new jan 10.csv')
-#                        com_temp = pd.read_csv(os.getcwd() + '\\data\\model_files\\379\\Oaktree_379_comment_template.csv')
-                        com_temp = pd.read_csv(str(Oaktree_379_model_files_path_from_dict) + '\\Oaktree_379_comment_template.csv')
-                        
-                        com_temp = com_temp.rename(columns = {'Category':'predicted category','template':'predicted template'})
-                        
-                        result_non_trade = pd.merge(result_non_trade,com_temp,on = 'predicted category',how = 'left')
-                        
-                        def comgen(x,y,z,k):
-                            if x == 'Geneva':
+                            
+                            #data = data[Pre_final]
+                            
+                            df_mod1 = data.copy()
+                            
+                            df_mod1['ViewData.TaskvsTrade Date'] = df_mod1['ViewData.TaskvsTrade Date'].fillna(0)
+                            
+                            df_mod1['ViewData.Custodian'] = df_mod1['ViewData.Custodian'].fillna('AA')
+                            df_mod1['ViewData.Portolio'] = df_mod1['ViewData.Portolio'].fillna('bb')
+                            df_mod1['ViewData.Settle Date'] = df_mod1['ViewData.Settle Date'].fillna(0)
+                            df_mod1['ViewData.Trade Date'] = df_mod1['ViewData.Trade Date'].fillna(0)
+                            df_mod1['ViewData.Accounting Net Amount'] = df_mod1['ViewData.Accounting Net Amount'].fillna(0)
+                            df_mod1['ViewData.Asset Type Category1'] = df_mod1['ViewData.Asset Type Category1'].fillna('CC')
+                            df_mod1['ViewData.CUSIP'] = df_mod1['ViewData.CUSIP'].fillna('DD')
+                            df_mod1['ViewData.Fund'] = df_mod1['ViewData.Fund'].fillna('EE')
+                            df_mod1['ViewData.Investment ID'] = df_mod1['ViewData.Investment ID'].fillna('FF')
+                            df_mod1['ViewData.Investment Type1'] = df_mod1['ViewData.Investment Type1'].fillna('GG')
+                            #df_mod1['ViewData.Knowledge Date'] = df_mod1['ViewData.Knowledge Date'].fillna(0)
+                            df_mod1['ViewData.Price'] = df_mod1['ViewData.Price'].fillna(0)
+                            df_mod1['ViewData.Prime Broker1'] = df_mod1['ViewData.Prime Broker1'].fillna("HH")
+                            df_mod1['ViewData.Quantity'] = df_mod1['ViewData.Quantity'].fillna(0)
+                            #df_mod1['ViewData.Sec Fees'] = df_mod1['ViewData.Sec Fees'].fillna(0)
+                            #df_mod1['ViewData.Strike Price'] = df_mod1['ViewData.Strike Price'].fillna(0)
+                            df_mod1['ViewData.Commission'] = df_mod1['ViewData.Commission'].fillna(0)
+                            df_mod1['ViewData.Transaction Type1'] = df_mod1['ViewData.Transaction Type1'].fillna('kk')
+                            df_mod1['ViewData.ISIN'] = df_mod1['ViewData.ISIN'].fillna('mm')
+                            df_mod1['new_desc_cat'] = df_mod1['new_desc_cat'].fillna('nn')
+                            #df_mod1['Category'] = df_mod1['Category'].fillna('NA')
+                            df_mod1['ViewData.Description'] = df_mod1['ViewData.Description'].fillna('nn')
+                            df_mod1['ViewData.Department'] = df_mod1['ViewData.Department'].fillna('nn')
+                            
+                            df_mod1['ViewData.Custodian'] = df_mod1['ViewData.Custodian'].replace('nan','kkk')
+                            df_mod1['ViewData.Custodian'] = df_mod1['ViewData.Custodian'].replace('None','kkk')
+                            df_mod1['ViewData.Custodian'] = df_mod1['ViewData.Custodian'].replace('','kkk')
+                            
+                            df_mod1['ViewData.Portolio'] = df_mod1['ViewData.Portolio'].replace('nan','bb')
+                            df_mod1['ViewData.Portolio'] = df_mod1['ViewData.Portolio'].replace('None','bb')
+                            df_mod1['ViewData.Portolio'] = df_mod1['ViewData.Portolio'].replace('','bb')
+                            
+                            df_mod1['ViewData.Settle Date'] = df_mod1['ViewData.Settle Date'].replace('nan',0)
+                            df_mod1['ViewData.Settle Date'] = df_mod1['ViewData.Settle Date'].replace('None',0)
+                            df_mod1['ViewData.Settle Date'] = df_mod1['ViewData.Settle Date'].replace('',0)
+                            
+                            df_mod1['ViewData.Trade Date'] = df_mod1['ViewData.Trade Date'].replace('nan',0)
+                            df_mod1['ViewData.Trade Date'] = df_mod1['ViewData.Trade Date'].replace('None',0)
+                            df_mod1['ViewData.Trade Date'] = df_mod1['ViewData.Trade Date'].replace('',0)
+                            
+                            df_mod1['ViewData.Accounting Net Amount'] = df_mod1['ViewData.Accounting Net Amount'].replace('nan',0)
+                            df_mod1['ViewData.Accounting Net Amount'] = df_mod1['ViewData.Accounting Net Amount'].replace('None',0)
+                            df_mod1['ViewData.Accounting Net Amount'] = df_mod1['ViewData.Accounting Net Amount'].replace('',0)
+                            
+                            
+                            df_mod1['ViewData.Asset Type Category1'] = df_mod1['ViewData.Asset Type Category1'].replace('nan','CC')
+                            df_mod1['ViewData.Asset Type Category1'] = df_mod1['ViewData.Asset Type Category1'].replace('None','CC')
+                            df_mod1['ViewData.Asset Type Category1'] = df_mod1['ViewData.Asset Type Category1'].replace('','CC')
+                            
+                            df_mod1['ViewData.CUSIP'] = df_mod1['ViewData.CUSIP'].replace('nan','DD')
+                            df_mod1['ViewData.CUSIP'] = df_mod1['ViewData.CUSIP'].replace('None','DD')
+                            df_mod1['ViewData.CUSIP'] = df_mod1['ViewData.CUSIP'].replace('','DD')
+                            
+                            df_mod1['ViewData.Fund'] = df_mod1['ViewData.Fund'].replace('nan','EE')
+                            df_mod1['ViewData.Fund'] = df_mod1['ViewData.Fund'].replace('None','EE')
+                            df_mod1['ViewData.Fund'] = df_mod1['ViewData.Fund'].replace('','EE')
+                            
+                            df_mod1['ViewData.Investment ID'] = df_mod1['ViewData.Investment ID'].replace('nan','FF')
+                            df_mod1['ViewData.Investment ID'] = df_mod1['ViewData.Investment ID'].replace('None','FF')
+                            df_mod1['ViewData.Investment ID'] = df_mod1['ViewData.Investment ID'].replace('','FF')
+                            
+                            df_mod1['ViewData.Investment Type1'] = df_mod1['ViewData.Investment Type1'].replace('nan','GG')
+                            df_mod1['ViewData.Investment Type1'] = df_mod1['ViewData.Investment Type1'].replace('None','GG')
+                            df_mod1['ViewData.Investment Type1'] = df_mod1['ViewData.Investment Type1'].replace('','GG')
+                            
+                            df_mod1['ViewData.Price'] = df_mod1['ViewData.Price'].replace('nan',0)
+                            df_mod1['ViewData.Price'] = df_mod1['ViewData.Price'].replace('None',0)
+                            df_mod1['ViewData.Price'] = df_mod1['ViewData.Price'].replace('',0)
+                            
+                            df_mod1['ViewData.Prime Broker1'] = df_mod1['ViewData.Prime Broker1'].replace('nan','HH')
+                            df_mod1['ViewData.Prime Broker1'] = df_mod1['ViewData.Prime Broker1'].replace('None','HH')
+                            df_mod1['ViewData.Prime Broker1'] = df_mod1['ViewData.Prime Broker1'].replace('','HH')
+                            
+                            df_mod1['ViewData.Quantity'] = df_mod1['ViewData.Quantity'].replace('nan',0)
+                            df_mod1['ViewData.Quantity'] = df_mod1['ViewData.Quantity'].replace('None',0)
+                            df_mod1['ViewData.Quantity'] = df_mod1['ViewData.Quantity'].replace('',0)
+                            
+                            df_mod1['ViewData.Commission'] = df_mod1['ViewData.Commission'].replace('nan',0)
+                            df_mod1['ViewData.Commission'] = df_mod1['ViewData.Commission'].replace('None',0)
+                            df_mod1['ViewData.Commission'] = df_mod1['ViewData.Commission'].replace('',0)
+                            
+                            df_mod1['ViewData.Transaction Type1'] = df_mod1['ViewData.Transaction Type1'].replace('nan','kk')
+                            df_mod1['ViewData.Transaction Type1'] = df_mod1['ViewData.Transaction Type1'].replace('None','kk')
+                            df_mod1['ViewData.Transaction Type1'] = df_mod1['ViewData.Transaction Type1'].replace('','kk')
+                            
+                            df_mod1['ViewData.ISIN'] = df_mod1['ViewData.ISIN'].replace('nan','mm')
+                            df_mod1['ViewData.ISIN'] = df_mod1['ViewData.ISIN'].replace('None','mm')
+                            df_mod1['ViewData.ISIN'] = df_mod1['ViewData.ISIN'].replace('','mm')
+                            
+                            df_mod1['new_desc_cat'] = df_mod1['new_desc_cat'].replace('nan','nn')
+                            df_mod1['new_desc_cat'] = df_mod1['new_desc_cat'].replace('None','nn')
+                            df_mod1['new_desc_cat'] = df_mod1['new_desc_cat'].replace('','nn')
+                            
+                            df_mod1['ViewData.Description'] = df_mod1['ViewData.Description'].replace('nan','nn')
+                            df_mod1['ViewData.Description'] = df_mod1['ViewData.Description'].replace('None','nn')
+                            df_mod1['ViewData.Description'] = df_mod1['ViewData.Description'].replace('','nn')
+                            
+                            df_mod1['ViewData.Department'] = df_mod1['ViewData.Department'].replace('nan','nn')
+                            df_mod1['ViewData.Department'] = df_mod1['ViewData.Department'].replace('None','nn')
+                            df_mod1['ViewData.Department'] = df_mod1['ViewData.Department'].replace('','nn')
+                            
+                            
+                            def fid(a,b):
+                               
+                                if ( b=='BB'):
+                                    return a
+                                else:
+                                    return b
+                            
+                            
+                            df_mod1['final_ID'] = df_mod1.apply(lambda row: fid(row['ViewData.Side0_UniqueIds'],row['ViewData.Side1_UniqueIds']),axis =1)
+                            
+                            data2 = df_mod1.copy()
+                            
+                            # Change added on 20-12-2020 as per Abhijeet. 
+                            data2['fut_date'] = data2['fut_date'].fillna(0)
+                            data2['full_call'] = data2['full_call'].fillna(0)
+                            data2['rate_var'] = data2['rate_var'].fillna(0)
+                            data2['month_end_mark'] = data2['month_end_mark'].fillna(0)
+                            
+                            data2['fut_date'] = data2['fut_date'].astype(int)
+                            data2['full_call'] = data2['full_call'].astype(int)
+                            data2['rate_var'] = data2['rate_var'].astype(int)
+                            data2['month_end_mark'] = data2['month_end_mark'].astype(int)
+                            
+                            # ### Separate Prediction of the Trade and Non trade
+                            
+                            # #### 1st for Non Trade
+                            
+                            # trade_types = ['buy','sell','cover short', 'sell short', 'forward', 'forwardfx', 'spotfx']
+                            
+                            # data21 = data2[~data2['ViewData.Transaction Type1'].isin(trade_types)]
+                            
+                            cols = [
+                             
+                            
+                             
+                             'ViewData.Transaction Type1','ViewData.Asset Type Category1', 'ViewData.Department',
+                                        'ViewData.Investment Type1','new_desc_cat','new_pb1','fut_date'
+                             
+                                          
+                                         ]
+                            
+                            
+                            #cols = [ 
+                            #  'ViewData.Transaction Type1',
+                            # 'ViewData.Asset Type Category1',
+                            #    'ViewData.Department',
+                            #  'ViewData.Investment Type1',
+                            #    'new_desc_cat',
+                            #  
+                            # 'new_pb1'
+                            ##     ,'new_pb2'
+                            #,'fut_date'
+                            #    ,'full_call','rate_var','month_end_mark'
+                            #]
+                            
+                            data211 = data2[cols]
+        
+    #                        filename = os.getcwd() + '\\data\\model_files\\379\\Oaktree_379_comment_model.sav'
+                            filename = str(Oaktree_379_model_files_path_from_dict) + '\\Oaktree_379_comment_model.sav'
+                            
+                            clf = pickle.load(open(filename, 'rb'))
+                            # Actual class predictions
+                            cb_predictions = clf.predict(data211)#.astype(str)
+                            # Probabilities for each class
+                            #cb_probs = clf.predict_proba(X_test)[:, 1]
+                            
+                            # #### Testing of Model and final prediction file - Non Trade
+                            
+                            demo = []
+                            for item in cb_predictions:
+                                demo.append(item[0])
+                            
+                            result_non_trade =data2.copy()
+                            result_non_trade = result_non_trade.reset_index()
+                            
+                            result_non_trade['predicted category'] = pd.Series(demo)
+                            result_non_trade['predicted comment'] = 'NA'
+                            
+                            #Change added on 12-01-2021 as per Abhijeet. This code will apply final rules on comments
+                            #Begin changes made on 12-01-2021
+                            
+                            
+                            sell = ['Sell','sell']
+                            redem = ['redemption','Redemption']
+                            forward = ['forwardfx','forward fx']
+                            interest = ['int','interest','Interest']
+                            term_loan = ['bank debt (term loan)','bank debt','term loan']
+                            hedging = ['forward']
+                            drawdown = ['drawdown']
+                            tender = ['tender']
+                            buy = ['buy','Buy']
+                            sink = ['sink','Sink']
+                            
+                            def autocom(x,y,z,k,a,b,c):
+                                if ((x in sell) & (c < 0)):
+                                    return 'future dated sell'
+                                elif ((x in buy) & (c < 0)):
+                                    return 'future dated buy'
+                                elif x in buy:
+                                    return 'buy trade'
+                                elif x in sell:
+                                    return 'sell trade'
+                                elif x in drawdown:
+                                    return 'drawdown'
+                                elif ((x in redem) & (k=='loan')):
+                                    return 'redemption'
+                            
+                                elif ((x in interest) & (y in term_loan)):
+                                    return 'bank loan interest'
+                                elif ((x in sink)):
+                                    return 'sink reschedule'
+                                elif ((x in interest) & (a == 'DD') & (b == 'mm')):
+                                    return 'monthend interest'
                                 
-                                com = k + ' ' +y + ' ' + str(z)
-                            else:
-                                com = "Geneva" + ' ' +y + ' ' + str(z)
-                                
-                            return com
+                                else:
+                                    return z
+                            
+                            result_non_trade['predicted category'] = result_non_trade.apply(lambda row: autocom(row['ViewData.Transaction Type1'],row['ViewData.Investment Type1'], row['predicted category'],row['new_desc_cat'], row['ViewData.CUSIP'],row['ViewData.ISIN'],row['ViewData.TaskvsTrade Date']), axis = 1)
+                            
+                            #End changes made on 12-01-2021
+                            
+                            
+                            
+                            result_non_trade = result_non_trade.drop('predicted comment', axis = 1)
+                            
+                            #com_temp = pd.read_csv('Soros comment template for delivery.csv')
+        #                    com_temp = pd.read_csv('oaktree Comment template for delivery new jan 10.csv')
+    #                        com_temp = pd.read_csv(os.getcwd() + '\\data\\model_files\\379\\Oaktree_379_comment_template.csv')
+                            com_temp = pd.read_csv(str(Oaktree_379_model_files_path_from_dict) + '\\Oaktree_379_comment_template.csv')
+                            
+                            com_temp = com_temp.rename(columns = {'Category':'predicted category','template':'predicted template'})
+                            
+                            result_non_trade = pd.merge(result_non_trade,com_temp,on = 'predicted category',how = 'left')
+                            
+                            def comgen(x,y,z,k):
+                                if x == 'Geneva':
+                                    
+                                    com = k + ' ' +y + ' ' + str(z)
+                                else:
+                                    com = "Geneva" + ' ' +y + ' ' + str(z)
+                                    
+                                return com
+                            
+                            
+                            # In[257]:
+                            result_non_trade['new_pb2'] = result_non_trade['new_pb2'].astype(str)
+                            result_non_trade['predicted template'] = result_non_trade['predicted template'].astype(str)
+                            result_non_trade['ViewData.Settle Date'] = result_non_trade['ViewData.Settle Date'].astype(str)
+                            result_non_trade['new_pb1'] = result_non_trade['new_pb1'].astype(str)
+                            
+                            result_non_trade['predicted comment'] = result_non_trade.apply(lambda x : comgen(x['new_pb2'],x['predicted template'],x['ViewData.Settle Date'],x['new_pb1']), axis = 1)
+                            
+                            #result_non_trade = result_non_trade[['final_ID','ViewData.Side0_UniqueIds','ViewData.Side1_UniqueIds','predicted category','predicted comment']]
+                            result_non_trade['predicted status'] = 'OB'
+                            result_non_trade['predicted action'] = 'No-pair'
+                            
+                            result_non_trade = result_non_trade[output_col]
+                            
+        #                    result_non_trade.to_csv(base_dir + 'Comment file soros 2 sep testing p6.csv')
+                            comment_df_final_list.append(result_non_trade)
                         
+                        else:
                         
-                        # In[257]:
-                        result_non_trade['new_pb2'] = result_non_trade['new_pb2'].astype(str)
-                        result_non_trade['predicted template'] = result_non_trade['predicted template'].astype(str)
-                        result_non_trade['ViewData.Settle Date'] = result_non_trade['ViewData.Settle Date'].astype(str)
-                        result_non_trade['new_pb1'] = result_non_trade['new_pb1'].astype(str)
-                        
-                        result_non_trade['predicted comment'] = result_non_trade.apply(lambda x : comgen(x['new_pb2'],x['predicted template'],x['ViewData.Settle Date'],x['new_pb1']), axis = 1)
-                        
-                        #result_non_trade = result_non_trade[['final_ID','ViewData.Side0_UniqueIds','ViewData.Side1_UniqueIds','predicted category','predicted comment']]
-                        result_non_trade['predicted status'] = 'OB'
-                        result_non_trade['predicted action'] = 'No-pair'
-                        
-                        result_non_trade = result_non_trade[output_col]
-                        
-    #                    result_non_trade.to_csv(base_dir + 'Comment file soros 2 sep testing p6.csv')
-                        comment_df_final_list.append(result_non_trade)
-                        
-                        
-                        
+                            result_non_trade = pd.DataFrame()
+                            comment_df_final_list.append(result_non_trade)
                         # #### For Trade Model
                         
                         # data22 = data2[data2['ViewData.Transaction Type1'].isin(trade_types)]
@@ -7522,8 +7552,9 @@ try:
                                                                 }
                         
                         comment_df_final.rename(columns = change_col_names_comment_df_final_dict, inplace = True)
+                        comment_df_final['PredictedComment'] = date.today().strftime("%m/%d") + ' - ' + comment_df_final['PredictedComment']
                         
-                        filepaths_comment_df_final = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\comment_df_final_setup_' + Setup_Code_z + '_date_' + str(date_i) + '_abhijeet_comment_change_on_09_01_2021.csv'
+#                        filepaths_comment_df_final = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\comment_df_final_setup_' + Setup_Code_z + '_date_' + str(date_i) + '_abhijeet_comment_change_on_09_01_2021.csv'
     #                    comment_df_final.to_csv(filepaths_comment_df_final)
                         
                         comment_df_final_side0 = comment_df_final[comment_df_final['Side1_UniqueIds'] == 'BB']
@@ -7582,7 +7613,7 @@ try:
                         final_df_columns_to_remove = ['PredictedCategory_x','PredictedComment_x','Side1_UniqueIds_x','SideA.ViewData.Side0_UniqueIds','SideA.ViewData.Side1_UniqueIds','SideA.final_ID','SideA.predicted category','SideA.predicted comment','Side1_UniqueIds_y','final_ID','predicted action','PredictedCategory_y','PredictedComment_y','predicted status']
                         final_df = columns_to_drop(fun_df_to_remove_columns_from = final_df, fun_columns_to_remove_list = final_df_columns_to_remove)
                         
-                        filepaths_final_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_df_copy_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
+#                        filepaths_final_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_df_copy_setup_' + Setup_Code_z + '_date_' + str(date_i) + '.csv'
     #                    final_df.to_csv(filepaths_final_df)
                         
                         final_df_2 = final_df.merge(comment_df_final_side1, on = 'Side1_UniqueIds', how = 'left')
@@ -7769,15 +7800,15 @@ try:
                         #sd = pd.datetime(sd)
                         tt = str(tt)
                         if tt.lower() == 'dividend':
-                            comment = 'Difference in DVD booked between' + ' ' + str(pb) + ' & Geneva on ' + str(sd)
+                            comment = date.today().strftime("%m/%d") + ' - ' +  'Difference in DVD booked between' + ' ' + str(pb) + ' & Geneva on ' + str(sd)  # RB >> 2021-08-07 - Date prefix added by Rani
                         elif tt.lower() == 'dividendincome':
-                            comment = 'Custody to advise on the negative dividend reflected.'
+                            comment = date.today().strftime("%m/%d") + ' - ' + 'Custody to advise on the negative dividend reflected.' # RB >> 2021-08-07 - Date prefix added by Rani
                         elif tt.lower() in ['corp action - call','corp action']:
-                            comment = 'Custody to advise on the corp. action'
+                            comment = date.today().strftime("%m/%d") + ' - ' + 'Custody to advise on the corp. action' # RB >> 2021-08-07 - Date prefix added by Rani
                         elif tt.lower() =='interest':
-                            comment =  'Interest mismatch, checking with custody to clear this cash difference'
+                            comment = date.today().strftime("%m/%d") + ' - ' +  'Interest mismatch, checking with custody to clear this cash difference' # RB >> 2021-08-07 - Date prefix added by Rani
                         else:
-                            comment = 'Difference in amount booked between' + ' ' + str(pb) + ' & Geneva on ' + str(sd)
+                            comment = date.today().strftime("%m/%d") + ' - ' + 'Difference in amount booked between' + ' ' + str(pb) + ' & Geneva on ' + str(sd)  # RB >> 2021-08-07 - Date prefix added by Rani
                         return comment
                     
                     #####################################################################################################################
@@ -7842,15 +7873,15 @@ try:
                         sd = dummy1['ViewData.Settle Date'].values[0]
                         
                         if tt.lower() == 'dividend':
-                            comment = 'Difference in DVD booked between' + ' ' + str(pb) + ' & Geneva on ' + str(sd)
+                            comment = date.today().strftime("%m/%d") + ' - ' +  'Difference in DVD booked between' + ' ' + str(pb) + ' & Geneva on ' + str(sd)
                         elif tt.lower() == 'dividendincome':
-                            comment = 'Custody to advise on the negative dividend reflected.'
+                            comment = date.today().strftime("%m/%d") + ' - ' +  'Custody to advise on the negative dividend reflected.'
                         elif tt.lower() in ['corp action - call','corp action']:
-                            comment = 'Custody to advise on the corp. action'
+                            comment = date.today().strftime("%m/%d") + ' - ' +  'Custody to advise on the corp. action'
                         elif tt.lower() =='interest':
-                            comment =  'Interest mismatch, checking with custody to clear this cash difference'
+                            comment = date.today().strftime("%m/%d") + ' - ' +  'Interest mismatch, checking with custody to clear this cash difference'
                         else:
-                            comment = 'Difference in amount booked between' + ' ' + str(pb) + ' & Geneva on ' + str(sd)  
+                            comment = date.today().strftime("%m/%d") + ' - ' +  'Difference in amount booked between' + ' ' + str(pb) + ' & Geneva on ' + str(sd)  
                         return comment
 
                     if(umb_breakids_for_commenting_df.shape[0] != 0):
@@ -7867,7 +7898,8 @@ try:
                     #Change made by Rohit on 07-12-2020 to add action columns for UI
                     def ui_action_column(param_final_df):
                         param_final_df.loc[((param_final_df['ML_flag'] == 'Not_Covered_by_ML')),'ActionType'] = 'No Prediction'    
-                        param_final_df.loc[((param_final_df['Predicted_Status'].isin(['OB','SMB'])) & (param_final_df['PredictedComment'] == '') & (param_final_df['ML_flag'] == 'ML')),'ActionType'] = 'No Action'
+#                        param_final_df.loc[((param_final_df['Predicted_Status'].isin(['OB','SMB'])) & (param_final_df['PredictedComment'] == '') & (param_final_df['ML_flag'] == 'ML')),'ActionType'] = 'No Action'
+                        param_final_df.loc[((param_final_df['Predicted_Status'].isin(['OB','SMB'])) & (param_final_df['PredictedComment'] == '') & (param_final_df['ML_flag'] == 'ML')),'ActionType'] = '' # 20210807-RB - 'No Action' removed
                         param_final_df.loc[((param_final_df['Predicted_Status'].isin(['OB','SMB'])) & (param_final_df['PredictedComment'] != '') & (param_final_df['ML_flag'] == 'ML')),'ActionType'] = 'COMMENT'
                         param_final_df.loc[((param_final_df['Predicted_Status'] == 'UCB') & (param_final_df['PredictedComment'] == '') & (param_final_df['ML_flag'] == 'ML')),'ActionType'] = 'CLOSE'
                         param_final_df.loc[((param_final_df['Predicted_Status'].isin(['UMB','UMR','UMT'])) & (param_final_df['PredictedComment'] == '') & (param_final_df['ML_flag'] == 'ML')),'ActionType'] = 'PAIR'
@@ -7877,7 +7909,8 @@ try:
                     
                     def ui_action_column(param_final_df):
                         param_final_df.loc[((param_final_df['ML_flag'] == 'Not_Covered_by_ML')),'ActionType'] = 'No Prediction'    
-                        param_final_df.loc[((param_final_df['Predicted_Status'].isin(['OB','SMB'])) & (param_final_df['PredictedComment'] == '') & (param_final_df['ML_flag'] == 'ML')),'ActionType'] = 'No Action'
+#                        param_final_df.loc[((param_final_df['Predicted_Status'].isin(['OB','SMB'])) & (param_final_df['PredictedComment'] == '') & (param_final_df['ML_flag'] == 'ML')),'ActionType'] = 'No Action'
+                        param_final_df.loc[((param_final_df['Predicted_Status'].isin(['OB','SMB'])) & (param_final_df['PredictedComment'] == '') & (param_final_df['ML_flag'] == 'ML')),'ActionType'] = '' # 20210807-RB - 'No Action' removed
                         param_final_df.loc[((param_final_df['Predicted_Status'].isin(['OB','SMB'])) & (param_final_df['PredictedComment'] != '') & (param_final_df['ML_flag'] == 'ML')),'ActionType'] = 'COMMENT'
                         param_final_df.loc[((param_final_df['Predicted_Status'] == 'UCB') & (param_final_df['PredictedComment'] == '') & (param_final_df['ML_flag'] == 'ML')),'ActionType'] = 'CLOSE'
                         param_final_df.loc[((param_final_df['Predicted_Status'].isin(['UMB','UMR','UMT'])) & (param_final_df['PredictedComment'] == '') & (param_final_df['ML_flag'] == 'ML')),'ActionType'] = 'PAIR'
@@ -7948,7 +7981,7 @@ try:
                         return(fun_final_df_2)
                     
                     umb_smb_duplication_issue_df = UMB_and_SMB_duplication_issue_in_BreakID_and_FinalPredictedBreakID_columns(fun_final_df_2 = final_df_2_copy)
-                    filepaths_umb_smb_duplication_issue_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\umb_smb_duplication_issue_df_setup_' + Setup_Code_z + '_date_' + str(date_i) + '_for_Inzi_closed_analysis_5.csv'
+#                    filepaths_umb_smb_duplication_issue_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\umb_smb_duplication_issue_df_setup_' + Setup_Code_z + '_date_' + str(date_i) + '_for_Inzi_closed_analysis_5.csv'
 #                    umb_smb_duplication_issue_df.to_csv(filepaths_umb_smb_duplication_issue_df)
                     
                     colums_for_final_df_2 = ['len_intersection_set_of_BreakID_and_FinalPredictedBreak','BreakID_new','BusinessDate','Final_predicted_break_new','ML_flag','Predicted_Status','Predicted_action','SetupID','SourceCombinationCode','TaskID','probability_No_pair','probability_UMB','probability_UMR','probability_UMT','Side1_UniqueIds','PredictedComment','PredictedCategory','Side0_UniqueIds','ActionType','ActionTypeCode']
@@ -7959,7 +7992,7 @@ try:
                     
                     
                     
-                    filepaths_final_df_2_before_making_umt_from_umr = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_df_2_before_making_umt_from_umr_setup_' + Setup_Code_z + '_date_' + str(date_i) + '_after_changes.csv'
+#                    filepaths_final_df_2_before_making_umt_from_umr = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_df_2_before_making_umt_from_umr_setup_' + Setup_Code_z + '_date_' + str(date_i) + '_after_changes.csv'
 #                    final_df_2.to_csv(filepaths_final_df_2_before_making_umt_from_umr)
                     
                     #final_df_2[['Predicted_Status_new','Predicted_action_new']] = final_df_2.apply(lambda row : get_NetAmountDifference_for_BreakIds_from_BreakID_and_FinalPredictedBreakID_column_apply_row(fun_row = row, fun_meo_df = meo_df), axis = 1,result_type="expand")
@@ -8009,7 +8042,7 @@ try:
                     
                     final_df_2[['Predicted_Status_new','Predicted_action_new','Sum_of_Net_Amount_Difference','lst_Net_Amount_Difference_for_side0_UniqueIds','lst_Net_Amount_Difference_for_side1_UniqueIds']] = final_df_2.apply(lambda row : get_NetAmountDifference_for_Side01UniqueIds_from_Side0UniqueId_and_Side0UniqueId_column_apply_row(fun_row = row, fun_meo_df = meo_df), axis = 1,result_type="expand")
                     
-                    filepaths_final_df_2_after_making_umt_from_umr = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_df_2_after_making_umt_from_umr_setup_' + Setup_Code_z + '_date_' + str(date_i) + '_after_changes2.csv'
+#                    filepaths_final_df_2_after_making_umt_from_umr = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_df_2_after_making_umt_from_umr_setup_' + Setup_Code_z + '_date_' + str(date_i) + '_after_changes2.csv'
 #                    final_df_2.to_csv(filepaths_final_df_2_after_making_umt_from_umr)
                     
                     final_df_2.drop(columns = ['Predicted_Status','Predicted_action'], axis = 1, inplace = True)
@@ -8021,12 +8054,20 @@ try:
                     final_df_2_copy_2 = final_df_2.copy()
                     final_df_2['BreakID'] = final_df_2['BreakID'].replace(', ',',',regex = True)
                     final_df_2['Final_predicted_break'] = final_df_2['Final_predicted_break'].replace(', ',',',regex = True)
+
+#                    Change added on 24-06-2021 by Rohit. He could see values in BreakID and PredictedBreakID columns with successive commas, so I replaced the commas with single commas. There was also dubplication, so drop_duplicates was added as well.
+                    
+                    final_df_2['BreakID'] = final_df_2['BreakID'].replace(',,',',',regex = True)
+                    final_df_2['Final_predicted_break'] = final_df_2['Final_predicted_break'].replace(',,',',',regex = True)
+                    final_df_2.drop_duplicates(inplace = True)
+#                   End change added on 24-06-2021
+
                     final_df_2['SourceCombinationCode'] = final_df_2['SourceCombinationCode'].astype(str)
                     
                     final_df_2.loc[final_df_2['ActionType'] == 'Status not covered','ML_flag'] = 'Not_Covered_by_ML'
                     final_df_2 = final_df_2[~final_df_2['BreakID'].isin([''])]
 
-                    filepaths_final_df_2 = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_df_2_setup_' + Setup_Code_z + '_date_' + str(date_i) + '_after_changes.csv'
+#                    filepaths_final_df_2 = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_df_2_setup_' + Setup_Code_z + '_date_' + str(date_i) + '_after_changes.csv'
 #                    final_df_2.to_csv(filepaths_final_df_2)
                         
                     if 'test_file' in locals():
@@ -8118,27 +8159,34 @@ try:
                     coll_1_for_writing_prediction_data = db_for_writing_MEO_data['MLPrediction_' + Setup_Code_z]
                                 
 #                    coll_1_for_writing_prediction_data = db_1_for_MEO_data['MLPrediction_Cash']
+                    final_df_2['BreakID'] = final_df_2['BreakID'].astype(str)
+                    final_df_2['Final_predicted_break'] = final_df_2['Final_predicted_break'].astype(str)
+                    final_df_2['BreakID'] = final_df_2['BreakID'].map(lambda x:x.lstrip('[').rstrip(']'))
+                    final_df_2['Final_predicted_break'] = final_df_2['Final_predicted_break'].map(lambda x:x.lstrip('[').rstrip(']'))
+                    final_df_2['SourceCombinationCode'] = final_df_2['SourceCombinationCode'].astype(str)
+                    data_dict = final_df_2.to_dict("records_final")
+                    coll_1_for_writing_prediction_data.insert_many(data_dict) 
                                 
-                    final_df_2_without_UMR_Many_One_to_One_Many = final_df_2[final_df_2['Predicted_action'] != 'UMR_One-Many_to_Many-One']
-                    if(final_df_2_without_UMR_Many_One_to_One_Many.shape[0] != 0):
-                        final_df_2_without_UMR_Many_One_to_One_Many['BreakID'] = final_df_2_without_UMR_Many_One_to_One_Many['BreakID'].astype(str)
-                        final_df_2_without_UMR_Many_One_to_One_Many['Final_predicted_break'] = final_df_2_without_UMR_Many_One_to_One_Many['Final_predicted_break'].astype(str)
-                        final_df_2_without_UMR_Many_One_to_One_Many['SourceCombinationCode'] = final_df_2_without_UMR_Many_One_to_One_Many['SourceCombinationCode'].astype(str)
-                                
-                        data_dict_without_UMR_Many_One_to_One_Many = final_df_2_without_UMR_Many_One_to_One_Many.to_dict("records_final_1")
-                        coll_1_for_writing_prediction_data.insert_many(data_dict_without_UMR_Many_One_to_One_Many) 
-                    
-                    final_df_2_with_UMR_Many_One_to_One_Many = final_df_2[final_df_2['Predicted_action'].isin(['UMR_One-Many_to_Many-One','UMR_Many_to_Many'])]
-                    if(final_df_2_with_UMR_Many_One_to_One_Many.shape[0] != 0):
-                        
-                        final_df_2_with_UMR_Many_One_to_One_Many['BreakID'] = final_df_2_with_UMR_Many_One_to_One_Many['BreakID'].astype(str)
-                        final_df_2_with_UMR_Many_One_to_One_Many['Final_predicted_break'] = final_df_2_with_UMR_Many_One_to_One_Many['Final_predicted_break'].astype(str)
-                        final_df_2_with_UMR_Many_One_to_One_Many['BreakID'] = final_df_2_with_UMR_Many_One_to_One_Many['BreakID'].map(lambda x:x.lstrip('[').rstrip(']'))
-                        final_df_2_with_UMR_Many_One_to_One_Many['Final_predicted_break'] = final_df_2_with_UMR_Many_One_to_One_Many['Final_predicted_break'].map(lambda x:x.lstrip('[').rstrip(']'))
-                        final_df_2_with_UMR_Many_One_to_One_Many['SourceCombinationCode'] = final_df_2_with_UMR_Many_One_to_One_Many['SourceCombinationCode'].astype(str)
-                        
-                        data_dict_with_UMR_Many_One_to_One_Many = final_df_2_with_UMR_Many_One_to_One_Many.to_dict("records_final_2")
-                        coll_1_for_writing_prediction_data.insert_many(data_dict_with_UMR_Many_One_to_One_Many) 
+#                    final_df_2_without_UMR_Many_One_to_One_Many = final_df_2[final_df_2['Predicted_action'] != 'UMR_One-Many_to_Many-One']
+#                    if(final_df_2_without_UMR_Many_One_to_One_Many.shape[0] != 0):
+#                        final_df_2_without_UMR_Many_One_to_One_Many['BreakID'] = final_df_2_without_UMR_Many_One_to_One_Many['BreakID'].astype(str)
+#                        final_df_2_without_UMR_Many_One_to_One_Many['Final_predicted_break'] = final_df_2_without_UMR_Many_One_to_One_Many['Final_predicted_break'].astype(str)
+#                        final_df_2_without_UMR_Many_One_to_One_Many['SourceCombinationCode'] = final_df_2_without_UMR_Many_One_to_One_Many['SourceCombinationCode'].astype(str)
+#                                
+#                        data_dict_without_UMR_Many_One_to_One_Many = final_df_2_without_UMR_Many_One_to_One_Many.to_dict("records_final_1")
+#                        coll_1_for_writing_prediction_data.insert_many(data_dict_without_UMR_Many_One_to_One_Many) 
+#                    
+#                    final_df_2_with_UMR_Many_One_to_One_Many = final_df_2[final_df_2['Predicted_action'].isin(['UMR_One-Many_to_Many-One','UMR_Many_to_Many'])]
+#                    if(final_df_2_with_UMR_Many_One_to_One_Many.shape[0] != 0):
+#                        
+#                        final_df_2_with_UMR_Many_One_to_One_Many['BreakID'] = final_df_2_with_UMR_Many_One_to_One_Many['BreakID'].astype(str)
+#                        final_df_2_with_UMR_Many_One_to_One_Many['Final_predicted_break'] = final_df_2_with_UMR_Many_One_to_One_Many['Final_predicted_break'].astype(str)
+#                        final_df_2_with_UMR_Many_One_to_One_Many['BreakID'] = final_df_2_with_UMR_Many_One_to_One_Many['BreakID'].map(lambda x:x.lstrip('[').rstrip(']'))
+#                        final_df_2_with_UMR_Many_One_to_One_Many['Final_predicted_break'] = final_df_2_with_UMR_Many_One_to_One_Many['Final_predicted_break'].map(lambda x:x.lstrip('[').rstrip(']'))
+#                        final_df_2_with_UMR_Many_One_to_One_Many['SourceCombinationCode'] = final_df_2_with_UMR_Many_One_to_One_Many['SourceCombinationCode'].astype(str)
+#                        
+#                        data_dict_with_UMR_Many_One_to_One_Many = final_df_2_with_UMR_Many_One_to_One_Many.to_dict("records_final_2")
+#                        coll_1_for_writing_prediction_data.insert_many(data_dict_with_UMR_Many_One_to_One_Many) 
                     
                     print(Setup_Code_z)
                     print(date_i)

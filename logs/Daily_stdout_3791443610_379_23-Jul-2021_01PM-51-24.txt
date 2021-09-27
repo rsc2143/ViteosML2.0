@@ -1,0 +1,55 @@
+stdout started
+meo size
+65
+The Date value count is:
+2021-07-21    57
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\output_files
+Choosing the date : 2021-07-21
+['6_3791443610_Advent Geneva', '9_3791443610_Advent Geneva', '10_3791443610_Advent Geneva', '7_3791443610_Advent Geneva', '8_3791443610_Advent Geneva']
+['7_3791443610_BNP Paribas', '6_3791443610_BNP Paribas', '14_3791443610_BNP Paribas', '9_3791443610_BNP Paribas', '8_3791443610_BNP Paribas']
+(20, 74)
+(19, 74)
+5
+5
+(15, 74)
+(14, 74)
+['7_3791443610_BNP Paribas', '6_3791443610_BNP Paribas', '14_3791443610_BNP Paribas', '9_3791443610_BNP Paribas', '8_3791443610_BNP Paribas']
+['6_3791443610_Advent Geneva', '9_3791443610_Advent Geneva', '10_3791443610_Advent Geneva', '7_3791443610_Advent Geneva', '8_3791443610_Advent Geneva']
+1
+2
+3
+4
+5
+6
+7
+8
+9
+No One to Many found
+1
+2
+3
+4
+5
+6
+7
+8
+9
+No Many to One found
+No Many to One found
+(4, 67)
+(3, 67)
+2048988825
+2051585690
+2053705250
+2053705252
+2048988811
+2048988828
+2048988822
+2048988839
+2053705253
+2053705261
+379
+2021-07-21
+Following Task ID done
+3791443610

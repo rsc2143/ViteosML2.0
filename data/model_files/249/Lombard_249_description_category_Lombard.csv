@@ -1,0 +1,182 @@
+Pairing,var,Catogery,replace
+internal transfer,NANA,NANA,internal transfer
+month end interest, month end,Interest,month end interest
+adr,NANA,NANA,adr
+lp,NANA,NANA,company
+plc,NANA,NANA,company
+inc.,NANA,NANA,company
+inc,NANA,NANA,company
+swap,NANA,NANA,equity swap settlement
+future,NANA,NANA,future
+fut,NANA,NANA,future
+call ,NANA,NANA,option
+put,NANA,NANA,option
+futr,NANA,NANA,future
+bond,NANA,NANA,bond
+forward,NANA,NANA,forward
+income earned for TIER 01 UNINVESTED AMNT,NANA,NANA,Revenue
+libor,NANA,NANA,interest
+term loan,NANA,NANA,term loan
+TL-FILO,NANA,NANA,TL-FILO
+144A,NANA,NANA,144A
+Sr Sec,NANA,NANA,term loan
+Sr Unsec,NANA,NANA,term loan
+s unsec,,,term loan
+s sec,,,term loan
+Lien,,,term loan
+callable,,,callable
+cr_int,,,credit interest
+debit_interest,,,debit interest
+debit_int,,,debit interest
+000000000000STIF INVESTMENTS,,,stif
+co,,,company
+group,,,company
+grp,,,company
+holdings,,,company
+intl,,,company
+intl.,,,company
+third party fx sell,,,third party fx sell
+third party fx buy,,,third party fx buy
+escrow,,,escrow
+contra,,,contract
+contract,,,contract
+contract1,,,contract
+tl,,,term loan
+shares,,,company
+paydown,,,interest
+loan-tf-libor,,,term loan
+Term Loan (First Lien)-TF-LIBOR,,,term loan
+B TF LIBOR,,,term loan
+B5 TF LIBOR,,,term loan
+B15 TF LIBOR,,,term loan
+TL B4,,,term loan
+TL B,,,term loan
+TL B15,,,term loan
+TL B3,,,term loan
+B3 TF LIBOR,,,term loan
+B2 TF LIBOR,,,term loan
+dr interest account,,,dr interest-account
+cr interest account,,,cr interest-account
+shares fund,,,month end interest
+interest adjustment month,,,month end interest
+interest month end,,,month end interest
+interest month ending,,,month end interest
+credit interest,,,credit interest
+int_adj,,,int adj
+stif,,,stif
+callable notes fixed,,,callable notes fixed
+CV Preferred Stock,,,cv preferred stock
+COLLATERAL_COL,,,collateral
+balance from,,,balance from
+cap dr,,,cap dr
+recovery month ending,,,recovery month ending
+Interest due loan,,,Interest due loan
+Income master notes,,,Income master notes
+sweep fee,,,sweep fee
+common stock,,,common stock
+negative interest,,,negative interest
+cap cr,,,cap cr
+bank loan cash,,,bank loan cash
+interest received,,,interest
+reversal stock loan,,,reversal stock loan
+redemption,,,redemption
+interest,,,interest
+income div rate,,,dividend income
+interest for a/c,,,interest
+interest receipt,,,interest
+payment order,,,payment order
+wire transfer,,,wire transfer
+partial call ,,,partial call 
+cap cr interest-acc,,,cap cr interest-acc
+cap dr interest-acc,,,cap dr interest-acc
+cr interest-account,,,cr interest-account
+dr interest-account,,,dr interest-account
+dr_int,,,dr_int
+redemption,,,redemption
+subscription,,,subscription
+unadvised cash posting,,,unadvised cash posting
+first quality 144a,,,first quality 144a
+ord cust,,,ord cust
+invoice no.,,,invoice no.
+hard dollar comp,,,hard dollar comp
+clean cash disburesement,,,clean cash disburesement
+/rec/internal transfer,,,/rec/internal transfer
+reversal interest loan,,,reversal interest loan
+Interest loan bway,,,Interest loan bway
+net plus accrued,,,net plus accrued
+pb variation margin journal,,,pb variation margin journal
+select money market premier gbp,,,select money market premier gbp
+acu,,,acu
+in net,,,in net
+other,,,other
+bilateral regulatory obligation,,,bilateral regulatory obligation swapvm
+traderelated,,,traderelated
+cash,,,cash
+cfd balance flattening,,,cfd balance flattening
+funds paid,,,funds paid
+margin,,,margin
+adj,,,adjustment
+cash_adj,,,adjustment
+receipt,,,receipt
+eqswap unwind,,,eqswap unwind
+eq unwind,,,eqswap unwind
+holding,,,company
+corporation,,,company
+holdings,,,company
+industries,,,company
+collateral transfer,,,collateral transfer
+futures marg trans,,,future margin transfer
+future marg trans,,,future margin transfer
+pay to ld,,,pay to ld
+receive from ld,,,receive from ld
+ord,,,ord
+cvt,,,cvt
+pai,,,pai
+cfd interest payment,,,cfd interest payment
+deposit of initial margin,,,deposit of initial margin
+return of initial margin,,,return of initial margin
+initial margin maintenance commission,,,initial margin maintenance commission
+maintenance commission,,,maintenance commission
+ice clearing fee,,,ice clearing fee
+transaction commission,,,transaction commission
+transfer equity commod,,,transfer equity commod
+transfer equity commod,,,transfer equity commodity
+auto etd,,,auto etd
+vix feb0,,,vix feb0
+ticket fees,,,ticket fees
+fee reimbursement,,,fee reimbursement
+securities lending,,,securities lending
+common exp.,,,common expense
+common expense,,,common expense
+security lendin,,,security lending income/expense
+securities lendi,,,security lending income/expense
+securities lending fee,,,securities lending fee
+eqswap div,,,eqswap div
+div,,,dividend
+payment,,,payment
+funding fee,,,funding fee
+options comm adj,,,options commission adjustment
+BICSIUSTREAPREDT.,,,BICSIUSTREAPREDT
+BICSIUSTREAPREDT,,,BICSIUSTREAPREDT
+block flag adj,,,commission adjustment
+commission adjustment,,,commission adjustment
+comission adjustment,,,commission adjustment
+commission adj,,,commission adjustment
+fees and commission adjustment,,,fees and commission adjustment
+cash plug,,,cash plug
+is2,,,is2
+sl fees,,,sl fees
+sl fee,,,sl fees
+nra withholding,,,nra withholding
+repo ust,,,repo ust
+credit event,,,credit event
+credit event,,,credit events
+cfd otc ex,,,cfd otc ex
+stock loan fee,,,stock loan fee
+stock loan fees,,,stock loan fee
+corporate action,,,corporate action
+optional dividend cash payment,,,optional dividend cash payment
+maintenance commission,,,maintenance commission
+industrial,,,company
+corp,,,company
+hldgs,,,company

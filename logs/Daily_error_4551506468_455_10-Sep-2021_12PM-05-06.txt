@@ -1,0 +1,29 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "_catboost.pyx", line 1972, in _catboost.get_float_feature
+  File "_catboost.pyx", line 1092, in _catboost._FloatOrNan
+  File "_catboost.pyx", line 918, in _catboost._FloatOrNanFromString
+TypeError: Cannot convert 'b'geneva'' to float
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\455_Production_Model_Daily.py", line 1369, in <module>
+    cb_predictions = clf.predict(df4)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\catboost\core.py", line 4595, in predict
+    return self._predict(data, prediction_type, ntree_start, ntree_end, thread_count, verbose, 'predict')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\catboost\core.py", line 2090, in _predict
+    data, data_is_single_object = self._process_predict_input_data(data, parent_method_name, thread_count)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\catboost\core.py", line 2076, in _process_predict_input_data
+    thread_count=thread_count
+  File "C:\ProgramData\Anaconda3\lib\site-packages\catboost\core.py", line 588, in __init__
+    self._init(data, label, cat_features, text_features, embedding_features, pairs, weight, group_id, group_weight, subgroup_id, pairs_weight, baseline, feature_names, thread_count)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\catboost\core.py", line 1102, in _init
+    self._init_pool(data, label, cat_features, text_features, embedding_features, pairs, weight, group_id, group_weight, subgroup_id, pairs_weight, baseline, feature_names, thread_count)
+  File "_catboost.pyx", line 3544, in _catboost._PoolBase._init_pool
+  File "_catboost.pyx", line 3591, in _catboost._PoolBase._init_pool
+  File "_catboost.pyx", line 3432, in _catboost._PoolBase._init_features_order_layout_pool
+  File "_catboost.pyx", line 2469, in _catboost._set_features_order_data_pd_data_frame
+  File "_catboost.pyx", line 2013, in _catboost.create_num_factor_data
+  File "_catboost.pyx", line 1974, in _catboost.get_float_feature
+_catboost.CatBoostError: Bad value for num_feature[non_default_doc_idx=0,feature_idx=4]="geneva": Cannot convert 'b'geneva'' to float

@@ -1,0 +1,34 @@
+stdout started
+meo size
+113
+The Date value count is:
+2021-08-13    85
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\output_files
+Choosing the date : 2021-08-13
+[]
+[]
+(31, 74)
+(24, 74)
+0
+0
+(31, 74)
+(24, 74)
+1
+2
+3
+No One to Many found
+1
+2
+3
+4
+No Many to One found
+No Many to One found
+(27, 67)
+(23, 67)
+1860383545, 1860369844, 1860387481, 1860387472
+1860357732, 1860357729, 1860383539, 1860383541, 1860383540, 1860387483, 1860387473, 1860357709, 1860383555, 1860357707, 1860383551
+379
+2021-08-13
+Following Task ID done
+3791470182

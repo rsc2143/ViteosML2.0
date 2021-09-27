@@ -1,0 +1,37 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 4736, in get_value
+    return libindex.get_value_box(s, key)
+  File "pandas\_libs\index.pyx", line 51, in pandas._libs.index.get_value_box
+  File "pandas\_libs\index.pyx", line 47, in pandas._libs.index.get_value_at
+  File "pandas\_libs\util.pxd", line 98, in pandas._libs.util.get_value_at
+  File "pandas\_libs\util.pxd", line 83, in pandas._libs.util.validate_indexer
+TypeError: 'str' object cannot be interpreted as an integer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\125_Production_Model_Daily.py", line 8785, in <module>
+    x['ViewData.Quantity'], x['ViewData.Trade Date_mm_dd_yyyy']), axis=1)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 6913, in apply
+    return op.get_result()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\apply.py", line 186, in get_result
+    return self.apply_standard()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\apply.py", line 292, in apply_standard
+    self.apply_series_generator()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\apply.py", line 321, in apply_series_generator
+    results[i] = self.f(v)
+  File "D:\ViteosModel2.0\125_Production_Model_Daily.py", line 8783, in <lambda>
+    lambda x: comgen(x['new_pb2'], x['predicted template'], x['ViewData.Settle Date_mm_dd_yyyy'],
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\series.py", line 1068, in __getitem__
+    result = self.index.get_value(self, key)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 4744, in get_value
+    raise e1
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 4730, in get_value
+    return self._engine.get_value(s, k, tz=getattr(series.dtype, "tz", None))
+  File "pandas\_libs\index.pyx", line 80, in pandas._libs.index.IndexEngine.get_value
+  File "pandas\_libs\index.pyx", line 88, in pandas._libs.index.IndexEngine.get_value
+  File "pandas\_libs\index.pyx", line 131, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1607, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1614, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: ('ViewData.Settle Date_mm_dd_yyyy', 'occurred at index 0')

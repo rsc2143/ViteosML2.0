@@ -1,0 +1,8 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\897_Production_Model.py", line 433, in <module>
+    param_pos_cols_list = Schonfeld_897_position_file_columns_list)
+  File "D:\ViteosModel2.0\897_Production_Model.py", line 93, in read_passowrd_protected_pos_file_and_concat_to_single_pos_df
+    xl_wb = xl_app.Workbooks.Open(param_filepath, False, True, None, param_passwrod)
+  File "<COMObject <unknown>>", line 8, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\Files and Rules for Lookup\\Rules delivery from Ronson\\Schonfeld\\Schonfeld ML final\\57 Position Recon\\57 Position recon - 06212021.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)

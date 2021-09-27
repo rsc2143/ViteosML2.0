@@ -4,7 +4,7 @@ Created on Wed May 26 12:10:23 2021
 
 @author: riteshkumar.patra
 """
-
+ 
 
 import os
 os.chdir('D:\\ViteosModel2.0')
@@ -27,10 +27,9 @@ from pandas.io.json import json_normalize
 import json
 import win32com.client
 import logging
-import dateutil.parser
-from dateutil.parser import parse
 import dateutil
 from dateutil import parser
+import requests
 
 os.chdir('D:\\ViteosModel2.0')
 
@@ -47,6 +46,14 @@ current_date_and_time = now.strftime('%d-%b-%Y_%I%p-%M-%S')
 Logger_obj = ViteosLogger_Class()
 log_folder = os.getcwd() + '\\logs\\'
 model_files_folder = os.getcwd() + '\\data\\model_files\\' + str(setup_code) + '\\'
+
+def remove_password_xlsx(param_pos_with_password_filepath = None, param_pos_without_password_filepath = None) : 
+    xcl = win32com.client.Dispatch("Excel.Application")
+    wb = xcl.Workbooks.Open ( param_pos_with_password_filepath, False, False, None, 'SSA2020' )
+    xcl.DisplayAlerts = False
+    wb.SaveAs(param_pos_without_password_filepath, None, "", "")
+    xcl.Quit()
+
 
 
 try:
@@ -87,6 +94,18 @@ try:
         else:
             return('keep')
 
+    def read_pos_file_and_concat_to_single_pos_df(param_filepath, param_sheet_names_list):
+        xlsx_obj = pd.ExcelFile(param_filepath)
+        
+        xlsx_sheet_names_list_without_Document_Map = param_sheet_names_list
+        df_sheet_list = []
+        for sheet_name in xlsx_sheet_names_list_without_Document_Map:
+            df_sheet = xlsx_obj.parse(sheet_name,skiprows = 3)
+            df_sheet_list.append(df_sheet)
+        pos_df = pd.concat(df_sheet_list)
+        return(pos_df)
+    
+
     def read_passowrd_protected_pos_file_and_concat_to_single_pos_df(param_filepath, param_passwrod, param_sheet_names_list, param_start_row_num, param_start_col_num, param_pos_cols_list):
         xl_app = win32com.client.Dispatch('Excel.Application')
         #pwd = getpass.getpass('Enter file password: ')
@@ -119,6 +138,16 @@ try:
             df_sheet_list.append(df_sheet)
         pos_df = pd.concat(df_sheet_list)
         return(pos_df)
+
+
+    def closeExcelFile():
+
+        try:
+            os.system('TASKKILL /F /IM excel.exe')
+
+        except Exception:
+            print("KU")
+
 
     def dmy_value_with_or_without_zero(param_dmy_value): 
         if((param_dmy_value > 0) & (param_dmy_value < 10)):
@@ -209,11 +238,17 @@ try:
         param_test_message_publishing=RabbitMQ_parameters_for_ML2_to_publish_to_for_acknowledgement_dict.get(
             'test_message_publishing'),
         param_timeout=RabbitMQ_parameters_for_ML2_to_publish_to_for_acknowledgement_dict.get('timeout'))
+    
+    currency_conversion_api_key = str(parameters_dict.get("currency_conversion_api_key"))
 
+    https_proxy = str(parameters_dict.get("https_proxy"))
+    http_proxy = str(parameters_dict.get("http_proxy"))
+    
     Schonfeld_parameters_dict = parameters_dict.get("Schonfeld_parameters_dict")
 
     Schonfeld_897_number_of_days_to_go_behind = Schonfeld_parameters_dict.get("Schonfeld_897_number_of_days_to_go_behind")
     Schonfeld_897_output_files_path_from_dict = str(os.getcwd()) + Schonfeld_parameters_dict.get(str(client) + '_' + str(setup_code) + '_output_folder_path')
+    Schonfeld_897_position_file_path_with_password = Schonfeld_parameters_dict.get("Schonfeld_897_position_file_path_with_password")
     Schonfeld_897_position_file_path = Schonfeld_parameters_dict.get("Schonfeld_897_position_file_path")
     Schonfeld_897_position_file_first_sheet_name = Schonfeld_parameters_dict.get("Schonfeld_897_position_file_first_sheet_name")
     Schonfeld_897_position_file_second_sheet_name = Schonfeld_parameters_dict.get("Schonfeld_897_position_file_second_sheet_name")
@@ -223,7 +258,9 @@ try:
     Schonfeld_897_position_file_second_sheet_origin_col_number = Schonfeld_parameters_dict.get("Schonfeld_897_position_file_second_sheet_origin_col_number")
     Schonfeld_897_position_file_password = Schonfeld_parameters_dict.get("Schonfeld_897_position_file_password")
     Schonfeld_897_position_file_columns_list = Schonfeld_parameters_dict.get("Schonfeld_897_position_file_columns_list")
-
+    Schonfeld_897_model_files_path_from_dict = str(os.getcwd()) + Schonfeld_parameters_dict.get(str(client) + '_' + str(setup_code) + '_model_files_folder_path')
+    Schonfeld_897_position_file_remword_list = Schonfeld_parameters_dict.get("Schonfeld_897_position_file_remword_list") 
+    
     while_loop_iterator = 0
     outer_while_loop_iterator = 0
     # while True:
@@ -233,7 +270,7 @@ try:
         #    except Exception:
         #        data = None
         s2_out = sys.argv[1]
-#        s2_out = '8971380237|Schonfeld Cash - 57|Cash|RecData_897|132120|Recon Run Completed|897|609a34b91e9c9c19c0cbc1e3'
+#       s2_out = '8971470069|Schonfeld Cash - 57|Cash|RecData_897|132120|Recon Run Completed|897|609a34b91e9c9c19c0cbc1e3'
         stout_list = s2_out.split("|")
         print(stout_list)
         if len(stout_list) > 1:
@@ -357,6 +394,8 @@ try:
 
                 else:
                     Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='meo df is not empty, initiating calculations')
+                    Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='meo df shape is' + str(meo_df.shape[0]))
+
                     meo_df['remove_or_keep_for_multiple_uniqueids_in_ob_issue'] = meo_df.apply(lambda row : contains_multiple_values_in_either_Side_0_or_1_UniqueIds_for_expected_single_sided_status(fun_row = row), axis = 1,result_type="expand")
                     meo_df = meo_df[~(meo_df['remove_or_keep_for_multiple_uniqueids_in_ob_issue'] == 'remove')]
                     
@@ -412,16 +451,24 @@ try:
 
                     filename = '57 Position recon - '+ dmy_value_with_or_without_zero(param_dmy_value = mon) + dmy_value_with_or_without_zero(param_dmy_value = day) + str(yr)+ '.xlsx'
                     filename_pos_file = Schonfeld_897_position_file_path + filename
-                
-                    pos = read_passowrd_protected_pos_file_and_concat_to_single_pos_df(param_filepath = filename_pos_file, 
-                                                                                       param_passwrod = Schonfeld_897_position_file_password, 
-                                                                                       param_sheet_names_list = [Schonfeld_897_position_file_first_sheet_name, Schonfeld_897_position_file_second_sheet_name], 
-                                                                                       param_start_row_num = Schonfeld_897_position_file_first_sheet_origin_row_number, 
-                                                                                       param_start_col_num = Schonfeld_897_position_file_first_sheet_origin_col_number,
-																					   param_pos_cols_list = Schonfeld_897_position_file_columns_list)
+                    filename_pos_file_with_password = Schonfeld_897_position_file_path_with_password + filename
+#                    closeExcelFile()
+#                    os.system('TASKKILL /F /IM excel.exe')
+#                    pos = read_passowrd_protected_pos_file_and_concat_to_single_pos_df(param_filepath = filename_pos_file, 
+#                                                                                       param_passwrod = Schonfeld_897_position_file_password, 
+#                                                                                       param_sheet_names_list = [Schonfeld_897_position_file_first_sheet_name, Schonfeld_897_position_file_second_sheet_name], 
+#                                                                                       param_start_row_num = Schonfeld_897_position_file_first_sheet_origin_row_number, 
+#                                                                                       param_start_col_num = Schonfeld_897_position_file_first_sheet_origin_col_number,
+#																					   param_pos_cols_list = Schonfeld_897_position_file_columns_list)
+#                    closeExcelFile()
+#                    os.system('TASKKILL /F /IM excel.exe')
+                    remove_password_xlsx(param_pos_with_password_filepath=filename_pos_file_with_password, 
+                                         param_pos_without_password_filepath=filename_pos_file)
+                    pos = read_pos_file_and_concat_to_single_pos_df(param_filepath = filename_pos_file, 
+                                                                    param_sheet_names_list = [Schonfeld_897_position_file_first_sheet_name, Schonfeld_897_position_file_second_sheet_name])
 
                     os.chdir(Schonfeld_897_output_files_path_from_dict)
-
+                    Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='Position File read')
                     base_dir = os.getcwd()       
                     
                     # create dynamic name with date as folder
@@ -490,7 +537,8 @@ try:
                     
                     # #### Standardization of ticker of both position file
                     
-                    rem_word = ['comdty','index','indx','elec']
+#                    rem_word = ['comdty','index','indx','elec']
+                    rem_word = Schonfeld_897_position_file_remword_list
                     def tickerclean(x):
                         if ((x!= None) & (type(x)== str)):
                             x = x.lower()
@@ -640,17 +688,37 @@ try:
                             return 1234567
                     
                     df2['Net Amount Difference1'] = df2['Net Amount Difference']
-                    abhijeet_comment_viteos_folder_filepath = 'D:\\ViteosModel\\Abhijeet - Comment\\'
-                    conv = pd.read_csv(abhijeet_comment_viteos_folder_filepath + 'currency conversion.csv')
+#                    abhijeet_comment_viteos_folder_filepath = 'D:\\ViteosModel\\Abhijeet - Comment\\'
+#                    conv = pd.read_csv(abhijeet_comment_viteos_folder_filepath + 'currency conversion.csv')
+                    url = "https://v6.exchangerate-api.com/v6/" + currency_conversion_api_key + "/latest/USD"
+                    proxies = { "http": "http://" + http_proxy,
+                               "https": "https://" + https_proxy
+                    }
+                    # Making our request
+                    response = requests.get(url,proxies=proxies)
+                    data = response.json()
                     
+                    # Your JSON object
+                    print(data)
+                    conv = pd.DataFrame(data=data.get('conversion_rates').items(),columns=['Currency','reciprocal_conversion'])
+                    conv['conversion'] =  conv['reciprocal_conversion'].apply(lambda x : 1/x)
+                    conv.drop(columns = 'reciprocal_conversion')
+                    Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='Conversion File created using API')                    
+                    df2['Currency'] = df2['Currency'].apply(lambda x : str(x).strip())
+                    conv['Currency'] = conv['Currency'].apply(lambda x : str(x).strip())
                     df2 = pd.merge(df2, conv, on = 'Currency', how = 'left')
-                    
+                    Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='Merger of conversion file done')
                     df2['Net Amount Difference1'] = round(df2['Net Amount Difference1']* df2['conversion'],2)
                     
                     # #### Conversion of amount of cash file
                     
                     dff['Net Amount Difference1'] = dff['Net Amount Difference']
+                    
+                    conv['Currency'] = conv['Currency'].apply(lambda x : str(x).strip())
+                    dff['Currency'] = dff['Currency'].apply(lambda x : str(x).strip())
                     dff = pd.merge(dff, conv, on = 'Currency', how = 'left')
+
+                    Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='Second Merger of conversion file done')
                     dff['Net Amount Difference1'] = round(dff['Net Amount Difference1']* dff['conversion'],2)
                     
                     #df2['Net Amount Difference1'] = df2['Net Amount Difference'].apply(lambda x : amountcleaning(x))
@@ -660,21 +728,31 @@ try:
                     
                     # #### Conversion of file due to normal issues
                     
-                    def remove_mark_notolerance(y,k,a):
-                        if ((abs(k)<5.1) &  (y==0) &  (a>1)):
+                    def remove_mark_notolerance(param_pos_qnt_diff, param_cash_standing, param_len_cash):
+                        if ((abs(param_cash_standing)<5.1) &  (param_pos_qnt_diff==0) &  (param_len_cash>1)):
                             return 1
                          
                         else:
                             return 0
                     
+                    
+                    dff['Custodian Account'] = dff['Custodian Account'].apply(lambda x : str(x).strip())
+                    dff['Currency'] = dff['Currency'].apply(lambda x : str(x).strip())
+                    dff['Ticker1'] = dff['Ticker1'].apply(lambda x : str(x).strip())
+
                     dummyk = dff.groupby(['Custodian Account','Currency','Ticker1'])['Net Amount Difference1'].apply(list).reset_index()
                     dummyk['Cash Standing'] = dummyk['Net Amount Difference1'].apply(lambda x : sum(x))
                     dummyk['len_cash'] = dummyk['Net Amount Difference1'].apply(lambda x :len(x))
                     
                     dummyk = dummyk[['Custodian Account', 'Currency', 'Ticker1','Cash Standing','len_cash']]
+                    
+                    pos['Custodian Account'] = pos['Custodian Account'].apply(lambda x : str(x).strip())
+                    pos['Currency'] = pos['Currency'].apply(lambda x : str(x).strip())
+                    pos['Ticker1'] = pos['Ticker1'].apply(lambda x : str(x).strip())
+                    
                     dummyk = pd.merge(dummyk, pos, on = ['Custodian Account','Currency','Ticker1'], how = 'left')
                     
-                    dummyk['pos_qnt_diff'] = dummyk['pos_qnt_diff'].fillna(0)
+                    dummyk['pos_qnt_diff'] = dummyk['pos_qnt_diff'].fillna(0.0)
                     
                     dummyk['remove_mark_fin'] = dummyk.apply(lambda x :remove_mark_notolerance(x['pos_qnt_diff'] ,x['Cash Standing'],x['len_cash']),axis = 1)
                     
@@ -747,71 +825,72 @@ try:
                         else:
                             return 1
                     
-                    dummy = dff.groupby(['Custodian Account','Currency','Ticker1'])['Net Amount Difference1'].apply(list).reset_index()
-                    dummy['Net Amount Difference1'] = dummy['Net Amount Difference1'].apply(lambda x : list(set(x)))
-                    dummy['len_amount'] = dummy['Net Amount Difference1'].apply(lambda x : len(x))
-                    dummy['zero_list'] = dummy['Net Amount Difference1'].apply(lambda x : subSumnotol(x,0))
-                    dummy['zero_list_len'] = dummy['zero_list'].apply(lambda x : len(x))
-                    dummy['diff_len'] = dummy['len_amount'] - dummy['zero_list_len']
-                    dummy['zero_list_sum'] = dummy['zero_list'].apply(lambda x : round(abs(sum(x)),2))
-                    dummy = pd.merge(dummy, pos , on = ['Custodian Account','Currency','Ticker1'], how = 'left')
-                    dummy['pos_qnt_diff'] = dummy['pos_qnt_diff'].fillna(0)
-                    
-                    dummy['remove_mark'] = dummy.apply(lambda x :remove_mark_notol(x['zero_list_len'],x['pos_qnt_diff'],x['zero_list_sum']),axis = 1)
-                    dummy = dummy[['Custodian Account', 'Currency', 'Ticker1', 'zero_list',  'diff_len', 'remove_mark']]
-                    dff = pd.merge(dff, dummy, on = ['Custodian Account','Currency','Ticker1'], how = 'left')
-                    
-                    dff['remove_mark_fin'] = dff.apply(lambda x : remover(x['remove_mark'],x['Net Amount Difference1'],x['zero_list']),axis =1)
-                    
-                    dfn = dff[dff['remove_mark_fin']==1]
-                    dfn1 = dff[dff['remove_mark_fin']!=1]
-                    
-                    if dfn.shape[0] !=0:
-                        dfn['Trade Date for extracting day'] = pd.to_datetime(dfn['Trade Date'])
-                        dfn1['Trade Date for extracting day'] = pd.to_datetime(dfn1['Trade Date'])
-                        dfn['day'] = dfn['Trade Date for extracting day'].dt.day
-                        dfn1['day'] = dfn1['Trade Date for extracting day'].dt.day
-                    
-                    #    dfn['day'] = dfn['Trade Date'].dt.day
-                    #    dfn1['day'] = dfn1['Trade Date'].dt.day
-                    
-                        agg = dfn.groupby(['Custodian Account','Currency','Ticker1'])['day'].apply(list).reset_index()
-                        agg = agg.rename(columns = {'day':'zero_day'})
-                        agg1 = dfn1.groupby(['Custodian Account','Currency','Ticker1'])['day'].apply(list).reset_index()
-                        agg2 = pd.merge(agg, agg1, on = ['Custodian Account','Currency','Ticker1'], how = 'left' )
-                        agg2['zero_max'] = agg2['zero_day'].apply(lambda x : max(x))
-                        agg2['zero_min'] = agg2['zero_day'].apply(lambda x : min(x))
-                        agg2['remove_mark_new'] = agg2.apply(lambda x : date_remover_notol(x['zero_day'],x['zero_min'],x['zero_max']), axis = 1)
-                        agg2 = agg2[['Custodian Account','Currency','Ticker1','remove_mark_new']]
-                        dfn = pd.merge(dfn, agg2, on = ['Custodian Account','Currency','Ticker1'], how = 'left' )
-                        if dfn[dfn['remove_mark_new']==1].shape[0]!=0:
-                            df4_new = dfn[dfn['remove_mark_new']==1]
-                            df4_new['predicted action'] = 'pair'
-                            df4_new['predicted category'] = 'match'
-                            df4_new['predicted comment'] = 'Match'
-                            df4_new['predicted status'] = df4_new['ViewData.Status'].apply(lambda x : 'UMF' if x =='SMB' else 'UCB')
-                            df4_new1 = df4_new[output_col]
-                    #        df4_new1.to_csv('Schonfield/tweak_test_897/14 dec file schonfield prediction p02.csv')
-                            df4_new1.to_csv('Schonfield ' + setup_code +' Meo Prediction P1.csv')
-                            df5_new = dfn[dfn['remove_mark_new']!=1]
-                                                   
-                            df5_new.drop(['remove_mark_new'], axis = 1, inplace = True)
-                            
-                            dff = pd.concat([df5_new,dfn1], axis = 0)
-                            dff = dff.reset_index()
-                            dff.drop(['index','day'], axis = 1, inplace = True)
-                        else:
-                            dff = dff.copy()
-                    #         df2 = df2.copy()
-                    else:
+                    if(dff.shape[0] != 0):
+                        dummy = dff.groupby(['Custodian Account','Currency','Ticker1'])['Net Amount Difference1'].apply(list).reset_index()
+                        dummy['Net Amount Difference1'] = dummy['Net Amount Difference1'].apply(lambda x : list(set(x)))
+                        dummy['len_amount'] = dummy['Net Amount Difference1'].apply(lambda x : len(x))
+                        dummy['zero_list'] = dummy['Net Amount Difference1'].apply(lambda x : subSumnotol(x,0))
+                        dummy['zero_list_len'] = dummy['zero_list'].apply(lambda x : len(x))
+                        dummy['diff_len'] = dummy['len_amount'] - dummy['zero_list_len']
+                        dummy['zero_list_sum'] = dummy['zero_list'].apply(lambda x : round(abs(sum(x)),2))
+                        dummy = pd.merge(dummy, pos , on = ['Custodian Account','Currency','Ticker1'], how = 'left')
+                        dummy['pos_qnt_diff'] = dummy['pos_qnt_diff'].fillna(0)
                         
-                        dff = dff.copy()
-                    #     df2 = df2.copy()
-                    
-                    
-                    # #### Conversion of file using accumulation
-                    
-                    dff.drop(['zero_list','diff_len','remove_mark','remove_mark_fin'], axis = 1, inplace = True)
+                        dummy['remove_mark'] = dummy.apply(lambda x :remove_mark_notol(x['zero_list_len'],x['pos_qnt_diff'],x['zero_list_sum']),axis = 1)
+                        dummy = dummy[['Custodian Account', 'Currency', 'Ticker1', 'zero_list',  'diff_len', 'remove_mark']]
+                        dff = pd.merge(dff, dummy, on = ['Custodian Account','Currency','Ticker1'], how = 'left')
+                        
+                        dff['remove_mark_fin'] = dff.apply(lambda x : remover(x['remove_mark'],x['Net Amount Difference1'],x['zero_list']),axis =1)
+                        
+                        dfn = dff[dff['remove_mark_fin']==1]
+                        dfn1 = dff[dff['remove_mark_fin']!=1]
+                        
+                        if dfn.shape[0] !=0:
+                            dfn['Trade Date for extracting day'] = pd.to_datetime(dfn['Trade Date'])
+                            dfn1['Trade Date for extracting day'] = pd.to_datetime(dfn1['Trade Date'])
+                            dfn['day'] = dfn['Trade Date for extracting day'].dt.day
+                            dfn1['day'] = dfn1['Trade Date for extracting day'].dt.day
+                        
+                        #    dfn['day'] = dfn['Trade Date'].dt.day
+                        #    dfn1['day'] = dfn1['Trade Date'].dt.day
+                        
+                            agg = dfn.groupby(['Custodian Account','Currency','Ticker1'])['day'].apply(list).reset_index()
+                            agg = agg.rename(columns = {'day':'zero_day'})
+                            agg1 = dfn1.groupby(['Custodian Account','Currency','Ticker1'])['day'].apply(list).reset_index()
+                            agg2 = pd.merge(agg, agg1, on = ['Custodian Account','Currency','Ticker1'], how = 'left' )
+                            agg2['zero_max'] = agg2['zero_day'].apply(lambda x : max(x))
+                            agg2['zero_min'] = agg2['zero_day'].apply(lambda x : min(x))
+                            agg2['remove_mark_new'] = agg2.apply(lambda x : date_remover_notol(x['zero_day'],x['zero_min'],x['zero_max']), axis = 1)
+                            agg2 = agg2[['Custodian Account','Currency','Ticker1','remove_mark_new']]
+                            dfn = pd.merge(dfn, agg2, on = ['Custodian Account','Currency','Ticker1'], how = 'left' )
+                            if dfn[dfn['remove_mark_new']==1].shape[0]!=0:
+                                df4_new = dfn[dfn['remove_mark_new']==1]
+                                df4_new['predicted action'] = 'pair'
+                                df4_new['predicted category'] = 'match'
+                                df4_new['predicted comment'] = 'Match'
+                                df4_new['predicted status'] = df4_new['ViewData.Status'].apply(lambda x : 'UMF' if x =='SMB' else 'UCB')
+                                df4_new1 = df4_new[output_col]
+                        #        df4_new1.to_csv('Schonfield/tweak_test_897/14 dec file schonfield prediction p02.csv')
+                                df4_new1.to_csv('Schonfield ' + setup_code +' Meo Prediction P1.csv')
+                                df5_new = dfn[dfn['remove_mark_new']!=1]
+                                                       
+                                df5_new.drop(['remove_mark_new'], axis = 1, inplace = True)
+                                
+                                dff = pd.concat([df5_new,dfn1], axis = 0)
+                                dff = dff.reset_index()
+                                dff.drop(['index','day'], axis = 1, inplace = True)
+                            else:
+                                dff = dff.copy()
+                        #         df2 = df2.copy()
+                        else:
+                            
+                            dff = dff.copy()
+                        #     df2 = df2.copy()
+                        
+                        
+                        # #### Conversion of file using accumulation
+                        
+                        dff.drop(['zero_list','diff_len','remove_mark','remove_mark_fin'], axis = 1, inplace = True)
                     
                     dummyk = df2.groupby(['Custodian Account','Currency','Ticker1'])['Net Amount Difference1'].apply(list).reset_index()
                     
@@ -840,22 +919,27 @@ try:
                     
                     dummyk1 = dummyk[['Custodian Account', 'Currency', 'Ticker1','remove_mark_fin']]
                     
-                    dff = pd.merge(dff,dummyk1, on = ['Custodian Account','Currency','Ticker1'], how = 'left')
                     
                     df2 = pd.merge(df2,dummyk1, on = ['Custodian Account','Currency','Ticker1'], how = 'left')
-                    
-                    #df2['remove_mark_fin'] = df2.apply(lambda x :remove_mark_pre(x['pos_qnt_diff'] ,x['Cash Standing']),axis = 1)
-                    
-                    #df2['cash difference'] = df2.apply(lambda x : x['Cash Standing']+x['Local MV Diff'] if x['Local MV Diff']!=1234567.0 else 1234567, axis =1)
-                    
-                    dff['zero_list'] = 'am'
-                    dff['diff_len'] = 10
-                    dff['remove_mark'] = 1
-                    dff['remove_mark_new'] = 10
-                    dff['day'] = 10
-                    
-                    dfn = dff[dff['remove_mark_fin'] ==1]
-                    
+
+                    if(dff.shape[0] != 0):                    
+
+                        dff = pd.merge(dff,dummyk1, on = ['Custodian Account','Currency','Ticker1'], how = 'left')
+                        
+                        #df2['remove_mark_fin'] = df2.apply(lambda x :remove_mark_pre(x['pos_qnt_diff'] ,x['Cash Standing']),axis = 1)
+                        
+                        #df2['cash difference'] = df2.apply(lambda x : x['Cash Standing']+x['Local MV Diff'] if x['Local MV Diff']!=1234567.0 else 1234567, axis =1)
+                        
+                        dff['zero_list'] = 'am'
+                        dff['diff_len'] = 10
+                        dff['remove_mark'] = 1
+                        dff['remove_mark_new'] = 10
+                        dff['day'] = 10
+                        
+                        dfn = dff[dff['remove_mark_fin'] ==1]
+                    else:
+                        dfn = pd.DataFrame()
+                        
                     if dfn.shape[0]!=0:
                         dfn['predicted action'] = 'pair'
                         dfn['predicted category'] = 'match'
@@ -870,10 +954,11 @@ try:
                         df2 = df2.copy()
                         dff = dff.copy()
                     
-                    dff = dff.drop(['zero_list', 'diff_len', 'remove_mark',
-                           'remove_mark_fin','remove_mark_new','day'], axis = 1)
-                    dff = dff.reset_index()
-                    dff.drop('index', axis = 1,inplace = True)
+                    if(dff.shape[0] != 0):
+                        dff = dff.drop(['zero_list', 'diff_len', 'remove_mark',
+                               'remove_mark_fin','remove_mark_new','day'], axis = 1)
+                        dff = dff.reset_index()
+                        dff.drop('index', axis = 1,inplace = True)
                     
                     df2 = df2.drop(['conversion','remove_mark_fin'], axis =1 )
                     
@@ -936,7 +1021,6 @@ try:
                     
                     dummy = dummy[['Custodian Account', 'Currency', 'Ticker1', 'zero_list',  'diff_len', 'remove_mark']]
                     
-                    df3 = pd.merge(dff, dummy, on = ['Custodian Account','Currency','Ticker1'], how = 'left')
                     df2 = pd.merge(df2, dummy, on = ['Custodian Account','Currency','Ticker1'], how = 'left')
                     
                     def remover(x,y,z):
@@ -948,12 +1032,18 @@ try:
                         else:
                             return 0
                        
-                    df3['remove_mark_fin'] = df3.apply(lambda x : remover(x['remove_mark'],x['Net Amount Difference1'],x['zero_list']),axis =1)
-                    
+                    if(dff.shape[0] != 0):
+                        df3 = pd.merge(dff, dummy, on = ['Custodian Account','Currency','Ticker1'], how = 'left')
+                        df3['remove_mark_fin'] = df3.apply(lambda x : remover(x['remove_mark'],x['Net Amount Difference1'],x['zero_list']),axis =1)
+                        df4 = df3[df3['remove_mark_fin']==1]
+                        df5 = df3[df3['remove_mark_fin']!=1]
+
+                    else:
+                        df3 = pd.DataFrame()
+                        df4 = pd.DataFrame()
+                        df5 = pd.DataFrame()
+
                     df2['remove_mark_fin'] = df2.apply(lambda x : remover(x['remove_mark'],x['Net Amount Difference1'],x['zero_list']),axis =1)
-                    
-                    df4 = df3[df3['remove_mark_fin']==1]
-                    df5 = df3[df3['remove_mark_fin']!=1]
                     
                     def date_remover(x,y,z):
                         if isinstance(x,list):
@@ -1006,10 +1096,7 @@ try:
                         df2 = df2.copy()
                         
                     
-                    # #### Without Ticker
-                    
-                    df5.drop(['zero_list', 'diff_len', 'remove_mark',
-                           'remove_mark_fin'], axis =1 , inplace = True)
+                    # #### Without Ticker                    
                     
                     #df2.drop(['remove_mark_fin'], axis =1 , inplace = True)
                     #
@@ -1085,30 +1172,17 @@ try:
                     #df5.drop(['zero_list', 'diff_len', 'remove_mark','remove_mark_fin'], axis =1 , inplace = True)
                     
                     # ### Final Commenting Section
-                    df5 = pd.merge(df5, pos , on = ['Custodian Account', 'Currency', 'Ticker1'],how = 'left')
-                    
-                    df5['Local MV Diff'] = df5['Local MV Diff'].apply(lambda x :amountcleaning(x) )
-                    
-                    dummyk2 = df5.groupby(['Custodian Account', 'Currency', 'Ticker1'])['Net Amount Difference1'].sum().reset_index()
-                    
-                    dummyk2 = dummyk2.rename(columns = {'Net Amount Difference1':'Cash Standing'})
-                    
-                    df5 = pd.merge(df5, dummyk2 , on = ['Custodian Account', 'Currency', 'Ticker1'], how = 'left')
-                    
-                    df5['cash difference'] = df5.apply(lambda x : x['Cash Standing']+x['Local MV Diff'] if x['Local MV Diff']!=1234567.0 else 1234567, axis =1)
-                    
-                    df6 = df5[df5['ViewData.InternalComment2'].isna()]
-                    df7 = df5[~df5['ViewData.InternalComment2'].isna()]
+#                    df5_before_merge_with_pos = df5.copy()
 
-                    def commentschon(pos,amt,accamt, pbamt,cash_diff):
-                        if ((pos==0) & (amt==0)):
-                            if((cash_diff<6.0) & (cash_diff>-6.0)):
+                    def commentschon(param_pos_qnt_diff, param_local_price_diff,param_accounting_net_amount, param_pb_net_amount,param_cash_difference):
+                        if ((param_pos_qnt_diff==0.0) & (param_local_price_diff==0.0)):
+                            if((param_cash_difference<6.0) & (param_cash_difference>-6.0)):
                                 com = 'MV Swing'
                             else:
                                 
                                 com = 'Commission & fee difference,SFA to advise'
-                        elif(pos!=0):
-                            if ((accamt==None) | (math.isnan(accamt))):
+                        elif(param_pos_qnt_diff!=0.0):
+                            if ((param_accounting_net_amount==None) | (math.isnan(param_accounting_net_amount))):
                                 com = 'GVA missing the trade, viteos to check and book'
                             else:
                                 com = 'PB to report missing the trade.'
@@ -1116,33 +1190,59 @@ try:
                             com = 'MV Swing'
                             
                         return com
-                    
-                    if df7.shape[0]!=0:
-                        df7['predicted action'] = 'No-pair'
-                        df7['predicted category'] = 'OB'
-                        df7['predicted comment'] = df7['ViewData.InternalComment2']
-                        df7['predicted status'] = df7['ViewData.Status']
-                        df7 = df7[output_col]
-                        df7.to_csv('Schonfield ' + setup_code +' Meo Prediction P4.csv')
 
-                    else:
-                        df6 = df6.copy()
-                    
-                    if(df6.shape[0]!=0):
-                        df6['Local Price Diff'] = df6['Local Price Diff'].fillna(0)
-                    
-                        df6.rename(columns = {'ViewData.B-P Net Amount':'ViewData.Cust Net Amount'}, inplace = True)            
-                
-                        df6['predicted comment'] = df6.apply(lambda x : commentschon(x['pos_qnt_diff'],x['Local Price Diff'],x['ViewData.Accounting Net Amount'],x['ViewData.Cust Net Amount'],x['cash difference']),axis = 1)
+                    if(df5.shape[0] != 0):
+                        df5.drop(['zero_list', 'diff_len', 'remove_mark',
+                               'remove_mark_fin'], axis =1 , inplace = True)
                         
-                        df6['predicted status'] = df6['ViewData.Status']
-                        df6['predicted action'] = 'No-pair'
-                        df6['predicted category'] = 'OB'
+                        df5 = pd.merge(df5, pos , on = ['Custodian Account', 'Currency', 'Ticker1'],how = 'left')
+    
+    #                    df5_after_merge_with_pos = df5.copy()
                         
-                        df6 = df6[output_col]
-                        df6.to_csv('Schonfield ' + setup_code +' Meo Prediction P5.csv')
+                        df5['Local MV Diff'] = df5['Local MV Diff'].apply(lambda x :amountcleaning(x) )
+                        
+                        dummyk2 = df5.groupby(['Custodian Account', 'Currency', 'Ticker1'])['Net Amount Difference1'].sum().reset_index()
+                        
+                        dummyk2 = dummyk2.rename(columns = {'Net Amount Difference1':'Cash Standing'})
+                        
+                        df5 = pd.merge(df5, dummyk2 , on = ['Custodian Account', 'Currency', 'Ticker1'], how = 'left')
+                        
+                        df5['cash difference'] = df5.apply(lambda x : x['Cash Standing']+x['Local MV Diff'] if x['Local MV Diff']!=1234567.0 else 1234567, axis =1)
+                        
+                        df6 = df5[df5['ViewData.InternalComment2'].isna()]
+                        df7 = df5[~df5['ViewData.InternalComment2'].isna()]
+    
+                        
+                        if df7.shape[0]!=0:
+                            df7['predicted action'] = 'No-pair'
+                            df7['predicted category'] = 'OB'
+                            df7['predicted comment'] = df7['ViewData.InternalComment2']
+                            df7['predicted status'] = df7['ViewData.Status']
+                            df7 = df7[output_col]
+                            df7.to_csv('Schonfield ' + setup_code +' Meo Prediction P4.csv')
+    
+                        else:
+                            df6 = df6.copy()
+                        
+                        if(df6.shape[0]!=0):
+                            df6['Local Price Diff'] = df6['Local Price Diff'].fillna(0)
+                        
+                            df6.rename(columns = {'ViewData.B-P Net Amount':'ViewData.Cust Net Amount'}, inplace = True)            
+                    
+                            df6['predicted comment'] = df6.apply(lambda x : commentschon(x['pos_qnt_diff'],x['Local Price Diff'],x['ViewData.Accounting Net Amount'],x['ViewData.Cust Net Amount'],x['cash difference']),axis = 1)
+                            
+                            df6['predicted status'] = df6['ViewData.Status']
+                            df6['predicted action'] = 'No-pair'
+                            df6['predicted category'] = 'OB'
+                            
+                            df6 = df6[output_col]
+                            df6.to_csv('Schonfield ' + setup_code +' Meo Prediction P5.csv')
+                        else:
+                            df6 = pd.DataFrame()
                     else:
                         df6 = pd.DataFrame()
+                        df7 = pd.DataFrame()
+
                     #df7.to_csv('Schonfield/tweak_test_897/14 dec file schonfield prediction p5.csv')
                     #df6.to_csv('Schonfield/tweak_test_897/14 dec file schonfield prediction p6.csv')
                     
@@ -1465,7 +1565,6 @@ try:
                     coll_1_for_writing_prediction_data.insert_many(data_dict) 
                     
                     
-                    
                     print(setup_code)
                     print(date_i)
 
@@ -1483,7 +1582,7 @@ try:
                     Logger_obj.log_to_file(param_filename=log_filepath, param_log_str=Message_z)
 
                     outer_while_loop_iterator = outer_while_loop_iterator + 1
-except Exception as e:
+except Exception:
     logging.error('Exception occured', exc_info=True)
 sys.stdout.close()
 

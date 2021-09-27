@@ -1,0 +1,92 @@
+stdout started
+meo size
+102
+It took 0.046875 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  1.1953923379999996
+It took 0.58203125 Mb to execute this method
+The Date value count is:
+2021-07-19    97
+Name: Date, dtype: int64
+Choosing the date : 2021-07-19
+It took 0.38671875 Mb to execute this method
+It took 0.1796875 Mb to execute this method
+It took 0.03515625 Mb to execute this method
+It took 0.05078125 Mb to execute this method
+cc7 shape is :
+(90, 68)
+It took 0.109375 Mb to execute this method
+(3, 24)
+(2, 24)
+Time for first apply =  0.009477469000000127
+Time for first apply =  0.006971056000001141
+Time for second apply =  0.006871045000000464
+It took 0.48046875 Mb to execute this method
+It took 0.93359375 Mb to execute this method
+It took 1.21875 Mb to execute this method
+test_file shape is :
+(1285, 79)
+It took 9.12109375 Mb to execute this method
+It took 12.48828125 Mb to execute this method
+test_file3 shape is :
+(1285, 115)
+It took 0.59765625 Mb to execute this method
+It took 18.8359375 Mb to execute this method
+two_step_initiated
+It took 9.3515625 Mb to execute this method
+It took 0.15234375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.06640625 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.046875 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+It took 0.0 Mb to execute this method
+['101_1251430003_US BANK' '100_1251430003_US BANK']
+['1_1251430027_US BANK', '1_1251430070_US BANK']
+['225_1251430027_Advent Geneva', '227_1251430027_Advent Geneva', '225_1251430070_Advent Geneva', '227_1251430070_Advent Geneva']
+Time:  16.52908043
+v11_initiated
+1859884223, 1859884859
+125
+2021-07-19
+Following Task ID done
+1251430181
+1251430181|Weiss Advisors|Cash|RecData_125|132808|SUCCESS|125|60f90d681e9c9c29f4ac0f9a

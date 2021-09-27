@@ -4,7 +4,7 @@
 2,fx wire,booked the fx wire for SD
 3,valid,booked the valid for SD
 4,interest,booked the interest for SD
-5,monthend interest,booked the monthend interest for SD
+5,month end interest,booked the monthend interest for SD
 6,dividend,booked the dividend for SD
 7,cancelled,booked the cancelled for SD
 8,proceeds sell,booked the proceeds sell for SD
@@ -40,3 +40,19 @@
 38,deposit,booked the deposit for SD
 39,security,booked the security for SD
 40,tax withheld,booked the tax withheld for SD
+41,aum plug,booked the aum plug for SD
+42,cash plug,booked the cash plug for SD
+43,collateral management,booked the collateral management for SD
+44,derivative fee,booked the derivative fee for SD
+45,external distribution fee,booked the external distribution fee for SD
+46,external management fee,booked the external management fee for SD
+47,facturation fee,booked the facturation fee for SD
+48,fee,booked the fee for SD
+49,foreign exchange,booked the foreign exchange for SD
+50,froc payment,booked the froc payment for SD
+51,miscellaneous entry,booked the miscellaneous entry for SD
+52,net sub/read,booked the net sub/read for SD
+53,proceeds,booked the proceeds for SD
+54,research fee,booked the research fee for SD
+55,subscription,booked the subscription for SD
+56,transfer wire,booked the transfer wire for SD

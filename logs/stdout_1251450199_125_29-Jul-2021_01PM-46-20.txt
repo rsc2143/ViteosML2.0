@@ -1,0 +1,114 @@
+stdout started
+meo size
+449
+It took 0.0703125 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  2.155006214
+It took 3.484375 Mb to execute this method
+The Date value count is:
+2021-07-27    448
+Name: Date, dtype: int64
+Choosing the date : 2021-07-27
+It took 0.57421875 Mb to execute this method
+It took 0.5078125 Mb to execute this method
+It took 0.4453125 Mb to execute this method
+It took 0.0078125 Mb to execute this method
+cc7 shape is :
+(183, 68)
+It took 0.078125 Mb to execute this method
+(3, 24)
+(5, 24)
+Time for first apply =  0.007579644999999857
+Time for first apply =  0.007059111000000229
+Time for second apply =  0.0068962949999988865
+It took 0.05859375 Mb to execute this method
+It took 3.76953125 Mb to execute this method
+It took 4.2265625 Mb to execute this method
+test_file shape is :
+(6183, 79)
+It took 37.890625 Mb to execute this method
+It took 18.49609375 Mb to execute this method
+test_file3 shape is :
+(6183, 115)
+It took 6.71484375 Mb to execute this method
+It took 25.5703125 Mb to execute this method
+two_step_initiated
+It took 8.01953125 Mb to execute this method
+It took 3.03125 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.296875 Mb to execute this method
+It took 0.24609375 Mb to execute this method
+It took 0.0078125 Mb to execute this method
+It took 0.01953125 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+It took 0.0 Mb to execute this method
+['293_1251450127_Advent Geneva' '1_1251430242_Advent Geneva']
+['230_1251430242_State Street' '370_1251430254_State Street'
+ '231_1251430242_State Street']
+Time:  22.187614793999998
+v11_initiated
+1860055407, 1860064965, 1860055410
+125
+2021-07-27
+Following Task ID done
+1251450199
+1251450199|Weiss Advisors|Cash|RecData_125|133025|SUCCESS|125|6102636c1e9c9c0d78fa2f80

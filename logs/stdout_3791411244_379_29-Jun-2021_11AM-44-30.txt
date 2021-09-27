@@ -1,0 +1,73 @@
+stdout started
+meo size
+226
+The Date value count is:
+2021-06-28    175
+2019-04-22      1
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\output_files
+Choosing the date : 2021-06-28
+['25_3791411244_Advent Geneva', '44_3791411244_Advent Geneva', '26_3791411244_Advent Geneva', '42_3791411244_Advent Geneva', '45_3791411244_Advent Geneva', '43_3791411244_Advent Geneva', '27_3791411244_Advent Geneva', '57_3791411244_Advent Geneva', '49_3791411244_Advent Geneva', '50_3791411244_Advent Geneva', '47_3791411244_Advent Geneva', '58_3791411244_Advent Geneva', '61_3791411244_Advent Geneva', '48_3791411244_Advent Geneva', '56_3791411244_Advent Geneva', '60_3791411244_Advent Geneva', '51_3791411244_Advent Geneva', '59_3791411244_Advent Geneva']
+['118_3791409482_State Street', '122_3791409482_State Street', '120_3791409482_State Street', '119_3791409482_State Street', '133_3791409482_State Street', '132_3791409482_State Street', '127_3791409482_State Street', '136_3791409482_State Street', '128_3791409482_State Street', '130_3791409482_State Street', '126_3791409482_State Street', '131_3791409482_State Street', '134_3791409482_State Street']
+(87, 74)
+(87, 74)
+13
+18
+(74, 74)
+(69, 74)
+['118_3791409482_State Street', '122_3791409482_State Street', '120_3791409482_State Street', '119_3791409482_State Street']
+['133_3791409482_State Street', '132_3791409482_State Street', '127_3791409482_State Street', '136_3791409482_State Street', '128_3791409482_State Street', '130_3791409482_State Street', '126_3791409482_State Street', '131_3791409482_State Street', '134_3791409482_State Street']
+['25_3791411244_Advent Geneva', '44_3791411244_Advent Geneva', '26_3791411244_Advent Geneva', '42_3791411244_Advent Geneva', '45_3791411244_Advent Geneva', '43_3791411244_Advent Geneva', '27_3791411244_Advent Geneva']
+['57_3791411244_Advent Geneva', '49_3791411244_Advent Geneva', '50_3791411244_Advent Geneva', '47_3791411244_Advent Geneva', '58_3791411244_Advent Geneva', '61_3791411244_Advent Geneva', '48_3791411244_Advent Geneva', '56_3791411244_Advent Geneva', '60_3791411244_Advent Geneva', '51_3791411244_Advent Geneva', '59_3791411244_Advent Geneva']
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+No One to Many found
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+No Many to One found
+No Many to One found
+(54, 67)
+(49, 67)
+2018531085
+1690962022
+2018531083
+1709580735
+2018531090
+2018531084
+379
+2021-06-28
+Following Task ID done
+3791411244

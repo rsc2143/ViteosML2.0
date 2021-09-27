@@ -1,0 +1,71 @@
+stdout started
+meo size
+167
+The Date value count is:
+2021-07-22    132
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\output_files
+Choosing the date : 2021-07-22
+['10_3791450049_Advent Geneva', '12_3791450049_Advent Geneva', '19_3791450049_Advent Geneva', '20_3791450049_Advent Geneva', '11_3791450049_Advent Geneva', '21_3791450049_Advent Geneva', '30_3791450049_Advent Geneva', '35_3791450049_Advent Geneva', '32_3791450049_Advent Geneva', '31_3791450049_Advent Geneva', '37_3791450049_Advent Geneva', '33_3791450049_Advent Geneva', '36_3791450049_Advent Geneva', '38_3791450049_Advent Geneva']
+['64_3791450045_State Street', '68_3791450045_State Street', '66_3791450045_State Street', '65_3791450045_State Street', '69_3791450045_State Street', '70_3791450045_State Street', '72_3791450045_State Street', '76_3791450045_State Street', '71_3791450045_State Street', '75_3791450045_State Street']
+(63, 74)
+(62, 74)
+10
+14
+(53, 74)
+(48, 74)
+['64_3791450045_State Street', '68_3791450045_State Street', '66_3791450045_State Street', '65_3791450045_State Street']
+['69_3791450045_State Street', '70_3791450045_State Street', '72_3791450045_State Street', '76_3791450045_State Street', '71_3791450045_State Street', '75_3791450045_State Street']
+['10_3791450049_Advent Geneva', '12_3791450049_Advent Geneva', '19_3791450049_Advent Geneva', '20_3791450049_Advent Geneva', '11_3791450049_Advent Geneva', '21_3791450049_Advent Geneva']
+['30_3791450049_Advent Geneva', '35_3791450049_Advent Geneva', '32_3791450049_Advent Geneva', '31_3791450049_Advent Geneva', '37_3791450049_Advent Geneva', '33_3791450049_Advent Geneva', '36_3791450049_Advent Geneva', '38_3791450049_Advent Geneva']
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+No One to Many found
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+No Many to One found
+No Many to One found
+(48, 67)
+(43, 67)
+1860094789
+379
+2021-07-22
+Following Task ID done
+3791450049

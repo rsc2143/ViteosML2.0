@@ -1,0 +1,64 @@
+stdout started
+meo size
+208
+It took 0.0859375 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  0.46745016200000045
+It took 1.2578125 Mb to execute this method
+The Date value count is:
+2021-08-20    207
+Name: Date, dtype: int64
+Choosing the date : 2021-08-20
+It took 0.04296875 Mb to execute this method
+It took 0.0390625 Mb to execute this method
+It took 0.03125 Mb to execute this method
+It took 0.0 Mb to execute this method
+cc7 shape is :
+(74, 68)
+It took 0.0 Mb to execute this method
+(4, 24)
+(2, 24)
+Time for first apply =  0.010326000000000057
+Time for first apply =  0.007687157000000333
+Time for second apply =  0.007433886999999473
+It took 0.1796875 Mb to execute this method
+It took 0.04296875 Mb to execute this method
+It took 0.078125 Mb to execute this method
+test_file shape is :
+(100, 79)
+It took 0.42578125 Mb to execute this method
+It took 8.6484375 Mb to execute this method
+test_file3 shape is :
+(100, 115)
+It took 0.140625 Mb to execute this method
+It took 20.82421875 Mb to execute this method
+two_step_initiated
+It took 7.4140625 Mb to execute this method
+It took 0.08203125 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.05859375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.0 Mb to execute this method
+No One to Many found
+It took 0.0 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+No Many to One found
+No Many to One found
+It took 0.00390625 Mb to execute this method
+Time:  12.000109568
+v11_initiated

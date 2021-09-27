@@ -1,0 +1,199 @@
+stdout started
+meo size
+491
+The Date value count is:
+2021-08-06    403
+2019-04-22      1
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\output_files
+Choosing the date : 2021-08-06
+['94_3791468088_Advent Geneva', '88_3791468088_Advent Geneva', '89_3791468088_Advent Geneva', '90_3791468088_Advent Geneva', '92_3791468088_Advent Geneva', '93_3791468088_Advent Geneva', '91_3791468088_Advent Geneva', '157_3791468088_Advent Geneva', '158_3791468088_Advent Geneva', '85_3791468088_Advent Geneva', '156_3791468088_Advent Geneva', '86_3791468088_Advent Geneva', '159_3791468088_Advent Geneva', '67_3791468088_Advent Geneva', '148_3791468088_Advent Geneva', '147_3791468088_Advent Geneva', '146_3791468088_Advent Geneva', '66_3791468088_Advent Geneva', '101_3791468088_Advent Geneva', '20_3791468088_Advent Geneva', '22_3791468088_Advent Geneva']
+['196_3791465932_State Street', '180_3791465932_State Street', '194_3791465932_State Street', '178_3791465932_State Street', '179_3791465932_State Street', '186_3791465932_State Street', '190_3791465932_State Street', '195_3791465932_State Street', '199_3791465932_State Street', '191_3791465932_State Street', '197_3791465932_State Street', '177_3791465932_State Street', '176_3791465932_State Street', '189_3791465932_State Street', '200_3791465932_State Street', '188_3791465932_State Street', '198_3791465932_State Street', '192_3791465932_State Street', '193_3791465932_State Street', '184_3791465932_State Street', '175_3791465932_State Street', '187_3791465932_State Street', '153_3791465932_State Street', '170_3791465932_State Street', '172_3791465932_State Street', '163_3791465932_State Street', '165_3791465932_State Street', '168_3791465932_State Street', '174_3791465932_State Street', '157_3791465932_State Street', '167_3791465932_State Street', '161_3791465932_State Street', '171_3791465932_State Street', '169_3791465932_State Street', '173_3791465932_State Street', '162_3791465932_State Street', '164_3791465932_State Street', '166_3791465932_State Street', '29_3791465932_State Street', '30_3791465932_State Street', '36_3791465932_State Street', '31_3791465932_State Street', '37_3791465932_State Street', '32_3791465932_State Street', '38_3791465932_State Street', '33_3791465932_State Street', '39_3791465932_State Street', '34_3791465932_State Street', '40_3791465932_State Street', '35_3791465932_State Street', '41_3791465932_State Street', '42_3791465932_State Street', '61_3791465932_State Street', '63_3791465932_State Street']
+(150, 74)
+(199, 74)
+54
+21
+(96, 74)
+(178, 74)
+['196_3791465932_State Street', '180_3791465932_State Street', '194_3791465932_State Street', '178_3791465932_State Street', '179_3791465932_State Street', '186_3791465932_State Street', '190_3791465932_State Street', '195_3791465932_State Street', '199_3791465932_State Street', '191_3791465932_State Street', '197_3791465932_State Street', '177_3791465932_State Street', '176_3791465932_State Street', '189_3791465932_State Street', '200_3791465932_State Street', '188_3791465932_State Street', '198_3791465932_State Street', '192_3791465932_State Street', '193_3791465932_State Street', '184_3791465932_State Street', '175_3791465932_State Street', '187_3791465932_State Street']
+['153_3791465932_State Street', '170_3791465932_State Street', '172_3791465932_State Street', '163_3791465932_State Street', '165_3791465932_State Street', '168_3791465932_State Street', '174_3791465932_State Street', '157_3791465932_State Street', '167_3791465932_State Street', '161_3791465932_State Street', '171_3791465932_State Street', '169_3791465932_State Street', '173_3791465932_State Street', '162_3791465932_State Street', '164_3791465932_State Street', '166_3791465932_State Street']
+['29_3791465932_State Street', '30_3791465932_State Street', '36_3791465932_State Street', '31_3791465932_State Street', '37_3791465932_State Street', '32_3791465932_State Street', '38_3791465932_State Street', '33_3791465932_State Street', '39_3791465932_State Street', '34_3791465932_State Street', '40_3791465932_State Street', '35_3791465932_State Street', '41_3791465932_State Street', '42_3791465932_State Street']
+['61_3791465932_State Street', '63_3791465932_State Street']
+['94_3791468088_Advent Geneva', '88_3791468088_Advent Geneva', '89_3791468088_Advent Geneva', '90_3791468088_Advent Geneva', '92_3791468088_Advent Geneva', '93_3791468088_Advent Geneva', '91_3791468088_Advent Geneva', '157_3791468088_Advent Geneva', '158_3791468088_Advent Geneva', '85_3791468088_Advent Geneva', '156_3791468088_Advent Geneva', '86_3791468088_Advent Geneva', '159_3791468088_Advent Geneva']
+['67_3791468088_Advent Geneva', '148_3791468088_Advent Geneva', '147_3791468088_Advent Geneva', '146_3791468088_Advent Geneva', '66_3791468088_Advent Geneva']
+['101_3791468088_Advent Geneva']
+['20_3791468088_Advent Geneva', '22_3791468088_Advent Geneva']
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+['57_3791465932_State Street' '58_3791465932_State Street']
+['873_3791436096_Advent Geneva' '536_3791415276_Advent Geneva'
+ '543_3791415276_Advent Geneva' '34_3791415276_Advent Geneva']
+(48, 67)
+(80, 67)
+2091370177
+2091370206
+1767133953
+1690962033
+1714965000
+1690962040
+2091370205
+2091370211
+379
+2021-08-06
+Following Task ID done
+3791468088

@@ -1,0 +1,145 @@
+stdout started
+meo size
+16875
+Choosing the date : 2021-08-31
+D:\ViteosModel2.0
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Trade Date', 'ViewData.Cust Trade Date',
+       'ViewData.Trade Date Difference', 'ViewData.Accounting SEDOL',
+       'ViewData.Cust SEDOL', 'ViewData.SEDOL Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Trade Date', 'ViewData.Cust Trade Date',
+       'ViewData.Trade Date Difference', 'ViewData.Accounting SEDOL',
+       'ViewData.Cust SEDOL', 'ViewData.SEDOL Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Trade Date', 'ViewData.Cust Trade Date',
+       'ViewData.Trade Date Difference', 'ViewData.Accounting SEDOL',
+       'ViewData.Cust SEDOL', 'ViewData.SEDOL Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Trade Date', 'ViewData.Cust Trade Date',
+       'ViewData.Trade Date Difference', 'ViewData.Accounting SEDOL',
+       'ViewData.Cust SEDOL', 'ViewData.SEDOL Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Trade Date', 'ViewData.Cust Trade Date',
+       'ViewData.Trade Date Difference', 'ViewData.Accounting SEDOL',
+       'ViewData.Cust SEDOL', 'ViewData.SEDOL Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Trade Date', 'ViewData.Cust Trade Date',
+       'ViewData.Trade Date Difference', 'ViewData.Accounting SEDOL',
+       'ViewData.Cust SEDOL', 'ViewData.SEDOL Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Trade Date', 'ViewData.Cust Trade Date',
+       'ViewData.Trade Date Difference', 'ViewData.Accounting SEDOL',
+       'ViewData.Cust SEDOL', 'ViewData.SEDOL Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Trade Date', 'ViewData.Cust Trade Date',
+       'ViewData.Trade Date Difference', 'ViewData.Accounting SEDOL',
+       'ViewData.Cust SEDOL', 'ViewData.SEDOL Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Trade Date', 'ViewData.Cust Trade Date',
+       'ViewData.Trade Date Difference', 'ViewData.Accounting SEDOL',
+       'ViewData.Cust SEDOL', 'ViewData.SEDOL Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Trade Date', 'ViewData.Cust Trade Date',
+       'ViewData.Trade Date Difference', 'ViewData.Accounting SEDOL',
+       'ViewData.Cust SEDOL', 'ViewData.SEDOL Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Trade Date', 'ViewData.Cust Trade Date',
+       'ViewData.Trade Date Difference', 'ViewData.Accounting SEDOL',
+       'ViewData.Cust SEDOL', 'ViewData.SEDOL Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Trade Date', 'ViewData.Cust Trade Date',
+       'ViewData.Trade Date Difference', 'ViewData.Accounting SEDOL',
+       'ViewData.Cust SEDOL', 'ViewData.SEDOL Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Time:  296.910670132
+455
+2021-08-31
+455
+2021-08-31
+Following Task ID done
+4551502490
+4551502490|Lombard|Cash|RecData_455|14776|SUCCESS|455|612f42e215545839b8e84f91

@@ -1,0 +1,4 @@
+,ViewData.Side0_UniqueIds,ViewData.Side1_UniqueIds,ViewData.BreakID,Custodian Account,Currency,Ticker1,Net Amount Difference1,Description,Settle Date,Trade Date,ViewData.Age,predicted action,predicted category,predicted status,predicted comment,ViewData.Task Business Date,ViewData.Task ID,ViewData.Source Combination Code
+708,232_8971506022_Advent Geneva,121_8971506022_Newedge,2140434284,NEFU_FIFTY_SEVEN_00799769,USD,bpu1,-7.46,BP CURRENCY FUT   Sep21,2021-09-02,2021-09-02,1,pair,match,UMF,Match,2021-09-02T00:00:00,8971506022,-1184097190
+1246,231_8971506022_Advent Geneva,301_8971506022_Newedge,2140434279,NEFU_FIFTY_SEVEN_00799769,USD,bpu1,-5.04,BP CURRENCY FUT   Sep21,2021-09-02,2021-09-02,1,pair,match,UMF,Match,2021-09-02T00:00:00,8971506022,-1184097190
+1800,,184_8971452119_Newedge,2069324100,NEFU_FIFTY_SEVEN_00799811,HKD,hiu1,-1.44,SEP 21 HS INDEX,2021-07-27,2021-07-27,38,pair,match,UCB,Match,2021-09-02T00:00:00,8971506022,-1184097190

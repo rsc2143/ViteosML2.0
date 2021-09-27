@@ -1,0 +1,61 @@
+stdout started
+meo size
+87
+It took 0.0390625 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  0.555747384
+It took 1.546875 Mb to execute this method
+The Date value count is:
+2021-07-29    86
+Name: Date, dtype: int64
+Choosing the date : 2021-07-29
+It took 0.015625 Mb to execute this method
+It took 0.06640625 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.0 Mb to execute this method
+cc7 shape is :
+(39, 68)
+It took 0.0 Mb to execute this method
+(2, 24)
+(2, 24)
+Time for first apply =  0.011210745999996163
+Time for first apply =  0.007473147999995433
+Time for second apply =  0.007271419999995032
+It took 0.07421875 Mb to execute this method
+It took 0.00390625 Mb to execute this method
+It took 0.0 Mb to execute this method
+test_file shape is :
+(173, 79)
+It took 0.09765625 Mb to execute this method
+It took 11.046875 Mb to execute this method
+test_file3 shape is :
+(173, 115)
+It took 0.0 Mb to execute this method
+It took 18.7578125 Mb to execute this method
+two_step_initiated
+It took 9.03515625 Mb to execute this method
+It took 0.08203125 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.05859375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.01171875 Mb to execute this method
+No One to Many found
+It took 0.0078125 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+It took 0.0 Mb to execute this method
+['296_1251450816_Advent Geneva' '697_1251414413_Advent Geneva']
+Time:  67.295843688
+v11_initiated
+125
+2021-07-29
+Following Task ID done
+1251456946
+1251456946|Weiss Advisors|Cash|RecData_125|2300|SUCCESS|125|6103eba81ef68708fc8cf0cf

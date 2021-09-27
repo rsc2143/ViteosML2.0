@@ -1,0 +1,145 @@
+stdout started
+meo size
+16270
+Choosing the date : 2021-07-22
+D:\ViteosModel2.0
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Custom 9 Difference', 'ViewData.Accounting Custom 10',
+       'ViewData.Cust Custom 10', 'ViewData.Custom 10 Difference',
+       'ViewData.Cust Currency', 'ViewData.Currency Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Custom 9 Difference', 'ViewData.Accounting Custom 10',
+       'ViewData.Cust Custom 10', 'ViewData.Custom 10 Difference',
+       'ViewData.Cust Currency', 'ViewData.Currency Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Custom 9 Difference', 'ViewData.Accounting Custom 10',
+       'ViewData.Cust Custom 10', 'ViewData.Custom 10 Difference',
+       'ViewData.Cust Currency', 'ViewData.Currency Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Custom 9 Difference', 'ViewData.Accounting Custom 10',
+       'ViewData.Cust Custom 10', 'ViewData.Custom 10 Difference',
+       'ViewData.Cust Currency', 'ViewData.Currency Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Custom 9 Difference', 'ViewData.Accounting Custom 10',
+       'ViewData.Cust Custom 10', 'ViewData.Custom 10 Difference',
+       'ViewData.Cust Currency', 'ViewData.Currency Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Custom 9 Difference', 'ViewData.Accounting Custom 10',
+       'ViewData.Cust Custom 10', 'ViewData.Custom 10 Difference',
+       'ViewData.Cust Currency', 'ViewData.Currency Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Custom 9 Difference', 'ViewData.Accounting Custom 10',
+       'ViewData.Cust Custom 10', 'ViewData.Custom 10 Difference',
+       'ViewData.Cust Currency', 'ViewData.Currency Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Custom 9 Difference', 'ViewData.Accounting Custom 10',
+       'ViewData.Cust Custom 10', 'ViewData.Custom 10 Difference',
+       'ViewData.Cust Currency', 'ViewData.Currency Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Custom 9 Difference', 'ViewData.Accounting Custom 10',
+       'ViewData.Cust Custom 10', 'ViewData.Custom 10 Difference',
+       'ViewData.Cust Currency', 'ViewData.Currency Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Custom 9 Difference', 'ViewData.Accounting Custom 10',
+       'ViewData.Cust Custom 10', 'ViewData.Custom 10 Difference',
+       'ViewData.Cust Currency', 'ViewData.Currency Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Custom 9 Difference', 'ViewData.Accounting Custom 10',
+       'ViewData.Cust Custom 10', 'ViewData.Custom 10 Difference',
+       'ViewData.Cust Currency', 'ViewData.Currency Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Custom 9 Difference', 'ViewData.Accounting Custom 10',
+       'ViewData.Cust Custom 10', 'ViewData.Custom 10 Difference',
+       'ViewData.Cust Currency', 'ViewData.Currency Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Time:  372.79015389
+455
+2021-07-22
+455
+2021-07-22
+Following Task ID done
+4551446567
+4551446567|Lombard|Cash|RecData_455|14796|SUCCESS|455|60fa882c15545839cc8bd61b

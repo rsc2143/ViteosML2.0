@@ -1,0 +1,48 @@
+2021-08-24 16:06:01.173328 : Log started for datettime = 24-Aug-2021_04PM-06-01
+2021-08-24 16:06:01.220241 : Prediction Message Received for : 1251488029
+2021-08-24 16:06:01.548406 : meo created
+2021-08-24 16:06:01.595287 : meo df is not empty, initiating calculations
+2021-08-24 16:06:01.642161 : meo df shape is44
+2021-08-24 16:06:01.689043 : umb carry forward not empty, making umb carry forward file
+2021-08-24 16:06:01.767173 : ob carry forward not empty, not making umb carry forward file
+2021-08-24 16:06:01.985949 : Before carrying out SMB-OB operation
+2021-08-24 16:06:02.064083 : After carrying out SMB-OB operation
+2021-08-24 16:06:02.204883 : Before carrying out UMB-OB operation
+2021-08-24 16:06:02.360988 : After carrying out UMB-OB operation
+2021-08-24 16:06:02.392242 : Before carrying out closed
+2021-08-24 16:06:02.751647 : After carrying out closed
+2021-08-24 16:06:03.017301 : Before catching mtm for revenue, expense and stock loan
+2021-08-24 16:06:03.454882 : After catching mtm for revenue, expense and stock loan
+2021-08-24 16:06:03.517362 : Before catching mtm for equity swap
+2021-08-24 16:06:03.595486 : After catching mtm for equity swap
+2021-08-24 16:06:03.783177 : Before catching updown
+2021-08-24 16:06:03.861140 : dffacc and dffpb created
+2021-08-24 16:06:03.939273 : updlist created
+2021-08-24 16:06:04.205087 : After catching updown
+2021-08-24 16:06:04.236334 : Before mXn
+2021-08-24 16:06:04.580126 : After mXn
+2021-08-24 16:06:04.627013 : Before mXn training df
+2021-08-24 16:06:04.720606 : After mXn training df
+2021-08-24 16:06:05.298819 : After test file cleaning
+2021-08-24 16:06:05.799010 : After test file 3
+2021-08-24 16:06:05.970900 : Before Xtest creation
+2021-08-24 16:06:06.549090 : After Xtest first prediction
+2021-08-24 16:06:06.814728 : After Xtest second prediction
+2021-08-24 16:06:07.174149 : After Xtest UMT segregation
+2021-08-24 16:06:07.377298 : Before Xtest no pair segregation
+2021-08-24 16:06:07.674205 : Before Xtest left
+2021-08-24 16:06:07.846096 : Before ccnew
+2021-08-24 16:06:08.127377 : After ccnew
+2021-08-24 16:06:08.674174 : After umr otm table loop
+2021-08-24 16:06:09.205613 : After umr mto table loop
+2021-08-24 16:06:09.721129 : After final_table_to_write creation
+2021-08-24 16:06:09.814892 : Before commenting
+2021-08-24 16:06:10.189928 : Before commenting
+2021-08-24 16:06:10.268071 : Com file read
+2021-08-24 16:06:10.424332 : new pb mapping declared
+2021-08-24 16:06:10.486840 : Cancel functions delared
+2021-08-24 16:06:10.564973 : Before making df_mod_1
+2021-08-24 16:06:10.705609 : After making df_mod_1
+2021-08-24 16:06:10.752496 : Before reading comment sav file
+2021-08-24 16:06:10.924385 : After reading and loading comment sav file
+2021-08-24 16:06:11.018144 : After making result non trade

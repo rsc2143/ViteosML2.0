@@ -1,0 +1,5 @@
+,ViewData.Side0_UniqueIds,ViewData.Side1_UniqueIds,ViewData.BreakID,Custodian Account,Currency,Ticker1,Net Amount Difference1,Description,Settle Date,Trade Date,ViewData.Age,predicted action,predicted category,predicted status,predicted comment,ViewData.Task Business Date,ViewData.Task ID,ViewData.Source Combination Code
+1,,3_8971470254_US BANK,2094162363,USBK_FIFTY_SEVEN_182381144852,USD,,-130483.79,Outgoing Fedwire(s),2021-08-06,2021-08-06,4,No-pair,OB,OB,Up/Down at Investment ID,2021-08-09T00:00:00,8971470009,1589787860
+3,1_8971470254_Advent Geneva,,2094162361,USBK_FIFTY_SEVEN_182381144852,USD,usd,130483.79,United States Dollar,2021-08-06,2021-08-06,0,No-pair,OB,OB,Up/Down at Investment ID,2021-08-09T00:00:00,8971470009,1589787860
+6,,3_8971470009_US BANK,1860309097,USBK_FIFTY_SEVEN_182381144852,USD,,-130483.79,Outgoing Fedwire(s),2021-08-06,2021-08-06,4,No-pair,OB,OB,Up/Down at Investment ID,2021-08-09T00:00:00,8971470009,1589787860
+7,1_8971470009_Advent Geneva,,1860309098,USBK_FIFTY_SEVEN_182381144852,USD,usd,130483.79,United States Dollar,2021-08-06,2021-08-06,0,No-pair,OB,OB,Up/Down at Investment ID,2021-08-09T00:00:00,8971470009,1589787860

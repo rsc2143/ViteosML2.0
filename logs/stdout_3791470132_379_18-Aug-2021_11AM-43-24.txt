@@ -1,0 +1,29 @@
+stdout started
+meo size
+26
+The Date value count is:
+2021-08-11    23
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\output_files
+Choosing the date : 2021-08-11
+['19_3791479713_Advent Geneva']
+['3_3791477716_HSBC', '4_3791477716_HSBC', '2_3791477716_HSBC']
+(9, 74)
+(14, 74)
+3
+1
+(6, 74)
+(13, 74)
+['3_3791477716_HSBC', '4_3791477716_HSBC', '2_3791477716_HSBC']
+['19_3791479713_Advent Geneva']
+1
+No One to Many found
+1
+No Many to One found
+No Many to One found
+(5, 67)
+(12, 67)
+379
+2021-08-11
+Following Task ID done
+3791470132

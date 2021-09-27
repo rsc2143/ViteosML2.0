@@ -1,0 +1,82 @@
+stdout started
+meo size
+2231
+It took 0.94921875 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  3.0443562439999994
+It took 2.20703125 Mb to execute this method
+The Date value count is:
+2021-07-29    2228
+Name: Date, dtype: int64
+Choosing the date : 2021-07-29
+It took 6.1875 Mb to execute this method
+It took 2.515625 Mb to execute this method
+It took 0.015625 Mb to execute this method
+It took 0.0 Mb to execute this method
+cc7 shape is :
+(1106, 68)
+It took 0.31640625 Mb to execute this method
+(18, 24)
+(10, 24)
+Time for first apply =  0.010494969999999881
+Time for first apply =  0.009677136999998837
+Time for second apply =  0.0084223959999985
+It took 1.14453125 Mb to execute this method
+It took 0.2421875 Mb to execute this method
+It took 0.0 Mb to execute this method
+test_file shape is :
+(253, 79)
+It took 0.23828125 Mb to execute this method
+It took 7.05859375 Mb to execute this method
+test_file3 shape is :
+(253, 115)
+It took 0.13671875 Mb to execute this method
+It took 19.31640625 Mb to execute this method
+two_step_initiated
+It took 7.15625 Mb to execute this method
+It took 0.11328125 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.05859375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.43359375 Mb to execute this method
+No One to Many found
+It took 0.00390625 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+It took 0.0 Mb to execute this method
+['6_1251380343_Advent Geneva' '5_1251380343_Advent Geneva']
+['2_1251380343_Advent Geneva' '1_1251380343_Advent Geneva']
+['33_1251380330_UBS', '34_1251380330_UBS']
+['27_1251380330_UBS', '28_1251380330_UBS']
+['9_1251380330_Advent Geneva', '10_1251380330_Advent Geneva']
+['5_1251380330_Advent Geneva', '6_1251380330_Advent Geneva']
+Time:  22.425582374
+v11_initiated
+125
+2021-07-29
+Following Task ID done
+1251456023
+1251456023|Weiss Advisors|Cash|RecData_125|133058|SUCCESS|125|6107ed6b1e9c9c0d78055683

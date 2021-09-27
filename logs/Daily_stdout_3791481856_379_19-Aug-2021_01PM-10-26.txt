@@ -1,0 +1,75 @@
+stdout started
+meo size
+284
+The Date value count is:
+2021-08-17    197
+2019-04-22      1
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\output_files
+Choosing the date : 2021-08-17
+['26_3791481856_Advent Geneva', '25_3791481856_Advent Geneva', '19_3791481856_Advent Geneva', '20_3791481856_Advent Geneva', '21_3791481856_Advent Geneva', '24_3791481856_Advent Geneva']
+['609_3791479913_State Street', '594_3791479913_State Street', '610_3791479913_State Street', '604_3791479913_State Street']
+(93, 74)
+(74, 74)
+4
+6
+(89, 74)
+(68, 74)
+['609_3791479913_State Street', '594_3791479913_State Street', '610_3791479913_State Street', '604_3791479913_State Street']
+['26_3791481856_Advent Geneva', '25_3791481856_Advent Geneva', '19_3791481856_Advent Geneva', '20_3791481856_Advent Geneva', '21_3791481856_Advent Geneva', '24_3791481856_Advent Geneva']
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+No One to Many found
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+['31_3791481856_Advent Geneva' '35_3791481856_Advent Geneva']
+(74, 67)
+(53, 67)
+1690962033
+1714965000
+1690962040
+379
+2021-08-17
+Following Task ID done
+3791481856

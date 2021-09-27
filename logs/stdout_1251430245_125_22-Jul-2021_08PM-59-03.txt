@@ -1,0 +1,68 @@
+stdout started
+meo size
+1359
+It took 0.41796875 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  2.3461368720000007
+It took 3.50390625 Mb to execute this method
+The Date value count is:
+2021-07-14    1356
+Name: Date, dtype: int64
+Choosing the date : 2021-07-14
+It took 3.48046875 Mb to execute this method
+It took 1.984375 Mb to execute this method
+It took 0.0703125 Mb to execute this method
+It took 0.1015625 Mb to execute this method
+cc7 shape is :
+(739, 68)
+It took 0.60546875 Mb to execute this method
+(11, 24)
+(9, 24)
+Time for first apply =  0.009788765999999782
+Time for first apply =  0.007451654000000474
+Time for second apply =  0.007126363999999441
+It took 0.08203125 Mb to execute this method
+It took 0.44140625 Mb to execute this method
+It took 0.0 Mb to execute this method
+test_file shape is :
+(40, 79)
+It took 0.06640625 Mb to execute this method
+It took 7.22265625 Mb to execute this method
+test_file3 shape is :
+(40, 115)
+It took 0.03515625 Mb to execute this method
+It took 17.03125 Mb to execute this method
+two_step_initiated
+It took 8.24609375 Mb to execute this method
+It took 0.08203125 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.0234375 Mb to execute this method
+It took 0.01171875 Mb to execute this method
+It took 0.37890625 Mb to execute this method
+No One to Many found
+It took 0.01171875 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+It took 0.00390625 Mb to execute this method
+['6_1251380343_Advent Geneva' '5_1251380343_Advent Geneva']
+['2_1251380343_Advent Geneva' '1_1251380343_Advent Geneva']
+['33_1251380330_UBS', '34_1251380330_UBS']
+['27_1251380330_UBS', '28_1251380330_UBS']
+['9_1251380330_Advent Geneva', '10_1251380330_Advent Geneva']
+['5_1251380330_Advent Geneva', '6_1251380330_Advent Geneva']
+Time:  18.330595269
+v11_initiated
+125
+2021-07-14
+Following Task ID done
+1251430245
+1251430245|Weiss Advisors|Cash|RecData_125|132853|SUCCESS|125|60f98e9a1e9c9c29f4b52b57

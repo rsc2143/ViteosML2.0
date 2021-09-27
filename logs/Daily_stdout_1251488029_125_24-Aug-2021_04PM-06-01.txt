@@ -1,0 +1,65 @@
+stdout started
+meo size
+44
+It took 0.03515625 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  0.23176770800000002
+It took 0.23046875 Mb to execute this method
+The Date value count is:
+2021-08-20    39
+Name: Date, dtype: int64
+Choosing the date : 2021-08-20
+It took 0.0234375 Mb to execute this method
+It took 0.06640625 Mb to execute this method
+It took 0.0234375 Mb to execute this method
+It took 0.0 Mb to execute this method
+cc7 shape is :
+(41, 68)
+It took 0.03125 Mb to execute this method
+It took 0.1875 Mb to execute this method
+It took 0.22265625 Mb to execute this method
+It took 0.12890625 Mb to execute this method
+test_file shape is :
+(146, 79)
+It took 1.0859375 Mb to execute this method
+It took 10.91015625 Mb to execute this method
+test_file3 shape is :
+(146, 115)
+It took 0.109375 Mb to execute this method
+It took 19.19140625 Mb to execute this method
+two_step_initiated
+It took 9.21875 Mb to execute this method
+It took 0.08203125 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.05859375 Mb to execute this method
+It took 0.00390625 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.00390625 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+No Many to One found
+No Many to One found
+It took 0.0 Mb to execute this method
+['6_1251424546_Barclays' '7_1251424546_Barclays' '5_1251424546_Barclays'
+ '3_1251471992_Barclays' '4_1251471992_Barclays' '2_1251432356_Barclays']
+Time:  10.472503253
+v11_initiated

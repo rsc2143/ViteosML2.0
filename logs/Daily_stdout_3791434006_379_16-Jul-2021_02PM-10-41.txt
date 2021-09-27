@@ -1,0 +1,7 @@
+stdout started
+meo size
+0
+3791434006|OakTree|Cash|RecData_379|6132|FAILURE|379|60efc3d415545817f4717480
+meo_df has shape 0
+meo_df.shape[0] == 0
+meo has size = 0 therefore it failed

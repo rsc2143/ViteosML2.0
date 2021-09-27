@@ -1,0 +1,17 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:\ViteosModel2.0\897_Production_Model_Daily.py", line 457, in <module>
+    param_sheet_names_list = [Schonfeld_897_position_file_first_sheet_name, Schonfeld_897_position_file_second_sheet_name])
+  File "D:\ViteosModel2.0\897_Production_Model_Daily.py", line 92, in read_pos_file_and_concat_to_single_pos_df
+    xlsx_obj = pd.ExcelFile(param_filepath)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\excel\_base.py", line 819, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\excel\_xlrd.py", line 21, in __init__
+    super().__init__(filepath_or_buffer)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\excel\_base.py", line 359, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\excel\_xlrd.py", line 36, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\897_position_file\\57 Position recon - 08242021.xlsx'

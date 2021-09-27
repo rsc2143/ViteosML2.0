@@ -1,0 +1,9 @@
+stdout started
+['8971470011', 'Schonfeld Cash - 57', 'Cash', 'RecData_897', '132120', 'Recon Run Completed', '897', '609a34b91e9c9c19c0cbc1e3']
+ReconDF
+       TaskID                  csc  ... Setup_Code            MongoDB_TaskID
+0  8971470011  Schonfeld Cash - 57  ...        897  609a34b91e9c9c19c0cbc1e3
+
+[1 rows x 8 columns]
+Starting predictions for Schonfeld Cash - 57, setup_code = 897 and Task ID = 8971470011
+897

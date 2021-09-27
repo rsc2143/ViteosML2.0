@@ -1,0 +1,6 @@
+,ViewData.Side0_UniqueIds,ViewData.Side1_UniqueIds,ViewData.BreakID,Custodian Account,Currency,Ticker1,Net Amount Difference1,Description,Settle Date,Trade Date,ViewData.Age,predicted action,predicted category,predicted status,predicted comment,ViewData.Task Business Date,ViewData.Task ID,ViewData.Source Combination Code
+0,,1_8971476613_US BANK,2102171264,USBK_FIFTY_SEVEN_182381144852,USD,,220181.51,Internal Wire Transfer Credit(s),2021-08-11,2021-08-11,7,No-pair,OB,OB,ITG To check and book,2021-08-12T00:00:00,8971470164,1589787860
+1,,2_8971476613_US BANK,2102171263,USBK_FIFTY_SEVEN_182381144852,USD,,29818.49,Incoming Fedwire(s),2021-08-11,2021-08-11,7,No-pair,OB,OB,ITG To check and book,2021-08-12T00:00:00,8971470164,1589787860
+2,,2_8971480197_US BANK,2108183829,USBK_FIFTY_SEVEN_182381144852,USD,,-402.42,Miscellaneous Fee(s),2021-08-13,2021-08-13,5,No-pair,OB,OB,ITG To check and book,2021-08-12T00:00:00,8971470164,1589787860
+5,1_8971470164_Advent Geneva,,1860383792,USBK_FIFTY_SEVEN_182381144852,USD,usd,120718.43,United States Dollar,2021-08-11,2021-08-11,5,No-pair,OB,OB,Up/Down at Investment ID,2021-08-12T00:00:00,8971470164,1589787860
+6,,3_8971470164_US BANK,1860383794,USBK_FIFTY_SEVEN_182381144852,USD,,-120718.43,Outgoing Fedwire(s),2021-08-11,2021-08-11,7,No-pair,OB,OB,Up/Down at Investment ID,2021-08-12T00:00:00,8971470164,1589787860

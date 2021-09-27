@@ -1,0 +1,72 @@
+stdout started
+meo size
+1866
+It took 0.66015625 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  2.7227790699999996
+It took 3.171875 Mb to execute this method
+The Date value count is:
+2021-07-19    1863
+Name: Date, dtype: int64
+Choosing the date : 2021-07-19
+It took 8.1015625 Mb to execute this method
+It took 1.859375 Mb to execute this method
+It took 0.015625 Mb to execute this method
+It took 0.01171875 Mb to execute this method
+cc7 shape is :
+(1033, 68)
+It took 0.03515625 Mb to execute this method
+(13, 24)
+(11, 24)
+Time for first apply =  0.010839732000000879
+Time for first apply =  0.008999260999999592
+Time for second apply =  0.00862174599999932
+It took 0.390625 Mb to execute this method
+It took 0.40234375 Mb to execute this method
+It took 0.0 Mb to execute this method
+test_file shape is :
+(318, 79)
+It took 0.23046875 Mb to execute this method
+It took 7.6328125 Mb to execute this method
+test_file3 shape is :
+(318, 115)
+It took 0.42578125 Mb to execute this method
+It took 18.5546875 Mb to execute this method
+two_step_initiated
+It took 7.3359375 Mb to execute this method
+It took 0.0859375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.0234375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.046875 Mb to execute this method
+No One to Many found
+It took 0.00390625 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+It took 0.0 Mb to execute this method
+['6_1251380343_Advent Geneva' '5_1251380343_Advent Geneva']
+['2_1251380343_Advent Geneva' '1_1251380343_Advent Geneva']
+['33_1251380330_UBS', '34_1251380330_UBS']
+['27_1251380330_UBS', '28_1251380330_UBS']
+['9_1251380330_Advent Geneva', '10_1251380330_Advent Geneva']
+['5_1251380330_Advent Geneva', '6_1251380330_Advent Geneva']
+Time:  25.350050603
+v11_initiated
+125
+2021-07-19
+Following Task ID done
+1251430180
+1251430180|Weiss Advisors|Cash|RecData_125|132807|SUCCESS|125|60f90d041e9c9c29f4abe3c8

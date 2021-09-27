@@ -1,0 +1,145 @@
+stdout started
+meo size
+16850
+Choosing the date : 2021-08-26
+D:\ViteosModel2.0
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting ISIN', 'ViewData.Cust ISIN',
+       'ViewData.ISIN Difference', 'ViewData.Accounting Investment ID',
+       'ViewData.Cust Investment ID', 'ViewData.Investment ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting ISIN', 'ViewData.Cust ISIN',
+       'ViewData.ISIN Difference', 'ViewData.Accounting Investment ID',
+       'ViewData.Cust Investment ID', 'ViewData.Investment ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting ISIN', 'ViewData.Cust ISIN',
+       'ViewData.ISIN Difference', 'ViewData.Accounting Investment ID',
+       'ViewData.Cust Investment ID', 'ViewData.Investment ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting ISIN', 'ViewData.Cust ISIN',
+       'ViewData.ISIN Difference', 'ViewData.Accounting Investment ID',
+       'ViewData.Cust Investment ID', 'ViewData.Investment ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting ISIN', 'ViewData.Cust ISIN',
+       'ViewData.ISIN Difference', 'ViewData.Accounting Investment ID',
+       'ViewData.Cust Investment ID', 'ViewData.Investment ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting ISIN', 'ViewData.Cust ISIN',
+       'ViewData.ISIN Difference', 'ViewData.Accounting Investment ID',
+       'ViewData.Cust Investment ID', 'ViewData.Investment ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting ISIN', 'ViewData.Cust ISIN',
+       'ViewData.ISIN Difference', 'ViewData.Accounting Investment ID',
+       'ViewData.Cust Investment ID', 'ViewData.Investment ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting ISIN', 'ViewData.Cust ISIN',
+       'ViewData.ISIN Difference', 'ViewData.Accounting Investment ID',
+       'ViewData.Cust Investment ID', 'ViewData.Investment ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting ISIN', 'ViewData.Cust ISIN',
+       'ViewData.ISIN Difference', 'ViewData.Accounting Investment ID',
+       'ViewData.Cust Investment ID', 'ViewData.Investment ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting ISIN', 'ViewData.Cust ISIN',
+       'ViewData.ISIN Difference', 'ViewData.Accounting Investment ID',
+       'ViewData.Cust Investment ID', 'ViewData.Investment ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting ISIN', 'ViewData.Cust ISIN',
+       'ViewData.ISIN Difference', 'ViewData.Accounting Investment ID',
+       'ViewData.Cust Investment ID', 'ViewData.Investment ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting ISIN', 'ViewData.Cust ISIN',
+       'ViewData.ISIN Difference', 'ViewData.Accounting Investment ID',
+       'ViewData.Cust Investment ID', 'ViewData.Investment ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Time:  203.20366885
+455
+2021-08-26
+455
+2021-08-26
+Following Task ID done
+4551470297
+4551470297|Lombard|Cash|RecData_455|133380|SUCCESS|455|612cb9dd1e9c9c11b461116d

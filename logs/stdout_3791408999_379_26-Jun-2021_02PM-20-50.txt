@@ -1,0 +1,12 @@
+stdout started
+meo size
+0
+3791408999|OakTree|Cash|RecData_379|131362|FAILURE|379|60d6ea4915545826dc04916c
+meo_df has shape 0
+meo_df.shape[0] == 0
+meo has size = 0 therefore it failed
+['3791408999', 'OakTree', 'Cash', 'RecData_379', '131362', 'Recon Run Completed', '379', '60d6ea4915545826dc04916c']
+Receiving method worked
+ReconDF
+       TaskID      csc ReconPurpose collection_meo ProcessID     Completed_Status Setup_Code            MongoDB_TaskID
+0  3791408999  OakTree         Cash    RecData_379    131362  Recon Run Completed        379  60d6ea4915545826dc04916c

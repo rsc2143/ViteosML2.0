@@ -1,0 +1,18 @@
+,ViewData.Side0_UniqueIds,ViewData.Side1_UniqueIds,ViewData.BreakID,ViewData.Status,predicted status,predicted action,predicted category,predicted comment,custodian_val_to_use_comgen
+0,"[None, None, '17_2491452479_Integrata']","['34_2491449634_Barclays', '33_2491452479_Barclays', None]","[2065779095, 2069872485, 2069872522]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+1,"[None, None, '19_2491452479_Integrata']","['38_2491449634_Barclays', '37_2491452479_Barclays', None]","[2065779122, 2069872442, 2069872439]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+2,"[None, '15_2491452479_Integrata', None]","['30_2491449634_Barclays', None, '29_2491452479_Barclays']","[2065779069, 2069872518, 2069872443]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+3,"['16_2491452479_Integrata', None, None]","[None, '31_2491452479_Barclays', '32_2491449634_Barclays']","[2069872523, 2069872466, 2065779079]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+4,"[None, None, '7_2491452479_Integrata']","['16_2491449634_Barclays', '15_2491452479_Barclays', None]","[2065779059, 2069872525, 2069872470]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+5,"[None, '11_2491452479_Integrata', None]","['27_2491452479_Barclays', None, '28_2491449634_Barclays']","[2069872503, 2069872499, 2065779053]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+6,"['8_2491452479_Integrata', None, None]","[None, '18_2491449634_Barclays', '17_2491452479_Barclays']","[2069872478, 2065779071, 2069872438]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+7,"['6_2491452479_Integrata', None, None]","[None, '7_2491452479_Barclays', '8_2491449634_Barclays']","[2069872463, 2069872482, 2065779105]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+8,"['2_2491452479_Integrata', None, None]","[None, '3_2491452479_Barclays', '4_2491449634_Barclays']","[2069872433, 2069872450, 2065779076]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+9,"[None, '3_2491452479_Integrata', None]","['5_2491452479_Barclays', None, '6_2491449634_Barclays']","[2069872471, 2069872440, 2065779093]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+10,"[None, None, '5_2491452479_Integrata']","['9_2491452479_Barclays', '10_2491449634_Barclays', None]","[2069872502, 2065779121, 2069872456]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+11,"['33_2491452479_Integrata', None, None]","[None, '65_2491452479_Barclays', '66_2491449634_Barclays']","[2069872427, 2069872479, 2065779123]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+12,"['31_2491452479_Integrata', None, None]","[None, '61_2491452479_Barclays', '62_2491449634_Barclays']","[2069872425, 2069872445, 2065779118]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+13,"[None, '25_2491452479_Integrata', None]","['49_2491452479_Barclays', None, '50_2491449634_Barclays']","[2069872476, 2069872420, 2065779108]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+14,"['21_2491452479_Integrata', None, None]","[None, '41_2491452479_Barclays', '42_2491449634_Barclays']","[2069872416, 2069872486, 2065779060]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+15,"['22_2491452479_Integrata', None, None]","[None, '44_2491449634_Barclays', '43_2491452479_Barclays']","[2069872417, 2065779074, 2069872501]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+16,"[None, '23_2491452479_Integrata', None]","['48_2491449634_Barclays', None, '47_2491452479_Barclays']","[2065779089, 2069872418, 2069872452]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays

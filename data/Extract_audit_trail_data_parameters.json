@@ -1,0 +1,20 @@
+{
+    "MongoDB_parameters_dict": {
+        "MongoDB_parameters_for_reading_data_from": {
+            "MONGO_HOST": "10.1.79.212",
+            "MONGO_PASSWORD": "",
+            "MONGO_PORT": 27017,
+            "MONGO_USERNAME": "",
+            "SSH_HOST": null,
+            "SSH_PASSWORD": null,
+            "SSH_PORT": null,
+            "SSH_USERNAME": null,
+            "db": "ReconDB",
+            "without_RabbitMQ_pipeline": true,
+            "without_ssh": true
+        }
+    },
+    "Setup_code_to_extract_data_for_list": ["455","249"],
+    "Number_of_days_to_go_behind": 2,
+    "Data_path_for_dumping_csv_file": "\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\"   
+}

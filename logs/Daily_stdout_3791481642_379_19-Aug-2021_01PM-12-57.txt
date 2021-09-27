@@ -1,0 +1,23 @@
+stdout started
+meo size
+42
+The Date value count is:
+2021-08-17    42
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\output_files
+Choosing the date : 2021-08-17
+['14_3791481642_Advent Geneva', '16_3791481642_Advent Geneva']
+['19_3791481642_BNP Paribas', '15_3791481642_BNP Paribas']
+(5, 74)
+(2, 74)
+2
+2
+(3, 74)
+(0, 74)
+length of training df is 0
+(8, 67)
+(7, 67)
+379
+2021-08-17
+Following Task ID done
+3791481642

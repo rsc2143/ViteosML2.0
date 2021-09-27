@@ -1,0 +1,68 @@
+stdout started
+meo size
+1454
+It took 0.484375 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  2.3788922700000015
+It took 4.16015625 Mb to execute this method
+The Date value count is:
+2021-07-15    1451
+Name: Date, dtype: int64
+Choosing the date : 2021-07-15
+It took 2.60546875 Mb to execute this method
+It took 2.16796875 Mb to execute this method
+It took 0.21484375 Mb to execute this method
+It took 0.72265625 Mb to execute this method
+cc7 shape is :
+(796, 68)
+It took 2.11328125 Mb to execute this method
+(13, 24)
+(13, 24)
+Time for first apply =  0.0073072699999983115
+Time for first apply =  0.00839407600000186
+Time for second apply =  0.007761926999997115
+It took 0.16796875 Mb to execute this method
+It took 0.01171875 Mb to execute this method
+It took 0.0 Mb to execute this method
+test_file shape is :
+(348, 79)
+It took 0.0625 Mb to execute this method
+It took 6.734375 Mb to execute this method
+test_file3 shape is :
+(348, 115)
+It took 0.0859375 Mb to execute this method
+It took 19.01171875 Mb to execute this method
+two_step_initiated
+It took 5.65234375 Mb to execute this method
+It took 0.08203125 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.05859375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.0 Mb to execute this method
+No One to Many found
+It took 0.00390625 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+It took 0.0 Mb to execute this method
+['6_1251380343_Advent Geneva' '5_1251380343_Advent Geneva']
+['2_1251380343_Advent Geneva' '1_1251380343_Advent Geneva']
+['33_1251380330_UBS', '34_1251380330_UBS']
+['27_1251380330_UBS', '28_1251380330_UBS']
+['9_1251380330_Advent Geneva', '10_1251380330_Advent Geneva']
+['5_1251380330_Advent Geneva', '6_1251380330_Advent Geneva']
+Time:  53.822315368000005
+v11_initiated
+125
+2021-07-15
+Following Task ID done
+1251430147
+1251430147|Weiss Advisors|Cash|RecData_125|132785|SUCCESS|125|60f831071e9c9c29f4a54875

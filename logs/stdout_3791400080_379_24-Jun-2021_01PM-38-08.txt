@@ -1,0 +1,30 @@
+stdout started
+meo size
+60
+The Date value count is:
+2021-06-21    47
+2021-06-07     1
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\Oaktree\output_files
+Choosing the date : 2021-06-21
+[]
+[]
+(25, 74)
+(23, 74)
+0
+0
+(25, 74)
+(23, 74)
+1
+2
+3
+No One to Many found
+1
+No Many to One found
+No Many to One found
+(21, 67)
+(22, 67)
+379
+2021-06-21
+Following Task ID done
+3791400080

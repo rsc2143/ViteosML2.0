@@ -1,0 +1,69 @@
+stdout started
+meo size
+121
+The Date value count is:
+2021-07-19    96
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\output_files
+Choosing the date : 2021-07-19
+['16_3791430093_Advent Geneva', '15_3791430093_Advent Geneva', '134_3791430107_Advent Geneva', '128_3791430107_Advent Geneva', '283_3791430107_Advent Geneva', '284_3791430107_Advent Geneva', '133_3791430107_Advent Geneva', '129_3791430107_Advent Geneva', '131_3791430107_Advent Geneva', '132_3791430107_Advent Geneva', '28_3791430117_Advent Geneva', '29_3791430117_Advent Geneva']
+['1_3791430093_JP Morgan', '2_3791430093_JP Morgan', '2_3791430107_JP Morgan', '7_3791430107_JP Morgan', '3_3791430107_JP Morgan', '11_3791430107_JP Morgan', '6_3791430107_JP Morgan', '4_3791430107_JP Morgan', '17_3791430107_JP Morgan', '5_3791430107_JP Morgan']
+(42, 74)
+(46, 74)
+10
+12
+(32, 74)
+(34, 74)
+['1_3791430093_JP Morgan', '2_3791430093_JP Morgan']
+['2_3791430107_JP Morgan', '7_3791430107_JP Morgan', '3_3791430107_JP Morgan', '11_3791430107_JP Morgan', '6_3791430107_JP Morgan', '4_3791430107_JP Morgan', '17_3791430107_JP Morgan', '5_3791430107_JP Morgan']
+['16_3791430093_Advent Geneva', '15_3791430093_Advent Geneva']
+['134_3791430107_Advent Geneva', '128_3791430107_Advent Geneva', '283_3791430107_Advent Geneva', '284_3791430107_Advent Geneva', '133_3791430107_Advent Geneva', '129_3791430107_Advent Geneva', '131_3791430107_Advent Geneva', '132_3791430107_Advent Geneva', '28_3791430117_Advent Geneva', '29_3791430117_Advent Geneva']
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+No One to Many found
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+['28_3791430195_Advent Geneva' '27_3791430195_Advent Geneva']
+['17_3791430195_Advent Geneva' '30_3791430195_Advent Geneva']
+(14, 67)
+(14, 67)
+1859926119
+1859926178
+1859925962
+1859926144
+1859926147
+1859926043
+1859926133
+379
+2021-07-19
+Following Task ID done
+3791430195

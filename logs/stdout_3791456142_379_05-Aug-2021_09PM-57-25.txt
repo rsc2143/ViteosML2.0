@@ -1,0 +1,48 @@
+stdout started
+meo size
+369
+The Date value count is:
+2021-08-03    339
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\output_files
+Choosing the date : 2021-08-03
+[]
+[]
+(175, 74)
+(159, 74)
+0
+0
+(175, 74)
+(159, 74)
+1
+2
+3
+4
+5
+6
+7
+No One to Many found
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+['22_3791456138_JP Morgan' '21_3791456138_JP Morgan']
+['26_3791456138_JP Morgan' '27_3791456138_JP Morgan']
+['50_3791456142_Advent Geneva' '51_3791456142_Advent Geneva'
+ '19_3791456142_Advent Geneva' '52_3791456142_Advent Geneva']
+(33, 67)
+(16, 67)
+1860265022, 1860264413, 1860264199, 1860265078
+379
+2021-08-03
+Following Task ID done
+3791456142

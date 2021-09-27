@@ -68,16 +68,28 @@
             "timeout": 10
         }
     },
+
+    "currency_conversion_api_key": "a4a44000cd52ee36932bf88a",
+
+    "https_proxy": "192.168.170.200:3128",
+    "http_proxy": "192.168.170.200:3128",
+    
     "Lombard_parameters_dict": {
-        "Lombard_455_output_folder_path": "\\data\\output_files"
+        "Lombard_455_output_folder_path": "\\data\\output_files",
+        "Lombard_455_model_files_folder_path": "\\data\\model_files\\455",
+        "Lombard_249_output_folder_path": "\\data\\output_files",
+        "Lombard_249_model_files_folder_path": "\\data\\model_files\\249"
     },
     "Oaktree_parameters_dict": {
-        "Oaktree_379_output_folder_path": "\\data\\output_files"
+        "Oaktree_379_output_folder_path": "\\data\\output_files",
+        "Oaktree_379_model_files_folder_path": "\\data\\model_files\\379"
     },
     "Schonfeld_parameters_dict": {
 		"Schonfeld_897_number_of_days_to_go_behind": 25,
+        "Schonfeld_897_model_files_folder_path": "\\data\\model_files\\897",
         "Schonfeld_897_output_folder_path": "\\data\\output_files",
-        "Schonfeld_897_position_file_path": "\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\Files and Rules for Lookup\\Rules delivery from Ronson\\Schonfeld\\Schonfeld ML final\\57 Position Recon\\",
+        "Schonfeld_897_position_file_path": "D:\\897_position_file\\",
+        "Schonfeld_897_position_file_path_with_password": "D:\\897_position_file_wpw\\",
         "Schonfeld_897_position_file_first_sheet_name": "FIFTY_SEVEN",
         "Schonfeld_897_position_file_second_sheet_name": "FIFTY_SEVENCAY",
         "Schonfeld_897_position_file_first_sheet_origin_row_number": 4,
@@ -85,8 +97,8 @@
         "Schonfeld_897_position_file_second_sheet_origin_row_number": 4,
         "Schonfeld_897_position_file_second_sheet_origin_col_number": 1,
         "Schonfeld_897_position_file_password": "SSA2020",
-        "Schonfeld_897_position_file_columns_list": ["Fund","Geneva Account","Investment ID","Security Type","Currency","Description","SSA vs PB Qty Difference","SSA vs PB Price Difference","SSA vs PB Local MV Difference"]
-                
+        "Schonfeld_897_position_file_columns_list": ["Fund","Geneva Account","Investment ID","Security Type","Currency","Description","SSA vs PB Qty Difference","SSA vs PB Price Difference","SSA vs PB Local MV Difference"],
+        "Schonfeld_897_position_file_remword_list": ["comdty","index","indx","elec","curncy"] 
         
     }
     

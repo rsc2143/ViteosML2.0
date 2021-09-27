@@ -1,0 +1,7 @@
+2021-08-25 12:41:52.053768 : Log started for datettime = 25-Aug-2021_12PM-41-52
+2021-08-25 12:41:52.085026 : Prediction Message Received for : 2491489645
+2021-08-25 12:42:16.073980 : meo created
+2021-08-25 12:42:16.199000 : meo df is not empty, initiating calculations
+2021-08-25 12:42:16.230284 : meo df shape is9924
+2021-08-25 12:47:23.708692 : After inserting in db
+2021-08-25 12:47:23.755621 : 2491489645|Lombard|Cash|RecData_249|5144|SUCCESS|249|61248e9b1ef687141871135b

@@ -1,0 +1,55 @@
+,ViewData.Side0_UniqueIds,ViewData.Side1_UniqueIds,ViewData.BreakID,ViewData.Status,predicted status,predicted action,predicted category,predicted comment,custodian_val_to_use_comgen
+0,"['104_2491305160_Integrata', None, None]","[None, '148_2491305160_Goldman Sachs', '104_2491305160_Goldman Sachs']","[1873539159, 1873539154, 1873539153]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+1,"['275_2491334287_Integrata', '276_2491334287_Integrata', None]","[None, None, '260_2491334287_Goldman Sachs']","[1911737955, 1911737957, 1911738002]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+2,"[None, '314_2491334287_Integrata', '315_2491334287_Integrata']","['261_2491334287_Goldman Sachs', None, None]","[1911737966, 1911737958, 1911737959]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+3,"['120_2491490372_Integrata', '121_2491490372_Integrata', None, None, None, None]","[None, None, '31_2491491907_Goldman Sachs', '32_2491491907_Goldman Sachs', '35_2491491907_Goldman Sachs', '36_2491491907_Goldman Sachs']","[2121401059, 2121401060, 2123626966, 2123626970, 2123626973, 2123626979]","['SDB', 'SDB', 'OB', 'OB', 'OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+4,"['202_2491211803_Integrata', None, None]","[None, '316_2491211803_Goldman Sachs', '277_2491211803_Goldman Sachs']","[1750967610, 1750967686, 1750967678]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+5,"['106_2491305160_Integrata', '105_2491305160_Integrata', None, None]","[None, None, '102_2491305160_Goldman Sachs', '146_2491305160_Goldman Sachs']","[1873539161, 1873539160, 1873539151, 1873539152]","['OB', 'OB', 'OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+6,"['109_2491183628_Integrata', None, None]","[None, '108_2491183628_Goldman Sachs', '162_2491183628_Goldman Sachs']","[1712262752, 1712262856, 1712262866]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+7,"['189_2491295229_Integrata', None]","[None, '48_2491296145_Goldman Sachs']","[1861390567, 1862094602]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+8,"['311_2491372790_Integrata', '312_2491372790_Integrata', '313_2491372790_Integrata', None]","[None, None, None, '371_2491372790_Goldman Sachs']","[1969100092, 1969100094, 1969100093, 1969100234]","['OB', 'OB', 'OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+9,"['165_249861961_Integrata', '163_249861961_Integrata', '164_249861961_Integrata', None]","[None, None, None, '155_249861961_Goldman Sachs']","[1286283116, 1286283107, 1286283113, 1286283298]","['OB', 'OB', 'OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+10,"['169_249861961_Integrata', '171_249861961_Integrata', '170_249861961_Integrata', None]","[None, None, None, '157_249861961_Goldman Sachs']","[1286283120, 1286283124, 1286283122, 1286283299]","['OB', 'OB', 'OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+11,"['174_249861961_Integrata', None]","[None, '165_249861961_Goldman Sachs']","[1286283134, 1286283288]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+12,"['176_249861961_Integrata', '177_249861961_Integrata', '178_249861961_Integrata', None]","[None, None, None, '159_249861961_Goldman Sachs']","[1286283138, 1286283141, 1286283143, 1286283300]","['OB', 'OB', 'OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+13,"['179_249861961_Integrata', '180_249861961_Integrata', '182_249861961_Integrata', '181_249861961_Integrata', None]","[None, None, None, None, '161_249861961_Goldman Sachs']","[1286283108, 1286283112, 1286283117, 1286283115, 1286283286]","['OB', 'OB', 'OB', 'OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+14,"['33_2491491907_Integrata', None]","[None, '106_2491490372_Goldman Sachs']","[2123626849, 2121401093]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+15,"['28_2491491907_Integrata', None]","[None, '92_2491490372_Goldman Sachs']","[2123626894, 2121401101]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+16,"['14_2491491907_Integrata', None]","[None, '102_2491490372_Goldman Sachs']","[2123626833, 2121401197]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+17,"[None, '29_2491491907_Integrata']","['105_2491490372_Goldman Sachs', None]","[2121401113, 2123626825]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+18,"['27_2491491907_Integrata', None]","[None, '99_2491490372_Goldman Sachs']","[2123626892, 2121401137]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+19,"['35_2491491907_Integrata', None]","[None, '96_2491490372_Goldman Sachs']","[2123626898, 2121401128]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+20,"['22_2491491907_Integrata', None]","[None, '98_2491490372_Goldman Sachs']","[2123626868, 2121401151]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+21,"['23_2491491907_Integrata', None]","[None, '90_2491490372_Goldman Sachs']","[2123626873, 2121401095]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+22,"['25_2491491907_Integrata', None]","[None, '85_2491490372_Goldman Sachs']","[2123626884, 2121401075]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+23,"['36_2491491907_Integrata', None]","[None, '93_2491490372_Goldman Sachs']","[2123626900, 2121401109]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+24,"['17_2491491907_Integrata', None]","[None, '97_2491490372_Goldman Sachs']","[2123626852, 2121401140]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+25,"['13_2491491907_Integrata', None]","[None, '87_2491490372_Goldman Sachs']","[2123626827, 2121401086]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+26,"['16_2491491907_Integrata', None]","[None, '100_2491490372_Goldman Sachs']","[2123626846, 2121401164]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+27,"['24_2491491907_Integrata', None]","[None, '103_2491490372_Goldman Sachs']","[2123626879, 2121401084]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+28,"['37_2491491907_Integrata', None]","[None, '88_2491490372_Goldman Sachs']","[2123626901, 2121401089]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+29,"['34_2491491907_Integrata', None]","[None, '89_2491490372_Goldman Sachs']","[2123626896, 2121401091]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+30,"['21_2491491907_Integrata', None]","[None, '86_2491490372_Goldman Sachs']","[2123626861, 2121401078]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+31,"['15_2491491907_Integrata', None]","[None, '91_2491490372_Goldman Sachs']","[2123626840, 2121401098]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+32,"['20_2491491907_Integrata', None]","[None, '94_2491490372_Goldman Sachs']","[2123626856, 2121401114]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+33,"['26_2491491907_Integrata', None]","[None, '95_2491490372_Goldman Sachs']","[2123626889, 2121401118]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+34,"['12_2491491907_Integrata', None]","[None, '101_2491490372_Goldman Sachs']","[2123626824, 2121401185]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+35,"['39_2491491907_Integrata', None]","[None, '148_2491490372_Goldman Sachs']","[2123626865, 2121401154]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+36,"['43_2491491907_Integrata', None]","[None, '156_2491490372_Goldman Sachs']","[2123626888, 2121401159]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+37,"['49_2491491907_Integrata', None]","[None, '154_2491490372_Goldman Sachs']","[2123626902, 2121401122]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+38,"['51_2491491907_Integrata', None]","[None, '158_2491490372_Goldman Sachs']","[2123626904, 2121401130]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+39,"['48_2491491907_Integrata', None]","[None, '150_2491490372_Goldman Sachs']","[2123626899, 2121401124]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+40,"['47_2491491907_Integrata', None]","[None, '153_2491490372_Goldman Sachs']","[2123626897, 2121401177]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+41,"['46_2491491907_Integrata', None]","[None, '157_2491490372_Goldman Sachs']","[2123626895, 2121401167]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+42,"['41_2491491907_Integrata', None]","[None, '160_2491490372_Goldman Sachs']","[2123626878, 2121401173]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+43,"['42_2491491907_Integrata', None]","[None, '155_2491490372_Goldman Sachs']","[2123626883, 2121401134]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+44,"['44_2491491907_Integrata', None]","[None, '152_2491490372_Goldman Sachs']","[2123626891, 2121401160]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+45,"['50_2491491907_Integrata', None]","[None, '159_2491490372_Goldman Sachs']","[2123626903, 2121401155]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+46,"['56_2491491907_Integrata', None]","[None, '162_2491490372_Goldman Sachs']","[2123626875, 2121401170]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+47,"['52_2491491907_Integrata', None]","[None, '164_2491490372_Goldman Sachs']","[2123626905, 2121401188]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+48,"['54_2491491907_Integrata', None]","[None, '163_2491490372_Goldman Sachs']","[2123626863, 2121401181]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+49,"[None, '87_2491491907_Integrata', None, None]","['56_2491491907_Goldman Sachs', None, '55_2491491907_Goldman Sachs', '212_2491490372_Goldman Sachs']","[2123624843, 2123626890, 2123626909, 2121401141]","['CNF', 'OB', 'OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+50,"[None, None, '117_2491491907_Integrata']","['147_2491491907_Goldman Sachs', '148_2491491907_Goldman Sachs', None]","[2123626816, 2123626823, 2123626862]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+51,"[None, '78_2491253489_Integrata', None]","['190_2491255601_Goldman Sachs', None, '104_2491257389_Goldman Sachs']","[1809842068, 1806720209, 1811948027]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+52,"[None, '50_249737098_Integrata']","['62_249737098_Goldman Sachs', None]","[1121113154, 1121113165]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs
+53,"['2_2491443689_Integrata', None]","[None, '280_2491441858_Goldman Sachs']","[2058660855, 2056508742]","['OB', 'OB']",UMR,UMR,match,match,Goldman Sachs

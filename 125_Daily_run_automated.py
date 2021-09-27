@@ -1598,8 +1598,9 @@ if cc2.empty == False:
 
 diff_in_amount_df = pd.DataFrame(diff_in_amount_key)
 
-def make_dd_mm_yyyy_from_string_date_format_yyyy_mm_dd(param_str_date):
+def make_mm_dd_yyyy_from_string_date_format_yyyy_mm_dd(param_str_date):
     return(param_str_date[5:7] + '-' + param_str_date[8:10] + '-'+ param_str_date[0:4])
+
     
 def eq_swap_comment(filter_key,difference):
     comment = "Difference of " + str(np.round(difference,2)) + " in swap settlement of " + filter_key[-10:]
@@ -7412,9 +7413,10 @@ def comgen(x,y,z,k,m,a,b,c):
 
 
 result_non_trade['ViewData.Settle Date2'] = result_non_trade['ViewData.Settle Date'].apply(lambda x : str(x).split(' ')[0])
-#result_non_trade['ViewData.Settle Date_dd_mm_yyyy'] = result_non_trade['ViewData.Settle Date2'].apply(lambda x : make_dd_mm_yyyy_from_string_date_format_yyyy_mm_dd())
+result_non_trade['ViewData.Settle Date_mm_dd_yyyy'] = result_non_trade['ViewData.Settle Date2'].apply(lambda x : make_mm_dd_yyyy_from_string_date_format_yyyy_mm_dd(x))
 
 result_non_trade['ViewData.Trade Date2'] = result_non_trade['ViewData.Trade Date'].apply(lambda x : str(x).split(' ')[0])
+result_non_trade['ViewData.Trade Date_mm_dd_yyyy'] = result_non_trade['ViewData.Trade Date2'].apply(lambda x : make_mm_dd_yyyy_from_string_date_format_yyyy_mm_dd(x))
 
 result_non_trade['new_pb2'] = result_non_trade['new_pb2'].astype(str)
 result_non_trade['predicted template'] = result_non_trade['predicted template'].astype(str)
@@ -7432,7 +7434,9 @@ result_non_trade['ViewData.Quantity'] = result_non_trade['ViewData.Quantity'].ap
 #result_non_trade['predicted comment'] = result_non_trade.apply(lambda x : comgen(x['new_pb2'],x['predicted template'],x['ViewData.Settle Date'],x['new_pb1']), axis = 1)
 #Change made on 24-12-2020 as per Abhijeet. The comgen function below was commented out and a new, more elaborate comgen function was coded in. Also, corresponding to the comgen function, predicted_comment apply function was also changed.
 #result_non_trade['predicted comment'] = result_non_trade.apply(lambda x : comgen(x['ViewData.Side0_UniqueIds'],x['predicted template'],x['ViewData.Settle Date'],x['new_pb1']), axis = 1)
-result_non_trade['predicted comment'] = result_non_trade.apply(lambda x : comgen(x['new_pb2'],x['predicted template'],x['ViewData.Settle Date2'],x['new_pb1'],x['predicted category'],x['ViewData.Price'],x['ViewData.Quantity'],x['ViewData.Trade Date']), axis = 1)
+#result_non_trade['predicted comment'] = result_non_trade.apply(lambda x : comgen(x['new_pb2'],x['predicted template'],x['ViewData.Settle Date2'],x['new_pb1'],x['predicted category'],x['ViewData.Price'],x['ViewData.Quantity'],x['ViewData.Trade Date']), axis = 1)
+result_non_trade['predicted comment'] = result_non_trade.apply(lambda x : comgen(x['new_pb2'],x['predicted template'],x['ViewData.Settle Date_mm_dd_yyyy'],x['new_pb1'],x['predicted category'],x['ViewData.Price'],x['ViewData.Quantity'],x['ViewData.Trade Date']), axis = 1)
+
 #End change made on 19-01-2021
 
 

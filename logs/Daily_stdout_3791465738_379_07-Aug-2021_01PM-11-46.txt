@@ -1,0 +1,61 @@
+stdout started
+meo size
+158
+The Date value count is:
+2021-08-05    134
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\output_files
+Choosing the date : 2021-08-05
+['58_3791465738_Advent Geneva', '50_3791465738_Advent Geneva']
+['7_3791463804_The Bank of New York Mellon', '1_3791463804_The Bank of New York Mellon', '40_3791463804_The Bank of New York Mellon', '5_3791463804_The Bank of New York Mellon']
+(61, 74)
+(80, 74)
+4
+2
+(57, 74)
+(78, 74)
+['7_3791463804_The Bank of New York Mellon', '1_3791463804_The Bank of New York Mellon']
+['40_3791463804_The Bank of New York Mellon', '5_3791463804_The Bank of New York Mellon']
+['58_3791465738_Advent Geneva']
+['50_3791465738_Advent Geneva']
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+No One to Many found
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+No Many to One found
+No Many to One found
+(36, 67)
+(60, 67)
+2080053964
+2083517172
+379
+2021-08-05
+Following Task ID done
+3791465738

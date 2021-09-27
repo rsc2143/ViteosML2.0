@@ -1,0 +1,29 @@
+stdout started
+meo size
+58
+The Date value count is:
+2021-07-26    58
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\output_files
+Choosing the date : 2021-07-26
+['11_3791450073_Advent Geneva', '12_3791450073_Advent Geneva', '8_3791450073_Advent Geneva', '20_3791450073_Advent Geneva', '23_3791450073_Advent Geneva', '26_3791450137_Advent Geneva', '24_3791450137_Advent Geneva', '23_3791450137_Advent Geneva', '25_3791450137_Advent Geneva']
+['26_3791450073_BNP Paribas', '27_3791450073_BNP Paribas', '16_3791450073_BNP Paribas', '21_3791450073_BNP Paribas', '22_3791450073_BNP Paribas', '27_3791450137_BNP Paribas', '26_3791450137_BNP Paribas', '35_3791450137_BNP Paribas', '31_3791450137_BNP Paribas']
+(15, 74)
+(23, 74)
+9
+9
+(6, 74)
+(14, 74)
+['26_3791450073_BNP Paribas', '27_3791450073_BNP Paribas', '16_3791450073_BNP Paribas', '21_3791450073_BNP Paribas', '22_3791450073_BNP Paribas']
+['27_3791450137_BNP Paribas', '26_3791450137_BNP Paribas', '35_3791450137_BNP Paribas', '31_3791450137_BNP Paribas']
+['11_3791450073_Advent Geneva', '12_3791450073_Advent Geneva', '8_3791450073_Advent Geneva', '20_3791450073_Advent Geneva', '23_3791450073_Advent Geneva']
+['26_3791450137_Advent Geneva', '24_3791450137_Advent Geneva', '23_3791450137_Advent Geneva', '25_3791450137_Advent Geneva']
+No One to Many found
+No Many to One found
+No Many to One found
+(2, 67)
+(9, 67)
+379
+2021-07-26
+Following Task ID done
+3791450137

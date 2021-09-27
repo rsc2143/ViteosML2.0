@@ -1,0 +1,11 @@
+2021-08-16 15:54:04.079365 : Log started for datettime = 16-Aug-2021_03PM-53-31
+2021-08-16 15:54:08.913445 : meo created
+2021-08-16 15:54:08.944704 : meo rows = 1763
+2021-08-16 15:54:08.991553 : meo df is not empty, initiating calculations
+2021-08-16 15:54:09.038497 : meo df shape is1763
+2021-08-16 15:54:28.130522 : Position File read
+2021-08-16 15:54:29.833834 : Conversion File created using API
+2021-08-16 15:54:31.177720 : Merger of conversion file done
+2021-08-16 15:54:31.490257 : Second Merger of conversion file done
+2021-08-16 15:55:32.798518 : After inserting in db
+2021-08-16 15:55:32.954640 : 8971470069|Schonfeld Cash - 57|Cash|RecData_897|132120|SUCCESS|897|609a34b91e9c9c19c0cbc1e3

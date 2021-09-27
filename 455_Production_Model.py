@@ -4,7 +4,7 @@ Created on Mon May 24 06:10:52 2021
 
 @author: riteshkumar.patra
 """
-
+ 
 client = 'Lombard'
 
 setup = '455'
@@ -61,6 +61,24 @@ try:
     with open(os.getcwd() + '\\data\\Production_Model_parameters.json') as f:
         parameters_dict = json.load(f)
 
+    def assign_PB_Acct_side_row_apply(fun_row):
+        if ((fun_row['flag_side1'] >= 1) & (fun_row['flag_side0'] == 0)):
+            PB_or_Acct_Side_Value = 'PB_Side'
+        elif ((fun_row['flag_side1'] == 0) & (fun_row['flag_side0'] >= 1)):
+            PB_or_Acct_Side_Value = 'Acct_Side'
+        else:
+            PB_or_Acct_Side_Value = 'Non OB'
+
+        return (PB_or_Acct_Side_Value)
+
+    def assign_geneva_or_nongeneva_based_on_PB_Acct_side(fun_row):
+        if (fun_row['PB_or_Acct_Side'] == 'PB_side'):
+            return 'geneva'
+        else:
+            return 'non_geneva'
+        
+    def make_mm_dd_yyyy_from_string_date_format_yyyy_mm_dd(param_str_date):
+        return(param_str_date[5:7] + '-' + param_str_date[8:10] + '-'+ param_str_date[0:4])
 
     def getDateTimeFromISO8601String(s):
         d = dateutil.parser.parse(s)
@@ -195,6 +213,25 @@ try:
                 return 'interest'
             else:
                 return x
+
+    def desc_cat(x):
+        if x == 'NA':
+            return 'NA'
+        elif 'froc' in x:
+            return 'froc'
+        elif 'facturation fees' in x:
+            return 'facturation fees'
+        elif 'external management fees' in x:
+            return 'emf'
+        elif 'external distribution fees' in x:
+            return 'edf'
+        elif 'transfer of' in x:
+            return 'transfer'
+        else:
+            if type(x)== str:
+                return x
+            else:
+                return x[0]
     
     #def comgen(x,y,z,k):
     #    if x == 'geneva':
@@ -895,6 +932,7 @@ try:
         #    except Exception:
         #        data = None
         s2_out = sys.argv[1]
+#        s2_out = '4551470464|Schonfeld Cash - 57|Cash|RecData_897|132120|Recon Run Completed|455|609a34b91e9c9c19c0cbc1e3'
         stout_list = s2_out.split("|")
         print(stout_list)
         if len(stout_list) > 1:
@@ -1015,6 +1053,7 @@ try:
 
                 else:
                     Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='meo df is not empty, initiating calculations')
+                    Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='meo df shape is' + str(meo_df.shape[0]))
                     columns_to_output = ['ViewData.Side0_UniqueIds','ViewData.Side1_UniqueIds','ViewData.BreakID','ViewData.Status','predicted status','predicted action','predicted category','predicted comment']
                     meo_df['Date'] = pd.to_datetime(meo_df['ViewData.Task Business Date'])
                     meo_df = meo_df.reset_index()
@@ -1279,6 +1318,7 @@ try:
                         df3 = df16.copy()
                     	
 #                        df = pd.read_excel('\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + str(client) +'\\output_files\\Setup_' + str(setup_code) + '\\Mapping variables for variable cleaning.xlsx', sheet_name='General')
+                        """
                         df = pd.read_excel(model_files_folder + 'Lombard_455_mapping_variables_for_variable_cleaning.xlsx', sheet_name='General')
                     #    df = pd.read_excel('Mapping variables for variable cleaning.xlsx', sheet_name='General')
                     
@@ -1356,15 +1396,42 @@ try:
                         df4['new_pb1'] = df4['new_pb1'].fillna('aa')
                         df4['comm_marker'] = df4['comm_marker'].fillna('aa')
                         df4['monthend marker'] = df4['monthend marker'].fillna('aa')
+                        """
+                        com = pd.read_csv(model_files_folder + 'Lombard_455_description_category_comment.csv')
+                    #    com = pd.read_csv('desc cat with naveen oaktree.csv')
+                        cat_list = list(set(com['Pairing']))
+                        df3['ViewData.Settle Date'] = pd.to_datetime(df3['ViewData.Settle Date'])
+
+                        df3['ViewData.Side0_UniqueIds'] = df3['ViewData.Side0_UniqueIds'].fillna('AA')
+                        df3['ViewData.Side1_UniqueIds'] = df3['ViewData.Side1_UniqueIds'].fillna('BB')
                     
+                        df3['desc_cat'] = df3['ViewData.Description'].apply(lambda x : descclean(x,cat_list))
+
+                        df3['description'] = df3['desc_cat'].apply(lambda x : desc_cat(x))
+                        
+                        col_sel = ['ViewData.Transaction Type','ViewData.Asset Type Category', 'ViewData.Mapped Custodian Account','ViewData.Prime Broker','description','broker']
+                        
+                        
+                        df3['broker'] = df3['ViewData.Mapped Custodian Account'].apply(lambda x : x.split('-')[-1])
+                        data2 = df3[col_sel]
+                        
+                        data2['ViewData.Transaction Type'] = data2['ViewData.Transaction Type'].fillna('AAA')
+                        data2['ViewData.Asset Type Category'] = data2['ViewData.Asset Type Category'].fillna("HHH")
+                        data2['broker'] = data2['broker'].fillna('BBB')
+                        data2['description'] = data2['description'].fillna("NNN")
+                        
+                        cols = ['ViewData.Transaction Type','ViewData.Asset Type Category', 'broker','description']
+                        
+                        data_to_model = data2[cols]
+
                     
                     #    filename = 'finalized_model_lombard_249_v1.sav'
 #                        filename = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + str(client) +'\\output_files\\Setup_' + str(setup_code) + '\\finalized_model_' + str.lower(str('Lombard')) + '_' + str(setup_code) + '_v1.sav'
                         filename = model_files_folder + 'Lombard_455_model.sav'
                         clf = pickle.load(open(filename, 'rb'))
                     
-                        cb_predictions = clf.predict(df4)
-                    
+#                        cb_predictions = clf.predict(df4)
+                        cb_predictions = clf.predict(data_to_model)
                     #    demo = []
                     #    for item_cb_predict in cb_predictions:
                     #        demo.append(item_cb_predict[0])
@@ -1392,19 +1459,37 @@ try:
                         result_non_trade = df3.copy()
                         result_non_trade = pd.merge(result_non_trade,com_temp,on = 'predicted category',how = 'left')
                     
-                        result_non_trade['new_pb1'] = result_non_trade['new_pb1'].apply(lambda x : x.split('-')[0] if type(x)== str else x)
-                        result_non_trade['new_pb1'] = result_non_trade['new_pb1'].fillna('ms')
+                        result_non_trade['new_pb1'] = result_non_trade['broker'].apply(lambda x : x.split(' ')[0] if type(x)== str else x)
+                        result_non_trade['new_pb1'] = result_non_trade['new_pb1'].fillna('CACEIS')
                     
                     #Change made on 17-02-2021 as per Abhijeet. 
+                        result_non_trade['flag_side0'] = result_non_trade.apply(lambda x: len(x['ViewData.Side0_UniqueIds'].split(',')), axis=1)
+                        result_non_trade['flag_side1'] = result_non_trade.apply(lambda x: len(x['ViewData.Side1_UniqueIds'].split(',')), axis=1)
+                
+                        result_non_trade.loc[result_non_trade['ViewData.Side0_UniqueIds'] == 'nan', 'flag_side0'] = 0
+                        result_non_trade.loc[result_non_trade['ViewData.Side1_UniqueIds'] == 'nan', 'flag_side1'] = 0
+                
+                        result_non_trade.loc[result_non_trade['ViewData.Side0_UniqueIds'] == 'None', 'flag_side0'] = 0
+                        result_non_trade.loc[result_non_trade['ViewData.Side1_UniqueIds'] == 'None', 'flag_side1'] = 0
+                
+                        result_non_trade.loc[result_non_trade['ViewData.Side0_UniqueIds'] == '', 'flag_side0'] = 0
+                        result_non_trade.loc[result_non_trade['ViewData.Side1_UniqueIds'] == '', 'flag_side1'] = 0
+                        
+                        result_non_trade['PB_or_Acct_Side'] = result_non_trade.apply(lambda row: assign_PB_Acct_side_row_apply(fun_row=row), axis=1,result_type="expand")
+                        
+                        result_non_trade['new_pb2'] = result_non_trade.apply(lambda row: assign_geneva_or_nongeneva_based_on_PB_Acct_side(fun_row=row), axis=1,result_type="expand")
                         result_non_trade['new_pb2'] = result_non_trade['new_pb2'].astype(str)
                         result_non_trade['predicted template'] = result_non_trade['predicted template'].astype(str)
                         result_non_trade['ViewData.Settle Date2'] = result_non_trade['ViewData.Settle Date'].dt.date
                         result_non_trade['ViewData.Settle Date2'] = result_non_trade['ViewData.Settle Date2'].astype(str)
+                        result_non_trade['ViewData.Settle Date_mm_dd_yyyy'] = result_non_trade['ViewData.Settle Date2'].apply(lambda x : make_mm_dd_yyyy_from_string_date_format_yyyy_mm_dd(x))
                     #    result_non_trade['ViewData.Trade Date2'] = result_non_trade['ViewData.Trade Date'].dt.date
                         result_non_trade['ViewData.Trade Date2'] = pd.to_datetime(result_non_trade['ViewData.Trade Date']).dt.date
                         result_non_trade['ViewData.Trade Date2'] = result_non_trade['ViewData.Trade Date2'].astype(str)
+                        result_non_trade['ViewData.Trade Date_mm_dd_yyyy'] = result_non_trade['ViewData.Trade Date'].apply(lambda x : make_mm_dd_yyyy_from_string_date_format_yyyy_mm_dd(x))
                         result_non_trade['new_pb1'] = result_non_trade['new_pb1'].astype(str)
-                    	
+
+                        result_non_trade['new_pb1'] = result_non_trade['new_pb1'].replace('CACEIS','Caceis')                    	
                         result_non_trade['new_pb1'] = result_non_trade['new_pb1'].replace('caceis','Caceis')
                         result_non_trade['new_pb1'] = result_non_trade['new_pb1'].replace('','Caceis')
                         #result_non_trade['new_pb1'] = result_non_trade['new_pb1'].apply(lambda x : brokermap(x))
@@ -1412,7 +1497,8 @@ try:
                     	#result_non_trade['predicted comment'] = result_non_trade.apply(lambda x : comgen(x['new_pb2'],x['predicted template'],x['ViewData.Settle Date'],x['new_pb1']), axis = 1)
                     	#Change made on 24-12-2020 as per Abhijeet. The comgen function below was commented out and a new, more elaborate comgen function was coded in. Also, corresponding to the comgen function, predicted_comment apply function was also changed.
                     	#result_non_trade['predicted comment'] = result_non_trade.apply(lambda x : comgen(x['ViewData.Side0_UniqueIds'],x['predicted template'],x['ViewData.Settle Date'],x['new_pb1']), axis = 1)
-                        result_non_trade['predicted comment'] = result_non_trade.apply(lambda x : comgen(x['new_pb2'],x['predicted template'],x['ViewData.Settle Date2'],x['new_pb1'],x['predicted category'],x['ViewData.Price'],x['ViewData.Quantity'],x['ViewData.Trade Date'],x['ViewData.Description']), axis = 1)
+#                        result_non_trade['predicted comment'] = result_non_trade.apply(lambda x : comgen(x['new_pb2'],x['predicted template'],x['ViewData.Settle Date2'],x['new_pb1'],x['predicted category'],x['ViewData.Price'],x['ViewData.Quantity'],x['ViewData.Trade Date'],x['ViewData.Description']), axis = 1)
+                        result_non_trade['predicted comment'] = result_non_trade.apply(lambda x : comgen(x['new_pb2'],x['predicted template'],x['ViewData.Settle Date_mm_dd_yyyy'],x['new_pb1'],x['predicted category'],x['ViewData.Price'],x['ViewData.Quantity'],x['ViewData.Trade Date_mm_dd_yyyy'],x['ViewData.Description']), axis = 1)
                         result_non_trade['predicted status'] = 'OB'
                         result_non_trade['predicted action'] = 'No-pair'
                         result_non_trade = result_non_trade[['ViewData.Side0_UniqueIds','ViewData.Side1_UniqueIds','ViewData.BreakID','ViewData.Status','predicted status','predicted action','predicted category','predicted comment']]

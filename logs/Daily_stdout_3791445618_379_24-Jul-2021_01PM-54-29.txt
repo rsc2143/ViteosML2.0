@@ -1,0 +1,47 @@
+stdout started
+meo size
+84
+The Date value count is:
+2021-07-22    78
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\output_files
+Choosing the date : 2021-07-22
+['32_3791397709_Advent Geneva', '19_3791443610_Advent Geneva', '21_3791443610_Advent Geneva', '44_3791445618_Advent Geneva', '28_3791445618_Advent Geneva', '36_3791445618_Advent Geneva', '34_3791445618_Advent Geneva', '38_3791445618_Advent Geneva', '30_3791445618_Advent Geneva', '32_3791445618_Advent Geneva', '42_3791445618_Advent Geneva', '24_3791439795_Advent Geneva', '48_3791445618_Advent Geneva', '53_3791445618_Advent Geneva', '54_3791445618_Advent Geneva', '58_3791445618_Advent Geneva']
+['100_3791397709_BNP Paribas', '101_3791397709_BNP Paribas', '99_3791397709_BNP Paribas', '102_3791397709_BNP Paribas', '93_3791397709_BNP Paribas', '80_3791397709_BNP Paribas', '108_3791397709_BNP Paribas', '150_3791397709_BNP Paribas', '86_3791397709_BNP Paribas', '68_3791397709_BNP Paribas', '94_3791397709_BNP Paribas', '15_3791439795_BNP Paribas', '14_3791439795_BNP Paribas', '20_3791445618_BNP Paribas', '19_3791445618_BNP Paribas', '21_3791445618_BNP Paribas']
+(36, 74)
+(34, 74)
+16
+16
+(20, 74)
+(18, 74)
+['100_3791397709_BNP Paribas', '101_3791397709_BNP Paribas', '99_3791397709_BNP Paribas', '102_3791397709_BNP Paribas', '93_3791397709_BNP Paribas', '80_3791397709_BNP Paribas', '108_3791397709_BNP Paribas', '150_3791397709_BNP Paribas', '86_3791397709_BNP Paribas', '68_3791397709_BNP Paribas', '94_3791397709_BNP Paribas']
+['15_3791439795_BNP Paribas', '14_3791439795_BNP Paribas']
+['20_3791445618_BNP Paribas', '19_3791445618_BNP Paribas', '21_3791445618_BNP Paribas']
+['32_3791397709_Advent Geneva', '19_3791443610_Advent Geneva', '21_3791443610_Advent Geneva', '44_3791445618_Advent Geneva', '28_3791445618_Advent Geneva', '36_3791445618_Advent Geneva', '34_3791445618_Advent Geneva', '38_3791445618_Advent Geneva', '30_3791445618_Advent Geneva', '32_3791445618_Advent Geneva', '42_3791445618_Advent Geneva']
+['24_3791439795_Advent Geneva', '48_3791445618_Advent Geneva']
+['53_3791445618_Advent Geneva', '54_3791445618_Advent Geneva', '58_3791445618_Advent Geneva']
+1
+2
+3
+4
+5
+No One to Many found
+1
+2
+3
+4
+5
+No Many to One found
+No Many to One found
+(9, 67)
+(8, 67)
+2048988825
+2048988811
+2048988828
+2048988822
+2048988839
+2053705261
+379
+2021-07-22
+Following Task ID done
+3791445618

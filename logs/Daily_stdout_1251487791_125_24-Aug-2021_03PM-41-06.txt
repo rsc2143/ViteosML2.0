@@ -1,0 +1,60 @@
+stdout started
+meo size
+50
+It took 0.05078125 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  0.3922494240000005
+It took 0.24609375 Mb to execute this method
+The Date value count is:
+2021-08-20    31
+Name: Date, dtype: int64
+Choosing the date : 2021-08-20
+It took 0.11328125 Mb to execute this method
+It took 0.12890625 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.0 Mb to execute this method
+cc7 shape is :
+(37, 68)
+It took 0.09765625 Mb to execute this method
+(1, 24)
+(1, 24)
+Time for first apply =  0.011087854999999536
+Time for first apply =  0.005908128999999818
+Time for second apply =  0.005653836999999662
+It took 0.15625 Mb to execute this method
+It took 0.234375 Mb to execute this method
+It took 0.34375 Mb to execute this method
+test_file shape is :
+(214, 79)
+It took 1.671875 Mb to execute this method
+It took 11.1328125 Mb to execute this method
+test_file3 shape is :
+(214, 115)
+It took 0.0 Mb to execute this method
+It took 19.22265625 Mb to execute this method
+two_step_initiated
+It took 8.140625 Mb to execute this method
+It took 0.08203125 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.0234375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.00390625 Mb to execute this method
+No One to Many found
+It took 0.00390625 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+It took 0.0 Mb to execute this method
+['203_1251487791_Advent Geneva' '258_1251485777_Advent Geneva']
+['198_1251487791_Advent Geneva' '204_1251487791_Advent Geneva']
+Time:  12.485183085000001
+v11_initiated

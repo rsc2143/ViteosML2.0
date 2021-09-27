@@ -1,0 +1,66 @@
+stdout started
+meo size
+142
+The Date value count is:
+2021-07-19    137
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\output_files
+Choosing the date : 2021-07-19
+['13_3791430109_Advent Geneva', '15_3791430109_Advent Geneva', '17_3791430109_Advent Geneva', '19_3791430109_Advent Geneva', '86_3791430109_Advent Geneva', '88_3791430109_Advent Geneva', '39_3791430109_Advent Geneva', '37_3791430109_Advent Geneva', '41_3791430109_Advent Geneva', '96_3791397709_Advent Geneva', '275_3791397709_Advent Geneva', '242_3791397709_Advent Geneva', '251_3791397709_Advent Geneva', '238_3791397709_Advent Geneva', '97_3791397709_Advent Geneva', '91_3791397709_Advent Geneva', '266_3791397709_Advent Geneva', '106_3791397709_Advent Geneva', '243_3791397709_Advent Geneva', '252_3791397709_Advent Geneva', '100_3791397709_Advent Geneva', '258_3791397709_Advent Geneva', '267_3791397709_Advent Geneva', '244_3791397709_Advent Geneva', '253_3791397709_Advent Geneva', '98_3791397709_Advent Geneva', '92_3791397709_Advent Geneva', '86_3791397709_Advent Geneva', '259_3791397709_Advent Geneva', '107_3791397709_Advent Geneva', '268_3791397709_Advent Geneva', '232_3791397709_Advent Geneva', '101_3791397709_Advent Geneva', '254_3791397709_Advent Geneva', '245_3791397709_Advent Geneva', '260_3791397709_Advent Geneva', '269_3791397709_Advent Geneva', '246_3791397709_Advent Geneva', '93_3791397709_Advent Geneva', '255_3791397709_Advent Geneva', '233_3791397709_Advent Geneva', '87_3791397709_Advent Geneva', '108_3791397709_Advent Geneva', '261_3791397709_Advent Geneva', '102_3791397709_Advent Geneva', '234_3791397709_Advent Geneva', '247_3791397709_Advent Geneva', '256_3791397709_Advent Geneva', '239_3791397709_Advent Geneva', '262_3791397709_Advent Geneva', '94_3791397709_Advent Geneva', '240_3791397709_Advent Geneva', '88_3791397709_Advent Geneva', '257_3791397709_Advent Geneva', '235_3791397709_Advent Geneva', '248_3791397709_Advent Geneva', '103_3791397709_Advent Geneva', '241_3791397709_Advent Geneva', '263_3791397709_Advent Geneva', '236_3791397709_Advent Geneva', '249_3791397709_Advent Geneva', '95_3791397709_Advent Geneva', '264_3791397709_Advent Geneva', '274_3791397709_Advent Geneva', '89_3791397709_Advent Geneva', '104_3791397709_Advent Geneva', '250_3791397709_Advent Geneva', '265_3791397709_Advent Geneva', '99_3791397709_Advent Geneva', '90_3791397709_Advent Geneva', '105_3791397709_Advent Geneva', '26_3791403515_Advent Geneva', '12_3791430120_Advent Geneva', '13_3791430120_Advent Geneva', '9_3791430197_Advent Geneva', '24_3791430197_Advent Geneva']
+['75_3791397709_BNP Paribas', '70_3791397709_BNP Paribas', '82_3791397709_BNP Paribas', '68_3791397709_BNP Paribas', '6_3791397709_BNP Paribas', '18_3791430120_BNP Paribas', '21_3791430120_BNP Paribas', '14_3791430197_BNP Paribas', '15_3791430197_BNP Paribas']
+(37, 74)
+(98, 74)
+9
+76
+(28, 74)
+(22, 74)
+['75_3791397709_BNP Paribas', '70_3791397709_BNP Paribas', '82_3791397709_BNP Paribas', '68_3791397709_BNP Paribas']
+['6_3791397709_BNP Paribas']
+['18_3791430120_BNP Paribas', '21_3791430120_BNP Paribas']
+['14_3791430197_BNP Paribas', '15_3791430197_BNP Paribas']
+['13_3791430109_Advent Geneva', '15_3791430109_Advent Geneva', '17_3791430109_Advent Geneva', '19_3791430109_Advent Geneva']
+['86_3791430109_Advent Geneva', '88_3791430109_Advent Geneva', '39_3791430109_Advent Geneva', '37_3791430109_Advent Geneva', '41_3791430109_Advent Geneva', '96_3791397709_Advent Geneva', '275_3791397709_Advent Geneva', '242_3791397709_Advent Geneva', '251_3791397709_Advent Geneva', '238_3791397709_Advent Geneva', '97_3791397709_Advent Geneva', '91_3791397709_Advent Geneva', '266_3791397709_Advent Geneva', '106_3791397709_Advent Geneva', '243_3791397709_Advent Geneva', '252_3791397709_Advent Geneva', '100_3791397709_Advent Geneva', '258_3791397709_Advent Geneva', '267_3791397709_Advent Geneva', '244_3791397709_Advent Geneva', '253_3791397709_Advent Geneva', '98_3791397709_Advent Geneva', '92_3791397709_Advent Geneva', '86_3791397709_Advent Geneva', '259_3791397709_Advent Geneva', '107_3791397709_Advent Geneva', '268_3791397709_Advent Geneva', '232_3791397709_Advent Geneva', '101_3791397709_Advent Geneva', '254_3791397709_Advent Geneva', '245_3791397709_Advent Geneva', '260_3791397709_Advent Geneva', '269_3791397709_Advent Geneva', '246_3791397709_Advent Geneva', '93_3791397709_Advent Geneva', '255_3791397709_Advent Geneva', '233_3791397709_Advent Geneva', '87_3791397709_Advent Geneva', '108_3791397709_Advent Geneva', '261_3791397709_Advent Geneva', '102_3791397709_Advent Geneva', '234_3791397709_Advent Geneva', '247_3791397709_Advent Geneva', '256_3791397709_Advent Geneva', '239_3791397709_Advent Geneva', '262_3791397709_Advent Geneva', '94_3791397709_Advent Geneva', '240_3791397709_Advent Geneva', '88_3791397709_Advent Geneva', '257_3791397709_Advent Geneva', '235_3791397709_Advent Geneva', '248_3791397709_Advent Geneva', '103_3791397709_Advent Geneva', '241_3791397709_Advent Geneva', '263_3791397709_Advent Geneva', '236_3791397709_Advent Geneva', '249_3791397709_Advent Geneva', '95_3791397709_Advent Geneva', '264_3791397709_Advent Geneva', '274_3791397709_Advent Geneva', '89_3791397709_Advent Geneva', '104_3791397709_Advent Geneva', '250_3791397709_Advent Geneva', '265_3791397709_Advent Geneva', '99_3791397709_Advent Geneva', '90_3791397709_Advent Geneva', '105_3791397709_Advent Geneva', '26_3791403515_Advent Geneva']
+['12_3791430120_Advent Geneva', '13_3791430120_Advent Geneva']
+['9_3791430197_Advent Geneva', '24_3791430197_Advent Geneva']
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+No One to Many found
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+No Many to One found
+No Many to One found
+(11, 67)
+(4, 67)
+1859926551
+1859927407
+1860014848
+1860014849
+1859926532
+1859926565
+1860014869
+1859926552
+1859926558
+1860014846
+1860014876, 1860014880, 1859927412
+379
+2021-07-19
+Following Task ID done
+3791430197

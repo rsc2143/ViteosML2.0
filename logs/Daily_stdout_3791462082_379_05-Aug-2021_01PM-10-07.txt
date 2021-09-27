@@ -1,0 +1,102 @@
+stdout started
+meo size
+232
+The Date value count is:
+2021-08-03    189
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\output_files
+Choosing the date : 2021-08-03
+['112_3791416555_Advent Geneva', '51_3791462082_Advent Geneva', '180_3791416555_Advent Geneva', '19_3791462082_Advent Geneva']
+['103_3791416555_The Bank of New York Mellon', '82_3791416555_The Bank of New York Mellon']
+(71, 74)
+(79, 74)
+2
+4
+(69, 74)
+(75, 74)
+['103_3791416555_The Bank of New York Mellon']
+['82_3791416555_The Bank of New York Mellon']
+['112_3791416555_Advent Geneva', '51_3791462082_Advent Geneva']
+['180_3791416555_Advent Geneva', '19_3791462082_Advent Geneva']
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+No One to Many found
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+['8_3791462082_Advent Geneva' '5_3791462082_Advent Geneva'
+ '7_3791462082_Advent Geneva' '6_3791462082_Advent Geneva']
+(45, 67)
+(48, 67)
+2080053964
+1690494739
+2083517172
+1690494726
+2083517170
+1767090364
+2083517191
+2083517174
+2083517198
+379
+2021-08-03
+Following Task ID done
+3791462082

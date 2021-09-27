@@ -1,0 +1,139 @@
+stdout started
+meo size
+551
+It took 0.06640625 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  2.299281596
+It took 0.5703125 Mb to execute this method
+The Date value count is:
+2021-08-02    550
+Name: Date, dtype: int64
+Choosing the date : 2021-08-02
+It took 2.19921875 Mb to execute this method
+It took 1.3125 Mb to execute this method
+It took 0.0859375 Mb to execute this method
+It took 0.0078125 Mb to execute this method
+cc7 shape is :
+(203, 68)
+It took 0.0234375 Mb to execute this method
+(5, 24)
+(7, 24)
+Time for first apply =  0.010962254999999033
+Time for first apply =  0.00807321199999933
+Time for second apply =  0.007697403999999963
+It took 0.0546875 Mb to execute this method
+It took 4.3671875 Mb to execute this method
+It took 4.8515625 Mb to execute this method
+test_file shape is :
+(7290, 79)
+It took 39.09765625 Mb to execute this method
+It took 20.65234375 Mb to execute this method
+test_file3 shape is :
+(7290, 115)
+It took 7.55078125 Mb to execute this method
+It took 26.6328125 Mb to execute this method
+two_step_initiated
+It took 4.65625 Mb to execute this method
+It took 5.69140625 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.30859375 Mb to execute this method
+It took 0.2109375 Mb to execute this method
+It took 0.05078125 Mb to execute this method
+It took 0.37890625 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+It took 0.0 Mb to execute this method
+['293_1251450127_Advent Geneva' '1_1251430242_Advent Geneva']
+['230_1251430242_State Street' '370_1251430254_State Street'
+ '231_1251430242_State Street']
+Time:  24.553904527
+v11_initiated
+1860055407, 1860064965, 1860055410
+125
+2021-08-02
+Following Task ID done
+1251456106
+1251456106|Weiss Advisors|Cash|RecData_125|133113|SUCCESS|125|610a91c81e9c9c0d7810aadb

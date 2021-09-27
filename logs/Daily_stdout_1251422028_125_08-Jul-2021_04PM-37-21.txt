@@ -1,0 +1,150 @@
+stdout started
+meo size
+666
+It took 0.03515625 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  2.0045298280000026
+It took 3.40234375 Mb to execute this method
+The Date value count is:
+2021-07-06    660
+Name: Date, dtype: int64
+Choosing the date : 2021-07-06
+It took 0.1640625 Mb to execute this method
+It took 0.40234375 Mb to execute this method
+It took 0.2578125 Mb to execute this method
+It took 0.34375 Mb to execute this method
+cc7 shape is :
+(667, 68)
+It took 0.24609375 Mb to execute this method
+(19, 24)
+(33, 24)
+Time for first apply =  0.011981464000001552
+Time for first apply =  0.005094734000010703
+Time for second apply =  0.004932600999993042
+It took 1.171875 Mb to execute this method
+It took 11.1796875 Mb to execute this method
+It took 12.0 Mb to execute this method
+test_file shape is :
+(18164, 79)
+It took 125.3984375 Mb to execute this method
+It took 26.7421875 Mb to execute this method
+test_file3 shape is :
+(18164, 115)
+It took 24.62890625 Mb to execute this method
+It took 33.25390625 Mb to execute this method
+two_step_initiated
+It took 7.3046875 Mb to execute this method
+It took 4.171875 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 2.40234375 Mb to execute this method
+It took 4.68359375 Mb to execute this method
+It took 0.09375 Mb to execute this method
+No One to Many found
+It took 0.63671875 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+No Many to One found
+No Many to One found
+It took 0.01171875 Mb to execute this method
+Time:  148.454219761
+v11_initiated
+2029032948
+1971016320
+2029042062
+125
+2021-07-06
+Following Task ID done
+1251422028
+1251422028|Weiss Advisors|Cash|RecData_125|9092|SUCCESS|125|60e52f8b1ef6872384fed128

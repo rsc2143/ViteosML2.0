@@ -1,0 +1,10 @@
+2021-09-01 14:55:22.778653 : Log started for datettime = 01-Sep-2021_02PM-55-22
+2021-09-01 14:55:28.345681 : meo created
+2021-09-01 14:55:28.392531 : meo rows = 2096
+2021-09-01 14:55:28.439439 : meo df is not empty, initiating calculations
+2021-09-01 14:55:28.470853 : meo df shape is2096
+2021-09-01 14:56:05.026019 : Position File read
+2021-09-01 14:56:06.870901 : Conversion File created using API
+2021-09-01 14:56:09.043010 : Merger of conversion file done
+2021-09-01 14:57:58.009921 : After inserting in db
+2021-09-01 14:57:58.056835 : 8971500148|SCHONF|Cash|RecData_897|8088|SUCCESS|897|612dddcb1554581f98b2df06

@@ -1,0 +1,169 @@
+stdout started
+meo size
+16938
+Choosing the date : 2021-09-08
+D:\ViteosModel2.0
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting OTE Custodian Account',
+       'ViewData.Cust OTE Custodian Account',
+       'ViewData.OTE Custodian Account Difference',
+       'ViewData.Accounting LoanX ID', 'ViewData.Cust LoanX ID',
+       'ViewData.LoanX ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting OTE Custodian Account',
+       'ViewData.Cust OTE Custodian Account',
+       'ViewData.OTE Custodian Account Difference',
+       'ViewData.Accounting LoanX ID', 'ViewData.Cust LoanX ID',
+       'ViewData.LoanX ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting OTE Custodian Account',
+       'ViewData.Cust OTE Custodian Account',
+       'ViewData.OTE Custodian Account Difference',
+       'ViewData.Accounting LoanX ID', 'ViewData.Cust LoanX ID',
+       'ViewData.LoanX ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting OTE Custodian Account',
+       'ViewData.Cust OTE Custodian Account',
+       'ViewData.OTE Custodian Account Difference',
+       'ViewData.Accounting LoanX ID', 'ViewData.Cust LoanX ID',
+       'ViewData.LoanX ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting OTE Custodian Account',
+       'ViewData.Cust OTE Custodian Account',
+       'ViewData.OTE Custodian Account Difference',
+       'ViewData.Accounting LoanX ID', 'ViewData.Cust LoanX ID',
+       'ViewData.LoanX ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting OTE Custodian Account',
+       'ViewData.Cust OTE Custodian Account',
+       'ViewData.OTE Custodian Account Difference',
+       'ViewData.Accounting LoanX ID', 'ViewData.Cust LoanX ID',
+       'ViewData.LoanX ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting OTE Custodian Account',
+       'ViewData.Cust OTE Custodian Account',
+       'ViewData.OTE Custodian Account Difference',
+       'ViewData.Accounting LoanX ID', 'ViewData.Cust LoanX ID',
+       'ViewData.LoanX ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting OTE Custodian Account',
+       'ViewData.Cust OTE Custodian Account',
+       'ViewData.OTE Custodian Account Difference',
+       'ViewData.Accounting LoanX ID', 'ViewData.Cust LoanX ID',
+       'ViewData.LoanX ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting OTE Custodian Account',
+       'ViewData.Cust OTE Custodian Account',
+       'ViewData.OTE Custodian Account Difference',
+       'ViewData.Accounting LoanX ID', 'ViewData.Cust LoanX ID',
+       'ViewData.LoanX ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting OTE Custodian Account',
+       'ViewData.Cust OTE Custodian Account',
+       'ViewData.OTE Custodian Account Difference',
+       'ViewData.Accounting LoanX ID', 'ViewData.Cust LoanX ID',
+       'ViewData.LoanX ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting OTE Custodian Account',
+       'ViewData.Cust OTE Custodian Account',
+       'ViewData.OTE Custodian Account Difference',
+       'ViewData.Accounting LoanX ID', 'ViewData.Cust LoanX ID',
+       'ViewData.LoanX ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting OTE Custodian Account',
+       'ViewData.Cust OTE Custodian Account',
+       'ViewData.OTE Custodian Account Difference',
+       'ViewData.Accounting LoanX ID', 'ViewData.Cust LoanX ID',
+       'ViewData.LoanX ID Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Time:  335.02357790499997
+455
+2021-09-08
+455
+2021-09-08
+Following Task ID done
+4551470468
+4551470468|Lombard|Cash|RecData_455|133459|SUCCESS|455|613b39fd1e9c9c11b4a17bd8

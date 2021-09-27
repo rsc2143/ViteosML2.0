@@ -1,0 +1,9 @@
+ERROR:root:Exception occured
+Traceback (most recent call last):
+  File "D:/ViteosModel2.0/897_Production_Model.py", line 435, in <module>
+    param_pos_cols_list = Schonfeld_897_position_file_columns_list)
+  File "D:/ViteosModel2.0/897_Production_Model.py", line 93, in read_passowrd_protected_pos_file_and_concat_to_single_pos_df
+    xl_wb = xl_app.Workbooks.Open(param_filepath, False, True, None, param_passwrod)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\win32com\client\dynamic.py", line 527, in __getattr__
+    raise AttributeError("%s.%s" % (self._username_, attr))
+AttributeError: Excel.Application.Workbooks

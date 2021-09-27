@@ -1,0 +1,30 @@
+2021-08-18 15:35:15.590908 : Log started for datettime = 18-Aug-2021_03PM-35-15
+2021-08-18 15:35:15.637789 : Prediction Message Received for : 1251470223
+2021-08-18 15:35:17.326890 : meo created
+2021-08-18 15:35:17.373973 : meo df is not empty, initiating calculations
+2021-08-18 15:35:17.420848 : meo df shape is504
+2021-08-18 15:35:17.483157 : umb carry forward not empty, making umb carry forward file
+2021-08-18 15:35:17.561290 : ob carry forward not empty, not making umb carry forward file
+2021-08-18 15:35:17.795724 : Before carrying out SMB-OB operation
+2021-08-18 15:35:17.858197 : After carrying out SMB-OB operation
+2021-08-18 15:35:18.014663 : Before carrying out UMB-OB operation
+2021-08-18 15:35:18.155301 : After carrying out UMB-OB operation
+2021-08-18 15:35:18.202175 : Before carrying out closed
+2021-08-18 15:35:19.294914 : After carrying out closed
+2021-08-18 15:35:19.826249 : Before catching mtm for revenue, expense and stock loan
+2021-08-18 15:35:20.603250 : After catching mtm for revenue, expense and stock loan
+2021-08-18 15:35:20.697035 : Before catching mtm for equity swap
+2021-08-18 15:35:20.775171 : After catching mtm for equity swap
+2021-08-18 15:35:20.978478 : Before catching updown
+2021-08-18 15:35:21.059699 : dffacc and dffpb created
+2021-08-18 15:35:21.137802 : updlist created
+2021-08-18 15:35:21.231591 : if statement started when dff4 and dff5 are non empty
+2021-08-18 15:35:21.325353 : appended data created
+2021-08-18 15:35:21.669110 : After catching updown
+2021-08-18 15:35:21.700555 : Before mXn
+2021-08-18 15:35:22.200472 : After mXn
+2021-08-18 15:35:22.216234 : Before mXn training df
+2021-08-18 15:35:22.309803 : After mXn training df
+2021-08-18 15:35:23.060359 : After test file cleaning
+2021-08-18 15:35:23.698243 : After test file 3
+2021-08-18 15:35:23.870139 : Before Xtest creation

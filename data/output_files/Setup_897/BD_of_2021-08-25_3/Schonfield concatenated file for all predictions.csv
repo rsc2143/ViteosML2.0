@@ -1,0 +1,3 @@
+,Unnamed: 0,Side0_UniqueIds,Side1_UniqueIds,BreakID,ViewData.Mapped Custodian Account,ViewData.Currency,ViewData.Ticker,ViewData.Net Amount Difference,ViewData.Description,ViewData.Settle Date,ViewData.Trade Date,ViewData.Age,Predicted_action,PredictedCategory,Predicted_Status,PredictedComment,BusinessDate,TaskID,SourceCombinationCode
+0,0,2_8971470253_Advent Geneva,,1860471381,USBK_FIFTY_SEVEN_182381144852,USD,,-250000.0,,2021-08-20,2021-08-20,1,No-pair,OB,OB,PB to report missing the trade.,2021-08-25T00:00:00,8971470253,1589787860
+1,1,1_8971470253_Advent Geneva,,1860471382,USBK_FIFTY_SEVEN_182381144852,USD,,-150000.0,,2021-08-19,2021-08-19,1,No-pair,OB,OB,PB to report missing the trade.,2021-08-25T00:00:00,8971470253,1589787860

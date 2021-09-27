@@ -1,0 +1,57 @@
+2021-08-18 09:31:02.418994 : Log started for datettime = 18-Aug-2021_09AM-31-02
+2021-08-18 09:31:02.465844 : Prediction Message Received for : 1251470072
+2021-08-18 09:31:03.169074 : meo created
+2021-08-18 09:31:03.200360 : meo df is not empty, initiating calculations
+2021-08-18 09:31:03.240182 : meo df shape is151
+2021-08-18 09:31:03.302673 : umb carry forward not empty, making umb carry forward file
+2021-08-18 09:31:03.380826 : ob carry forward not empty, not making umb carry forward file
+2021-08-18 09:31:03.599577 : Before carrying out SMB-OB operation
+2021-08-18 09:31:03.646460 : After carrying out SMB-OB operation
+2021-08-18 09:31:03.787108 : Before carrying out UMB-OB operation
+2021-08-18 09:31:03.927740 : After carrying out UMB-OB operation
+2021-08-18 09:31:03.958993 : Before carrying out closed
+2021-08-18 09:31:04.505927 : After carrying out closed
+2021-08-18 09:31:04.974701 : Before catching mtm for revenue, expense and stock loan
+2021-08-18 09:31:05.568511 : After catching mtm for revenue, expense and stock loan
+2021-08-18 09:31:05.615420 : Before catching mtm for equity swap
+2021-08-18 09:31:05.693563 : After catching mtm for equity swap
+2021-08-18 09:31:05.943578 : Before catching updown
+2021-08-18 09:31:06.006079 : dffacc and dffpb created
+2021-08-18 09:31:06.068590 : updlist created
+2021-08-18 09:31:06.271734 : After catching updown
+2021-08-18 09:31:06.318613 : Before mXn
+2021-08-18 09:31:06.537390 : After mXn
+2021-08-18 09:31:06.568643 : After final_table_to_write creation
+2021-08-18 09:31:06.678048 : Before commenting
+2021-08-18 09:31:07.240591 : Before commenting
+2021-08-18 09:31:07.396857 : Com file read
+2021-08-18 09:31:07.631256 : new pb mapping declared
+2021-08-18 09:31:07.709407 : Cancel functions delared
+2021-08-18 09:31:07.787537 : Before making df_mod_1
+2021-08-18 09:31:07.928139 : After making df_mod_1
+2021-08-18 09:31:08.006318 : Before reading comment sav file
+2021-08-18 09:31:08.522660 : After reading and loading comment sav file
+2021-08-18 09:31:08.694574 : After making result non trade
+2021-08-18 09:31:08.803958 : Before merging comment df final with final_df
+2021-08-18 09:31:08.850824 : After merging comment df final with final_df
+2021-08-18 09:31:09.116477 : Before removing Side01 id of OB record
+2021-08-18 09:31:09.163357 : After removing Side01 id of OB record
+2021-08-18 09:31:09.241488 : After getting first term before separator and making amends
+2021-08-18 09:31:09.335221 : After SMB commenting
+2021-08-18 09:31:09.397752 : After UMB commenting
+2021-08-18 09:31:09.653212 : After UMB_SMB duplication issue
+2021-08-18 09:31:09.700092 : Before getting NetAmountDifference
+2021-08-18 09:31:10.450155 : After getting NetAmountDifference
+2021-08-18 09:31:10.481413 : After dropping columns
+2021-08-18 09:31:10.528302 : After renaming columns
+2021-08-18 09:31:10.575175 : After renaming columns again
+2021-08-18 09:31:10.606438 : After making copy of final_df2
+2021-08-18 09:31:10.653338 : After replacing BreakID spaces
+2021-08-18 09:31:10.700356 : After replacing Final Predicted BreakID spaces
+2021-08-18 09:31:10.747063 : After making ReconSetupName and ClientShortCode columns
+2021-08-18 09:31:10.778291 : After making today_y_m_d
+2021-08-18 09:31:10.825362 : 151
+2021-08-18 09:31:10.887704 : After making CreatedDateColumns
+2021-08-18 09:31:10.934588 : Before deleting objects
+2021-08-18 09:31:11.340892 : After inserting in db
+2021-08-18 09:31:11.471301 : 1251470072|Weiss Advisors|Cash|RecData_125|133225|SUCCESS|125|611c85d51e9c9c0d78350da5

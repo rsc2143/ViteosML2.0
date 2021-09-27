@@ -569,6 +569,8 @@ def remove_mark_notolerance(y,k,a):
     else:
         return 0
 
+
+'''
 dummyk = dff.groupby(['Custodian Account','Currency','Ticker1'])['Net Amount Difference1'].apply(list).reset_index()
 dummyk['Cash Standing'] = dummyk['Net Amount Difference1'].apply(lambda x : sum(x))
 dummyk['len_cash'] = dummyk['Net Amount Difference1'].apply(lambda x :len(x))
@@ -584,6 +586,34 @@ dummyk1 = dummyk[['Custodian Account', 'Currency', 'Ticker1','remove_mark_fin']]
 dff = pd.merge(dff,dummyk1, on = ['Custodian Account','Currency','Ticker1'], how = 'left')
 
 dfn = dff[dff['remove_mark_fin']==1]
+'''
+
+dff['Custodian Account'] = dff['Custodian Account'].apply(lambda x : str(x).strip())
+dff['Currency'] = dff['Currency'].apply(lambda x : str(x).strip())
+dff['Ticker1'] = dff['Ticker1'].apply(lambda x : str(x).strip())
+
+dummyk = dff.groupby(['Custodian Account','Currency','Ticker1'])['Net Amount Difference1'].apply(list).reset_index()
+dummyk['Cash Standing'] = dummyk['Net Amount Difference1'].apply(lambda x : sum(x))
+dummyk['len_cash'] = dummyk['Net Amount Difference1'].apply(lambda x :len(x))
+                    
+dummyk = dummyk[['Custodian Account', 'Currency', 'Ticker1','Cash Standing','len_cash']]
+                    
+pos['Custodian Account'] = pos['Custodian Account'].apply(lambda x : str(x).strip())
+pos['Currency'] = pos['Currency'].apply(lambda x : str(x).strip())
+pos['Ticker1'] = pos['Ticker1'].apply(lambda x : str(x).strip())
+                    
+dummyk = pd.merge(dummyk, pos, on = ['Custodian Account','Currency','Ticker1'], how = 'left')
+                    
+dummyk['pos_qnt_diff'] = dummyk['pos_qnt_diff'].fillna(0.0)
+                    
+dummyk['remove_mark_fin'] = dummyk.apply(lambda x :remove_mark_notolerance(x['pos_qnt_diff'] ,x['Cash Standing'],x['len_cash']),axis = 1)
+                    
+dummyk1 = dummyk[['Custodian Account', 'Currency', 'Ticker1','remove_mark_fin']]
+dff = pd.merge(dff,dummyk1, on = ['Custodian Account','Currency','Ticker1'], how = 'left')
+                    
+dfn = dff[dff['remove_mark_fin']==1]
+ 
+
 
 if dfn.shape[0]!=0:
     dfn['predicted action'] = 'pair'

@@ -1,0 +1,245 @@
+stdout started
+meo size
+1396
+It took 0.2734375 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  2.151858625000001
+It took 0.75 Mb to execute this method
+The Date value count is:
+2021-09-14    1386
+Name: Date, dtype: int64
+Choosing the date : 2021-09-14
+It took 3.20703125 Mb to execute this method
+It took 2.62109375 Mb to execute this method
+It took -0.36328125 Mb to execute this method
+It took 0.7421875 Mb to execute this method
+cc7 shape is :
+(1469, 68)
+It took 1.51953125 Mb to execute this method
+(14, 24)
+(16, 24)
+Time for first apply =  0.010527045999999984
+Time for first apply =  0.005323767000000146
+Time for second apply =  0.005132279999999767
+It took 0.51171875 Mb to execute this method
+It took 46.09765625 Mb to execute this method
+It took 51.546875 Mb to execute this method
+test_file shape is :
+(77489, 79)
+It took 559.95703125 Mb to execute this method
+It took 69.921875 Mb to execute this method
+test_file3 shape is :
+(77489, 115)
+It took 125.08203125 Mb to execute this method
+It took 65.5234375 Mb to execute this method
+two_step_initiated
+It took 16.27734375 Mb to execute this method
+It took 6.5859375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 5.328125 Mb to execute this method
+It took 10.75390625 Mb to execute this method
+It took 0.66015625 Mb to execute this method
+No One to Many found
+It took -1.796875 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+It took 0.078125 Mb to execute this method
+['700_1251493610_Advent Geneva' '717_1251518636_Advent Geneva'
+ '713_1251518636_Advent Geneva' '698_1251493610_Advent Geneva']
+['1250_1251499528_Advent Geneva' '1242_1251499528_Advent Geneva'
+ '1252_1251499528_Advent Geneva' '1246_1251499528_Advent Geneva'
+ '1255_1251499528_Advent Geneva']
+['973_1251518636_Advent Geneva', '974_1251518636_Advent Geneva', '975_1251518636_Advent Geneva', '976_1251518636_Advent Geneva', '992_1251518636_Advent Geneva', '977_1251518636_Advent Geneva', '981_1251518636_Advent Geneva', '979_1251518636_Advent Geneva', '978_1251518636_Advent Geneva', '980_1251518636_Advent Geneva', '994_1251518636_Advent Geneva', '1017_1251518636_Advent Geneva', '1003_1251518636_Advent Geneva', '1018_1251518636_Advent Geneva', '1004_1251518636_Advent Geneva', '995_1251518636_Advent Geneva', '1019_1251518636_Advent Geneva', '1005_1251518636_Advent Geneva', '996_1251518636_Advent Geneva', '1020_1251518636_Advent Geneva', '982_1251518636_Advent Geneva', '1006_1251518636_Advent Geneva', '983_1251518636_Advent Geneva', '984_1251518636_Advent Geneva', '986_1251518636_Advent Geneva', '1007_1251518636_Advent Geneva', '987_1251518636_Advent Geneva', '997_1251518636_Advent Geneva', '988_1251518636_Advent Geneva', '1021_1251518636_Advent Geneva', '1008_1251518636_Advent Geneva', '998_1251518636_Advent Geneva', '1022_1251518636_Advent Geneva', '1009_1251518636_Advent Geneva', '999_1251518636_Advent Geneva', '1010_1251518636_Advent Geneva', '1023_1251518636_Advent Geneva', '1000_1251518636_Advent Geneva', '985_1251518636_Advent Geneva', '1013_1251518636_Advent Geneva', '1014_1251518636_Advent Geneva', '1122_1251518636_Advent Geneva', '1125_1251518636_Advent Geneva', '1015_1251518636_Advent Geneva', '1126_1251518636_Advent Geneva', '1016_1251518636_Advent Geneva', '1127_1251518636_Advent Geneva', '1128_1251518636_Advent Geneva', '989_1251518636_Advent Geneva', '990_1251518636_Advent Geneva', '1024_1251518636_Advent Geneva', '991_1251518636_Advent Geneva', '1123_1251518636_Advent Geneva', '1011_1251518636_Advent Geneva', '1124_1251518636_Advent Geneva', '1012_1251518636_Advent Geneva', '993_1251518636_Advent Geneva', '1001_1251518636_Advent Geneva', '1002_1251518636_Advent Geneva']
+Time:  154.25654437400001
+v11_initiated
+2107510573
+2079794302
+125
+2021-09-14
+Following Task ID done
+1251470497
+1251470497|Weiss Advisors|Cash|RecData_125|133482|SUCCESS|125|61433dcc1e9c9c11b4ad5692

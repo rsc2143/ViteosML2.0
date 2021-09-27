@@ -1,0 +1,146 @@
+stdout started
+meo size
+529
+It took 0.04296875 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  1.4977110189999996
+It took 1.1171875 Mb to execute this method
+The Date value count is:
+2021-06-29    517
+Name: Date, dtype: int64
+Choosing the date : 2021-06-29
+It took 1.8125 Mb to execute this method
+It took 0.96875 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.078125 Mb to execute this method
+cc7 shape is :
+(492, 68)
+It took 0.58984375 Mb to execute this method
+(18, 24)
+(29, 24)
+Time for first apply =  0.012211539999999133
+Time for first apply =  0.004117503999999883
+Time for second apply =  0.004013738000001155
+It took 1.01953125 Mb to execute this method
+It took 5.40234375 Mb to execute this method
+It took 5.7109375 Mb to execute this method
+test_file shape is :
+(8818, 79)
+It took 63.2265625 Mb to execute this method
+It took 17.59765625 Mb to execute this method
+test_file3 shape is :
+(8818, 115)
+It took 13.2890625 Mb to execute this method
+It took 27.91015625 Mb to execute this method
+two_step_initiated
+It took 6.83203125 Mb to execute this method
+It took 5.71484375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.71484375 Mb to execute this method
+It took 1.62890625 Mb to execute this method
+It took 0.03125 Mb to execute this method
+It took 0.04296875 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+It took 0.00390625 Mb to execute this method
+['1092_1251413088_Advent Geneva' '1091_1251413088_Advent Geneva']
+['3520_1251413088_Advent Geneva' '3519_1251413088_Advent Geneva']
+['8_1251413088_Advent Geneva' '7_1251413088_Advent Geneva']
+['484_1251413088_Advent Geneva' '483_1251413088_Advent Geneva']
+['310_1251401487_CITI' '309_1251401487_CITI' '1222_1251355746_CITI']
+['1432_1251296808_CITI' '2426_1251350122_CITI' '2018_1251380109_CITI'
+ '1622_1251312428_CITI' '936_1251393824_CITI']
+Time:  26.647545404000002
+v11_initiated
+2020703927, 2012762308, 2010789956
+125
+2021-06-29
+Following Task ID done
+1251413088
+1251413088|Weiss Advisors|Cash|RecData_125|3964|SUCCESS|125|60dbf5941ef6870f7cd6a0a3

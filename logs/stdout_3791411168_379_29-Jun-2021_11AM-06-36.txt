@@ -1,0 +1,30 @@
+stdout started
+meo size
+25
+The Date value count is:
+2021-06-28    19
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\output_files
+Choosing the date : 2021-06-28
+['17_3791411168_Advent Geneva', '18_3791411168_Advent Geneva']
+['2_3791411168_JP Morgan', '3_3791411168_JP Morgan']
+(7, 74)
+(6, 74)
+2
+2
+(5, 74)
+(4, 74)
+['2_3791411168_JP Morgan', '3_3791411168_JP Morgan']
+['17_3791411168_Advent Geneva', '18_3791411168_Advent Geneva']
+1
+No One to Many found
+1
+2
+No Many to One found
+No Many to One found
+(5, 67)
+(4, 67)
+379
+2021-06-28
+Following Task ID done
+3791411168

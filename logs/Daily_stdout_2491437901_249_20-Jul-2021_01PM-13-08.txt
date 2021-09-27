@@ -1,0 +1,24 @@
+stdout started
+meo size
+17265
+The Date value count is:
+2021-07-16    17244
+2020-06-25        6
+2019-01-28        2
+2020-10-01        1
+2019-09-06        1
+2020-04-27        1
+2020-07-27        1
+2021-06-25        1
+2020-04-15        1
+2019-02-18        1
+2019-05-23        1
+2019-01-30        1
+2019-06-28        1
+2019-10-25        1
+2019-09-18        1
+2019-09-30        1
+Name: Date, dtype: int64
+Choosing the date : 2021-07-16
+['Integrata,Morgan Stanley']
+Integrata,Morgan Stanley

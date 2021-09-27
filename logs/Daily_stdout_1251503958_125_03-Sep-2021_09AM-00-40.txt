@@ -1,0 +1,277 @@
+stdout started
+meo size
+1143
+It took 0.2421875 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  2.1961639660000003
+It took 1.125 Mb to execute this method
+The Date value count is:
+2021-09-01    1135
+Name: Date, dtype: int64
+Choosing the date : 2021-09-01
+It took 2.15625 Mb to execute this method
+It took 1.6953125 Mb to execute this method
+It took 0.6171875 Mb to execute this method
+It took 0.0 Mb to execute this method
+cc7 shape is :
+(1191, 68)
+It took 0.75390625 Mb to execute this method
+(21, 24)
+(26, 24)
+Time for first apply =  0.011905347000002564
+Time for first apply =  0.007332169999997973
+Time for second apply =  0.007090165000001036
+It took 1.37109375 Mb to execute this method
+It took 36.74609375 Mb to execute this method
+It took 40.51953125 Mb to execute this method
+test_file shape is :
+(61144, 79)
+It took 436.51171875 Mb to execute this method
+It took 58.81640625 Mb to execute this method
+test_file3 shape is :
+(61144, 115)
+It took 98.6953125 Mb to execute this method
+It took 54.3203125 Mb to execute this method
+two_step_initiated
+It took 14.359375 Mb to execute this method
+It took 6.0 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 2.27734375 Mb to execute this method
+It took 10.28515625 Mb to execute this method
+It took 0.49609375 Mb to execute this method
+It took 0.3359375 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+It took 0.01953125 Mb to execute this method
+['729_1251503958_Advent Geneva' '728_1251503958_Advent Geneva']
+['1008_1251503958_Advent Geneva' '1007_1251503958_Advent Geneva']
+['1246_1251503958_Advent Geneva' '1245_1251503958_Advent Geneva']
+['686_1251445592_Advent Geneva' '685_1251445592_Advent Geneva']
+['347_1251445592_Advent Geneva' '1355_1251445592_Advent Geneva']
+['347_1251445592_Advent Geneva', '1355_1251445592_Advent Geneva']
+['1490_1251497523_CITI' '1013_1251497523_CITI']
+Time:  145.033146146
+v11_initiated
+125
+2021-09-01
+Following Task ID done
+1251503958
+1251503958|Weiss Advisors|Cash|RecData_125|1220|SUCCESS|125|6130796b1ef68704c46f3663

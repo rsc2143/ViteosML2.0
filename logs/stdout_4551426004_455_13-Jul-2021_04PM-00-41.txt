@@ -1,0 +1,156 @@
+stdout started
+meo size
+114
+Choosing the date : 2021-07-08
+D:\ViteosModel2.0
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Cancel Amount Difference', 'ViewData.Custom 7 Difference',
+       'ViewData.Cust Ticker', 'ViewData.Ticker Difference',
+       'ViewData.Cust Strike Price', 'ViewData.Strike Price Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Cancel Amount Difference', 'ViewData.Custom 7 Difference',
+       'ViewData.Cust Ticker', 'ViewData.Ticker Difference',
+       'ViewData.Cust Strike Price', 'ViewData.Strike Price Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Cancel Amount Difference', 'ViewData.Custom 7 Difference',
+       'ViewData.Cust Ticker', 'ViewData.Ticker Difference',
+       'ViewData.Cust Strike Price', 'ViewData.Strike Price Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Cancel Amount Difference', 'ViewData.Custom 7 Difference',
+       'ViewData.Cust Ticker', 'ViewData.Ticker Difference',
+       'ViewData.Cust Strike Price', 'ViewData.Strike Price Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Cancel Amount Difference', 'ViewData.Custom 7 Difference',
+       'ViewData.Cust Ticker', 'ViewData.Ticker Difference',
+       'ViewData.Cust Strike Price', 'ViewData.Strike Price Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Cancel Amount Difference', 'ViewData.Custom 7 Difference',
+       'ViewData.Cust Ticker', 'ViewData.Ticker Difference',
+       'ViewData.Cust Strike Price', 'ViewData.Strike Price Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Cancel Amount Difference', 'ViewData.Custom 7 Difference',
+       'ViewData.Cust Ticker', 'ViewData.Ticker Difference',
+       'ViewData.Cust Strike Price', 'ViewData.Strike Price Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Cancel Amount Difference', 'ViewData.Custom 7 Difference',
+       'ViewData.Cust Ticker', 'ViewData.Ticker Difference',
+       'ViewData.Cust Strike Price', 'ViewData.Strike Price Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Cancel Amount Difference', 'ViewData.Custom 7 Difference',
+       'ViewData.Cust Ticker', 'ViewData.Ticker Difference',
+       'ViewData.Cust Strike Price', 'ViewData.Strike Price Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Cancel Amount Difference', 'ViewData.Custom 7 Difference',
+       'ViewData.Cust Ticker', 'ViewData.Ticker Difference',
+       'ViewData.Cust Strike Price', 'ViewData.Strike Price Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Cancel Amount Difference', 'ViewData.Custom 7 Difference',
+       'ViewData.Cust Ticker', 'ViewData.Ticker Difference',
+       'ViewData.Cust Strike Price', 'ViewData.Strike Price Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Cancel Amount Difference', 'ViewData.Custom 7 Difference',
+       'ViewData.Cust Ticker', 'ViewData.Ticker Difference',
+       'ViewData.Cust Strike Price', 'ViewData.Strike Price Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Cancel Amount Difference', 'ViewData.Custom 7 Difference',
+       'ViewData.Cust Ticker', 'ViewData.Ticker Difference',
+       'ViewData.Cust Strike Price', 'ViewData.Strike Price Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Time:  6.018118629
+455
+2021-07-08
+455
+2021-07-08
+Following Task ID done
+4551426004
+4551426004|Lombard|Cash|RecData_455|132659|SUCCESS|455|60ed6b391e9c9c1a60a9a4f7

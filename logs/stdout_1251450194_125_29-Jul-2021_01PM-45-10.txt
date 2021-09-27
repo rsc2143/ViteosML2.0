@@ -1,0 +1,79 @@
+stdout started
+meo size
+2115
+It took 1.82421875 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  2.344921251999999
+It took 1.84765625 Mb to execute this method
+The Date value count is:
+2021-07-27    2112
+Name: Date, dtype: int64
+Choosing the date : 2021-07-27
+It took 9.1796875 Mb to execute this method
+It took 0.0703125 Mb to execute this method
+It took 0.00390625 Mb to execute this method
+It took 0.0 Mb to execute this method
+cc7 shape is :
+(1064, 68)
+It took 1.08203125 Mb to execute this method
+(17, 24)
+(10, 24)
+Time for first apply =  0.006626300999998946
+Time for first apply =  0.007013031000001391
+Time for second apply =  0.00686796399999956
+It took 0.9140625 Mb to execute this method
+It took 0.21875 Mb to execute this method
+It took 0.0 Mb to execute this method
+test_file shape is :
+(236, 79)
+It took 0.06640625 Mb to execute this method
+It took 6.98046875 Mb to execute this method
+test_file3 shape is :
+(236, 115)
+It took 0.0 Mb to execute this method
+It took 18.76171875 Mb to execute this method
+two_step_initiated
+It took 6.703125 Mb to execute this method
+It took 0.08203125 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.05859375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.03125 Mb to execute this method
+No One to Many found
+It took 0.00390625 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+It took 0.0 Mb to execute this method
+['6_1251380343_Advent Geneva' '5_1251380343_Advent Geneva']
+['2_1251380343_Advent Geneva' '1_1251380343_Advent Geneva']
+['33_1251380330_UBS', '34_1251380330_UBS']
+['27_1251380330_UBS', '28_1251380330_UBS']
+['9_1251380330_Advent Geneva', '10_1251380330_Advent Geneva']
+['5_1251380330_Advent Geneva', '6_1251380330_Advent Geneva']
+Time:  21.959686505999997
+v11_initiated
+125
+2021-07-27
+Following Task ID done
+1251450194
+1251450194|Weiss Advisors|Cash|RecData_125|133023|SUCCESS|125|610263231e9c9c0d78f9ae92

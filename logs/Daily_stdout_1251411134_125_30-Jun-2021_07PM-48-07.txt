@@ -1,0 +1,407 @@
+stdout started
+meo size
+2953
+It took 2.91796875 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  5.922604728
+It took 7.3125 Mb to execute this method
+The Date value count is:
+2021-06-28    2933
+2021-05-31       4
+Name: Date, dtype: int64
+Choosing the date : 2021-06-28
+It took 10.92578125 Mb to execute this method
+It took 1.234375 Mb to execute this method
+It took -0.0078125 Mb to execute this method
+It took 0.0 Mb to execute this method
+cc7 shape is :
+(1131, 68)
+It took 1.31640625 Mb to execute this method
+(14, 24)
+(13, 24)
+Time for first apply =  0.009814355999999691
+Time for first apply =  0.006068563999999554
+Time for second apply =  0.006053204000000534
+It took 0.62890625 Mb to execute this method
+It took 7.05859375 Mb to execute this method
+It took 10.9140625 Mb to execute this method
+test_file shape is :
+(13755, 79)
+It took 100.26953125 Mb to execute this method
+It took 20.8359375 Mb to execute this method
+test_file3 shape is :
+(13755, 115)
+It took 23.16796875 Mb to execute this method
+It took 31.6796875 Mb to execute this method
+two_step_initiated
+It took 3.51171875 Mb to execute this method
+It took 6.265625 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 1.7109375 Mb to execute this method
+It took 1.12109375 Mb to execute this method
+It took 0.2265625 Mb to execute this method
+It took 0.10546875 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+It took 0.0 Mb to execute this method
+['1846_1251411134_Morgan Stanley', '1841_1251411134_Morgan Stanley']
+['1852_1251411134_Morgan Stanley', '1853_1251411134_Morgan Stanley']
+['1906_1251411134_Morgan Stanley', '1908_1251411134_Morgan Stanley', '1909_1251411134_Morgan Stanley']
+['364_1251411134_Advent Geneva', '369_1251411134_Advent Geneva']
+['373_1251411134_Advent Geneva', '374_1251411134_Advent Geneva']
+['426_1251411134_Advent Geneva', '429_1251411134_Advent Geneva', '428_1251411134_Advent Geneva']
+['4717_1251378148_Advent Geneva' '4707_1251378148_Advent Geneva'
+ '4703_1251378148_Advent Geneva' '4714_1251378148_Advent Geneva'
+ '4712_1251378148_Advent Geneva']
+['1367_1251359558_Morgan Stanley' '2581_1251327297_Morgan Stanley']
+['277_1251407213_Morgan Stanley' '863_1251407213_Morgan Stanley']
+['473_1251342453_Morgan Stanley', '38_1251342453_Morgan Stanley']
+['748_1251329129_Morgan Stanley', '740_1251329129_Morgan Stanley', '747_1251329129_Morgan Stanley', '743_1251329129_Morgan Stanley', '746_1251329129_Morgan Stanley', '745_1251329129_Morgan Stanley', '744_1251329129_Morgan Stanley']
+['1798_1251329129_Morgan Stanley', '1797_1251329129_Morgan Stanley']
+['1938_1251329129_Morgan Stanley', '1932_1251329129_Morgan Stanley', '1939_1251329129_Morgan Stanley', '1933_1251329129_Morgan Stanley', '1934_1251329129_Morgan Stanley', '1935_1251329129_Morgan Stanley', '1936_1251329129_Morgan Stanley']
+['2541_1251329129_Morgan Stanley', '2535_1251329129_Morgan Stanley', '2540_1251329129_Morgan Stanley', '2543_1251329129_Morgan Stanley', '2544_1251329129_Morgan Stanley', '2536_1251329129_Morgan Stanley', '2542_1251329129_Morgan Stanley', '2539_1251329129_Morgan Stanley']
+['1807_1251348146_Morgan Stanley', '1806_1251348146_Morgan Stanley']
+['28_1251376092_Morgan Stanley', '29_1251376092_Morgan Stanley']
+['21_1251378148_Morgan Stanley', '22_1251378148_Morgan Stanley']
+['17_1251382031_Morgan Stanley', '24_1251382031_Morgan Stanley', '26_1251382031_Morgan Stanley']
+['1149_1251382031_Morgan Stanley', '1154_1251382031_Morgan Stanley', '1146_1251382031_Morgan Stanley', '1153_1251382031_Morgan Stanley', '1147_1251382031_Morgan Stanley', '1150_1251382031_Morgan Stanley', '1151_1251382031_Morgan Stanley']
+['7_1251385928_Morgan Stanley', '9_1251385928_Morgan Stanley', '157_1251385928_Morgan Stanley', '158_1251385928_Morgan Stanley']
+['1123_1251385928_Morgan Stanley', '1124_1251385928_Morgan Stanley', '1125_1251385928_Morgan Stanley', '1128_1251385928_Morgan Stanley', '1126_1251385928_Morgan Stanley', '1127_1251385928_Morgan Stanley']
+['11_1251385928_Morgan Stanley', '12_1251385928_Morgan Stanley']
+['1132_1251385928_Morgan Stanley', '1129_1251385928_Morgan Stanley']
+['2577_1251385928_Morgan Stanley', '2579_1251385928_Morgan Stanley', '2588_1251385928_Morgan Stanley', '2580_1251385928_Morgan Stanley', '2581_1251385928_Morgan Stanley', '2592_1251385928_Morgan Stanley', '2584_1251385928_Morgan Stanley', '2586_1251385928_Morgan Stanley', '2589_1251385928_Morgan Stanley', '2593_1251385928_Morgan Stanley', '2583_1251385928_Morgan Stanley', '2591_1251385928_Morgan Stanley', '2590_1251385928_Morgan Stanley']
+['1603_1251385928_Morgan Stanley', '1604_1251385928_Morgan Stanley']
+['1605_1251385928_Morgan Stanley', '1606_1251385928_Morgan Stanley', '1607_1251385928_Morgan Stanley', '1608_1251385928_Morgan Stanley']
+['380_1251395690_Morgan Stanley', '1172_1251395690_Morgan Stanley', '1171_1251395690_Morgan Stanley']
+['1666_1251401610_Morgan Stanley', '1661_1251401610_Morgan Stanley', '1660_1251401610_Morgan Stanley', '1667_1251401610_Morgan Stanley']
+['1328_1251403555_Morgan Stanley', '1332_1251403555_Morgan Stanley', '1327_1251403555_Morgan Stanley']
+['339_1251409118_Morgan Stanley', '1177_1251409118_Morgan Stanley', '340_1251409118_Morgan Stanley', '1181_1251409118_Morgan Stanley', '1178_1251409118_Morgan Stanley']
+['836_1251409118_Morgan Stanley', '837_1251409118_Morgan Stanley']
+['1398_1251409118_Morgan Stanley', '1400_1251409118_Morgan Stanley', '1399_1251409118_Morgan Stanley', '1401_1251409118_Morgan Stanley']
+['1948_1251409118_Morgan Stanley', '1953_1251409118_Morgan Stanley', '1949_1251409118_Morgan Stanley', '1952_1251409118_Morgan Stanley']
+['2368_1251409118_Morgan Stanley', '2364_1251409118_Morgan Stanley', '2367_1251409118_Morgan Stanley', '2365_1251409118_Morgan Stanley']
+['2505_1251409118_Morgan Stanley', '2506_1251409118_Morgan Stanley']
+['3262_1251409118_Morgan Stanley', '3263_1251409118_Morgan Stanley']
+['2975_1251332784_Advent Geneva', '5168_1251336617_Advent Geneva', '5204_1251336617_Advent Geneva', '4417_1251336617_Advent Geneva', '4416_1251336617_Advent Geneva', '4415_1251336617_Advent Geneva', '4414_1251336617_Advent Geneva']
+['3857_1251336617_Advent Geneva', '4058_1251336617_Advent Geneva']
+['5049_1251336617_Advent Geneva', '5047_1251336617_Advent Geneva', '5048_1251336617_Advent Geneva', '5046_1251336617_Advent Geneva', '5876_1251336617_Advent Geneva', '4680_1251336617_Advent Geneva', '4786_1251336617_Advent Geneva']
+['2404_1251336617_Advent Geneva', '2487_1251336617_Advent Geneva', '2507_1251336617_Advent Geneva', '2517_1251336617_Advent Geneva', '2722_1251336617_Advent Geneva', '2720_1251336617_Advent Geneva', '2719_1251336617_Advent Geneva', '2723_1251336617_Advent Geneva']
+['453_1251357645_Advent Geneva', '451_1251357645_Advent Geneva', '2320_1251359558_Advent Geneva', '2321_1251359558_Advent Geneva']
+['3411_1251378148_Advent Geneva', '2743_1251385928_Advent Geneva', '2870_1251389254_Advent Geneva', '2872_1251389254_Advent Geneva']
+['3881_1251384626_Advent Geneva', '2788_1251385928_Advent Geneva', '2918_1251389254_Advent Geneva', '2920_1251389254_Advent Geneva']
+['2803_1251385928_Advent Geneva', '2800_1251385928_Advent Geneva', '2922_1251389254_Advent Geneva']
+['2408_1251385928_Advent Geneva', '2355_1251385928_Advent Geneva', '2356_1251385928_Advent Geneva', '2353_1251385928_Advent Geneva', '1603_1251389254_Advent Geneva', '1701_1251389254_Advent Geneva']
+['2924_1251389254_Advent Geneva', '2925_1251389254_Advent Geneva', '2926_1251389254_Advent Geneva', '2927_1251389254_Advent Geneva', '2933_1251389254_Advent Geneva', '2932_1251389254_Advent Geneva', '2930_1251389254_Advent Geneva', '2931_1251389254_Advent Geneva']
+['837_1251389254_Advent Geneva', '838_1251389254_Advent Geneva', '840_1251389254_Advent Geneva', '841_1251389254_Advent Geneva', '835_1251389254_Advent Geneva', '832_1251389254_Advent Geneva', '833_1251389254_Advent Geneva', '834_1251389254_Advent Geneva', '836_1251389254_Advent Geneva', '839_1251389254_Advent Geneva']
+['3047_1251389254_Advent Geneva', '3049_1251389254_Advent Geneva']
+['958_1251389254_Advent Geneva', '957_1251389254_Advent Geneva']
+['4579_1251389254_Advent Geneva', '4584_1251389254_Advent Geneva', '4585_1251389254_Advent Geneva', '4586_1251389254_Advent Geneva', '4587_1251389254_Advent Geneva', '4588_1251389254_Advent Geneva', '4589_1251389254_Advent Geneva', '4568_1251389254_Advent Geneva', '4569_1251389254_Advent Geneva', '4570_1251389254_Advent Geneva', '4571_1251389254_Advent Geneva', '4572_1251389254_Advent Geneva', '4573_1251389254_Advent Geneva', '4576_1251389254_Advent Geneva', '4577_1251389254_Advent Geneva', '4578_1251389254_Advent Geneva']
+['1618_1251389254_Advent Geneva', '1617_1251389254_Advent Geneva']
+['1620_1251389254_Advent Geneva', '1621_1251389254_Advent Geneva', '1622_1251389254_Advent Geneva', '1623_1251389254_Advent Geneva', '1624_1251389254_Advent Geneva', '1625_1251389254_Advent Geneva']
+['1928_1251397578_Advent Geneva', '1923_1251397578_Advent Geneva', '1925_1251397578_Advent Geneva']
+['3659_1251407213_Advent Geneva', '3658_1251407213_Advent Geneva', '3660_1251407213_Advent Geneva', '3654_1251411134_Advent Geneva', '3656_1251411134_Advent Geneva']
+['3652_1251407213_Advent Geneva', '3652_1251411134_Advent Geneva']
+['3009_1251411134_Advent Geneva', '3010_1251411134_Advent Geneva', '3013_1251411134_Advent Geneva', '3015_1251411134_Advent Geneva', '3016_1251411134_Advent Geneva', '3017_1251411134_Advent Geneva', '3019_1251411134_Advent Geneva', '3042_1251411134_Advent Geneva', '3045_1251411134_Advent Geneva']
+['1426_1251411134_Advent Geneva', '1428_1251411134_Advent Geneva']
+['1930_1251411134_Advent Geneva', '1929_1251411134_Advent Geneva', '1927_1251411134_Advent Geneva', '1928_1251411134_Advent Geneva']
+['2784_1251411134_Advent Geneva', '2785_1251411134_Advent Geneva', '2786_1251411134_Advent Geneva', '2787_1251411134_Advent Geneva']
+['875_1251411134_Advent Geneva', '876_1251411134_Advent Geneva', '877_1251411134_Advent Geneva', '878_1251411134_Advent Geneva']
+['186_1251411134_Advent Geneva', '188_1251411134_Advent Geneva']
+['2563_1251411134_Advent Geneva', '2565_1251411134_Advent Geneva']
+Time:  47.176865591
+v11_initiated
+2012752807
+1990840591
+1986356900
+1984532322
+2012752818
+1887449403
+1992478795
+2012752804
+1941571260
+2018493633
+2012752816
+1909297584
+1909306166
+1955546503
+1998631460
+2015279755
+1941571192
+2018493628
+1922270872
+2012752821
+1941571245
+2018493632
+2012752819
+2018493630
+2012752811
+1909306095
+1998630225
+1938844378
+1941571182
+2012752817
+1878065326
+1904397917
+2015279761
+125
+2021-06-28
+Following Task ID done
+1251411134
+1251411134|Weiss Advisors|Cash|RecData_125|1908|SUCCESS|125|60daaa9d1ef68707740d7fa2

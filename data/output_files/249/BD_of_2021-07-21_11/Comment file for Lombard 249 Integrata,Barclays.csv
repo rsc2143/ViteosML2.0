@@ -1,0 +1,575 @@
+,ViewData.Side0_UniqueIds,ViewData.Side1_UniqueIds,ViewData.BreakID,ViewData.Status,predicted status,predicted action,predicted category,predicted comment,custodian_val_to_use_comgen
+0,60_2491430289_Integrata,BB,1860076031,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+1,48_2491430289_Integrata,BB,1860076069,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+2,33_2491426018_Integrata,BB,1859877548,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+3,21_2491426018_Integrata,BB,1859877539,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+4,29_2491400083_Integrata,BB,1859772933,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+5,25_2491430053_Integrata,BB,1859897327,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+6,25_2491430067_Integrata,BB,1859905382,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+7,30_2491430053_Integrata,BB,1859897322,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+8,66_2491430289_Integrata,BB,1860076055,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+9,30_2491430067_Integrata,BB,1859905376,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+10,22_2491400031_Integrata,BB,1859744643,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+11,33_2491400031_Integrata,BB,1859744648,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+12,23_2491400031_Integrata,BB,1859744652,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+13,31_2491426018_Integrata,BB,1859877543,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+14,27_2491430067_Integrata,BB,1859905383,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+15,27_2491430053_Integrata,BB,1859897329,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+16,24_2491400031_Integrata,BB,1859744651,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+17,24_2491426018_Integrata,BB,1859877550,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+18,32_2491400083_Integrata,BB,1859772937,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+19,32_2491400031_Integrata,BB,1859744642,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+20,24_2491400083_Integrata,BB,1859772935,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+21,21_2491400083_Integrata,BB,1859772940,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+22,30_2491426018_Integrata,BB,1859877540,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+23,46_2491430289_Integrata,BB,1860076064,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+24,33_2491400083_Integrata,BB,1859772942,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+25,29_2491426018_Integrata,BB,1859877549,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+26,24_2491430067_Integrata,BB,1859905380,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+27,24_2491430053_Integrata,BB,1859897325,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+28,29_2491430067_Integrata,BB,1859905374,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+29,22_2491430053_Integrata,BB,1859897320,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+30,22_2491430067_Integrata,BB,1859905375,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+31,58_2491430289_Integrata,BB,1860076017,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+32,23_2491430067_Integrata,BB,1859905378,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+33,23_2491430053_Integrata,BB,1859897323,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+34,23_2491400083_Integrata,BB,1859772944,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+35,28_2491400083_Integrata,BB,1859772936,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+36,28_2491426018_Integrata,BB,1859877546,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+37,27_2491426018_Integrata,BB,1859877542,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+38,30_2491400083_Integrata,BB,1859772941,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+39,32_2491426018_Integrata,BB,1859877545,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+40,30_2491400031_Integrata,BB,1859744636,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+41,64_2491430289_Integrata,BB,1860076047,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+42,28_2491430053_Integrata,BB,1859897319,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+43,31_2491400083_Integrata,BB,1859772934,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+44,28_2491430067_Integrata,BB,1859905384,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+45,44_2491430289_Integrata,BB,1860076059,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+46,27_2491400083_Integrata,BB,1859772943,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+47,25_2491426018_Integrata,BB,1859877541,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+48,22_2491426018_Integrata,BB,1859877544,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+49,31_2491400031_Integrata,BB,1859744644,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+50,21_2491400031_Integrata,BB,1859744635,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+51,54_2491430289_Integrata,BB,1860076063,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+52,29_2491400031_Integrata,BB,1859744647,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+53,41_2491430289_Integrata,BB,1860076070,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+54,49_2491430289_Integrata,BB,1860076044,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+55,59_2491430289_Integrata,BB,1860076022,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+56,47_2491430289_Integrata,BB,1860076035,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+57,61_2491430289_Integrata,BB,1860076026,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+58,65_2491430289_Integrata,BB,1860076032,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+59,11_2491430289_Integrata,BB,1860076041,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+60,45_2491430289_Integrata,BB,1860076029,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+61,23_2491430289_Integrata,BB,1860076048,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+62,57_2491430289_Integrata,BB,1860076065,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+63,29_2491430289_Integrata,BB,1860076018,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+64,55_2491430289_Integrata,BB,1860076058,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+65,31_2491430289_Integrata,BB,1860076027,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+66,15_2491430289_Integrata,BB,1860076046,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+67,63_2491430289_Integrata,BB,1860076028,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+68,53_2491430289_Integrata,BB,1860076052,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+69,21_2491430289_Integrata,BB,1860076066,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+70,35_2491430289_Integrata,BB,1860076043,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+71,43_2491430289_Integrata,BB,1860076019,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+72,17_2491430289_Integrata,BB,1860076054,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+73,51_2491430289_Integrata,BB,1860076030,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+74,1_2491430289_Integrata,BB,1860076013,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+75,7_2491430289_Integrata,BB,1860076037,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+76,25_2491430289_Integrata,BB,1860076056,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+77,39_2491430289_Integrata,BB,1860076067,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+78,3_2491430289_Integrata,BB,1860076025,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+79,33_2491430289_Integrata,BB,1860076034,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+80,9_2491430289_Integrata,BB,1860076045,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+81,37_2491430289_Integrata,BB,1860076061,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+82,27_2491430289_Integrata,BB,1860076062,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+83,19_2491430289_Integrata,BB,1860076060,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+84,5_2491430289_Integrata,BB,1860076040,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+85,13_2491430289_Integrata,BB,1860076049,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-15-2021. Barclays  yet to book.,Barclays 
+86,29_2491430053_Integrata,BB,1859897321,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+87,56_2491430289_Integrata,BB,1860076068,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+88,23_2491426018_Integrata,BB,1859877547,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+89,27_2491400031_Integrata,BB,1859744646,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+90,32_2491430067_Integrata,BB,1859905379,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+91,32_2491430053_Integrata,BB,1859897326,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+92,42_2491430289_Integrata,BB,1860076053,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+93,21_2491430053_Integrata,BB,1859897318,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+94,21_2491430067_Integrata,BB,1859905373,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+95,33_2491430053_Integrata,BB,1859897328,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+96,33_2491430067_Integrata,BB,1859905381,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+97,50_2491430289_Integrata,BB,1860076057,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+98,62_2491430289_Integrata,BB,1860076036,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+99,28_2491400031_Integrata,BB,1859744639,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+100,22_2491400083_Integrata,BB,1859772938,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+101,31_2491430053_Integrata,BB,1859897324,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+102,31_2491430067_Integrata,BB,1859905377,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+103,25_2491400083_Integrata,BB,1859772939,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+104,25_2491400031_Integrata,BB,1859744638,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+105,52_2491430289_Integrata,BB,1860076112,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+106,10_2491430289_Integrata,BB,1860076100,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+107,26_2491430053_Integrata,BB,1859897352,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+108,20_2491430053_Integrata,BB,1859897362,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+109,11_2491400031_Integrata,BB,1859744689,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+110,26_2491430067_Integrata,BB,1859905424,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+111,20_2491430289_Integrata,BB,1860076125,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+112,12_2491430289_Integrata,BB,1860076124,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+113,7_2491400083_Integrata,BB,1859772964,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+114,34_2491430289_Integrata,BB,1860076088,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+115,9_2491400083_Integrata,BB,1859772954,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+116,AA,10_2491426018_Barclays,1859877607,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+117,19_2491400083_Integrata,BB,1859772977,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+118,9_2491426018_Integrata,BB,1859877554,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+119,2_2491430067_Integrata,BB,1859905387,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+120,1_2491430053_Integrata,BB,1859897335,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+121,3_2491426018_Integrata,BB,1859877566,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+122,2_2491430053_Integrata,BB,1859897342,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+123,2_2491400031_Integrata,BB,1859744673,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+124,28_2491430289_Integrata,BB,1860076142,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+125,AA,9_2491430289_Barclays,1860076127,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+126,9_2491400031_Integrata,BB,1859744664,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+127,1_2491430067_Integrata,BB,1859905391,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+128,2_2491400083_Integrata,BB,1859772959,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+129,AA,2_2491400083_Barclays,1859772953,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+130,AA,9_2491426018_Barclays,1859877601,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+131,12_2491400083_Integrata,BB,1859772983,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+132,18_2491400031_Integrata,BB,1859744678,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+133,AA,55_2491426018_Barclays,1859877598,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+134,AA,18_2491426018_Barclays,1859877636,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+135,6_2491430053_Integrata,BB,1859897375,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+136,13_2491400083_Integrata,BB,1859772946,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+137,AA,56_2491426018_Barclays,1859877613,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+138,16_2491430289_Integrata,BB,1860076113,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+139,16_2491430067_Integrata,BB,1859905439,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+140,6_2491430067_Integrata,BB,1859905395,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+141,14_2491430289_Integrata,BB,1860076107,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+142,AA,1_2491430289_Barclays,1860076073,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+143,AA,41_2491430067_Barclays,1859905456,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+144,16_2491400031_Integrata,BB,1859744665,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+145,1_2491426018_Integrata,BB,1859877558,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+146,15_2491426018_Integrata,BB,1859877565,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+147,16_2491430053_Integrata,BB,1859897383,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+148,6_2491400083_Integrata,BB,1859772951,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+149,8_2491400083_Integrata,BB,1859772978,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+150,AA,41_2491430053_Barclays,1859897396,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+151,7_2491430067_Integrata,BB,1859905389,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+152,3_2491400083_Integrata,BB,1859772972,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+153,12_2491430053_Integrata,BB,1859897347,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+154,AA,58_2491426018_Barclays,1859877628,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+155,17_2491400083_Integrata,BB,1859772952,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+156,7_2491430053_Integrata,BB,1859897391,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+157,12_2491430067_Integrata,BB,1859905397,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+158,6_2491400031_Integrata,BB,1859744670,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+159,40_2491430289_Integrata,BB,1860076105,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+160,AA,61_2491430053_Barclays,1859897427,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+161,2_2491426018_Integrata,BB,1859877551,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+162,26_2491400031_Integrata,BB,1859744688,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+163,4_2491430289_Integrata,BB,1860076076,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+164,AA,61_2491430067_Barclays,1859905452,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+165,AA,61_2491430289_Barclays,1860076141,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+166,26_2491430289_Integrata,BB,1860076150,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+167,20_2491400031_Integrata,BB,1859744699,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+168,5_2491400083_Integrata,BB,1859772956,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+169,AA,37_2491430289_Barclays,1860076157,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+170,17_2491400031_Integrata,BB,1859744686,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+171,AA,45_2491430289_Barclays,1860076085,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+172,14_2491400083_Integrata,BB,1859772968,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+173,4_2491400083_Integrata,BB,1859772984,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+174,26_2491426018_Integrata,BB,1859877618,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+175,5_2491426018_Integrata,BB,1859877590,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+176,12_2491400031_Integrata,BB,1859744659,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+177,19_2491400031_Integrata,BB,1859744685,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+178,AA,39_2491430053_Barclays,1859897365,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+179,16_2491426018_Integrata,BB,1859877553,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+180,AA,45_2491430067_Barclays,1859905431,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+181,4_2491430067_Integrata,BB,1859905417,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+182,8_2491400031_Integrata,BB,1859744666,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+183,20_2491426018_Integrata,BB,1859877611,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+184,AA,35_2491426018_Barclays,1859877619,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+185,3_2491400031_Integrata,BB,1859744681,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+186,AA,45_2491430053_Barclays,1859897374,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+187,AA,39_2491430067_Barclays,1859905437,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+188,13_2491426018_Integrata,BB,1859877610,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+189,4_2491430053_Integrata,BB,1859897380,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+190,24_2491430289_Integrata,BB,1860076130,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+191,8_2491426018_Integrata,BB,1859877552,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+192,AA,13_2491426018_Barclays,1859877621,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+193,14_2491430314_Integrata,BB,1860081096,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-19-2021. Barclays  yet to book.,Barclays 
+194,8_2491430289_Integrata,BB,1860076091,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+195,7_2491426018_Integrata,BB,1859877604,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+196,11_2491426018_Integrata,BB,1859877580,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+197,AA,29_2491430053_Barclays,1859897418,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+198,4_2491426018_Integrata,BB,1859877578,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+199,AA,14_2491426018_Barclays,1859877624,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+200,3_2491430053_Integrata,BB,1859897355,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+201,17_2491426018_Integrata,BB,1859877574,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+202,AA,59_2491430067_Barclays,1859905480,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+203,8_2491430053_Integrata,BB,1859897385,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+204,AA,29_2491430067_Barclays,1859905459,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+205,3_2491430067_Integrata,BB,1859905404,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+206,AA,4_2491426018_Barclays,1859877588,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+207,13_2491400031_Integrata,BB,1859744677,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+208,AA,29_2491430289_Barclays,1860076172,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+209,6_2491430289_Integrata,BB,1860076082,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+210,16_2491400083_Integrata,BB,1859772961,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+211,14_2491430067_Integrata,BB,1859905414,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+212,9_2491430067_Integrata,BB,1859905412,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+213,8_2491430067_Integrata,BB,1859905402,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+214,AA,3_2491426018_Barclays,1859877577,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+215,AA,59_2491430053_Barclays,1859897394,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+216,18_2491426018_Integrata,BB,1859877586,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+217,14_2491430053_Integrata,BB,1859897372,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+218,9_2491430053_Integrata,BB,1859897390,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+219,18_2491400083_Integrata,BB,1859772963,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+220,19_2491426018_Integrata,BB,1859877596,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+221,22_2491430289_Integrata,BB,1860076136,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+222,11_2491430067_Integrata,BB,1859905386,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+223,15_2491400083_Integrata,BB,1859772980,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+224,18_2491430289_Integrata,BB,1860076119,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+225,18_2491430067_Integrata,BB,1859905390,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+226,AA,5_2491430289_Barclays,1860076104,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+227,11_2491430053_Integrata,BB,1859897337,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+228,AA,7_2491430289_Barclays,1860076117,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+229,18_2491430053_Integrata,BB,1859897395,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+230,26_2491400083_Integrata,BB,1859772947,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+231,AA,26_2491430086_Barclays,1859922833,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+232,AA,7_2491430067_Barclays,1859905443,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+233,11_2491400083_Integrata,BB,1859772970,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+234,20_2491400083_Integrata,BB,1859772992,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+235,AA,49_2491430289_Barclays,1860076139,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+236,4_2491400031_Integrata,BB,1859744691,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+237,7_2491400031_Integrata,BB,1859744655,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+238,AA,54_2491430086_Barclays,1859922792,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+239,AA,7_2491430053_Barclays,1859897392,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+240,15_2491430053_Integrata,BB,1859897377,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+241,AA,3_2491430289_Barclays,1860076087,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+242,AA,49_2491400031_Barclays,1859744712,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+243,36_2491430289_Integrata,BB,1860076098,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+244,AA,36_2491426018_Barclays,1859877622,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+245,10_2491430053_Integrata,BB,1859897349,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+246,15_2491430067_Integrata,BB,1859905429,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+247,AA,33_2491400031_Barclays,1859744662,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+248,32_2491430289_Integrata,BB,1860076081,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+249,5_2491400031_Integrata,BB,1859744654,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+250,10_2491430067_Integrata,BB,1859905448,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+251,AA,34_2491400031_Barclays,1859744676,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+252,AA,59_2491430289_Barclays,1860076161,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+253,30_2491430289_Integrata,BB,1860076071,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+254,19_2491430067_Integrata,BB,1859905400,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+255,12_2491426018_Integrata,BB,1859877592,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+256,19_2491430053_Integrata,BB,1859897341,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+257,AA,14_2491430086_Barclays,1859922848,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+258,10_2491426018_Integrata,BB,1859877571,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+259,AA,34_2491430086_Barclays,1859922785,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+260,AA,55_2491400031_Barclays,1859744734,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+261,AA,36_2491430086_Barclays,1859922803,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+262,10_2491400031_Integrata,BB,1859744682,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+263,AA,26_2491400031_Barclays,1859744679,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+264,AA,1_2491430067_Barclays,1859905392,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+265,AA,51_2491430067_Barclays,1859905474,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+266,15_2491400031_Integrata,BB,1859744653,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+267,AA,42_2491400083_Barclays,1859773019,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+268,AA,51_2491430053_Barclays,1859897424,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+269,AA,37_2491400083_Barclays,1859772999,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+270,5_2491430067_Integrata,BB,1859905428,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+271,AA,51_2491400031_Barclays,1859744660,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+272,AA,41_2491400083_Barclays,1859773009,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+273,AA,25_2491430067_Barclays,1859905422,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+274,14_2491400031_Integrata,BB,1859744675,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+275,5_2491430053_Integrata,BB,1859897368,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+276,AA,41_2491400031_Barclays,1859744736,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+277,AA,57_2491400083_Barclays,1859773032,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+278,AA,25_2491430053_Barclays,1859897402,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+279,AA,38_2491400083_Barclays,1859772991,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+280,AA,1_2491430053_Barclays,1859897336,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+281,AA,58_2491400083_Barclays,1859773035,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+282,AA,53_2491400083_Barclays,1859772990,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+283,AA,25_2491430289_Barclays,1860076121,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+284,AA,51_2491426018_Barclays,1859877575,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+285,AA,54_2491400083_Barclays,1859772996,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+286,38_2491430289_Integrata,BB,1860076118,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+287,AA,60_2491430315_Barclays,1860081191,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-21-2021. Integrata yet to book.,Barclays 
+288,AA,56_2491400083_Barclays,1859773021,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+289,AA,41_2491430289_Barclays,1860076171,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+290,1_2491400083_Integrata,BB,1859772948,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+291,AA,55_2491400083_Barclays,1859773017,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+292,AA,40_2491430086_Barclays,1859922825,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+293,AA,29_2491400083_Barclays,1859773028,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+294,AA,50_2491400031_Barclays,1859744721,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+295,AA,14_2491400031_Barclays,1859744715,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+296,AA,62_2491400031_Barclays,1859744713,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+297,6_2491426018_Integrata,BB,1859877599,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+298,AA,61_2491400031_Barclays,1859744705,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+299,20_2491430067_Integrata,BB,1859905413,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+300,AA,30_2491400083_Barclays,1859773031,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+301,AA,45_2491400083_Barclays,1859773027,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+302,1_2491400031_Integrata,BB,1859744661,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-14-2021. Barclays  yet to book.,Barclays 
+303,AA,13_2491400031_Barclays,1859744704,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+304,AA,46_2491400083_Barclays,1859773030,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+305,2_2491430289_Integrata,BB,1860076074,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. Barclays  yet to book.,Barclays 
+306,AA,40_2491400031_Barclays,1859744720,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+307,17_2491430067_Integrata,BB,1859905450,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+308,AA,36_2491400083_Barclays,1859772979,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+309,AA,22_2491400083_Barclays,1859773004,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+310,17_2491430053_Integrata,BB,1859897340,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+311,AA,35_2491430289_Barclays,1860076168,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+312,AA,12_2491400031_Barclays,1859744695,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+313,10_2491400083_Integrata,BB,1859772958,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-21-2021. Barclays  yet to book.,Barclays 
+314,AA,66_2491400083_Barclays,1859773041,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+315,AA,42_2491430086_Barclays,1859922837,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+316,AA,65_2491400083_Barclays,1859773040,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+317,14_2491426018_Integrata,BB,1859877616,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-09-2021. Barclays  yet to book.,Barclays 
+318,AA,8_2491400031_Barclays,1859744744,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+319,AA,10_2491430086_Barclays,1859922823,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+320,AA,38_2491430086_Barclays,1859922814,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+321,AA,18_2491400031_Barclays,1859744668,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+322,AA,52_2491400031_Barclays,1859744701,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+323,AA,15_2491430053_Barclays,1859897423,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+324,AA,52_2491400083_Barclays,1859772975,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+325,AA,15_2491430067_Barclays,1859905449,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+326,AA,17_2491430067_Barclays,1859905466,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+327,AA,31_2491430289_Barclays,1860076110,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+328,AA,6_2491426018_Barclays,1859877572,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+329,AA,17_2491430053_Barclays,1859897339,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+330,AA,58_2491430315_Barclays,1860081214,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-21-2021. Integrata yet to book.,Barclays 
+331,AA,54_2491430315_Barclays,1860081223,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-21-2021. Integrata yet to book.,Barclays 
+332,AA,31_2491426018_Barclays,1859877579,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+333,AA,5_2491426018_Barclays,1859877561,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+334,AA,39_2491426018_Barclays,1859877632,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+335,AA,39_2491400031_Barclays,1859744711,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+336,AA,1_2491426018_Barclays,1859877555,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+337,AA,21_2491430289_Barclays,1860076159,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+338,AA,32_2491426018_Barclays,1859877591,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+339,AA,64_2491430086_Barclays,1859922846,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+340,AA,1_2491400031_Barclays,1859744656,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+341,AA,28_2491400083_Barclays,1859773026,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+342,AA,21_2491400031_Barclays,1859744708,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+343,AA,27_2491400083_Barclays,1859773022,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+344,AA,33_2491426018_Barclays,1859877608,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+345,AA,4_2491430086_Barclays,1859922784,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+346,AA,34_2491426018_Barclays,1859877614,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+347,AA,21_2491426018_Barclays,1859877564,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+348,AA,17_2491426018_Barclays,1859877633,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+349,AA,18_2491430086_Barclays,1859922783,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+350,AA,52_2491430315_Barclays,1860081202,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-21-2021. Integrata yet to book.,Barclays 
+351,AA,12_2491430086_Barclays,1859922835,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+352,AA,50_2491430315_Barclays,1860081150,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-21-2021. Integrata yet to book.,Barclays 
+353,AA,56_2491430086_Barclays,1859922805,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+354,AA,42_2491430315_Barclays,1860081205,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-21-2021. Integrata yet to book.,Barclays 
+355,AA,61_2491426018_Barclays,1859877631,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+356,AA,13_2491430289_Barclays,1860076132,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+357,AA,62_2491426018_Barclays,1859877635,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+358,AA,39_2491400083_Barclays,1859773007,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+359,AA,22_2491430086_Barclays,1859922808,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+360,AA,11_2491400031_Barclays,1859744684,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+361,AA,62_2491430315_Barclays,1860081147,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-21-2021. Integrata yet to book.,Barclays 
+362,AA,35_2491400083_Barclays,1859772965,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+363,AA,18_2491400083_Barclays,1859772962,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+364,AA,28_2491426018_Barclays,1859877570,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+365,AA,12_2491400083_Barclays,1859773013,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+366,AA,16_2491400031_Barclays,1859744735,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+367,AA,34_2491400083_Barclays,1859772950,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+368,AA,22_2491400031_Barclays,1859744718,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+369,AA,27_2491426018_Barclays,1859877567,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+370,AA,33_2491400083_Barclays,1859773010,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+371,AA,32_2491400031_Barclays,1859744740,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+372,AA,35_2491430067_Barclays,1859905454,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+373,AA,66_2491430086_Barclays,1859922769,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+374,AA,31_2491400031_Barclays,1859744737,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+375,AA,35_2491430053_Barclays,1859897333,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+376,AA,22_2491426018_Barclays,1859877576,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+377,AA,17_2491400031_Barclays,1859744658,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+378,AA,46_2491426018_Barclays,1859877594,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+379,AA,9_2491430067_Barclays,1859905462,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+380,AA,26_2491426018_Barclays,1859877557,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+381,AA,45_2491426018_Barclays,1859877581,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+382,AA,9_2491430053_Barclays,1859897401,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+383,AA,4_2491400031_Barclays,1859744706,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+384,AA,10_2491400083_Barclays,1859772993,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+385,AA,9_2491400083_Barclays,1859772981,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+386,AA,2_2491430086_Barclays,1859922766,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+387,AA,15_2491430289_Barclays,1860076099,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+388,AA,50_2491430086_Barclays,1859922768,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+389,AA,37_2491426018_Barclays,1859877626,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+390,AA,11_2491400083_Barclays,1859773002,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+391,AA,38_2491426018_Barclays,1859877629,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+392,AA,15_2491400031_Barclays,1859744727,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+393,AA,64_2491426018_Barclays,1859877645,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+394,AA,52_2491426018_Barclays,1859877587,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+395,AA,72_2491400031_Barclays,1859744743,OB,OB,No-pair,fees,Barclays  booked the fees transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+396,AA,51_2491430289_Barclays,1860076102,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+397,AA,64_2491400031_Barclays,1859744741,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+398,AA,63_2491426018_Barclays,1859877643,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+399,AA,30_2491430086_Barclays,1859922854,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+400,AA,54_2491400031_Barclays,1859744717,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+401,AA,11_2491426018_Barclays,1859877612,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+402,AA,53_2491426018_Barclays,1859877620,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+403,AA,11_2491430289_Barclays,1860076138,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+404,AA,53_2491400031_Barclays,1859744709,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+405,AA,8_2491426018_Barclays,1859877595,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+406,AA,54_2491426018_Barclays,1859877623,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+407,AA,7_2491426018_Barclays,1859877582,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+408,AA,11_2491430053_Barclays,1859897409,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+409,AA,40_2491400083_Barclays,1859773018,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+410,AA,5_2491400083_Barclays,1859772960,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+411,AA,2_2491426018_Barclays,1859877562,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+412,AA,6_2491400083_Barclays,1859772971,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+413,AA,32_2491430086_Barclays,1859922767,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+414,AA,31_2491400083_Barclays,1859773034,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+415,AA,58_2491400031_Barclays,1859744694,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+416,AA,32_2491400083_Barclays,1859773000,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+417,AA,13_2491430067_Barclays,1859905425,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+418,AA,60_2491426018_Barclays,1859877640,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+419,AA,13_2491430053_Barclays,1859897416,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+420,AA,11_2491430067_Barclays,1859905473,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+421,AA,59_2491426018_Barclays,1859877637,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+422,AA,62_2491400083_Barclays,1859773029,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+423,AA,36_2491400031_Barclays,1859744671,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+424,AA,21_2491400083_Barclays,1859772995,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+425,AA,61_2491400083_Barclays,1859773025,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+426,AA,46_2491430315_Barclays,1860081193,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-21-2021. Integrata yet to book.,Barclays 
+427,AA,28_2491400031_Barclays,1859744714,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+428,AA,12_2491426018_Barclays,1859877617,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+429,AA,33_2491430289_Barclays,1860076140,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+430,AA,30_2491400031_Barclays,1859744731,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+431,AA,40_2491430315_Barclays,1860081181,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-21-2021. Integrata yet to book.,Barclays 
+432,AA,27_2491430289_Barclays,1860076163,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+433,AA,50_2491400083_Barclays,1859772967,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+434,AA,59_2491400031_Barclays,1859744722,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+435,AA,66_2491426018_Barclays,1859877648,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+436,AA,49_2491400083_Barclays,1859772955,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+437,AA,60_2491400031_Barclays,1859744732,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+438,AA,65_2491430289_Barclays,1860076167,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+439,AA,65_2491426018_Barclays,1859877647,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+440,AA,49_2491430053_Barclays,1859897404,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+441,AA,49_2491430067_Barclays,1859905461,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+442,AA,13_2491400083_Barclays,1859772998,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+443,AA,14_2491400083_Barclays,1859773006,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+444,AA,15_2491400083_Barclays,1859773015,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+445,AA,3_2491400083_Barclays,1859772966,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+446,AA,3_2491400031_Barclays,1859744697,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+447,AA,4_2491400083_Barclays,1859772989,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+448,AA,16_2491400083_Barclays,1859773020,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+449,AA,37_2491400031_Barclays,1859744693,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+450,AA,65_2491430053_Barclays,1859897421,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+451,AA,38_2491400031_Barclays,1859744703,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+452,AA,65_2491430067_Barclays,1859905398,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+453,AA,6_2491430086_Barclays,1859922797,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+454,AA,42_2491400031_Barclays,1859744663,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+455,AA,49_2491426018_Barclays,1859877593,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+456,AA,28_2491430086_Barclays,1859922845,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+457,AA,50_2491426018_Barclays,1859877563,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+458,AA,58_2491430086_Barclays,1859922834,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+459,AA,57_2491430067_Barclays,1859905471,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+460,AA,65_2491400031_Barclays,1859744674,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+461,AA,57_2491430053_Barclays,1859897413,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+462,AA,57_2491430289_Barclays,1860076109,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+463,AA,41_2491426018_Barclays,1859877638,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+464,AA,42_2491426018_Barclays,1859877641,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+465,AA,31_2491430053_Barclays,1859897425,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+466,AA,31_2491430067_Barclays,1859905472,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+467,AA,8_2491430086_Barclays,1859922810,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+468,AA,66_2491400031_Barclays,1859744692,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+469,AA,2_2491400031_Barclays,1859744669,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+470,AA,37_2491430067_Barclays,1859905434,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+471,AA,37_2491430053_Barclays,1859897370,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+472,AA,60_2491430086_Barclays,1859922857,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+473,AA,5_2491430067_Barclays,1859905419,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+474,AA,52_2491430086_Barclays,1859922777,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+475,AA,5_2491430053_Barclays,1859897379,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+476,AA,51_2491400083_Barclays,1859773038,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+477,AA,10_2491400031_Barclays,1859744667,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+478,AA,9_2491400031_Barclays,1859744657,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+479,AA,15_2491426018_Barclays,1859877627,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+480,AA,16_2491426018_Barclays,1859877630,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+481,AA,56_2491400031_Barclays,1859744728,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+482,AA,87_2491430086_Barclays,1859922855,OB,OB,No-pair,wire,Barclays  booked the wire transaction for SD 06-02-2021. Integrata yet to book.,Barclays 
+483,AA,53_2491430067_Barclays,1859905481,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+484,AA,53_2491430053_Barclays,1859897382,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+485,AA,53_2491430289_Barclays,1860076155,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+486,AA,6_2491400031_Barclays,1859744726,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+487,AA,40_2491426018_Barclays,1859877634,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+488,AA,5_2491400031_Barclays,1859744719,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+489,AA,46_2491430086_Barclays,1859922859,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+490,AA,26_2491400083_Barclays,1859773016,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+491,AA,25_2491400083_Barclays,1859773008,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+492,AA,35_2491400031_Barclays,1859744729,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+493,AA,21_2491430067_Barclays,1859905436,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+494,AA,21_2491430053_Barclays,1859897381,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+495,AA,64_2491400083_Barclays,1859773039,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+496,AA,63_2491400083_Barclays,1859773037,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+497,AA,30_2491426018_Barclays,1859877569,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-12-2021. Integrata yet to book.,Barclays 
+498,AA,60_2491400083_Barclays,1859773014,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+499,AA,29_2491426018_Barclays,1859877583,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+500,AA,59_2491400083_Barclays,1859773005,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+501,AA,46_2491400031_Barclays,1859744738,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-15-2021. Integrata yet to book.,Barclays 
+502,AA,17_2491400083_Barclays,1859772949,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+503,AA,55_2491430067_Barclays,1859905458,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+504,AA,33_2491430053_Barclays,1859897367,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+505,AA,55_2491430053_Barclays,1859897369,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+506,AA,39_2491430289_Barclays,1860076129,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+507,AA,33_2491430067_Barclays,1859905433,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+508,AA,16_2491430086_Barclays,1859922764,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+509,AA,7_2491400083_Barclays,1859772976,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+510,AA,8_2491400083_Barclays,1859772988,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-22-2021. Integrata yet to book.,Barclays 
+511,AA,17_2491430289_Barclays,1860076106,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+512,AA,1_2491400083_Barclays,1859772945,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-21-2021. Integrata yet to book.,Barclays 
+513,AA,63_2491430289_Barclays,1860076151,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+514,AA,3_2491430067_Barclays,1859905415,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+515,AA,62_2491430086_Barclays,1859922822,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-15-2021. Integrata yet to book.,Barclays 
+516,AA,3_2491430053_Barclays,1859897357,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+517,AA,63_2491430067_Barclays,1859905460,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+518,AA,63_2491430053_Barclays,1859897403,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+519,AA,55_2491430289_Barclays,1860076173,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-16-2021. Integrata yet to book.,Barclays 
+520,AA,27_2491430053_Barclays,1859897414,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+521,AA,27_2491430067_Barclays,1859905441,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-13-2021. Integrata yet to book.,Barclays 
+522,AA,27_2491400031_Barclays,1859744707,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+523,AA,63_2491400031_Barclays,1859744739,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+524,AA,28_2491430317_Barclays,1860081382,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+525,AA,2_2491430317_Barclays,1860081383,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+526,AA,56_2491430317_Barclays,1860081386,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+527,AA,38_2491430317_Barclays,1860081387,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+528,AA,64_2491430317_Barclays,1860081390,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+529,AA,29_2491400031_Barclays,1859744723,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+530,AA,18_2491430317_Barclays,1860081393,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+531,AA,51_2491430317_Barclays,1860081396,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-21-2021. Integrata yet to book.,Barclays 
+532,AA,30_2491430317_Barclays,1860081400,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+533,AA,4_2491430317_Barclays,1860081402,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+534,AA,57_2491430317_Barclays,1860081404,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-21-2021. Integrata yet to book.,Barclays 
+535,AA,57_2491426018_Barclays,1859877625,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+536,AA,57_2491400031_Barclays,1859744680,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+537,13_2491430053_Integrata,BB,1859897361,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+538,13_2491430067_Integrata,BB,1859905394,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. Barclays  yet to book.,Barclays 
+539,AA,32_2491430317_Barclays,1860081407,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+540,AA,58_2491430317_Barclays,1860081410,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+541,AA,52_2491430317_Barclays,1860081415,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+542,AA,6_2491430317_Barclays,1860081413,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+543,AA,39_2491430317_Barclays,1860081398,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-21-2021. Integrata yet to book.,Barclays 
+544,AA,22_2491430317_Barclays,1860081418,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+545,AA,53_2491430317_Barclays,1860081419,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-21-2021. Integrata yet to book.,Barclays 
+546,AA,7_2491400031_Barclays,1859744748,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+547,AA,40_2491430317_Barclays,1860081423,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+548,AA,8_2491430317_Barclays,1860081425,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+549,AA,34_2491430317_Barclays,1860081424,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+550,AA,54_2491430317_Barclays,1860081427,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+551,AA,61_2491430317_Barclays,1860081433,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-21-2021. Integrata yet to book.,Barclays 
+552,AA,10_2491430317_Barclays,1860081438,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+553,AA,36_2491430317_Barclays,1860081437,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+554,AA,62_2491430317_Barclays,1860081440,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+555,AA,25_2491400031_Barclays,1859744698,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+556,AA,25_2491426018_Barclays,1859877605,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,Barclays 
+557,AA,26_2491430317_Barclays,1860081446,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+558,AA,41_2491430317_Barclays,1860081447,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-21-2021. Integrata yet to book.,Barclays 
+559,AA,59_2491430317_Barclays,1860081448,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-21-2021. Integrata yet to book.,Barclays 
+560,AA,12_2491430317_Barclays,1860081450,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+561,AA,42_2491430317_Barclays,1860081452,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+562,AA,60_2491430317_Barclays,1860081453,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+563,AA,65_2491430317_Barclays,1860081456,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-21-2021. Integrata yet to book.,Barclays 
+564,AA,66_2491430315_Barclays,1860081176,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-21-2021. Integrata yet to book.,Barclays 
+565,14_2491430317_Integrata,BB,1860081459,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-21-2021. Barclays  yet to book.,Barclays 
+566,AA,14_2491430317_Barclays,1860081460,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+567,AA,66_2491430317_Barclays,1860081461,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+568,AA,45_2491430317_Barclays,1860081465,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-21-2021. Integrata yet to book.,Barclays 
+569,AA,45_2491400031_Barclays,1859744730,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 06-14-2021. Integrata yet to book.,Barclays 
+570,AA,16_2491430317_Barclays,1860081467,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+571,AA,46_2491430317_Barclays,1860081469,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+572,AA,50_2491430317_Barclays,1860081470,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-22-2021. Integrata yet to book.,Barclays 
+573,AA,49_2491430317_Barclays,1860081471,OB,OB,No-pair,proceeds trade settlement,Barclays  booked the proceeds trade settlement transaction for SD 07-21-2021. Integrata yet to book.,Barclays 

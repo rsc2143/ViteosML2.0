@@ -1,0 +1,56 @@
+Category,template
+wire,booked the wire transaction for SD
+transfer pb isda,booked the transfer pb isda transaction for SD
+transfer pb future collateral,booked the Transfer from PB to Collateral/Future account for SD
+equity swap,booked the equity swap transaction for SD
+month end interest,booked the month end interest transaction for SD
+proceeds,booked the proceeds transaction for SD
+transfer pb fx,booked the transfer pb fx transaction for SD
+swap reset,booked the swap reset transaction for SD
+cfd interest payment,booked the cfd interest payment transaction for SD
+proceeds trade settlement,booked the proceeds trade settlement transaction for SD
+swap cash flow,booked the swap cash flow transaction for SD
+dividend,booked the dividend transaction for SD
+monthend interest,booked the monthend interest transaction for SD
+initial margin maintenance,booked the initial margin maintenance transaction for SD
+upfront payment,booked the Upfront Payment transaction for SD
+clearing fee,booked the ICE Clearing Fee transaction for SD
+transaction commission,booked the transaction commission transaction for SD
+transfer pb future,booked the Transfer from PB to Future Account for SD
+interest,booked the interest transaction for SD
+fees,booked the fees transaction for SD
+fx,booked the fx transaction for SD
+securities lending expenses,booked the securities lending expenses transaction for SD
+equity swap dividend,booked the equity swap dividend transaction for SD
+expenses month end interest,booked the expenses month end interest transaction for SD
+swap settlement proceeds,booked the swap settlement proceeds transaction for SD
+payments,booked the payments transaction for SD
+funding fee,booked the funding fee transaction for SD
+options commission adjustment,booked the options commission adjustment transaction for SD
+mmf,booked the mmf transaction for SD
+collateral transfer,booked the collateral transfer transaction for SD
+commission adjustment,booked the commission adjustment transaction for SD
+fx settlement,booked the fx settlement transaction for SD
+fee and commisison adjustment,booked the fee and commisison adjustment transaction for SD
+cash plug,booked the cash plug transaction for SD
+miscellaneous,booked the miscellaneous transaction for SD
+nra withholding tax,booked the nra withholding tax transaction for SD
+security lending fees,booked the security lending fees transaction for SD
+trade settlement,booked the trade settlement transaction for SD
+equity swap performance,booked the equity swap performance transaction for SD
+credit event,booked the credit event transaction for SD
+repo financing interest,booked the repo financing interest transaction for SD
+trade settlement swap settlement proceeds,booked the trade settlement swap settlement proceeds transaction for SD
+cfd payment,booked the cfd payment transaction for SD
+repo proceeds,booked the repo proceeds transaction for SD
+otc tax,booked the otc tax transaction for SD
+coupon payment,booked the coupon payment transaction for SD
+stock loan,booked the stock loan transaction for SD
+corporate action,booked the corporate action transaction for SD
+dividend proceeds,booked the dividend proceeds transaction for SD
+execution commission,booked the execution commission transaction for SD
+option cash dividend,booked the option cash dividend transaction for SD
+swap reset proceeds,booked the swap reset proceeds transaction for SD
+dividends,booked the dividends transaction for SD
+maintenance commission,booked the maintenance commission transaction for SD
+subscription,booked the subscription transaction for SD

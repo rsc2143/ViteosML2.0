@@ -1,0 +1,12 @@
+,ViewData.Side0_UniqueIds,ViewData.Side1_UniqueIds,ViewData.BreakID,ViewData.Status,predicted status,predicted action,predicted category,predicted comment,custodian_val_to_use_comgen
+0,"[None, '49_2491191305_Integrata', '50_2491191305_Integrata', None]","['118_2491191305_Barclays', None, None, '121_2491191305_Barclays']","[1722559150, 1722559127, 1722559138, 1722559131]","['OB', 'OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+1,"[None, None, '36_2491449634_Integrata', None, '38_2491449634_Integrata', '35_2491449634_Integrata', '37_2491449634_Integrata', None]","['69_2491449634_Barclays', '67_2491449634_Barclays', None, '70_2491449634_Barclays', None, None, None, '68_2491449634_Barclays']","[2065779054, 2065779087, 2065779029, 2065779068, 2065779033, 2065779025, 2065779030, 2065779048]","['OB', 'OB', 'OB', 'OB', 'OB', 'OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+2,"['45_2491154890_Integrata', None]","[None, '91_2491160587_Barclays']","[1674649961, 1682323661]","['OB', 'OB']",UMR,UMR,match,match,Barclays
+3,"['69_2491323828_Integrata', None]","[None, '70_2491325537_Barclays']","[1897394178, 1899773191]","['OB', 'OB']",UMR,UMR,match,match,Barclays
+4,"['34_2491447633_Integrata', None]","[None, '74_2491449634_Barclays']","[2063518268, 2065779058]","['OB', 'OB']",UMR,UMR,match,match,Barclays
+5,"[None, '43_2491449634_Integrata']","['72_2491449634_Barclays', None]","[2065779051, 2065779023]","['OB', 'OB']",UMR,UMR,match,match,Barclays
+6,"['40_2491449634_Integrata', None, '41_2491449634_Integrata', None, '42_2491449634_Integrata', '39_2491449634_Integrata', None, None]","[None, '77_2491449634_Barclays', None, '78_2491449634_Barclays', None, None, '76_2491449634_Barclays', '75_2491449634_Barclays']","[2065779037, 2065779104, 2065779039, 2065779077, 2065779041, 2065779035, 2065779096, 2065779080]","['OB', 'OB', 'OB', 'OB', 'OB', 'OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+7,"[None, '48_2491154890_Integrata']","['96_2491160587_Barclays', None]","[1682323680, 1674649970]","['OB', 'OB']",UMR,UMR,match,match,Barclays
+8,"['70_2491323828_Integrata', None]","[None, '73_2491325537_Barclays']","[1897394184, 1899773177]","['OB', 'OB']",UMR,UMR,match,match,Barclays
+9,"[None, '35_2491447633_Integrata']","['82_2491449634_Barclays', None]","[2065779073, 2063518271]","['OB', 'OB']",UMR,UMR,match,match,Barclays
+10,"[None, '44_2491449634_Integrata']","['80_2491449634_Barclays', None]","[2065779063, 2065779027]","['OB', 'OB']",UMR,UMR,match,match,Barclays

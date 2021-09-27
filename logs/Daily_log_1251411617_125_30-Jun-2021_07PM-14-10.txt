@@ -1,0 +1,41 @@
+2021-06-30 19:14:10.548772 : Log started for datettime = 30-Jun-2021_07PM-14-10
+2021-06-30 19:14:10.564399 : Prediction Message Received for : 1251411617
+2021-06-30 19:14:20.565530 : meo created
+2021-06-30 19:14:20.612412 : meo df is not empty, initiating calculations
+2021-06-30 19:14:20.721797 : umb carry forward not empty, making umb carry forward file
+2021-06-30 19:14:20.784332 : ob carry forward not empty, not making umb carry forward file
+2021-06-30 19:14:21.081213 : Before carrying out SMB-OB operation
+2021-06-30 19:14:21.190600 : After carrying out SMB-OB operation
+2021-06-30 19:14:21.315645 : Before carrying out UMB-OB operation
+2021-06-30 19:14:21.440653 : After carrying out UMB-OB operation
+2021-06-30 19:14:21.456254 : Before carrying out closed
+2021-06-30 19:15:39.199412 : After carrying out closed
+2021-06-30 19:15:40.683996 : Before catching mtm for revenue, expense and stock loan
+2021-06-30 19:15:42.918620 : After catching mtm for revenue, expense and stock loan
+2021-06-30 19:15:43.246788 : Before catching mtm for equity swap
+2021-06-30 19:15:44.043739 : After catching mtm for equity swap
+2021-06-30 19:15:44.262685 : Before catching updown
+2021-06-30 19:15:44.387536 : dffacc and dffpb created
+2021-06-30 19:15:44.637569 : updlist created
+2021-06-30 19:15:44.934475 : if statement started when dff4 and dff5 are non empty
+2021-06-30 19:15:45.012603 : appended data created
+2021-06-30 19:15:46.653449 : After catching updown
+2021-06-30 19:15:46.669205 : Before mXn
+2021-06-30 19:15:50.013176 : After mXn
+2021-06-30 19:15:50.028765 : Before mXn training df
+2021-06-30 19:15:51.388288 : After mXn training df
+2021-06-30 19:21:08.612458 : After test file cleaning
+2021-06-30 19:21:22.301647 : After test file 3
+2021-06-30 19:21:25.083212 : Before Xtest creation
+2021-06-30 19:22:01.399815 : After Xtest first prediction
+2021-06-30 19:22:24.355533 : After Xtest second prediction
+2021-06-30 19:22:30.153236 : After Xtest UMT segregation
+2021-06-30 19:22:30.622066 : Before Xtest no pair segregation
+2021-06-30 19:22:32.372091 : Before Xtest left
+2021-06-30 19:22:34.059756 : Before ccnew
+2021-06-30 19:22:36.200863 : After ccnew
+2021-06-30 19:25:38.284110 : After umr otm table loop
+2021-06-30 19:27:50.111530 : After umr mto table loop
+2021-06-30 19:27:53.799416 : After final_table_to_write creation
+2021-06-30 19:27:53.986938 : Before commenting
+2021-06-30 19:27:56.518476 : Before commenting

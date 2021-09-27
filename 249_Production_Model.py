@@ -4,7 +4,7 @@ Created on Fri May 14 16:15:44 2021
 
 @author: riteshkumar.patra
 """
-
+ 
 # -*- coding: utf-8 -*-
 """
 Created on Sun Feb 14 19:10:32 2021
@@ -41,7 +41,8 @@ import pandas as pd
 
 import os
 
-os.chdir('D:\\ViteosModel2.0\\')
+base_dir_viteosmodel2 = 'D:\\ViteosModel2.0\\'
+os.chdir(base_dir_viteosmodel2)
 # from imblearn.over_sampling import SMOTE
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
@@ -92,13 +93,16 @@ Logger_obj = ViteosLogger_Class()
 log_folder = os.getcwd() + '\\logs\\'
 
 client = 'Lombard'
-
+ReconSetupName = 'Lombard Cash Recon'
 setup = '249'
 setup_code = '249'
 
 try:
     with open(os.getcwd() + '\\data\\Production_Model_parameters.json') as f:
         parameters_dict = json.load(f)
+
+    def make_mm_dd_yyyy_from_string_date_format_yyyy_mm_dd(param_str_date):
+        return(param_str_date[5:7] + '-' + param_str_date[8:10] + '-'+ param_str_date[0:4])
 
 #    print('Introducing error' + str(asdas))
     def callback(ch, method, properties, body):
@@ -912,6 +916,10 @@ try:
     RabbitMQ_parameters_for_ML2_to_read_from_dict = RabbitMQ_parameters_dict.get(
         'RabbitMQ_parameters_for_ML2_to_read_from')
 
+    Lombard_parameters_dict = parameters_dict.get("Lombard_parameters_dict")
+    Lombard_249_output_files_path_from_dict = str(os.getcwd()) + Lombard_parameters_dict.get(str(client) + '_' + str(setup_code) + '_output_folder_path')
+    Lombard_249_model_files_path_from_dict = str(os.getcwd()) + Lombard_parameters_dict.get(str(client) + '_' + str(setup_code) + '_model_files_folder_path')
+
     mngdb_obj_for_reading = mngdb(
         param_without_ssh=MongoDB_parameters_for_reading_data_from_dict.get('without_ssh'),
         param_without_RabbitMQ_pipeline=MongoDB_parameters_for_reading_data_from_dict.get('without_RabbitMQ_pipeline'),
@@ -998,7 +1006,7 @@ try:
 
         # Decoding the output of rabbit MQ message
         s2_out = sys.argv[1]
-#        s2_out = '2491380309|Lombard Cash Recon|Cash|RecData_249|132120|Recon Run Completed|249|609a34b91e9c9c19c0cbc1e3'
+#        s2_out = '2491430081|Lombard Cash Recon|Cash|RecData_249|132120|Recon Run Completed|249|609a34b91e9c9c19c0cbc1e3'
 #        Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='s2_out created')
 #        Logger_obj.log_to_file(param_filename=log_filepath, param_log_str=str(s2_out))
         #    s2_stout=str(s2_out, 'utf-8')
@@ -1135,7 +1143,7 @@ try:
                     meo_df = pd.DataFrame()
                     meo = pd.DataFrame()
                 print('meo size')
-                print(meo.shape[0])
+                print(meo_df.shape[0])
 
                 Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='meo created')
 
@@ -1161,6 +1169,8 @@ try:
 
                 else:
                     Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='meo df is not empty, initiating calculations')
+                    Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='meo df shape is' + str(meo_df.shape[0]))
+                    columns_to_output = ['ViewData.Side0_UniqueIds','ViewData.Side1_UniqueIds','ViewData.BreakID','ViewData.Status','predicted status','predicted action','predicted category','predicted comment','custodian_val_to_use_comgen']
 
 
 
@@ -1185,7 +1195,8 @@ try:
                     
                     print('Choosing the date : ' + date_i)
                     
-                    os.chdir('\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\Lombard\\output_files')
+                    os.chdir(Lombard_249_output_files_path_from_dict)
+                    #os.chdir('\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\Lombard\\output_files')
                     #uni2 = pd.read_csv('Lombard/249/ReconDB.HST_RecData_249_01_10.csv')
                     
                     #Change made by Rohit on 09-12-2020 to make dynamic directories
@@ -1193,7 +1204,8 @@ try:
                     base_dir = os.getcwd()       
                     
                     # create dynamic name with date as folder
-                    base_dir = os.path.join(base_dir + '\\Setup_' + setup_code)
+                    #base_dir = os.path.join(base_dir + '\\Setup_' + setup_code)
+                    base_dir = os.path.join(base_dir + '\\' + str(setup_code))
                     # create 'dynamic' dir, if it does not exist
                     if not os.path.exists(base_dir):
                         os.makedirs(base_dir)
@@ -1217,7 +1229,7 @@ try:
                         
                         return(greatest_element_number_suffix + 1)
                     
-                    suffix_for_BD_folder = get_date_subfolder_suffix(param_date = date_to_analyze_ymd_format, param_subfolder_list = recon_done_for_dates_folder_names)
+                    suffix_for_BD_folder = get_date_subfolder_suffix(param_date = date_i, param_subfolder_list = recon_done_for_dates_folder_names)
                     base_dir = os.path.join(base_dir + '\\BD_of_' + str(date_i) + '_' + str(suffix_for_BD_folder))
                     if not os.path.exists(base_dir):
                         os.makedirs(base_dir)
@@ -1315,7 +1327,6 @@ try:
                     
                     
                         dummy_filter = ['remove_mark','sel_mark']
-                        columns_to_output = ['ViewData.Side0_UniqueIds','ViewData.Side1_UniqueIds','ViewData.BreakID','ViewData.Status','predicted status','predicted action','predicted category','predicted comment','custodian_val_to_use_comgen']
                         amount_column = 'ViewData.Net Amount Difference'
                     
                     
@@ -1527,8 +1538,10 @@ try:
                     #        ob = dfk5.copy()
                     
                         df3 = df30.copy()
+
+                        df = pd.read_excel(base_dir_viteosmodel2 + '\\data\\model_files\\' + str(setup_code) + '\\' + str(client) + '_' + str(setup_code) + '_mapping_variables_for_variable_cleaning.xlsx', sheet_name='General')
                         
-                        df = pd.read_excel('\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + str(client) +'\\output_files\\Setup_' + str(setup_code) + '\\Mapping variables for variable cleaning.xlsx', sheet_name='General')
+                    #    df = pd.read_excel('\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + str(client) +'\\output_files\\Setup_' + str(setup_code) + '\\Mapping variables for variable cleaning.xlsx', sheet_name='General')
                     #    df = pd.read_excel('Mapping variables for variable cleaning.xlsx', sheet_name='General')
                     
                         df['tuple'] = df.apply(make_dict, axis=1)
@@ -1551,7 +1564,8 @@ try:
                         df3['ViewData.Investment Type1'] = df3['ViewData.Investment Type1'].apply(lambda x : comb_clean(x) if type(x)==str else x)
                         df3['ViewData.Prime Broker1'] = df3['ViewData.Prime Broker1'].apply(lambda x : comb_clean(x) if type(x)==str else x)
                     
-                        com = pd.read_csv('\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\Lombard\\all_new_files\\desc cat with naveen '+ str.lower(str(client)) + '.csv')
+                        com = pd.read_csv(base_dir_viteosmodel2 + '\\data\\model_files\\' + str(setup_code) + '\\' + str(client) + '_' + str(setup_code) + '_description_category.csv')
+                    #    com = pd.read_csv('\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\Lombard\\all_new_files\\desc cat with naveen '+ str.lower(str(client)) + '.csv')
                     #    com = pd.read_csv('\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + str(client) +'\\output_files\\Setup_' + str(setup_code) + '\\desc cat with naveen '+ str.lower(str(client)) + '.csv')
                     #    com = pd.read_csv('desc cat with naveen oaktree.csv')
                         cat_list = list(set(com['Pairing']))
@@ -1610,7 +1624,8 @@ try:
                     
                     #    filename = 'finalized_model_lombard_249_v1.sav'
                     #    filename = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + str(client) +'\\output_files\\Setup_' + str(setup_code) + '\\finalized_model_' + str.lower(str(client)) + '_' + str(setup_code) + '_v2.sav'
-                        filename = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\Lombard\\all_new_files\\finalized_model_lombard 249 ob v4.sav'
+                    #    filename = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\Lombard\\all_new_files\\finalized_model_lombard 249 ob v4.sav'
+                        filename = base_dir_viteosmodel2 + '\\data\\model_files\\' + str(setup_code) + '\\' + str(client) + '_' + str(setup_code) + '_model.sav'
                         clf = pickle.load(open(filename, 'rb'))
                     
                         cb_predictions = clf.predict(df4)
@@ -1622,7 +1637,8 @@ try:
                         df3['predicted category'] = np.concatenate(cb_predictions)
                     #    com_temp = pd.read_csv('\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + str(client) +'\\output_files\\Setup_' + str(setup_code) + '\\Lombard comment template for delivery.csv')
                     
-                        com_temp = pd.read_csv('\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\Lombard\\all_new_files\\Lombard 249 comment template for delivery.csv')
+                    #    com_temp = pd.read_csv('\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\Lombard\\all_new_files\\Lombard 249 comment template for delivery.csv')
+                        com_temp = pd.read_csv(base_dir_viteosmodel2 + '\\data\\model_files\\' + str(setup_code) + '\\' + str(client) + '_' + str(setup_code) + '_comment_template.csv')
                         com_temp = com_temp.rename(columns = {'Category':'predicted category','template':'predicted template'})
                         result_non_trade = df3.copy()
                         result_non_trade = pd.merge(result_non_trade,com_temp,on = 'predicted category',how = 'left')
@@ -1635,10 +1651,12 @@ try:
                         result_non_trade['predicted template'] = result_non_trade['predicted template'].astype(str)
                         result_non_trade['ViewData.Settle Date2'] = result_non_trade['ViewData.Settle Date'].dt.date
                         result_non_trade['ViewData.Settle Date2'] = result_non_trade['ViewData.Settle Date2'].astype(str)
+                        result_non_trade['ViewData.Settle Date_mm_dd_yyyy'] = result_non_trade['ViewData.Settle Date2'].apply(lambda x : make_mm_dd_yyyy_from_string_date_format_yyyy_mm_dd(x))
                         
                     #    result_non_trade['ViewData.Trade Date2'] = result_non_trade['ViewData.Trade Date'].dt.date
                         result_non_trade['ViewData.Trade Date2'] = pd.to_datetime(result_non_trade['ViewData.Trade Date']).dt.date
                         result_non_trade['ViewData.Trade Date2'] = result_non_trade['ViewData.Trade Date2'].astype(str)
+                        result_non_trade['ViewData.Trade Date_mm_dd_yyyy'] = result_non_trade['ViewData.Trade Date'].apply(lambda x : make_mm_dd_yyyy_from_string_date_format_yyyy_mm_dd(x))
                         result_non_trade['new_pb1'] = result_non_trade['new_pb1'].astype(str)
                         #result_non_trade['new_pb1'] = result_non_trade['new_pb1'].apply(lambda x : brokermap(x))
                         
@@ -1817,8 +1835,8 @@ try:
                     #       'Side1_UniqueIds', 'PredictedComment', 'PredictedCategory',
                     #       'Side0_UniqueIds']    
                     
-                    filepaths_final_df_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_df_copy_setup_' + setup_code + '_date_' + str(date_i) + '.csv'
-                    final_df_copy.to_csv(filepaths_final_df_copy)
+                    #filepaths_final_df_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_df_copy_setup_' + setup_code + '_date_' + str(date_i) + '.csv'
+                    #final_df_copy.to_csv(filepaths_final_df_copy)
                     
                     cols_for_database = ['Side1_UniqueIds','Side0_UniqueIds',
                     'predicted status', 
@@ -1989,22 +2007,18 @@ try:
                     final_df_2.drop(['custodian_val_to_use_comgen'],axis = 1, inplace = True)
                     
                     filepaths_final_df_2 = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_df_2_setup_' + setup_code + '_date_' + str(date_i) + '_2.csv'
-                    final_df_2.to_csv(filepaths_final_df_2)
+#                    final_df_2.to_csv(filepaths_final_df_2)
                     
-                    meo_filename = '//vitblrdevcons01/Raman  Strategy ML 2.0/All_Data/' + str(client) + '/meo_df_setup_' + str(setup_code) +'_date_' + date_to_analyze_ymd_format + '.csv'
-                    meo_df_copy.to_csv(meo_filename)
+                    meo_filename = '//vitblrdevcons01/Raman  Strategy ML 2.0/All_Data/' + str(client) + '/meo_df_setup_' + str(setup_code) +'_date_' + date_i + '.csv'
+#                    meo_df_copy.to_csv(meo_filename)
                     
-                    coll_1_for_writing_prediction_data = db_1_for_MEO_data['MLPrediction_Cash']
-                    coll_2_for_writing_prediction_data_in_ReconDB_ML_Testing = db_2_for_MEO_data_MLReconDB_Testing['MLPrediction_Cash']
+                    coll_1_for_writing_prediction_data = db_for_writing_MEO_data['MLPrediction_' + str(setup_code)]
                     
-                    coll_1_for_writing_prediction_data.remove({ "BusinessDate": getDateTimeFromISO8601String(date_to_analyze_ymd_iso_00_00_format), "SetupID": int(setup_code)})
-                    coll_2_for_writing_prediction_data_in_ReconDB_ML_Testing.remove({ "BusinessDate": getDateTimeFromISO8601String(date_to_analyze_ymd_iso_00_00_format), "SetupID": int(setup_code)})
                     
                     data_dict = final_df_2.to_dict("records_final")
                     coll_1_for_writing_prediction_data.insert_many(data_dict) 
                     
                     data_dict_for_testingdb = final_df_2.to_dict("records_final_for_testingdb")
-                    coll_2_for_writing_prediction_data_in_ReconDB_ML_Testing.insert_many(data_dict_for_testingdb) 
                     
                     print(setup_code)
                     print(date_i)

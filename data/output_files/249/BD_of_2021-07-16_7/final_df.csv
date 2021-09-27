@@ -1,0 +1,605 @@
+,Side0_UniqueIds,Side1_UniqueIds,BreakID,ViewData.Status,predicted status,predicted action,predicted category,predicted comment,custodian_val_to_use_comgen
+0,,30_2491430285_UBS,1860075609,CNF,UCB,Close,Close,,UBS
+1,,104_2491430285_UBS,1860075610,CNF,UCB,Close,Close,,UBS
+2,,91_2491430285_UBS,1860075611,CNF,UCB,Close,Close,,UBS
+3,,52_2491430285_UBS,1860075612,CNF,UCB,Close,Close,,UBS
+4,44_2491400081_Integrata,,1859772797,OB,UCB,Close,Close,,UBS
+5,44_2491400067_Integrata,,1859769610,OB,UCB,Close,Close,,UBS
+6,100_2491400067_Integrata,,1859769598,OB,UCB,Close,Close,,UBS
+7,3_2491400067_Integrata,,1859769354,OB,UCB,Close,Close,,UBS
+8,100_2491400081_Integrata,,1859772815,OB,UCB,Close,Close,,UBS
+9,3_2491400081_Integrata,,1859772553,OB,UCB,Close,Close,,UBS
+10,,237_2491400067_UBS,1859769376,OB,UCB,Close,Close,,UBS
+11,,200_2491400081_UBS,1859772568,OB,UCB,Close,Close,,UBS
+12,,196_2491400067_UBS,1859769363,OB,UCB,Close,Close,,UBS
+13,,237_2491400081_UBS,1859772575,OB,UCB,Close,Close,,UBS
+14,,76_2491400067_UBS,1859769613,OB,UCB,Close,Close,,UBS
+15,,196_2491400081_UBS,1859772561,OB,UCB,Close,Close,,UBS
+16,,178_2491400067_UBS,1859769604,OB,UCB,Close,Close,,UBS
+17,,195_2491400081_UBS,1859772554,OB,UCB,Close,Close,,UBS
+18,,231_2491400081_UBS,1859772832,OB,UCB,Close,Close,,UBS
+19,,222_2491400081_UBS,1859772823,OB,UCB,Close,Close,,UBS
+20,,76_2491400081_UBS,1859772826,OB,UCB,Close,Close,,UBS
+21,,238_2491400067_UBS,1859769373,OB,UCB,Close,Close,,UBS
+22,,178_2491400081_UBS,1859772830,OB,UCB,Close,Close,,UBS
+23,,195_2491400067_UBS,1859769359,OB,UCB,Close,Close,,UBS
+24,,70_2491400067_UBS,1859769597,OB,UCB,Close,Close,,UBS
+25,,74_2491400067_UBS,1859769620,OB,UCB,Close,Close,,UBS
+26,,222_2491400067_UBS,1859769626,OB,UCB,Close,Close,,UBS
+27,,71_2491400081_UBS,1859772806,OB,UCB,Close,Close,,UBS
+28,,238_2491400081_UBS,1859772571,OB,UCB,Close,Close,,UBS
+29,,73_2491400067_UBS,1859769615,OB,UCB,Close,Close,,UBS
+30,,228_2491400067_UBS,1859769630,OB,UCB,Close,Close,,UBS
+31,,70_2491400081_UBS,1859772800,OB,UCB,Close,Close,,UBS
+32,,74_2491400081_UBS,1859772817,OB,UCB,Close,Close,,UBS
+33,,197_2491400081_UBS,1859772559,OB,UCB,Close,Close,,UBS
+34,,184_2491400067_UBS,1859769628,OB,UCB,Close,Close,,UBS
+35,,228_2491400081_UBS,1859772820,OB,UCB,Close,Close,,UBS
+36,,73_2491400081_UBS,1859772810,OB,UCB,Close,Close,,UBS
+37,,84_2491400067_UBS,1859769358,OB,UCB,Close,Close,,UBS
+38,,179_2491400067_UBS,1859769611,OB,UCB,Close,Close,,UBS
+39,,184_2491400081_UBS,1859772824,OB,UCB,Close,Close,,UBS
+40,,197_2491400067_UBS,1859769368,OB,UCB,Close,Close,,UBS
+41,,220_2491400067_UBS,1859769600,OB,UCB,Close,Close,,UBS
+42,,75_2491400081_UBS,1859772814,OB,UCB,Close,Close,,UBS
+43,,84_2491400081_UBS,1859772558,OB,UCB,Close,Close,,UBS
+44,,81_2491400067_UBS,1859769366,OB,UCB,Close,Close,,UBS
+45,,179_2491400081_UBS,1859772804,OB,UCB,Close,Close,,UBS
+46,,239_2491400081_UBS,1859772576,OB,UCB,Close,Close,,UBS
+47,,185_2491400067_UBS,1859769627,OB,UCB,Close,Close,,UBS
+48,,240_2491400067_UBS,1859769374,OB,UCB,Close,Close,,UBS
+49,,75_2491400067_UBS,1859769603,OB,UCB,Close,Close,,UBS
+50,,220_2491400081_UBS,1859772813,OB,UCB,Close,Close,,UBS
+51,,241_2491400081_UBS,1859772577,OB,UCB,Close,Close,,UBS
+52,,240_2491400081_UBS,1859772572,OB,UCB,Close,Close,,UBS
+53,,239_2491400067_UBS,1859769377,OB,UCB,Close,Close,,UBS
+54,,202_2491400081_UBS,1859772567,OB,UCB,Close,Close,,UBS
+55,,81_2491400081_UBS,1859772563,OB,UCB,Close,Close,,UBS
+56,,185_2491400081_UBS,1859772809,OB,UCB,Close,Close,,UBS
+57,,182_2491400081_UBS,1859772818,OB,UCB,Close,Close,,UBS
+58,,241_2491400067_UBS,1859769378,OB,UCB,Close,Close,,UBS
+59,,202_2491400067_UBS,1859769367,OB,UCB,Close,Close,,UBS
+60,,72_2491400081_UBS,1859772808,OB,UCB,Close,Close,,UBS
+61,,182_2491400067_UBS,1859769612,OB,UCB,Close,Close,,UBS
+62,,85_2491400067_UBS,1859769375,OB,UCB,Close,Close,,UBS
+63,,224_2491400081_UBS,1859772827,OB,UCB,Close,Close,,UBS
+64,,230_2491400067_UBS,1859769632,OB,UCB,Close,Close,,UBS
+65,,227_2491400067_UBS,1859769631,OB,UCB,Close,Close,,UBS
+66,,72_2491400067_UBS,1859769609,OB,UCB,Close,Close,,UBS
+67,,180_2491400067_UBS,1859769623,OB,UCB,Close,Close,,UBS
+68,,229_2491400067_UBS,1859769629,OB,UCB,Close,Close,,UBS
+69,,227_2491400081_UBS,1859772802,OB,UCB,Close,Close,,UBS
+70,,224_2491400067_UBS,1859769616,OB,UCB,Close,Close,,UBS
+71,,85_2491400081_UBS,1859772566,OB,UCB,Close,Close,,UBS
+72,,77_2491400067_UBS,1859769619,OB,UCB,Close,Close,,UBS
+73,,230_2491400081_UBS,1859772829,OB,UCB,Close,Close,,UBS
+74,,235_2491400081_UBS,1859772570,OB,UCB,Close,Close,,UBS
+75,,229_2491400081_UBS,1859772811,OB,UCB,Close,Close,,UBS
+76,,180_2491400081_UBS,1859772807,OB,UCB,Close,Close,,UBS
+77,,226_2491400067_UBS,1859769621,OB,UCB,Close,Close,,UBS
+78,,181_2491400081_UBS,1859772798,OB,UCB,Close,Close,,UBS
+79,,235_2491400067_UBS,1859769365,OB,UCB,Close,Close,,UBS
+80,,77_2491400081_UBS,1859772822,OB,UCB,Close,Close,,UBS
+81,,86_2491400067_UBS,1859769357,OB,UCB,Close,Close,,UBS
+82,,83_2491400081_UBS,1859772565,OB,UCB,Close,Close,,UBS
+83,,80_2491400081_UBS,1859772555,OB,UCB,Close,Close,,UBS
+84,,201_2491400081_UBS,1859772560,OB,UCB,Close,Close,,UBS
+85,,181_2491400067_UBS,1859769624,OB,UCB,Close,Close,,UBS
+86,,231_2491400067_UBS,1859769633,OB,UCB,Close,Close,,UBS
+87,,226_2491400081_UBS,1859772825,OB,UCB,Close,Close,,UBS
+88,,80_2491400067_UBS,1859769356,OB,UCB,Close,Close,,UBS
+89,,82_2491400081_UBS,1859772557,OB,UCB,Close,Close,,UBS
+90,,86_2491400081_UBS,1859772556,OB,UCB,Close,Close,,UBS
+91,,201_2491400067_UBS,1859769361,OB,UCB,Close,Close,,UBS
+92,,183_2491400067_UBS,1859769618,OB,UCB,Close,Close,,UBS
+93,,82_2491400067_UBS,1859769355,OB,UCB,Close,Close,,UBS
+94,,234_2491400081_UBS,1859772574,OB,UCB,Close,Close,,UBS
+95,,200_2491400067_UBS,1859769370,OB,UCB,Close,Close,,UBS
+96,,183_2491400081_UBS,1859772828,OB,UCB,Close,Close,,UBS
+97,,71_2491400067_UBS,1859769602,OB,UCB,Close,Close,,UBS
+98,,198_2491400067_UBS,1859769369,OB,UCB,Close,Close,,UBS
+99,,234_2491400067_UBS,1859769360,OB,UCB,Close,Close,,UBS
+100,,236_2491400067_UBS,1859769372,OB,UCB,Close,Close,,UBS
+101,,87_2491400081_UBS,1859772562,OB,UCB,Close,Close,,UBS
+102,,198_2491400081_UBS,1859772564,OB,UCB,Close,Close,,UBS
+103,,83_2491400067_UBS,1859769362,OB,UCB,Close,Close,,UBS
+104,,236_2491400081_UBS,1859772569,OB,UCB,Close,Close,,UBS
+105,,87_2491400067_UBS,1859769364,OB,UCB,Close,Close,,UBS
+106,,225_2491400067_UBS,1859769625,OB,UCB,Close,Close,,UBS
+107,,199_2491400081_UBS,1859772573,OB,UCB,Close,Close,,UBS
+108,,199_2491400067_UBS,1859769371,OB,UCB,Close,Close,,UBS
+109,,225_2491400081_UBS,1859772819,OB,UCB,Close,Close,,UBS
+110,,218_2491400067_UBS,1859769694,OB,UCB,Close,Close,,UBS
+111,,218_2491400081_UBS,1859772860,OB,UCB,Close,Close,,UBS
+112,,219_2491400081_UBS,1859772868,OB,UCB,Close,Close,,UBS
+113,,1_2491430061_UBS,1859904903,OB,UCB,Close,Close,,UBS
+114,,219_2491400067_UBS,1859769718,OB,UCB,Close,Close,,UBS
+115,,1_2491430049_UBS,1859897199,OB,UCB,Close,Close,,UBS
+116,,6_2491430081_UBS,1859922467,OB,UCB,Close,Close,,UBS
+117,,11_2491430061_UBS,1859904917,OB,UCB,Close,Close,,UBS
+118,,11_2491430049_UBS,1859897215,OB,UCB,Close,Close,,UBS
+119,,12_2491430081_UBS,1859922470,OB,UCB,Close,Close,,UBS
+120,,6_2491430049_UBS,1859897213,OB,UCB,Close,Close,,UBS
+121,,6_2491430061_UBS,1859904915,OB,UCB,Close,Close,,UBS
+122,,2_2491426014_UBS,1859877332,OB,UCB,Close,Close,,UBS
+123,,1_2491426014_UBS,1859877317,OB,UCB,Close,Close,,UBS
+124,,7_2491430049_UBS,1859897216,OB,UCB,Close,Close,,UBS
+125,,7_2491430061_UBS,1859904918,OB,UCB,Close,Close,,UBS
+126,,12_2491430049_UBS,1859897218,OB,UCB,Close,Close,,UBS
+127,,12_2491430061_UBS,1859904919,OB,UCB,Close,Close,,UBS
+128,,223_2491400081_UBS,1859772853,OB,UCB,Close,Close,,UBS
+129,,223_2491400067_UBS,1859769678,OB,UCB,Close,Close,,UBS
+130,,2_2491430081_UBS,1859922451,OB,UCB,Close,Close,,UBS
+131,,12_2491400027_UBS,1859744535,OB,UCB,Close,Close,,UBS
+132,,1_2491430081_UBS,1859922445,OB,UCB,Close,Close,,UBS
+133,,6_2491400027_UBS,1859744546,OB,UCB,Close,Close,,UBS
+134,,221_2491400067_UBS,1859769726,OB,UCB,Close,Close,,UBS
+135,,221_2491400081_UBS,1859772880,OB,UCB,Close,Close,,UBS
+136,,11_2491430081_UBS,1859922476,OB,UCB,Close,Close,,UBS
+137,,7_2491430081_UBS,1859922474,OB,UCB,Close,Close,,UBS
+138,,7_2491400067_UBS,1859769693,OB,UCB,Close,Close,,UBS
+139,,7_2491400081_UBS,1859772910,OB,UCB,Close,Close,,UBS
+140,,11_2491400067_UBS,1859769700,OB,UCB,Close,Close,,UBS
+141,,11_2491400081_UBS,1859772909,OB,UCB,Close,Close,,UBS
+142,,12_2491400067_UBS,1859769692,OB,UCB,Close,Close,,UBS
+143,,12_2491400081_UBS,1859772902,OB,UCB,Close,Close,,UBS
+144,,2_2491430061_UBS,1859904888,OB,UCB,Close,Close,,UBS
+145,,6_2491400081_UBS,1859772893,OB,UCB,Close,Close,,UBS
+146,,2_2491430049_UBS,1859897200,OB,UCB,Close,Close,,UBS
+147,,6_2491400067_UBS,1859769685,OB,UCB,Close,Close,,UBS
+148,,11_2491400027_UBS,1859744534,OB,UCB,Close,Close,,UBS
+149,,7_2491400027_UBS,1859744542,OB,UCB,Close,Close,,UBS
+150,,25_2491400081_UBS,1859772907,OB,UCB,Close,Close,,UBS
+151,,25_2491400067_UBS,1859769687,OB,UCB,Close,Close,,UBS
+152,,23_2491400067_UBS,1859769379,OB,UCB,Close,Close,,UBS
+153,,23_2491400081_UBS,1859772578,OB,UCB,Close,Close,,UBS
+154,,16_2491426014_UBS,1859877313,OB,UCB,Close,Close,,UBS
+155,,20_2491426014_UBS,1859877328,OB,UCB,Close,Close,,UBS
+156,,28_2491426014_UBS,1859877196,OB,UCB,Close,Close,,UBS
+157,,1_2491430285_UBS,1860075730,OB,UCB,Close,Close,,UBS
+158,,21_2491430285_UBS,1860075736,OB,UCB,Close,Close,,UBS
+159,,2_2491430285_UBS,1860075737,OB,UCB,Close,Close,,UBS
+160,,42_2491430285_UBS,1860075739,OB,UCB,Close,Close,,UBS
+161,,23_2491430285_UBS,1860075742,OB,UCB,Close,Close,,UBS
+162,,84_2491430285_UBS,1860075745,OB,UCB,Close,Close,,UBS
+163,,6_2491430285_UBS,1860075746,OB,UCB,Close,Close,,UBS
+164,,98_2491430285_UBS,1860075748,OB,UCB,Close,Close,,UBS
+165,,73_2491430061_UBS,1859904885,OB,UCB,Close,Close,,UBS
+166,,73_2491430049_UBS,1859897210,OB,UCB,Close,Close,,UBS
+167,,74_2491430049_UBS,1859897104,OB,UCB,Close,Close,,UBS
+168,,74_2491430061_UBS,1859904773,OB,UCB,Close,Close,,UBS
+169,,11_2491430285_UBS,1860075749,OB,UCB,Close,Close,,UBS
+170,,7_2491430285_UBS,1860075750,OB,UCB,Close,Close,,UBS
+171,,12_2491430285_UBS,1860075751,OB,UCB,Close,Close,,UBS
+172,,145_2491400067_UBS,1859769614,OB,UCB,Close,Close,,UBS
+173,,93_2491400067_UBS,1859769617,OB,UCB,Close,Close,,UBS
+174,,145_2491400081_UBS,1859772831,OB,UCB,Close,Close,,UBS
+175,,93_2491400081_UBS,1859772821,OB,UCB,Close,Close,,UBS
+176,,110_2491426014_UBS,1859877304,OB,UCB,Close,Close,,UBS
+177,,17_2491400027_UBS,1859744338,OB,UCB,Close,Close,,UBS
+178,,150_2491400081_UBS,1859772877,OB,UCB,Close,Close,,UBS
+179,,150_2491400067_UBS,1859769707,OB,UCB,Close,Close,,UBS
+180,,148_2491400081_UBS,1859772854,OB,UCB,Close,Close,,UBS
+181,,11_2491426014_UBS,1859877347,OB,UCB,Close,Close,,UBS
+182,,148_2491400067_UBS,1859769661,OB,UCB,Close,Close,,UBS
+183,,6_2491426014_UBS,1859877340,OB,UCB,Close,Close,,UBS
+184,,2_2491400027_UBS,1859744548,OB,UCB,Close,Close,,UBS
+185,,12_2491426014_UBS,1859877356,OB,UCB,Close,Close,,UBS
+186,,1_2491400027_UBS,1859744536,OB,UCB,Close,Close,,UBS
+187,,7_2491426014_UBS,1859877353,OB,UCB,Close,Close,,UBS
+188,,147_2491400081_UBS,1859772894,OB,UCB,Close,Close,,UBS
+189,,147_2491400067_UBS,1859769708,OB,UCB,Close,Close,,UBS
+190,,146_2491400081_UBS,1859772885,OB,UCB,Close,Close,,UBS
+191,,146_2491400067_UBS,1859769699,OB,UCB,Close,Close,,UBS
+192,,171_2491400067_UBS,1859769725,OB,UCB,Close,Close,,UBS
+193,,171_2491400081_UBS,1859772922,OB,UCB,Close,Close,,UBS
+194,,169_2491400067_UBS,1859769721,OB,UCB,Close,Close,,UBS
+195,,169_2491400081_UBS,1859772918,OB,UCB,Close,Close,,UBS
+196,,168_2491400067_UBS,1859769714,OB,UCB,Close,Close,,UBS
+197,,168_2491400081_UBS,1859772914,OB,UCB,Close,Close,,UBS
+198,,170_2491400081_UBS,1859772886,OB,UCB,Close,Close,,UBS
+199,,172_2491400067_UBS,1859769653,OB,UCB,Close,Close,,UBS
+200,,172_2491400081_UBS,1859772905,OB,UCB,Close,Close,,UBS
+201,,170_2491400067_UBS,1859769671,OB,UCB,Close,Close,,UBS
+202,,173_2491400067_UBS,1859769662,OB,UCB,Close,Close,,UBS
+203,,175_2491400067_UBS,1859769719,OB,UCB,Close,Close,,UBS
+204,,173_2491400081_UBS,1859772842,OB,UCB,Close,Close,,UBS
+205,,175_2491400081_UBS,1859772895,OB,UCB,Close,Close,,UBS
+206,,177_2491400081_UBS,1859772913,OB,UCB,Close,Close,,UBS
+207,,177_2491400067_UBS,1859769705,OB,UCB,Close,Close,,UBS
+208,,176_2491400081_UBS,1859772904,OB,UCB,Close,Close,,UBS
+209,,176_2491400067_UBS,1859769727,OB,UCB,Close,Close,,UBS
+210,,174_2491400067_UBS,1859769686,OB,UCB,Close,Close,,UBS
+211,,174_2491400081_UBS,1859772846,OB,UCB,Close,Close,,UBS
+212,,2_2491400081_UBS,1859772856,OB,UCB,Close,Close,,UBS
+213,,2_2491400067_UBS,1859769652,OB,UCB,Close,Close,,UBS
+214,,1_2491400081_UBS,1859772850,OB,UCB,Close,Close,,UBS
+215,,1_2491400067_UBS,1859769644,OB,UCB,Close,Close,,UBS
+216,,149_2491400067_UBS,1859769670,OB,UCB,Close,Close,,UBS
+217,,149_2491400081_UBS,1859772862,OB,UCB,Close,Close,,UBS
+218,"[None, '3_2491430049_Integrata']","['21_2491430061_UBS', '15_2491430049_UBS']","[1859904774, 1859897121]","['OB', 'SMB']",UMR,UMR,match,match,UBS
+219,"[None, '4_2491430049_Integrata']","['22_2491430061_UBS', '16_2491430049_UBS']","[1859904775, 1859897130]","['OB', 'SMB']",UMR,UMR,match,match,UBS
+220,"['64_2491430285_Integrata', None]","[None, '29_2491430285_UBS']","[1860075697, 1860075747]","['OB', 'OB']",UMR,UMR,match,match,UBS
+221,"['1_2491430049_Integrata', '1_2491430061_Integrata', None, None]","[None, None, '75_2491430049_UBS', '75_2491430061_UBS']","[1859897097, 1859904768, 1859904828, 1859904771]","['OB', 'OB', 'OB', 'OB']",UMR,UMR,match,match,UBS
+222,"['2_2491426014_Integrata', None]","[None, '103_2491426014_UBS']","[1859877195, 1859877198]","['OB', 'OB']",UMR,UMR,match,match,UBS
+223,"['28_2491400067_Integrata', '28_2491400081_Integrata', '27_2491400067_Integrata', '27_2491400081_Integrata', None, None, None, None]","[None, None, None, None, '78_2491400081_UBS', '78_2491400067_UBS', '79_2491400067_UBS', '79_2491400081_UBS']","[1859769649, 1859772843, 1859769657, 1859772867, 1859772897, 1859769654, 1859769658, 1859772906]","['OB', 'OB', 'OB', 'OB', 'OB', 'OB', 'OB', 'OB']",UMR,UMR,match,match,UBS
+224,"[None, '5_2491430061_Integrata', '5_2491430049_Integrata']","['59_2491426014_UBS', None, None]","[1860075719, 1860075726, 1860075729]","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,UBS
+225,"[None, None, '24_2491430061_Integrata', '24_2491430049_Integrata', '23_2491430061_Integrata', '23_2491430049_Integrata']","['60_2491426014_UBS', '61_2491426014_UBS', None, None, None, None]","[1860075720, 1860075721, 1860075724, 1860075725, 1860075723, 1860075728]","['SPM', 'SPM', 'SPM', 'SPM', 'SPM', 'SPM']",UMR,UMR,match,match,UBS
+226,"[None, '60_2491430061_Integrata', '60_2491430049_Integrata']","['62_2491426014_UBS', None, None]","[1860075718, 1860075722, 1860075727]","['SPM', 'SPM', 'SPM']",UMR,UMR,match,match,UBS
+227,,18_2491400027_UBS,1859744340,OB,UCB,Close,Close,,UBS
+228,,19_2491400027_UBS,1859744337,OB,UCB,Close,Close,,UBS
+229,"[None, '4_2491400027_Integrata', '5_2491400027_Integrata', '3_2491400027_Integrata']","['100_2491400027_UBS', None, None, None]","[1859744339, 1859744539, 1859744527, 1859744533]","['OB', 'OB', 'OB', 'OB']",UMR,UMR,match,match,UBS
+230,20_2491430049_Integrata,BB,1859897177,OB,OB,No-pair,dividend,Integrata booked the dividend transaction for SD 07-13-2021. UBS  yet to book.,UBS 
+231,1_2491400081_Integrata,BB,1859772801,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 05-17-2021. UBS  yet to book.,UBS 
+232,1_2491400067_Integrata,BB,1859769599,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 05-17-2021. UBS  yet to book.,UBS 
+233,15_2491430081_Integrata,BB,1859922419,OB,OB,No-pair,dividend,Integrata booked the dividend transaction for SD 07-14-2021. UBS  yet to book.,UBS 
+234,41_2491430081_Integrata,BB,1859922420,OB,OB,No-pair,dividend,Integrata booked the dividend transaction for SD 07-14-2021. UBS  yet to book.,UBS 
+235,4_2491400081_Integrata,BB,1859772816,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 05-31-2021. UBS  yet to book.,UBS 
+236,4_2491400067_Integrata,BB,1859769596,OB,OB,No-pair,wire,Integrata booked the wire transaction for SD 05-31-2021. UBS  yet to book.,UBS 
+237,20_2491430061_Integrata,BB,1859904857,OB,OB,No-pair,dividend,Integrata booked the dividend transaction for SD 07-13-2021. UBS  yet to book.,UBS 
+238,AA,111_2491426014_UBS,1859877303,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-07-2021. Integrata yet to book.,UBS 
+239,AA,242_2491400067_UBS,1859769607,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+240,AA,242_2491400081_UBS,1859772833,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+241,AA,76_2491430061_UBS,1859904859,OB,OB,No-pair,dividend,UBS  booked the dividend transaction for SD 07-30-2021. Integrata yet to book.,UBS 
+242,AA,76_2491430049_UBS,1859897176,OB,OB,No-pair,dividend,UBS  booked the dividend transaction for SD 07-30-2021. Integrata yet to book.,UBS 
+243,AA,53_2491400081_UBS,1859772796,OB,OB,No-pair,dividend,UBS  booked the dividend transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+244,AA,53_2491400067_UBS,1859769595,OB,OB,No-pair,dividend,UBS  booked the dividend transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+245,AA,157_2491400081_UBS,1859772805,OB,OB,No-pair,swap cash flow,UBS  booked the swap cash flow transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+246,AA,59_2491400067_UBS,1859769605,OB,OB,No-pair,swap cash flow,UBS  booked the swap cash flow transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+247,AA,157_2491400067_UBS,1859769608,OB,OB,No-pair,swap cash flow,UBS  booked the swap cash flow transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+248,AA,93_2491430061_UBS,1859904858,OB,OB,No-pair,dividend,UBS  booked the dividend transaction for SD 07-30-2021. Integrata yet to book.,UBS 
+249,AA,59_2491400081_UBS,1859772803,OB,OB,No-pair,swap cash flow,UBS  booked the swap cash flow transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+250,AA,151_2491400081_UBS,1859772799,OB,OB,No-pair,dividend,UBS  booked the dividend transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+251,AA,93_2491430049_UBS,1859897178,OB,OB,No-pair,dividend,UBS  booked the dividend transaction for SD 07-30-2021. Integrata yet to book.,UBS 
+252,AA,151_2491400067_UBS,1859769601,OB,OB,No-pair,dividend,UBS  booked the dividend transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+253,AA,88_2491400081_UBS,1859772812,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+254,AA,88_2491400067_UBS,1859769622,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+255,21_2491430285_Integrata,BB,1860075708,OB,OB,No-pair,dividend,Integrata booked the dividend transaction for SD 07-16-2021. UBS  yet to book.,UBS 
+256,17_2491430081_Integrata,BB,1859922459,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. UBS  yet to book.,UBS 
+257,45_2491400081_Integrata,BB,1859772873,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. UBS  yet to book.,UBS 
+258,54_2491430061_Integrata,BB,1859904893,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. UBS  yet to book.,UBS 
+259,24_2491400027_Integrata,BB,1859744537,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-16-2021. UBS  yet to book.,UBS 
+260,21_2491430049_Integrata,BB,1859897193,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. UBS  yet to book.,UBS 
+261,55_2491430061_Integrata,BB,1859904902,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. UBS  yet to book.,UBS 
+262,14_2491430049_Integrata,BB,1859897188,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. UBS  yet to book.,UBS 
+263,16_2491430081_Integrata,BB,1859922452,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. UBS  yet to book.,UBS 
+264,15_2491426014_Integrata,BB,1859877320,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. UBS  yet to book.,UBS 
+265,26_2491400027_Integrata,BB,1859744529,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-16-2021. UBS  yet to book.,UBS 
+266,21_2491430061_Integrata,BB,1859904896,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. UBS  yet to book.,UBS 
+267,46_2491400067_Integrata,BB,1859769646,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. UBS  yet to book.,UBS 
+268,55_2491430049_Integrata,BB,1859897195,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. UBS  yet to book.,UBS 
+269,14_2491430061_Integrata,BB,1859904882,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. UBS  yet to book.,UBS 
+270,23_2491400027_Integrata,BB,1859744526,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-16-2021. UBS  yet to book.,UBS 
+271,13_2491430061_Integrata,BB,1859904897,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. UBS  yet to book.,UBS 
+272,16_2491426014_Integrata,BB,1859877326,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. UBS  yet to book.,UBS 
+273,46_2491400081_Integrata,BB,1859772864,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. UBS  yet to book.,UBS 
+274,53_2491430049_Integrata,BB,1859897201,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. UBS  yet to book.,UBS 
+275,45_2491400067_Integrata,BB,1859769643,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. UBS  yet to book.,UBS 
+276,40_2491430081_Integrata,BB,1859922444,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. UBS  yet to book.,UBS 
+277,99_2491400081_Integrata,BB,1859772849,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. UBS  yet to book.,UBS 
+278,99_2491400067_Integrata,BB,1859769642,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. UBS  yet to book.,UBS 
+279,17_2491426014_Integrata,BB,1859877334,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. UBS  yet to book.,UBS 
+280,13_2491430049_Integrata,BB,1859897189,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. UBS  yet to book.,UBS 
+281,53_2491430061_Integrata,BB,1859904886,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. UBS  yet to book.,UBS 
+282,28_2491426014_Integrata,BB,1859877336,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. UBS  yet to book.,UBS 
+283,26_2491426014_Integrata,BB,1859877321,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. UBS  yet to book.,UBS 
+284,54_2491430049_Integrata,BB,1859897202,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. UBS  yet to book.,UBS 
+285,66_2491426014_Integrata,BB,1859877330,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. UBS  yet to book.,UBS 
+286,64_2491426014_Integrata,BB,1859877312,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. UBS  yet to book.,UBS 
+287,101_2491400081_Integrata,BB,1859772780,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. UBS  yet to book.,UBS 
+288,25_2491400027_Integrata,BB,1859744540,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-16-2021. UBS  yet to book.,UBS 
+289,27_2491426014_Integrata,BB,1859877314,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. UBS  yet to book.,UBS 
+290,65_2491426014_Integrata,BB,1859877316,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. UBS  yet to book.,UBS 
+291,5_2491400067_Integrata,BB,1859769647,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-01-2021. UBS  yet to book.,UBS 
+292,10_2491430081_Integrata,BB,1859922443,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. UBS  yet to book.,UBS 
+293,101_2491400067_Integrata,BB,1859772779,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. UBS  yet to book.,UBS 
+294,5_2491400081_Integrata,BB,1859772872,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-01-2021. UBS  yet to book.,UBS 
+295,2_2491400067_Integrata,BB,1859769667,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 05-17-2021. UBS  yet to book.,UBS 
+296,9_2491430081_Integrata,BB,1859922447,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. UBS  yet to book.,UBS 
+297,39_2491430081_Integrata,BB,1859922466,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. UBS  yet to book.,UBS 
+298,2_2491400081_Integrata,BB,1859772847,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 05-17-2021. UBS  yet to book.,UBS 
+299,AA,86_2491430285_UBS,1860075670,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-20-2021. Integrata yet to book.,UBS 
+300,AA,61_2491400067_UBS,1859769711,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+301,AA,87_2491430285_UBS,1860075671,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-20-2021. Integrata yet to book.,UBS 
+302,AA,3_2491400027_UBS,1859744538,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-14-2021. Integrata yet to book.,UBS 
+303,AA,61_2491400081_UBS,1859772881,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+304,AA,89_2491400067_UBS,1859769655,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+305,AA,88_2491430285_UBS,1860075672,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-20-2021. Integrata yet to book.,UBS 
+306,AA,69_2491400067_UBS,1859769691,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+307,AA,42_2491430061_UBS,1859904908,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+308,AA,69_2491400081_UBS,1859772898,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+309,AA,45_2491430285_UBS,1860075673,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-20-2021. Integrata yet to book.,UBS 
+310,AA,187_2491400081_UBS,1859772875,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-22-2021. Integrata yet to book.,UBS 
+311,AA,42_2491430049_UBS,1859897204,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+312,AA,64_2491400081_UBS,1859772903,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+313,AA,187_2491400067_UBS,1859769675,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-22-2021. Integrata yet to book.,UBS 
+314,AA,5_2491400067_UBS,1859769679,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+315,AA,44_2491430285_UBS,1860075674,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-20-2021. Integrata yet to book.,UBS 
+316,AA,64_2491400067_UBS,1859769717,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+317,AA,15_2491400027_UBS,1859744550,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-14-2021. Integrata yet to book.,UBS 
+318,AA,190_2491400067_UBS,1859769695,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-22-2021. Integrata yet to book.,UBS 
+319,AA,5_2491400081_UBS,1859772884,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+320,AA,165_2491400081_UBS,1859772911,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+321,AA,55_2491400081_UBS,1859772888,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+322,AA,46_2491430285_UBS,1860075675,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-20-2021. Integrata yet to book.,UBS 
+323,AA,190_2491400081_UBS,1859772899,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-22-2021. Integrata yet to book.,UBS 
+324,AA,9_2491430049_UBS,1859897221,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+325,AA,165_2491400067_UBS,1859769697,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+326,AA,90_2491400067_UBS,1859769673,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+327,AA,55_2491400067_UBS,1859769715,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+328,AA,188_2491400067_UBS,1859769681,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-22-2021. Integrata yet to book.,UBS 
+329,AA,9_2491430061_UBS,1859904898,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+330,AA,100_2491430285_UBS,1860075692,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-20-2021. Integrata yet to book.,UBS 
+331,AA,60_2491400081_UBS,1859772859,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+332,AA,188_2491400081_UBS,1859772883,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-22-2021. Integrata yet to book.,UBS 
+333,AA,90_2491400081_UBS,1859772870,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+334,AA,163_2491400067_UBS,1859769684,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+335,AA,60_2491400067_UBS,1859769701,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+336,AA,191_2491400081_UBS,1859772866,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-22-2021. Integrata yet to book.,UBS 
+337,AA,102_2491430285_UBS,1860075691,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-20-2021. Integrata yet to book.,UBS 
+338,AA,14_2491430081_UBS,1859922454,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+339,AA,163_2491400081_UBS,1859772915,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+340,AA,63_2491400067_UBS,1859769659,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+341,AA,191_2491400067_UBS,1859769664,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-22-2021. Integrata yet to book.,UBS 
+342,AA,101_2491430285_UBS,1860075693,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-20-2021. Integrata yet to book.,UBS 
+343,AA,13_2491400027_UBS,1859744543,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-14-2021. Integrata yet to book.,UBS 
+344,AA,92_2491400027_UBS,1859744532,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-14-2021. Integrata yet to book.,UBS 
+345,AA,63_2491400081_UBS,1859772908,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+346,AA,155_2491400081_UBS,1859772845,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+347,AA,186_2491400067_UBS,1859769666,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-22-2021. Integrata yet to book.,UBS 
+348,AA,67_2491426014_UBS,1859877341,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-09-2021. Integrata yet to book.,UBS 
+349,AA,66_2491400081_UBS,1859772851,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+350,AA,186_2491400081_UBS,1859772858,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-22-2021. Integrata yet to book.,UBS 
+351,AA,155_2491400067_UBS,1859769723,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+352,AA,50_2491430285_UBS,1860075706,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-20-2021. Integrata yet to book.,UBS 
+353,AA,66_2491400067_UBS,1859769668,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+354,AA,9_2491400067_UBS,1859769722,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+355,AA,153_2491400067_UBS,1859769720,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+356,AA,124_2491426014_UBS,1859877286,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+357,AA,41_2491430049_UBS,1859897196,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+358,AA,49_2491430285_UBS,1860075705,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-20-2021. Integrata yet to book.,UBS 
+359,AA,57_2491400081_UBS,1859772912,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+360,AA,9_2491400081_UBS,1859772844,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+361,AA,153_2491400081_UBS,1859772927,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+362,AA,123_2491426014_UBS,1859877285,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+363,AA,41_2491430061_UBS,1859904901,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+364,AA,57_2491400067_UBS,1859769728,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+365,AA,167_2491400067_UBS,1859769650,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+366,AA,48_2491430285_UBS,1860075707,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-20-2021. Integrata yet to book.,UBS 
+367,AA,51_2491426014_UBS,1859877367,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-30-2021. Integrata yet to book.,UBS 
+368,AA,28_2491430049_UBS,1859897192,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+369,AA,49_2491426014_UBS,1859877319,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-09-2021. Integrata yet to book.,UBS 
+370,AA,56_2491400067_UBS,1859769724,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+371,AA,63_2491426014_UBS,1859877337,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-30-2021. Integrata yet to book.,UBS 
+372,AA,167_2491400081_UBS,1859772925,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+373,AA,65_2491426014_UBS,1859877339,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-30-2021. Integrata yet to book.,UBS 
+374,AA,28_2491430061_UBS,1859904883,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+375,AA,158_2491400067_UBS,1859769676,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+376,AA,56_2491400081_UBS,1859772896,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+377,AA,10_2491430049_UBS,1859897222,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+378,AA,15_2491430081_UBS,1859922460,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+379,AA,53_2491426014_UBS,1859877369,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-30-2021. Integrata yet to book.,UBS 
+380,AA,39_2491430049_UBS,1859897098,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+381,AA,54_2491400067_UBS,1859769706,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+382,AA,158_2491400081_UBS,1859772865,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+383,AA,8_2491400081_UBS,1859772916,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+384,AA,39_2491430061_UBS,1859904769,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+385,AA,10_2491430061_UBS,1859904907,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+386,AA,40_2491430049_UBS,1859897190,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+387,AA,162_2491400067_UBS,1859769669,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+388,AA,54_2491400081_UBS,1859772879,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+389,AA,8_2491400067_UBS,1859769709,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+390,AA,37_2491430061_UBS,1859904904,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+391,AA,58_2491400081_UBS,1859772841,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+392,AA,62_2491400067_UBS,1859769698,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+393,AA,162_2491400081_UBS,1859772900,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+394,AA,40_2491430061_UBS,1859904890,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+395,AA,37_2491430049_UBS,1859897194,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+396,AA,47_2491430081_UBS,1859922464,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-15-2021. Integrata yet to book.,UBS 
+397,AA,164_2491400081_UBS,1859772887,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+398,AA,58_2491400067_UBS,1859769696,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+399,AA,62_2491400081_UBS,1859772917,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+400,AA,13_2491430081_UBS,1859922448,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+401,AA,10_2491400027_UBS,1859744544,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-14-2021. Integrata yet to book.,UBS 
+402,AA,67_2491400067_UBS,1859769677,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+403,AA,164_2491400067_UBS,1859769690,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+404,AA,9_2491430081_UBS,1859922455,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+405,AA,166_2491400081_UBS,1859772921,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+406,AA,67_2491400081_UBS,1859772869,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+407,AA,5_2491426014_UBS,1859877327,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-09-2021. Integrata yet to book.,UBS 
+408,AA,38_2491430081_UBS,1859922453,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-16-2021. Integrata yet to book.,UBS 
+409,AA,65_2491400067_UBS,1859769641,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+410,AA,166_2491400067_UBS,1859769713,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+411,AA,85_2491430061_UBS,1859904853,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-15-2021. Integrata yet to book.,UBS 
+412,AA,65_2491400081_UBS,1859772919,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+413,AA,154_2491400081_UBS,1859772928,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+414,AA,68_2491400081_UBS,1859772891,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+415,AA,85_2491430049_UBS,1859904855,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-15-2021. Integrata yet to book.,UBS 
+416,AA,154_2491400067_UBS,1859769716,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+417,AA,83_2491430061_UBS,1859904854,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-15-2021. Integrata yet to book.,UBS 
+418,AA,161_2491400067_UBS,1859769660,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+419,AA,68_2491400067_UBS,1859769683,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+420,AA,57_2491426014_UBS,1859877322,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-30-2021. Integrata yet to book.,UBS 
+421,AA,83_2491430049_UBS,1859904856,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-15-2021. Integrata yet to book.,UBS 
+422,AA,3_2491400067_UBS,1859769663,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+423,AA,161_2491400081_UBS,1859772878,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+424,AA,55_2491426014_UBS,1859877338,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-30-2021. Integrata yet to book.,UBS 
+425,AA,87_2491430061_UBS,1859904772,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+426,AA,159_2491400081_UBS,1859772876,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+427,AA,3_2491400081_UBS,1859772863,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+428,AA,87_2491430049_UBS,1859897099,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+429,AA,5_2491400027_UBS,1859744528,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-14-2021. Integrata yet to book.,UBS 
+430,AA,159_2491400067_UBS,1859769651,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+431,AA,152_2491400067_UBS,1859769704,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+432,AA,77_2491430061_UBS,1859904891,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+433,AA,93_2491400027_UBS,1859744547,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-15-2021. Integrata yet to book.,UBS 
+434,AA,3_2491430081_UBS,1859922456,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+435,AA,152_2491400081_UBS,1859772926,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+436,AA,77_2491430049_UBS,1859897207,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+437,AA,8_2491430061_UBS,1859904889,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+438,AA,64_2491426014_UBS,1859877345,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-30-2021. Integrata yet to book.,UBS 
+439,AA,66_2491426014_UBS,1859877351,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-30-2021. Integrata yet to book.,UBS 
+440,AA,156_2491400067_UBS,1859769645,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+441,AA,8_2491430049_UBS,1859897220,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+442,AA,45_2491426014_UBS,1859877268,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+443,AA,156_2491400081_UBS,1859772855,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+444,AA,9_2491426014_UBS,1859877361,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-09-2021. Integrata yet to book.,UBS 
+445,AA,160_2491400081_UBS,1859772923,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+446,AA,47_2491426014_UBS,1859877267,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+447,AA,9_2491400027_UBS,1859744531,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-14-2021. Integrata yet to book.,UBS 
+448,AA,48_2491430081_UBS,1859922469,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+449,AA,119_2491426014_UBS,1859877344,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+450,AA,160_2491400067_UBS,1859769712,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+451,AA,14_2491430061_UBS,1859904912,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+452,AA,10_2491430081_UBS,1859922461,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+453,AA,120_2491426014_UBS,1859877349,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+454,AA,14_2491430049_UBS,1859897224,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+455,AA,10_2491426014_UBS,1859877363,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-09-2021. Integrata yet to book.,UBS 
+456,AA,81_2491430049_UBS,1859897212,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-15-2021. Integrata yet to book.,UBS 
+457,AA,13_2491400081_UBS,1859772861,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+458,AA,5_2491430049_UBS,1859897211,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+459,AA,81_2491430061_UBS,1859904911,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-15-2021. Integrata yet to book.,UBS 
+460,AA,13_2491400067_UBS,1859769656,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+461,AA,5_2491430061_UBS,1859904913,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+462,AA,38_2491430061_UBS,1859904887,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-15-2021. Integrata yet to book.,UBS 
+463,AA,10_2491400081_UBS,1859772852,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+464,AA,38_2491430049_UBS,1859897191,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-15-2021. Integrata yet to book.,UBS 
+465,AA,4_2491426014_UBS,1859877318,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-09-2021. Integrata yet to book.,UBS 
+466,AA,10_2491400067_UBS,1859769648,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+467,AA,106_2491426014_UBS,1859877323,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+468,AA,3_2491430049_UBS,1859897206,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+469,AA,4_2491400081_UBS,1859772874,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+470,AA,14_2491400081_UBS,1859772871,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-22-2021. Integrata yet to book.,UBS 
+471,AA,105_2491426014_UBS,1859877335,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+472,AA,3_2491430061_UBS,1859904895,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+473,AA,14_2491400067_UBS,1859769665,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-22-2021. Integrata yet to book.,UBS 
+474,AA,79_2491430049_UBS,1859897205,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+475,AA,54_2491426014_UBS,1859877370,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-30-2021. Integrata yet to book.,UBS 
+476,AA,4_2491400067_UBS,1859769674,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+477,AA,52_2491426014_UBS,1859877368,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-30-2021. Integrata yet to book.,UBS 
+478,AA,79_2491430061_UBS,1859904906,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+479,AA,8_2491400027_UBS,1859744545,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-14-2021. Integrata yet to book.,UBS 
+480,AA,37_2491430081_UBS,1859922446,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-15-2021. Integrata yet to book.,UBS 
+481,AA,78_2491430061_UBS,1859904899,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+482,AA,14_2491426014_UBS,1859877365,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-09-2021. Integrata yet to book.,UBS 
+483,AA,232_2491400081_UBS,1859772901,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-23-2021. Integrata yet to book.,UBS 
+484,AA,13_2491426014_UBS,1859877364,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-12-2021. Integrata yet to book.,UBS 
+485,AA,78_2491430049_UBS,1859897197,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+486,AA,94_2491430049_UBS,1859897214,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+487,AA,42_2491426014_UBS,1859877355,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+488,AA,4_2491430049_UBS,1859897208,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+489,AA,56_2491426014_UBS,1859877343,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-30-2021. Integrata yet to book.,UBS 
+490,AA,94_2491430061_UBS,1859904914,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+491,AA,45_2491430081_UBS,1859922468,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-16-2021. Integrata yet to book.,UBS 
+492,AA,43_2491426014_UBS,1859877358,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+493,AA,95_2491430061_UBS,1859904884,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+494,AA,13_2491430049_UBS,1859897223,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+495,AA,35_2491430061_UBS,1859904892,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+496,AA,44_2491430081_UBS,1859922465,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-16-2021. Integrata yet to book.,UBS 
+497,AA,35_2491430049_UBS,1859897198,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+498,AA,95_2491430049_UBS,1859897217,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+499,AA,13_2491430061_UBS,1859904910,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+500,AA,60_2491430081_UBS,1859922473,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+501,AA,36_2491430049_UBS,1859897203,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+502,AA,8_2491430081_UBS,1859922450,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+503,AA,41_2491426014_UBS,1859877352,OB,OB,No-pair,proceeds trade settlement,UBS  booked the proceeds trade settlement transaction for SD 07-08-2021. Integrata yet to book.,UBS 
+504,AA,36_2491430061_UBS,1859904900,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+505,AA,43_2491430081_UBS,1859922458,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-15-2021. Integrata yet to book.,UBS 
+506,AA,104_2491426014_UBS,1859877197,OB,OB,No-pair,proceeds trade settlement,UBS  booked the proceeds trade settlement transaction for SD 07-09-2021. Integrata yet to book.,UBS 
+507,AA,4_2491430061_UBS,1859904905,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+508,AA,80_2491430061_UBS,1859904909,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-15-2021. Integrata yet to book.,UBS 
+509,AA,4_2491430081_UBS,1859922462,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+510,AA,69_2491430081_UBS,1859922477,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-15-2021. Integrata yet to book.,UBS 
+511,AA,71_2491430081_UBS,1859922457,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-16-2021. Integrata yet to book.,UBS 
+512,AA,192_2491400067_UBS,1859769672,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-22-2021. Integrata yet to book.,UBS 
+513,AA,3_2491426014_UBS,1859877342,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-09-2021. Integrata yet to book.,UBS 
+514,AA,192_2491400081_UBS,1859772848,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-22-2021. Integrata yet to book.,UBS 
+515,AA,80_2491430049_UBS,1859897209,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-15-2021. Integrata yet to book.,UBS 
+516,AA,70_2491430081_UBS,1859922449,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-16-2021. Integrata yet to book.,UBS 
+517,AA,189_2491400067_UBS,1859769688,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-22-2021. Integrata yet to book.,UBS 
+518,AA,8_2491426014_UBS,1859877359,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-09-2021. Integrata yet to book.,UBS 
+519,AA,189_2491400081_UBS,1859772892,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-22-2021. Integrata yet to book.,UBS 
+520,AA,118_2491426014_UBS,1859877333,OB,OB,No-pair,proceeds trade settlement,UBS  booked the proceeds trade settlement transaction for SD 07-08-2021. Integrata yet to book.,UBS 
+521,AA,102_2491426014_UBS,1859877324,OB,OB,No-pair,proceeds trade settlement,UBS  booked the proceeds trade settlement transaction for SD 07-08-2021. Integrata yet to book.,UBS 
+522,AA,5_2491430081_UBS,1859922463,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+523,AA,4_2491400027_UBS,1859744549,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-14-2021. Integrata yet to book.,UBS 
+524,AA,50_2491426014_UBS,1859877366,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-30-2021. Integrata yet to book.,UBS 
+525,AA,32_2491400081_UBS,1859772889,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+526,AA,96_2491430061_UBS,1859904894,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+527,AA,32_2491400067_UBS,1859769689,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+528,AA,96_2491430049_UBS,1859897219,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+529,AA,118_2491400027_UBS,1859744551,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-16-2021. Integrata yet to book.,UBS 
+530,AA,97_2491430049_UBS,1859897102,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+531,AA,97_2491430061_UBS,1859904770,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+532,AA,119_2491400027_UBS,1859744553,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-16-2021. Integrata yet to book.,UBS 
+533,AA,244_2491400081_UBS,1859772920,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+534,AA,29_2491426014_UBS,1859877348,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-09-2021. Integrata yet to book.,UBS 
+535,AA,120_2491400027_UBS,1859744552,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-16-2021. Integrata yet to book.,UBS 
+536,AA,48_2491426014_UBS,1859877325,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+537,AA,109_2491426014_UBS,1859877315,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+538,AA,100_2491430049_UBS,1859897226,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+539,AA,46_2491430081_UBS,1859922471,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-16-2021. Integrata yet to book.,UBS 
+540,AA,125_2491426014_UBS,1859877329,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+541,AA,100_2491430061_UBS,1859904881,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+542,AA,128_2491426014_UBS,1859877362,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-09-2021. Integrata yet to book.,UBS 
+543,AA,72_2491430081_UBS,1859922475,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+544,AA,73_2491430081_UBS,1859922472,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-14-2021. Integrata yet to book.,UBS 
+545,AA,121_2491400027_UBS,1859744530,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-14-2021. Integrata yet to book.,UBS 
+546,AA,99_2491430061_UBS,1859904916,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+547,AA,99_2491430049_UBS,1859897225,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-13-2021. Integrata yet to book.,UBS 
+548,AA,127_2491426014_UBS,1859877360,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-09-2021. Integrata yet to book.,UBS 
+549,55_2491430285_Integrata,BB,1860075731,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-19-2021. UBS  yet to book.,UBS 
+550,56_2491430285_Integrata,BB,1860075732,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-19-2021. UBS  yet to book.,UBS 
+551,AA,31_2491430285_UBS,1860075733,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-16-2021. Integrata yet to book.,UBS 
+552,AA,53_2491430285_UBS,1860075734,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-16-2021. Integrata yet to book.,UBS 
+553,AA,4_2491430285_UBS,1860075735,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-16-2021. Integrata yet to book.,UBS 
+554,57_2491430285_Integrata,BB,1860075738,OB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. UBS  yet to book.,UBS 
+555,AA,55_2491430285_UBS,1860075740,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-16-2021. Integrata yet to book.,UBS 
+556,AA,5_2491430285_UBS,1860075741,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-16-2021. Integrata yet to book.,UBS 
+557,AA,3_2491430285_UBS,1860075743,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-16-2021. Integrata yet to book.,UBS 
+558,AA,56_2491430285_UBS,1860075744,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-16-2021. Integrata yet to book.,UBS 
+559,AA,58_2491426014_UBS,1859877331,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-09-2021. Integrata yet to book.,UBS 
+560,AA,14_2491400027_UBS,1859744541,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-14-2021. Integrata yet to book.,UBS 
+561,AA,91_2491400081_UBS,1859772882,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+562,AA,91_2491400067_UBS,1859769680,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+563,AA,89_2491400081_UBS,1859772857,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+564,AA,233_2491400067_UBS,1859769703,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-23-2021. Integrata yet to book.,UBS 
+565,AA,233_2491400081_UBS,1859772890,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-23-2021. Integrata yet to book.,UBS 
+566,AA,232_2491400067_UBS,1859769682,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-23-2021. Integrata yet to book.,UBS 
+567,AA,8_2491430285_UBS,1860075752,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-16-2021. Integrata yet to book.,UBS 
+568,AA,9_2491430285_UBS,1860075753,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-16-2021. Integrata yet to book.,UBS 
+569,AA,10_2491430285_UBS,1860075754,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-16-2021. Integrata yet to book.,UBS 
+570,AA,13_2491430285_UBS,1860075755,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-19-2021. Integrata yet to book.,UBS 
+571,AA,14_2491430285_UBS,1860075756,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-16-2021. Integrata yet to book.,UBS 
+572,AA,105_2491430285_UBS,1860075757,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-16-2021. Integrata yet to book.,UBS 
+573,AA,106_2491430285_UBS,1860075758,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 07-16-2021. Integrata yet to book.,UBS 
+574,AA,245_2491400081_UBS,1859772924,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+575,AA,245_2491400067_UBS,1859769710,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+576,AA,244_2491400067_UBS,1859769702,OB,OB,No-pair,wire,UBS  booked the wire transaction for SD 06-21-2021. Integrata yet to book.,UBS 
+577,51_2491430285_Integrata,85_2491430285_UBS,1860075676,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. UBS  yet to book.,UBS 
+578,12_2491430285_Integrata,43_2491430285_UBS,1860075678,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. UBS  yet to book.,UBS 
+579,52_2491430285_Integrata,90_2491430285_UBS,1860075680,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. UBS  yet to book.,UBS 
+580,53_2491430285_Integrata,89_2491430285_UBS,1860075682,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. UBS  yet to book.,UBS 
+581,22_2491430285_Integrata,103_2491430285_UBS,1860075685,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. UBS  yet to book.,UBS 
+582,23_2491430285_Integrata,99_2491430285_UBS,1860075688,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. UBS  yet to book.,UBS 
+583,13_2491430285_Integrata,51_2491430285_UBS,1860075698,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. UBS  yet to book.,UBS 
+584,14_2491430285_Integrata,47_2491430285_UBS,1860075704,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-20-2021. UBS  yet to book.,UBS 
+585,19_2491426014_Integrata,44_2491426014_UBS,1859877262,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. UBS  yet to book.,UBS 
+586,102_2491400081_Integrata,194_2491400081_UBS,1859772778,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. UBS  yet to book.,UBS 
+587,8_2491430081_Integrata,68_2491430081_UBS,1859922376,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. UBS  yet to book.,UBS 
+588,29_2491426014_Integrata,121_2491426014_UBS,1859877271,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. UBS  yet to book.,UBS 
+589,103_2491400081_Integrata,193_2491400081_UBS,1859772777,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. UBS  yet to book.,UBS 
+590,14_2491430081_Integrata,42_2491430081_UBS,1859922384,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. UBS  yet to book.,UBS 
+591,38_2491430081_Integrata,36_2491430081_UBS,1859922392,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-16-2021. UBS  yet to book.,UBS 
+592,30_2491426014_Integrata,122_2491426014_UBS,1859877277,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. UBS  yet to book.,UBS 
+593,102_2491400067_Integrata,194_2491400067_UBS,1859769592,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. UBS  yet to book.,UBS 
+594,56_2491430061_Integrata,84_2491430061_UBS,1859904851,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. UBS  yet to book.,UBS 
+595,68_2491426014_Integrata,107_2491426014_UBS,1859877288,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. UBS  yet to book.,UBS 
+596,57_2491430049_Integrata,84_2491430049_UBS,1859897166,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. UBS  yet to book.,UBS 
+597,58_2491430049_Integrata,82_2491430049_UBS,1859897171,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. UBS  yet to book.,UBS 
+598,57_2491430061_Integrata,82_2491430061_UBS,1859904852,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. UBS  yet to book.,UBS 
+599,103_2491400067_Integrata,193_2491400067_UBS,1859769590,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 06-23-2021. UBS  yet to book.,UBS 
+600,18_2491426014_Integrata,46_2491426014_UBS,1859877256,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. UBS  yet to book.,UBS 
+601,58_2491430061_Integrata,86_2491430061_UBS,1859904845,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. UBS  yet to book.,UBS 
+602,67_2491426014_Integrata,108_2491426014_UBS,1859877294,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-13-2021. UBS  yet to book.,UBS 
+603,56_2491430049_Integrata,86_2491430049_UBS,1859897159,SMB,OB,No-pair,proceeds trade settlement,Integrata booked the proceeds trade settlement transaction for SD 07-15-2021. UBS  yet to book.,UBS 

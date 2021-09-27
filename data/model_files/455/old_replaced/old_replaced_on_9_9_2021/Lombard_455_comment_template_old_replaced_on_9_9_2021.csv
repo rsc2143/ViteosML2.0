@@ -1,0 +1,42 @@
+,Category,template
+0,wire transfer,booked the wire transfer for SD
+1,fees,booked the fees for SD
+2,fx wire,booked the fx wire for SD
+3,valid,booked the valid for SD
+4,interest,booked the interest for SD
+5,monthend interest,booked the monthend interest for SD
+6,dividend,booked the dividend for SD
+7,cancelled,booked the cancelled for SD
+8,proceeds sell,booked the proceeds sell for SD
+9,collateral transfer,booked the collateral transfer for SD
+10,redemption,booked the redemption for SD
+11,corporate action,booked the corporate action for SD
+12,trade,booked the trade for SD
+13,equity swap settlement,booked the equity swap settlement for SD
+14,swap reset,booked the swap reset for SD
+15,forward fx,booked the forward fx for SD
+16,fx settlement,booked the fx settlement for SD
+17,options commission adjustment,booked the options commission adjustment for SD
+18,future collateral,booked the future collateral for SD
+19,expenses,booked the expenses for SD
+20,stock,booked the stock for SD
+21,initial margin maintenance,booked the initial margin maintenance for SD
+22,security lending fees,booked the security lending fees for SD
+23,comm adj,booked the comm adj for SD
+24,nra withholding tax,booked the nra withholding tax for SD
+25,fee and commisison adjustment,booked the fee and commisison adjustment for SD
+26,mmf,booked the mmf for SD
+27,follow up email,booked the follow up email for SD
+28,me journal,booked the me journal for SD
+29,transaction commission,booked the transaction commission for SD
+30,clearing fee,booked the clearing fee for SD
+31,funding fee,booked the funding fee for SD
+32,withholding tax,booked the withholding tax for SD
+33,currency,booked the currency for SD
+34,closed,booked the closed for SD
+35,revenue,booked the revenue for SD
+36,buy trade,booked the buy trade for SD
+37,sell trade,booked the sell trade for SD
+38,deposit,booked the deposit for SD
+39,security,booked the security for SD
+40,tax withheld,booked the tax withheld for SD

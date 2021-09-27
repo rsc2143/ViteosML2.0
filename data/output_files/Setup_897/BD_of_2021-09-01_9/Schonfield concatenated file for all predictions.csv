@@ -1,0 +1,4 @@
+,Unnamed: 0,Side0_UniqueIds,Side1_UniqueIds,BreakID,ViewData.Mapped Custodian Account,ViewData.Currency,ViewData.Ticker,ViewData.Net Amount Difference,ViewData.Description,ViewData.Settle Date,ViewData.Trade Date,ViewData.Age,Predicted_action,PredictedCategory,Predicted_Status,PredictedComment,BusinessDate,TaskID,SourceCombinationCode
+0,0,,2_8971502089_US BANK,2135786881,USBK_FIFTY_SEVEN_182381144852,USD,,59868.07,Incoming Fedwire(s),2021-08-30,2021-08-30,3,pair,match,UCB,Match,2021-09-01T00:00:00,8971504139,1589787860
+1,1,,1_8971502089_US BANK,2135786886,USBK_FIFTY_SEVEN_182381144852,USD,,440131.93,Internal Wire Transfer Credit(s),2021-08-30,2021-08-30,3,pair,match,UCB,Match,2021-09-01T00:00:00,8971504139,1589787860
+2,2,1_8971504139_Advent Geneva,,2138198536,USBK_FIFTY_SEVEN_182381144852,USD,,-500000.0,,2021-08-30,2021-08-30,0,pair,match,UCB,Match,2021-09-01T00:00:00,8971504139,1589787860

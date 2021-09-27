@@ -1,0 +1,80 @@
+stdout started
+meo size
+82
+It took 0.03515625 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  0.4373797660000003
+It took 0.23828125 Mb to execute this method
+The Date value count is:
+2021-09-01    82
+Name: Date, dtype: int64
+Choosing the date : 2021-09-01
+It took 0.015625 Mb to execute this method
+It took 0.04296875 Mb to execute this method
+It took 0.03125 Mb to execute this method
+It took 0.0 Mb to execute this method
+cc7 shape is :
+(82, 68)
+It took 0.00390625 Mb to execute this method
+(3, 24)
+(3, 24)
+Time for first apply =  0.010332143999999488
+Time for first apply =  0.007615817999999663
+Time for second apply =  0.007563251999999743
+It took 0.2265625 Mb to execute this method
+It took 1.234375 Mb to execute this method
+It took 1.375 Mb to execute this method
+test_file shape is :
+(1328, 79)
+It took 8.76953125 Mb to execute this method
+It took 11.67578125 Mb to execute this method
+test_file3 shape is :
+(1328, 115)
+It took 1.5 Mb to execute this method
+It took 19.65625 Mb to execute this method
+two_step_initiated
+It took 10.53125 Mb to execute this method
+It took 0.08984375 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.06640625 Mb to execute this method
+It took 0.03515625 Mb to execute this method
+It took 0.0 Mb to execute this method
+No One to Many found
+It took 0.05859375 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+It took 0.0 Mb to execute this method
+['299_1251502842_Advent Geneva' '300_1251502842_Advent Geneva']
+['309_1251502842_Advent Geneva' '308_1251502842_Advent Geneva']
+['322_1251502842_Advent Geneva' '324_1251502842_Advent Geneva'
+ '323_1251502842_Advent Geneva' '321_1251502842_Advent Geneva'
+ '320_1251502842_Advent Geneva' '319_1251502842_Advent Geneva']
+Time:  16.827343284
+v11_initiated
+125
+2021-09-01
+Following Task ID done
+1251504943
+1251504943|Weiss Advisors|Cash|RecData_125|6624|SUCCESS|125|6130bee71ef68719e06f8c63

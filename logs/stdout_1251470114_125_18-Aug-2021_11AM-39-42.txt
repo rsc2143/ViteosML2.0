@@ -1,0 +1,80 @@
+stdout started
+meo size
+205
+It took 0.05859375 Mb to execute this method
+It took 0.0 Mb to execute this method
+Time for closed :  0.3931768259999999
+It took 0.23046875 Mb to execute this method
+The Date value count is:
+2021-08-11    200
+Name: Date, dtype: int64
+Choosing the date : 2021-08-11
+It took 0.03125 Mb to execute this method
+It took 0.1328125 Mb to execute this method
+It took 0.00390625 Mb to execute this method
+It took 0.0 Mb to execute this method
+cc7 shape is :
+(199, 68)
+It took 0.0 Mb to execute this method
+(91, 24)
+(46, 24)
+Time for first apply =  0.013879274999999858
+Time for first apply =  0.007860552999999548
+Time for second apply =  0.007146144000000021
+It took 5.72265625 Mb to execute this method
+It took 1.80078125 Mb to execute this method
+It took 2.28515625 Mb to execute this method
+test_file shape is :
+(3782, 79)
+It took 21.390625 Mb to execute this method
+It took 15.59765625 Mb to execute this method
+test_file3 shape is :
+(3782, 115)
+It took 0.78125 Mb to execute this method
+It took 18.93359375 Mb to execute this method
+two_step_initiated
+It took 7.03125 Mb to execute this method
+It took 0.08203125 Mb to execute this method
+It took 0.0 Mb to execute this method
+It took 0.05859375 Mb to execute this method
+It took 0.00390625 Mb to execute this method
+It took 0.0 Mb to execute this method
+No One to Many found
+It took 0.00390625 Mb to execute this method
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+No Many to One found
+No Many to One found
+It took 0.0 Mb to execute this method
+Time:  13.616249422000001
+v11_initiated
+125
+2021-08-11
+Following Task ID done
+1251470114
+1251470114|Weiss Advisors|Cash|RecData_125|133256|SUCCESS|125|611ca3f91e9c9c0d7844c5d8

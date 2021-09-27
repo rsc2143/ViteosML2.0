@@ -1,0 +1,145 @@
+stdout started
+meo size
+16744
+Choosing the date : 2021-08-10
+D:\ViteosModel2.0
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Sec Fees', 'ViewData.Cust Sec Fees',
+       'ViewData.Sec Fees Difference', 'ViewData.Accounting FX Rate',
+       'ViewData.Cust FX Rate', 'ViewData.FX Rate Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Sec Fees', 'ViewData.Cust Sec Fees',
+       'ViewData.Sec Fees Difference', 'ViewData.Accounting FX Rate',
+       'ViewData.Cust FX Rate', 'ViewData.FX Rate Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Sec Fees', 'ViewData.Cust Sec Fees',
+       'ViewData.Sec Fees Difference', 'ViewData.Accounting FX Rate',
+       'ViewData.Cust FX Rate', 'ViewData.FX Rate Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Sec Fees', 'ViewData.Cust Sec Fees',
+       'ViewData.Sec Fees Difference', 'ViewData.Accounting FX Rate',
+       'ViewData.Cust FX Rate', 'ViewData.FX Rate Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Sec Fees', 'ViewData.Cust Sec Fees',
+       'ViewData.Sec Fees Difference', 'ViewData.Accounting FX Rate',
+       'ViewData.Cust FX Rate', 'ViewData.FX Rate Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Sec Fees', 'ViewData.Cust Sec Fees',
+       'ViewData.Sec Fees Difference', 'ViewData.Accounting FX Rate',
+       'ViewData.Cust FX Rate', 'ViewData.FX Rate Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Sec Fees', 'ViewData.Cust Sec Fees',
+       'ViewData.Sec Fees Difference', 'ViewData.Accounting FX Rate',
+       'ViewData.Cust FX Rate', 'ViewData.FX Rate Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Sec Fees', 'ViewData.Cust Sec Fees',
+       'ViewData.Sec Fees Difference', 'ViewData.Accounting FX Rate',
+       'ViewData.Cust FX Rate', 'ViewData.FX Rate Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Sec Fees', 'ViewData.Cust Sec Fees',
+       'ViewData.Sec Fees Difference', 'ViewData.Accounting FX Rate',
+       'ViewData.Cust FX Rate', 'ViewData.FX Rate Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Sec Fees', 'ViewData.Cust Sec Fees',
+       'ViewData.Sec Fees Difference', 'ViewData.Accounting FX Rate',
+       'ViewData.Cust FX Rate', 'ViewData.FX Rate Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Sec Fees', 'ViewData.Cust Sec Fees',
+       'ViewData.Sec Fees Difference', 'ViewData.Accounting FX Rate',
+       'ViewData.Cust FX Rate', 'ViewData.FX Rate Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Sec Fees', 'ViewData.Cust Sec Fees',
+       'ViewData.Sec Fees Difference', 'ViewData.Accounting FX Rate',
+       'ViewData.Cust FX Rate', 'ViewData.FX Rate Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Time:  291.852221516
+455
+2021-08-10
+455
+2021-08-10
+Following Task ID done
+4551470098
+4551470098|Lombard|Cash|RecData_455|133245|SUCCESS|455|611c892e1e9c9c0d78375a77

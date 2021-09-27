@@ -30,7 +30,7 @@ Created on Thu Aug 13 19:12:48 2020
 
 import logging
 import timeit
-
+ 
 start = timeit.default_timer()
 import memory_profiler
 
@@ -481,8 +481,9 @@ try:
         return (PB_or_Acct_Side_Value)
 
 
-    def cleaned_meo(  # fun_filepath_meo,
-            fun_meo_df):
+    def cleaned_meo(  
+                  # fun_filepath_meo,
+                    fun_meo_df):
 
         meo = fun_meo_df
         meo = normalize_bp_acct_col_names(fun_df=meo)
@@ -538,6 +539,30 @@ try:
             axis=1, result_type="expand")
         meo['abs_net_amount_difference'] = meo['ViewData.Net Amount Difference'].apply(lambda x: abs(x))
         meo = meo.sort_values(by=['ViewData.Transaction ID', 'ViewData.Transaction Type'], ascending=False)
+        cols_for_closed = ['ViewData.B-P Net Amount',
+                           'ViewData.Accounting Net Amount',
+                           'ViewData.Status',
+                           'Date',
+                           'ViewData.Task Business Date',
+                           'ViewData.Side0_UniqueIds',
+                           'ViewData.Side1_UniqueIds',
+                           'flag_side0',
+                           'flag_side1',
+                           'ViewData.BreakID',
+                           'Side_0_1_UniqueIds',
+                           'PB_or_Acct_Side',
+                           'ViewData.Transaction Type',
+                           'Transaction_Type_for_closing',
+                           'ViewData.Transaction Type2',
+                           'Transaction_Type_for_closing_2',
+                           'abs_net_amount_difference',
+                           'ViewData.Net Amount Difference',
+                           'ViewData.Transaction ID',
+                           'ViewData.Mapped Custodian Account',
+                           'ViewData.Currency',
+                           'ViewData.Source Combination Code',
+                           'ViewData.Prime Broker']
+        meo = meo[cols_for_closed]
         return (meo)
 
 
@@ -914,7 +939,7 @@ try:
 
         # Decoding the output of rabbit MQ message
         s2_out = sys.argv[1]
-#        s2_out = '1251380325|Weiss Advisors|Cash|RecData_125|132120|Recon Run Completed|125|609a34b91e9c9c19c0cbc1e3'
+#       s2_out = '1251430207|Weiss Advisors|Cash|RecData_125|132120|Recon Run Completed|125|609a34b91e9c9c19c0cbc1e3'
 #        Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='s2_out created')
 #        Logger_obj.log_to_file(param_filename=log_filepath, param_log_str=str(s2_out))
         #    s2_stout=str(s2_out, 'utf-8')
@@ -1077,6 +1102,7 @@ try:
 
                 else:
                     Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='meo df is not empty, initiating calculations')
+                    Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='meo df shape is' + str(meo_df.shape[0]))
                     ob_carry_forward_df = meo_df[meo_df['ViewData.Status'] == 'OB']
 
                     umb_carry_forward_df = meo_df[meo_df['ViewData.Status'] == 'UMB']
@@ -1153,8 +1179,7 @@ try:
                         # umb_carry_forward_df[['BreakID', 'TaskID']] = umb_carry_forward_df[['BreakID', 'TaskID']].astype(np.int64)
 
                         umb_carry_forward_df[['SetupID']] = umb_carry_forward_df[['SetupID']].astype(int)
-                        filepaths_umb_carry_forward_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\umb_carry_forward_df_setup_' + setup_code + '_date_' + str(
-                            date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                        filepaths_umb_carry_forward_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\umb_carry_forward_df_setup_' + setup_code + '_date_' + str(date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
                     #                    umb_carry_forward_df.to_csv(filepaths_umb_carry_forward_df)
                     else:
                         Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='umb carry forward empty, not making umb carry forward file')
@@ -1222,8 +1247,7 @@ try:
                         # ob_carry_forward_df[['BreakID', 'TaskID']] = ob_carry_forward_df[['BreakID', 'TaskID']].astype(np.int64)
 
                         ob_carry_forward_df[['SetupID']] = ob_carry_forward_df[['SetupID']].astype(int)
-                        filepaths_ob_carry_forward_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\ob_carry_forward_df_setup_' + setup_code + '_date_' + str(
-                            date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                        filepaths_ob_carry_forward_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\ob_carry_forward_df_setup_' + setup_code + '_date_' + str(date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
                     #                    ob_carry_forward_df.to_csv(filepaths_ob_carry_forward_df)
                     else:
                         Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='ob carry forward empty, making umb carry forward file')
@@ -1439,8 +1463,7 @@ try:
                                                                 'ViewData.Source Combination Code': 'SourceCombinationCode'
                                                                 }
                         final_umb_ob_table_copy.rename(columns=columns_rename_for_umb_ob_table_dict, inplace=True)
-                        filepaths_final_umb_ob_table_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_umb_ob_table_copy_setup_' + setup_code + '_date_' + str(
-                            date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                        filepaths_final_umb_ob_table_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_umb_ob_table_copy_setup_' + setup_code + '_date_' + str(date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
 
                     #                    final_umb_ob_table_copy.to_csv(filepaths_final_umb_ob_table_copy)
 
@@ -1461,9 +1484,7 @@ try:
 
                     closed_df_list = []
                     for transaction_type_for_closing_value in mapping_dict_trans_type:
-                        if (meo_for_closed[
-                            meo_for_closed['Transaction_Type_for_closing'] == transaction_type_for_closing_value].shape[
-                            0] != 0):
+                        if (meo_for_closed[meo_for_closed['Transaction_Type_for_closing'] == transaction_type_for_closing_value].shape[0] != 0):
                             meo_for_transaction_type_for_closing_value_input = meo_for_closed[
                                 meo_for_closed['Transaction_Type_for_closing'] == transaction_type_for_closing_value]
                             meo_for_transaction_type_for_closing_value = interacting_closing_125(
@@ -2138,7 +2159,7 @@ try:
 
                     diff_in_amount_df = pd.DataFrame(diff_in_amount_key)
 
-                    def make_dd_mm_yyyy_from_string_date_format_yyyy_mm_dd(param_str_date):
+                    def make_mm_dd_yyyy_from_string_date_format_yyyy_mm_dd(param_str_date):
                         return(param_str_date[5:7] + '-' + param_str_date[8:10] + '-'+ param_str_date[0:4])
                         
                     def eq_swap_comment(filter_key,difference):
@@ -2678,10 +2699,8 @@ try:
                         logging.error('Exception occured in updown', exc_info=True)
 
                     ###################### loop m*n ###############################
-                    filepaths_no_pair_id_data = '//vitblrdevcons01/Raman  Strategy ML 2.0/All_Data/' + client + '/UAT_Run/X_Test_' + setup_code + '/no_pair_ids_' + setup_code + '_' + str(
-                        date_i) + '.csv'
-                    filepaths_no_pair_id_no_data_warning = '//vitblrdevcons01/Raman  Strategy ML 2.0/All_Data/' + client + '/UAT_Run/X_Test_' + setup_code + '/WARNING_no_pair_ids_' + setup_code + str(
-                        date_i) + '.csv'
+#                    filepaths_no_pair_id_data = '//vitblrdevcons01/Raman  Strategy ML 2.0/All_Data/' + client + '/UAT_Run/X_Test_' + setup_code + '/no_pair_ids_' + setup_code + '_' + str(date_i) + '.csv'
+#                    filepaths_no_pair_id_no_data_warning = '//vitblrdevcons01/Raman  Strategy ML 2.0/All_Data/' + client + '/UAT_Run/X_Test_' + setup_code + '/WARNING_no_pair_ids_' + setup_code + str( date_i) + '.csv'
 
                     pool = []
                     key_index = []
@@ -2763,10 +2782,8 @@ try:
                         #    no_pair_ids_df['probability_UMR'] = 0.0033
                         #    no_pair_ids_df['ML_flag'] = 'ML'
                         #    no_pair_ids_df['TaskID'] = setup_code
-                        filepaths_no_pair_id_data = '//vitblrdevcons01/Raman  Strategy ML 2.0/All_Data/' + client + '/UAT_Run/X_Test_' + setup_code + '/no_pair_ids_' + setup_code + '_' + str(
-                            date_i) + '.csv'
-                        filepaths_no_pair_id_no_data_warning = '//vitblrdevcons01/Raman  Strategy ML 2.0/All_Data/' + client + '/UAT_Run/X_Test_' + setup_code + '/WARNING_no_pair_ids_' + setup_code + str(
-                            date_i) + '.csv'
+#                        filepaths_no_pair_id_data = '//vitblrdevcons01/Raman  Strategy ML 2.0/All_Data/' + client + '/UAT_Run/X_Test_' + setup_code + '/no_pair_ids_' + setup_code + '_' + str(date_i) + '.csv'
+#                        filepaths_no_pair_id_no_data_warning = '//vitblrdevcons01/Raman  Strategy ML 2.0/All_Data/' + client + '/UAT_Run/X_Test_' + setup_code + '/WARNING_no_pair_ids_' + setup_code + str(date_i) + '.csv'
 
                     #                    no_pair_ids_df.to_csv(filepaths_no_pair_id_data)
                     else:
@@ -3665,7 +3682,7 @@ try:
                         ## TODO Import HIstorical UMR FILE for Transaction Type mapping
                         #                    os.chdir('D:\\ViteosModel\\OakTree - Pratik Code')
 
-                        Weiss_umr = pd.read_csv(os.getcwd() + '\\data\\model_files\\125\\Weiss_125_UMR.csv')
+                        Weiss_umr = pd.read_csv(os.getcwd() + '\\data\\model_files\\' + str(setup_code) + '\\' + str(client) + '_' + str(setup_code) + '_UMR.csv')
 
                         # soros_umr['ViewData.Combined Transaction Type'].unique()
 
@@ -3954,7 +3971,7 @@ try:
                         # filename = 'Soros_full_model_version2.sav'
                         # filename = 'OakTree_final_model2.sav'
 
-                        filename = os.getcwd() + '\\data\\model_files\\125\\Weiss_125_with_umt_step_one.sav'
+                        filename = os.getcwd() + '\\data\\model_files\\' + str(setup_code) + '\\' + str(client) + '_' + str(setup_code) + '_with_umt_step_one.sav'
                         # filename = 'Soros_full_model_umr_umt.sav'
                         clf = pickle.load(open(filename, 'rb'))
 
@@ -4067,7 +4084,7 @@ try:
                         # filename2 = 'OakTree_final_model2_step_two.sav'
                         # filename2 = 'Weiss_final_model2_two_step.sav'
                         print('two_step_initiated')
-                        filename2 = os.getcwd() + '\\data\\model_files\\125\\Weiss_125_with_umt_step_two.sav'
+                        filename2 = os.getcwd() + '\\data\\model_files\\' + str(setup_code) + '\\' + str(client) + '_' + str(setup_code) + '_with_umt_step_two.sav'
                         clf2 = pickle.load(open(filename2, 'rb'))
 
                         # Actual class predictions
@@ -4127,8 +4144,7 @@ try:
                                                                                                            'Predicted_action'] == 'UMT_One_to_One'), 'Predicted_action'] = 'UMB_One_to_One'
 
                         # Changes made on 25-11-2020.
-                        filepaths_X_test = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\X_Test_for_Pratik_setup_' + setup_code + '_date_' + str(
-                            date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                        filepaths_X_test = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\X_Test_for_Pratik_setup_' + setup_code + '_date_' + str(date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
                         #                    X_test.to_csv(filepaths_X_test)
 
                         # ## Absolute amount flag
@@ -4178,12 +4194,10 @@ try:
                             dup_otm_table_new_raw[dup_otm_table_new_raw['otm_or_oto_flag'] == 'otm'][
                                 ['SideB.ViewData.Side0_UniqueIds', 'SideA.ViewData.Side1_UniqueIds']]
 
-                            filepaths_dup_otm_table_new_raw = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\dup_otm_table_new_raw_setup_' + setup_code + '_date_' + str(
-                                date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                            filepaths_dup_otm_table_new_raw = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\dup_otm_table_new_raw_setup_' + setup_code + '_date_' + str(date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
                             #                        dup_otm_table_new_raw.to_csv(filepaths_dup_otm_table_new_raw)
 
-                            filepaths_dup_otm_table_new_final = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\dup_otm_table_new_final_setup_' + setup_code + '_date_' + str(
-                                date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                            filepaths_dup_otm_table_new_final = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\dup_otm_table_new_final_setup_' + setup_code + '_date_' + str(date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
                         #                        dup_otm_table_new_final.to_csv(filepaths_dup_otm_table_new_final)
                         else:
                             dup_otm_table_new_final = pd.DataFrame()
@@ -5678,8 +5692,7 @@ try:
 
                         final_umr_table_copy_new_to_write = final_umr_table_copy_new[cols_for_database_new]
 
-                        filepaths_final_umr_table_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_umr_table_copy_new_to_write_setup_' + setup_code + '_date_' + str(
-                            date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                        filepaths_final_umr_table_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_umr_table_copy_new_to_write_setup_' + setup_code + '_date_' + str(date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
 
                         # filepaths_final_umr_table_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' +client + '\\final_umr_table_copy_new_to_write.csv'
                         #                    final_umr_table_copy_new_to_write.to_csv(filepaths_final_umr_table_copy_new_to_write)
@@ -5779,8 +5792,7 @@ try:
                                                  'SetupID']
 
                         final_umt_table_copy_new_to_write = final_umt_table_copy_new[cols_for_database_new]
-                        filepaths_final_umt_table_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_umt_table_copy_new_to_write_setup_' + setup_code + '_date_' + str(
-                            date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                        filepaths_final_umt_table_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_umt_table_copy_new_to_write_setup_' + setup_code + '_date_' + str(date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
                         #                    final_umt_table_copy_new_to_write.to_csv(filepaths_final_umt_table_copy_new_to_write)
 
                         # final_no_pair_table, no_pair_ids_df, open_ids_0_last, open_ids_1_last
@@ -6049,8 +6061,7 @@ try:
 
                         final_no_pair_table_copy_1_to_write = final_no_pair_table_copy_1[cols_for_database_new]
 
-                        filepaths_final_no_pair_table_copy_1_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_no_pair_table_copy_1_to_write' + '_TaskID_' + str(
-                            TaskID_z) + '.csv'
+#                        filepaths_final_no_pair_table_copy_1_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_no_pair_table_copy_1_to_write' + '_TaskID_' + str(TaskID_z) + '.csv'
                         #                    final_no_pair_table_copy_1_to_write.to_csv(filepaths_final_no_pair_table_copy_1_to_write)
 
                         # comment_table_eq_swap
@@ -6282,8 +6293,7 @@ try:
 
                             comment_table_eq_swap_copy_to_write = comment_table_eq_swap_copy[cols_for_database_new]
 
-                            filepaths_comment_table_eq_swap_copy_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\comment_table_eq_swap_copy_to_write_setup_' + setup_code + '_date_' + str(
-                                date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                            filepaths_comment_table_eq_swap_copy_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\comment_table_eq_swap_copy_to_write_setup_' + setup_code + '_date_' + str(date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
                         #                        comment_table_eq_swap_copy_to_write.to_csv(filepaths_comment_table_eq_swap_copy_to_write)
                         else:
                             comment_table_eq_swap_copy_to_write = pd.DataFrame()
@@ -6324,8 +6334,7 @@ try:
                                                                     'ViewData.Source Combination Code': 'SourceCombinationCode'
                                                                     }
                             final_smb_ob_table_copy.rename(columns=columns_rename_for_smb_ob_table_dict, inplace=True)
-                            filepaths_final_smb_ob_table_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_smb_ob_table_copy_setup_' + setup_code + '_date_' + str(
-                                date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                            filepaths_final_smb_ob_table_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_smb_ob_table_copy_setup_' + setup_code + '_date_' + str(date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
 
                         #                        final_smb_ob_table_copy.to_csv(filepaths_final_smb_ob_table_copy)
 
@@ -6402,7 +6411,7 @@ try:
                             del mtm_df_ex_and_fx_copy['ViewData.Side0_UniqueIds_for_merging']
                             del mtm_df_ex_and_fx_copy_new['ViewData.Side0_UniqueIds_for_merging']
 
-                            filepaths_mtm_df_ex_and_fx_copy_new = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\UAT_Run\\X_Test_' + setup_code + '\\mtm_df_ex_and_fx_copy_new.csv'
+#                            filepaths_mtm_df_ex_and_fx_copy_new = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\UAT_Run\\X_Test_' + setup_code + '\\mtm_df_ex_and_fx_copy_new.csv'
                             #                        mtm_df_ex_and_fx_copy_new.to_csv(filepaths_mtm_df_ex_and_fx_copy_new)
 
                             change_names_of_mtm_df_ex_and_fx_copy_new_mapping_dict = {
@@ -6493,8 +6502,8 @@ try:
 
                             mtm_df_ex_and_fx_copy_new_to_write = mtm_df_ex_and_fx_copy_new[cols_for_database_new]
 
-                            filepaths_mtm_df_ex_and_fx_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\mtm_df_ex_and_fx_copy_new_setup_' + setup_code + '_date_' + str(
-                                date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                            filepaths_mtm_df_ex_and_fx_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\mtm_df_ex_and_fx_copy_new_setup_' + setup_code + '_date_' + str(
+#                                date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
 
                         #                        mtm_df_ex_and_fx_copy_new_to_write.to_csv(filepaths_mtm_df_ex_and_fx_copy_new_to_write)
 
@@ -6538,8 +6547,8 @@ try:
                             final_mto_table_copy_new['SetupID'] = setup_code
 
                             # filepaths_final_mto_table_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\UAT_Run\\X_Test_' + setup_code +'\\final_mto_table_copy.csv'
-                            filepaths_final_mto_table_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_mto_table_copy_setup_' + setup_code + '_date_' + str(
-                                date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                            filepaths_final_mto_table_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_mto_table_copy_setup_' + setup_code + '_date_' + str(
+#                                date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
 
                             #                        final_mto_table_copy.to_csv(filepaths_final_mto_table_copy)
 
@@ -6629,8 +6638,8 @@ try:
 
                             final_mto_table_copy_new_to_write = final_mto_table_copy_new[cols_for_database_new]
 
-                            filepaths_final_mto_table_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_mto_table_copy_new_to_write_setup_' + setup_code + '_date_' + str(
-                                date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                            filepaths_final_mto_table_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_mto_table_copy_new_to_write_setup_' + setup_code + '_date_' + str(
+#                                date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
 
                         #                        final_mto_table_copy_new_to_write.to_csv(filepaths_final_mto_table_copy_new_to_write)
                         else:
@@ -6671,7 +6680,7 @@ try:
                             final_otm_table_copy_new['ML_flag'] = 'ML'
                             final_otm_table_copy_new['SetupID'] = setup_code
 
-                            filepaths_final_otm_table_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\UAT_Run\\X_Test_' + setup_code + '\\final_otm_table_copy_new.csv'
+#                            filepaths_final_otm_table_copy = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\UAT_Run\\X_Test_' + setup_code + '\\final_otm_table_copy_new.csv'
                             #                        final_otm_table_copy_new.to_csv(filepaths_final_otm_table_copy)
 
                             change_names_of_final_otm_table_copy_new_mapping_dict = {
@@ -6760,8 +6769,8 @@ try:
 
                             final_otm_table_copy_new_to_write = final_otm_table_copy_new[cols_for_database_new]
 
-                            filepaths_final_otm_table_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_otm_table_copy_new_to_write_setup_' + setup_code + '_date_' + str(
-                                date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                            filepaths_final_otm_table_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_otm_table_copy_new_to_write_setup_' + setup_code + '_date_' + str(
+#                                date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
                         #                        final_otm_table_copy_new_to_write.to_csv(filepaths_final_otm_table_copy_new_to_write)
                         else:
                             final_otm_table_copy_new_to_write = pd.DataFrame()
@@ -6817,8 +6826,8 @@ try:
                             del final_mtm_table_copy['ViewData.Side0_UniqueIds_for_merging']
                             del final_mtm_table_copy_new['ViewData.Side0_UniqueIds_for_merging']
 
-                            filepaths_final_mtm_table_copy_new = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_mtm_table_copy_new_setup_' + setup_code + '_date_' + str(
-                                date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                            filepaths_final_mtm_table_copy_new = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_mtm_table_copy_new_setup_' + setup_code + '_date_' + str(
+#                                date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
                             #                        final_mtm_table_copy_new.to_csv(filepaths_final_mtm_table_copy_new)
 
                             change_names_of_final_mtm_table_copy_new_mapping_dict = {
@@ -6907,8 +6916,8 @@ try:
 
                             final_mtm_table_copy_new_to_write = final_mtm_table_copy_new[cols_for_database_new]
 
-                            filepaths_final_mtm_table_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_mtm_table_copy_new_to_write_setup_' + setup_code + '_date_' + str(
-                                date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                            filepaths_final_mtm_table_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_mtm_table_copy_new_to_write_setup_' + setup_code + '_date_' + str(
+#                                date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
 
                         #                        final_mtm_table_copy_new_to_write.to_csv(filepaths_final_mtm_table_copy_new_to_write)
                         else:
@@ -6934,7 +6943,7 @@ try:
                             final_oto_umb_table_copy_new['ML_flag'] = 'ML'
                             final_oto_umb_table_copy_new['SetupID'] = setup_code
 
-                            filepaths_final_oto_umb_table_copy_new = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\UAT_Run\\X_Test_' + setup_code + '\\final_oto_umb_table_copy_new.csv'
+#                            filepaths_final_oto_umb_table_copy_new = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\UAT_Run\\X_Test_' + setup_code + '\\final_oto_umb_table_copy_new.csv'
                             #                        final_oto_umb_table_copy_new.to_csv(filepaths_final_oto_umb_table_copy_new)
 
                             change_names_of_final_oto_umb_table_copy_new_mapping_dict = {
@@ -7015,8 +7024,8 @@ try:
 
                             final_oto_umb_table_copy_new_to_write = final_oto_umb_table_copy_new[cols_for_database_new]
 
-                            filepaths_final_oto_umb_table_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_oto_umb_table_copy_new_to_write_setup_' + setup_code + '_date_' + str(
-                                date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                            filepaths_final_oto_umb_table_copy_new_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_oto_umb_table_copy_new_to_write_setup_' + setup_code + '_date_' + str(
+#                                date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
                         #                        final_oto_umb_table_copy_new_to_write.to_csv(filepaths_final_oto_umb_table_copy_new_to_write)
                         else:
                             final_oto_umb_table_copy_new_to_write = pd.DataFrame()
@@ -7105,8 +7114,8 @@ try:
 
                             final_closed_df[['SetupID']] = final_closed_df[['SetupID']].astype(int)
                             # filepaths_final_closed_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_closed_df.csv'
-                            filepaths_final_closed_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_closed_df_setup_' + setup_code + '_date_' + str(
-                                date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                            filepaths_final_closed_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_closed_df_setup_' + setup_code + '_date_' + str(
+#                                date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
                         #                        final_closed_df.to_csv(filepaths_final_closed_df)
                         else:
                             final_closed_df = pd.DataFrame()
@@ -7141,12 +7150,12 @@ try:
                     #
                     #                final_umr_table.shape[0]*2 + final_umt_table.shape[0]*2 + len(no_pair_ids)+final_no_pair_table.shape[0] + len(open_ids_0_last) + len(open_ids_1_last) + comment_table_eq_swap.shape[0] + final_mto_table.shape[0]*3 +  final_otm_table.shape[0]*3 + final_mtm_table.shape[0]*3 +final_oto_umb_table.shape[0]*2 + final_closed_df.shape[0] + umb_carry_forward_df.shape[0] * 2
 
-                    filepaths_final_table_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_table_to_write_setup_' + setup_code + '_date_' + str(
-                        date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                    filepaths_final_table_to_write = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_table_to_write_setup_' + setup_code + '_date_' + str(
+#                        date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
                     #                final_table_to_write.to_csv(filepaths_final_table_to_write)
 
-                    filepaths_meo_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\meo_df_setup_' + setup_code + '_date_' + str(
-                        date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                    filepaths_meo_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\meo_df_setup_' + setup_code + '_date_' + str(
+#                        date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
 
 
                     #                meo_df.to_csv(filepaths_meo_df)
@@ -7230,8 +7239,8 @@ try:
                     df_to_append['PredictedComment'] = ''
                     df_to_append['PredictedCategory'] = ''
 
-                    filepaths_df_to_append = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\df_to_append_setup_' + setup_code + '_date_' + str(
-                        date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                    filepaths_df_to_append = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\df_to_append_setup_' + setup_code + '_date_' + str(
+#                        date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
                     #                df_to_append.to_csv(filepaths_df_to_append)
 
                     final_table_to_write = final_table_to_write.append(df_to_append)
@@ -7475,7 +7484,7 @@ try:
                     # ### Cleannig of the 4 variables in this
                     #                os.chdir('D:\\ViteosModel\\Abhijeet - Comment')
                     df = pd.read_excel(
-                        os.getcwd() + '\\data\\model_files\\125\\Weiss_125_mapping_variables_for_variable_cleaning.xlsx',
+                        os.getcwd() + '\\data\\model_files\\' + str(setup_code) + '\\' + str(client) + '_' + str(setup_code) + '_mapping_variables_for_variable_cleaning.xlsx',
                         sheet_name='General')
 
                     Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='Before commenting')
@@ -7632,7 +7641,7 @@ try:
 
                     # ### Cleaning of Description
 
-                    com = pd.read_csv(os.getcwd() + '\\data\\model_files\\125\\Weiss_125_description_category.csv')
+                    com = pd.read_csv(os.getcwd() + '\\data\\model_files\\' + str(setup_code) +  '\\' + str(client) + '_' + str(setup_code) + '_description_category.csv')
                     cat_list = list(set(com['Pairing']))
                     Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='Com file read')
 
@@ -8583,7 +8592,7 @@ try:
                     print('v11_initiated')
                     Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='Before reading comment sav file')
 
-                    filename = os.getcwd() + '\\data\\model_files\\125\\Weiss_125_comment_model.sav'
+                    filename = os.getcwd() + '\\data\\model_files\\' + str(setup_code) + '\\' + str(client) + '_' + str(setup_code) + '_comment_model.sav'
                     clf = pickle.load(open(filename, 'rb'))
                     Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='After reading and loading comment sav file')
 
@@ -8616,7 +8625,7 @@ try:
 
                     result_non_trade = result_non_trade.drop('predicted comment', axis=1)
 
-                    com_temp = pd.read_csv(os.getcwd() + '\\data\\model_files\\125\\Weiss_125_comment_template.csv')
+                    com_temp = pd.read_csv(os.getcwd() + '\\data\\model_files\\' + str(setup_code) + '\\' + str(client) + '_' + str(setup_code) + '_comment_template.csv')
 
                     com_temp = com_temp.rename(
                         columns={'Category': 'predicted category', 'template': 'predicted template'})
@@ -8753,8 +8762,10 @@ try:
 
                     result_non_trade['ViewData.Settle Date2'] = result_non_trade['ViewData.Settle Date'].apply(
                         lambda x: str(x).split(' ')[0])
+                    result_non_trade['ViewData.Settle Date_mm_dd_yyyy'] = result_non_trade['ViewData.Settle Date2'].apply(lambda x : make_mm_dd_yyyy_from_string_date_format_yyyy_mm_dd(x))
                     result_non_trade['ViewData.Trade Date2'] = result_non_trade['ViewData.Trade Date'].apply(
                         lambda x: str(x).split(' ')[0])
+                    result_non_trade['ViewData.Trade Date_mm_dd_yyyy'] = result_non_trade['ViewData.Trade Date2'].apply(lambda x : make_mm_dd_yyyy_from_string_date_format_yyyy_mm_dd(x))
 
                     result_non_trade['new_pb2'] = result_non_trade['new_pb2'].astype(str)
                     result_non_trade['predicted template'] = result_non_trade['predicted template'].astype(str)
@@ -8772,11 +8783,21 @@ try:
                     # result_non_trade['predicted comment'] = result_non_trade.apply(lambda x : comgen(x['new_pb2'],x['predicted template'],x['ViewData.Settle Date'],x['new_pb1']), axis = 1)
                     # Change made on 24-12-2020 as per Abhijeet. The comgen function below was commented out and a new, more elaborate comgen function was coded in. Also, corresponding to the comgen function, predicted_comment apply function was also changed.
                     # result_non_trade['predicted comment'] = result_non_trade.apply(lambda x : comgen(x['ViewData.Side0_UniqueIds'],x['predicted template'],x['ViewData.Settle Date'],x['new_pb1']), axis = 1)
-                    result_non_trade['predicted comment'] = result_non_trade.apply(
-                        lambda x: comgen(x['new_pb2'], x['predicted template'], x['ViewData.Settle Date2'],
-                                         x['new_pb1'], x['predicted category'], x['ViewData.Price'],
-                                         x['ViewData.Quantity'], x['ViewData.Trade Date']), axis=1)
+#                    result_non_trade['predicted comment'] = result_non_trade.apply(
+#                        lambda x: comgen(x['new_pb2'], x['predicted template'], x['ViewData.Settle Date2'],
+#                                         x['new_pb1'], x['predicted category'], x['ViewData.Price'],
+#                                         x['ViewData.Quantity'], x['ViewData.Trade Date']), axis=1)
+
+#                    result_non_trade['predicted comment'] = result_non_trade.apply(
+#                        lambda x: comgen(x['new_pb2'], x['predicted template'], x['ViewData.Settle Date_mm_dd_yyyy'],
+#                                         x['new_pb1'], x['predicted category'], x['ViewData.Price'],
+#                                         x['ViewData.Quantity'], x['ViewData.Trade Date']), axis=1)
                     # End change made on 19-01-2021
+#                    Change made on 04-08-2021 ( 4th August, 2021) by Rohit to include mm-dd-yyyy format in trade date as well
+                    result_non_trade['predicted comment'] = result_non_trade.apply(
+                        lambda x: comgen(x['new_pb2'], x['predicted template'], x['ViewData.Settle Date_mm_dd_yyyy'],
+                                         x['new_pb1'], x['predicted category'], x['ViewData.Price'],
+                                         x['ViewData.Quantity'], x['ViewData.Trade Date_mm_dd_yyyy']), axis=1)
 
                     result_non_trade = result_non_trade[
                         ['ViewData.Side0_UniqueIds', 'ViewData.Side1_UniqueIds', 'predicted category',
@@ -8797,8 +8818,8 @@ try:
                     comment_df_final[['Side0_UniqueIds', 'Side1_UniqueIds', 'PredictedCategory', 'PredictedComment']] = \
                     comment_df_final[
                         ['Side0_UniqueIds', 'Side1_UniqueIds', 'PredictedCategory', 'PredictedComment']].astype(str)
-                    # filepaths_comment_df_final = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\comment_df_final.csv'
-                    # comment_df_final.to_csv(filepaths_comment_df_final)
+#                    filepaths_comment_df_final = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\comment_df_final.csv'
+#                    comment_df_final.to_csv(filepaths_comment_df_final)
 
                     comment_df_final_side0 = comment_df_final[comment_df_final['Side1_UniqueIds'] == 'BB']
                     comment_df_final_side1 = comment_df_final[comment_df_final['Side0_UniqueIds'] == 'AA']
@@ -9077,7 +9098,8 @@ try:
                     def smb_comment(sd, pb, tt):
                         # sd = pd.datetime(sd)
                         sd = str(sd)
-                        sd = sd[6:10] + '-' + sd[0:2] + '-' + sd[3:5]
+#                        sd = sd[6:10] + '-' + sd[0:2] + '-' + sd[3:5]
+                        sd = sd[0:2] + '-' + sd[3:5] + '-' + sd[6:10]
 
                         tt = str(tt)
                         if tt.lower() == 'dividend':
@@ -9183,8 +9205,8 @@ try:
                         pb = dummy1['ViewData.Prime Broker'].values[0]
                         sd = dummy1['ViewData.Settle Date'].values[0]
                         sd = str(sd)
-                        sd = sd[6:10] + '-' + sd[0:2] + '-' + sd[3:5]
-
+#                        sd = sd[6:10] + '-' + sd[0:2] + '-' + sd[3:5]
+                        sd = sd[0:2] + '-' + sd[3:5] + '-' + sd[6:10]
                         if tt.lower() == 'dividend':
                             comment = 'Difference in DVD booked between' + ' ' + str(pb) + ' & Geneva on SD ' + str(sd)
                         elif tt.lower() == 'buy':
@@ -9337,8 +9359,7 @@ try:
                         fun_final_df_2=final_df_2_copy)
                     Logger_obj.log_to_file(param_filename=log_filepath, param_log_str='After UMB_SMB duplication issue')
 
-                    filepaths_umb_smb_duplication_issue_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\umb_smb_duplication_issue_df_setup_' + setup_code + '_date_' + str(
-                        date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                    filepaths_umb_smb_duplication_issue_df = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\umb_smb_duplication_issue_df_setup_' + setup_code + '_date_' + str(date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
                     #                umb_smb_duplication_issue_df.to_csv(filepaths_umb_smb_duplication_issue_df)
 
                     colums_for_final_df_2 = ['len_intersection_set_of_BreakID_and_FinalPredictedBreak', 'BreakID_new',
@@ -9353,8 +9374,7 @@ try:
                         columns={'BreakID_new': 'BreakID', 'Final_predicted_break_new': 'Final_predicted_break'},
                         inplace=True)
 
-                    filepaths_final_df_2_before_making_umt_from_umr = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_df_2_before_making_umt_from_umr_setup_' + setup_code + '_date_' + str(
-                        date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
+#                    filepaths_final_df_2_before_making_umt_from_umr = '\\\\vitblrdevcons01\\Raman  Strategy ML 2.0\\All_Data\\' + client + '\\final_df_2_before_making_umt_from_umr_setup_' + setup_code + '_date_' + str(date_i) + '_TaskID_' + str(TaskID_z) + '.csv'
 
 
                     #                final_df_2.to_csv(filepaths_final_df_2_before_making_umt_from_umr)

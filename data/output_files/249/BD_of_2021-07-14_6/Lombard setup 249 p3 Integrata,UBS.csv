@@ -1,0 +1,5 @@
+,ViewData.Side0_UniqueIds,ViewData.Side1_UniqueIds,ViewData.BreakID,ViewData.Status,predicted status,predicted action,predicted category,predicted comment,custodian_val_to_use_comgen
+0,"[None, '3_2491430049_Integrata']","['21_2491430061_UBS', '15_2491430049_UBS']","[1859904774, 1859897121]","['OB', 'SMB']",UMR,UMR,match,match,UBS
+1,"[None, '4_2491430049_Integrata']","['22_2491430061_UBS', '16_2491430049_UBS']","[1859904775, 1859897130]","['OB', 'SMB']",UMR,UMR,match,match,UBS
+2,"['1_2491430049_Integrata', '1_2491430061_Integrata', None, None]","[None, None, '75_2491430049_UBS', '75_2491430061_UBS']","[1859897097, 1859904768, 1859904828, 1859904771]","['OB', 'OB', 'OB', 'OB']",UMR,UMR,match,match,UBS
+3,"['2_2491426014_Integrata', None]","[None, '103_2491426014_UBS']","[1859877195, 1859877198]","['OB', 'OB']",UMR,UMR,match,match,UBS

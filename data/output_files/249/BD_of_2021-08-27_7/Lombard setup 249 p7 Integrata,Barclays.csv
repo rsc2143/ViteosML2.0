@@ -1,0 +1,21 @@
+,ViewData.Side0_UniqueIds,ViewData.Side1_UniqueIds,ViewData.BreakID,ViewData.Status,predicted status,predicted action,predicted category,predicted comment,custodian_val_to_use_comgen
+0,"[None, '17_2491497670_Integrata', None]","['34_2491495707_Barclays', None, '33_2491497670_Barclays']","[2128109437, 2130588847, 2130588784]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+1,"[None, '19_2491497670_Integrata', None]","['38_2491495707_Barclays', None, '37_2491497670_Barclays']","[2128109493, 2130588758, 2130588788]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+2,"['15_2491497670_Integrata', None, None]","[None, '30_2491495707_Barclays', '29_2491497670_Barclays']","[2130588846, 2128109475, 2130588776]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+3,"['16_2491497670_Integrata', None, None]","[None, '31_2491497670_Barclays', '32_2491495707_Barclays']","[2130588848, 2130588778, 2128109487]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+4,"['7_2491497670_Integrata', None, None]","[None, '15_2491497670_Barclays', '16_2491495707_Barclays']","[2130588826, 2130588768, 2128109506]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+5,"[None, None, '11_2491497670_Integrata']","['27_2491497670_Barclays', '28_2491495707_Barclays', None]","[2130588762, 2128109436, 2130588842]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+6,"[None, '9_2491497670_Integrata', None]","['14_2491495707_Barclays', None, '13_2491497670_Barclays']","[2128109502, 2130588832, 2130588843]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+7,"[None, '8_2491497670_Integrata', None]","['18_2491495707_Barclays', None, '17_2491497670_Barclays']","[2128109416, 2130588829, 2130588777]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+8,"['6_2491497670_Integrata', None, None]","[None, '7_2491497670_Barclays', '8_2491495707_Barclays']","[2130588822, 2130588827, 2128109504]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+9,"['2_2491497670_Integrata', None, None]","[None, '4_2491495707_Barclays', '3_2491497670_Barclays']","[2130588756, 2128109429, 2130588767]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+10,"['3_2491497670_Integrata', None, None]","[None, '6_2491495707_Barclays', '5_2491497670_Barclays']","[2130588761, 2128109499, 2130588819]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+11,"[None, None, '5_2491497670_Integrata']","['9_2491497670_Barclays', '10_2491495707_Barclays', None]","[2130588833, 2128109435, 2130588835]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+12,"[None, '32_2491497670_Integrata', None]","['64_2491495707_Barclays', None, '63_2491497670_Barclays']","[2128109446, 2130588751, 2130588765]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+13,"['33_2491497670_Integrata', None, None]","[None, '65_2491497670_Barclays', '66_2491495707_Barclays']","[2130588752, 2130588771, 2128109454]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+14,"[None, None, '31_2491497670_Integrata']","['61_2491497670_Barclays', '62_2491495707_Barclays', None]","[2130588816, 2128109421, 2130588750]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+15,"['25_2491497670_Integrata', None, None]","[None, '49_2491497670_Barclays', '50_2491495707_Barclays']","[2130588745, 2130588798, 2128109443]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+16,"[None, None, '30_2491497670_Integrata']","['60_2491495707_Barclays', '59_2491497670_Barclays', None]","[2128109462, 2130588808, 2130588749]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+17,"['24_2491497670_Integrata', None, None]","[None, '45_2491497670_Barclays', '46_2491495707_Barclays']","[2130588744, 2130588787, 2128109486]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+18,"['21_2491497670_Integrata', None, None]","[None, '42_2491495707_Barclays', '41_2491497670_Barclays']","[2130588742, 2128109474, 2130588792]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays
+19,"['22_2491497670_Integrata', None, None]","[None, '43_2491497670_Barclays', '44_2491495707_Barclays']","[2130588741, 2130588791, 2128109483]","['OB', 'OB', 'OB']",UMR,UMR,match,match,Barclays

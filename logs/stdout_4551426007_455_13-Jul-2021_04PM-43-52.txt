@@ -1,0 +1,133 @@
+stdout started
+meo size
+228
+Choosing the date : 2021-07-08
+D:\ViteosModel2.0
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Custom 15', 'ViewData.Cust Custom 15',
+       'ViewData.Custom 15 Difference', 'ViewData.Accounting Principal Amount',
+       'ViewData.Cust Principal Amount',
+       'ViewData.Principal Amount Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Custom 15', 'ViewData.Cust Custom 15',
+       'ViewData.Custom 15 Difference', 'ViewData.Accounting Principal Amount',
+       'ViewData.Cust Principal Amount',
+       'ViewData.Principal Amount Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Custom 15', 'ViewData.Cust Custom 15',
+       'ViewData.Custom 15 Difference', 'ViewData.Accounting Principal Amount',
+       'ViewData.Cust Principal Amount',
+       'ViewData.Principal Amount Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Custom 15', 'ViewData.Cust Custom 15',
+       'ViewData.Custom 15 Difference', 'ViewData.Accounting Principal Amount',
+       'ViewData.Cust Principal Amount',
+       'ViewData.Principal Amount Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Custom 15', 'ViewData.Cust Custom 15',
+       'ViewData.Custom 15 Difference', 'ViewData.Accounting Principal Amount',
+       'ViewData.Cust Principal Amount',
+       'ViewData.Principal Amount Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Custom 15', 'ViewData.Cust Custom 15',
+       'ViewData.Custom 15 Difference', 'ViewData.Accounting Principal Amount',
+       'ViewData.Cust Principal Amount',
+       'ViewData.Principal Amount Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Custom 15', 'ViewData.Cust Custom 15',
+       'ViewData.Custom 15 Difference', 'ViewData.Accounting Principal Amount',
+       'ViewData.Cust Principal Amount',
+       'ViewData.Principal Amount Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Custom 15', 'ViewData.Cust Custom 15',
+       'ViewData.Custom 15 Difference', 'ViewData.Accounting Principal Amount',
+       'ViewData.Cust Principal Amount',
+       'ViewData.Principal Amount Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Custom 15', 'ViewData.Cust Custom 15',
+       'ViewData.Custom 15 Difference', 'ViewData.Accounting Principal Amount',
+       'ViewData.Cust Principal Amount',
+       'ViewData.Principal Amount Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Custom 15', 'ViewData.Cust Custom 15',
+       'ViewData.Custom 15 Difference', 'ViewData.Accounting Principal Amount',
+       'ViewData.Cust Principal Amount',
+       'ViewData.Principal Amount Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=373)
+Time:  6.310365389999999
+455
+2021-07-08
+455
+2021-07-08
+Following Task ID done
+4551426007
+4551426007|Lombard|Cash|RecData_455|132660|SUCCESS|455|60ed75641e9c9c1a60a9b1f0

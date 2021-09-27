@@ -1,0 +1,169 @@
+stdout started
+meo size
+16264
+Choosing the date : 2021-07-21
+D:\ViteosModel2.0
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Commission', 'ViewData.Cust Commission',
+       'ViewData.Commission Difference',
+       'ViewData.Accounting Transaction Category',
+       'ViewData.Cust Transaction Category',
+       'ViewData.Transaction Category Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Commission', 'ViewData.Cust Commission',
+       'ViewData.Commission Difference',
+       'ViewData.Accounting Transaction Category',
+       'ViewData.Cust Transaction Category',
+       'ViewData.Transaction Category Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Commission', 'ViewData.Cust Commission',
+       'ViewData.Commission Difference',
+       'ViewData.Accounting Transaction Category',
+       'ViewData.Cust Transaction Category',
+       'ViewData.Transaction Category Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Commission', 'ViewData.Cust Commission',
+       'ViewData.Commission Difference',
+       'ViewData.Accounting Transaction Category',
+       'ViewData.Cust Transaction Category',
+       'ViewData.Transaction Category Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Commission', 'ViewData.Cust Commission',
+       'ViewData.Commission Difference',
+       'ViewData.Accounting Transaction Category',
+       'ViewData.Cust Transaction Category',
+       'ViewData.Transaction Category Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Commission', 'ViewData.Cust Commission',
+       'ViewData.Commission Difference',
+       'ViewData.Accounting Transaction Category',
+       'ViewData.Cust Transaction Category',
+       'ViewData.Transaction Category Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Commission', 'ViewData.Cust Commission',
+       'ViewData.Commission Difference',
+       'ViewData.Accounting Transaction Category',
+       'ViewData.Cust Transaction Category',
+       'ViewData.Transaction Category Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Commission', 'ViewData.Cust Commission',
+       'ViewData.Commission Difference',
+       'ViewData.Accounting Transaction Category',
+       'ViewData.Cust Transaction Category',
+       'ViewData.Transaction Category Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Commission', 'ViewData.Cust Commission',
+       'ViewData.Commission Difference',
+       'ViewData.Accounting Transaction Category',
+       'ViewData.Cust Transaction Category',
+       'ViewData.Transaction Category Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Commission', 'ViewData.Cust Commission',
+       'ViewData.Commission Difference',
+       'ViewData.Accounting Transaction Category',
+       'ViewData.Cust Transaction Category',
+       'ViewData.Transaction Category Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Commission', 'ViewData.Cust Commission',
+       'ViewData.Commission Difference',
+       'ViewData.Accounting Transaction Category',
+       'ViewData.Cust Transaction Category',
+       'ViewData.Transaction Category Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Index(['ViewData.BreakID', 'ViewData.Status', 'ViewData.SPM ID',
+       'ViewData.Currency', 'ViewData.Custodian Account',
+       'ViewData.Settle Date', 'ViewData.Transaction ID',
+       'ViewData.Investment ID', 'ViewData.CUSIP', 'ViewData.Description',
+       ...
+       'ViewData.Accounting Commission', 'ViewData.Cust Commission',
+       'ViewData.Commission Difference',
+       'ViewData.Accounting Transaction Category',
+       'ViewData.Cust Transaction Category',
+       'ViewData.Transaction Category Difference',
+       'remove_or_keep_for_multiple_uniqueids_in_ob_issue', 'Date', 'len_0',
+       'len_1'],
+      dtype='object', length=372)
+Time:  286.109601886
+455
+2021-07-21
+455
+2021-07-21
+Following Task ID done
+4551444588
+4551444588|Lombard|Cash|RecData_455|6732|SUCCESS|455|60f9382e1554581a4cc5e091

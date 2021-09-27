@@ -1,0 +1,31 @@
+stdout started
+meo size
+24
+The Date value count is:
+2021-08-03    23
+Name: Date, dtype: int64
+D:\ViteosModel2.0\data\output_files
+Choosing the date : 2021-08-03
+['2_3791462874_Advent Geneva', '10_3791462874_Advent Geneva', '1_3791462874_Advent Geneva']
+['2_3791462874_Royal Bank of Canada', '1_3791462874_Royal Bank of Canada', '4_3791462874_Royal Bank of Canada', '3_3791462874_Royal Bank of Canada', '6_3791462874_Royal Bank of Canada', '5_3791462874_Royal Bank of Canada']
+(13, 74)
+(7, 74)
+6
+3
+(7, 74)
+(4, 74)
+['2_3791462874_Royal Bank of Canada', '1_3791462874_Royal Bank of Canada', '4_3791462874_Royal Bank of Canada', '3_3791462874_Royal Bank of Canada', '6_3791462874_Royal Bank of Canada', '5_3791462874_Royal Bank of Canada']
+['2_3791462874_Advent Geneva', '10_3791462874_Advent Geneva', '1_3791462874_Advent Geneva']
+1
+No One to Many found
+1
+No Many to One found
+No Many to One found
+(5, 67)
+(2, 67)
+2084013046
+2078256482,, 2084013055
+379
+2021-08-03
+Following Task ID done
+3791462874

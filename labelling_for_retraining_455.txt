@@ -1,0 +1,7 @@
+Filters on Training file for 455 comment template generation
+- First filter - OB on Status
+- Second filter - InternalComment2 should not be null
+- Business Date - only one business date
+- Third filter - ViewData.Side0/1_UniqueID last comment on that day
+
+Labelling:
